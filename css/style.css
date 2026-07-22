@@ -39,12 +39,16 @@
       color: white;
       text-decoration: none;
       background-color: #0d1422;
+
+      transition: all 0.25s ease;
+      cursor: pointer;
     }
 
     .menu a:hover {
       background-color: #16253d;
-    }
-
+      transform: translateY(-4px);
+      box-shadow: 0 0 15px rgba(91, 169, 255, 0.5);
+}
     footer {
       padding: 30px;
       color: #7f8da3;
@@ -60,7 +64,7 @@
         grid-template-columns: 1fr;
       }
     }
-    
+
     .logo {
     width: 320px;
     max-width: 90%;
