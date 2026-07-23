@@ -4,120 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Holocron Archive</title>
-  <meta name="description" content="スター・ウォーズの映像作品時系列と、ひとりのファンの記録を収める非公式アーカイブ。">
-  <link rel="icon" href="assets/images/logos/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="boot-screen" aria-hidden="true">
-    <div class="boot-box">
-      <div class="boot-line">HOLOCRON ARCHIVE OS // v0.4.1</div>
-      <div class="boot-line">CONNECTING TO GALACTIC DATABASE...</div>
-      <div class="boot-line">CHRONOLOGY DATA: 30 RECORDS FOUND</div>
-      <div class="boot-line">FAN LOG MODULE: ONLINE</div>
-      <div class="boot-line">ACCESS GRANTED_</div>
-    </div>
-  </div>
-
-  <header class="topbar">
-    <div class="site-shell topbar-inner">
-      <a class="brand-mini" href="index.html">
-        <img src="assets/images/logos/holocron-icon.svg" alt="">
-        HOLOCRON ARCHIVE
-      </a>
-      <nav class="nav-links" aria-label="メインメニュー">
-        <a class="active" href="index.html">HOME</a>
-        <a href="pages/timeline.html">TIMELINE</a>
-        <a href="pages/characters.html">CHARACTERS</a>
-        <a href="pages/archive.html">ARCHIVE</a>
-        <a href="pages/holocron-log.html">LOG</a>
-        <a href="pages/about.html">ABOUT</a>
-      </nav>
-    </div>
+  <div class="stars"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html">HOLOCRON ARCHIVE</a>
+    <nav><a href="pages/timeline.html">TIMELINE</a></nav>
   </header>
-
-  <main>
-    <section class="hero">
-      <div class="site-shell hero-content">
-        <img class="hero-logo" src="assets/images/logos/holocron-logo-horizontal.svg" alt="Holocron Archive">
-        <p class="kicker">A LONG TIME AGO, IN A GALAXY FAR, FAR AWAY...</p>
-        <p class="hero-copy">スター・ウォーズの映像作品を時系列でたどり、キャラクターや惑星の記録、そして一人のファンが感じたことを保存する非公式ホロクロン。</p>
-        <div class="status-row">
-          <span><i class="status-dot"></i>ARCHIVE ONLINE</span>
-          <span>VERSION 0.4.1</span>
-          <span>30 CHRONOLOGY RECORDS</span>
-        </div>
-        <a class="hero-scroll" href="#portals">ENTER ARCHIVE ↓</a>
-      </div>
-    </section>
-
-    <section class="section" id="portals">
-      <div class="site-shell">
-        <div class="section-header">
-          <div>
-            <p class="eyebrow">ARCHIVE PORTALS</p>
-            <h2>銀河記録へアクセス</h2>
-          </div>
-          <p class="section-lead">サイト全体の世界観と入口を構築しました。未完成の記録も、今後の更新で順次開放していきます。</p>
-        </div>
-
-        <div class="grid portal-grid">
-          <a class="portal-card" href="pages/timeline.html">
-            <img class="portal-icon" src="assets/images/icons/timeline.svg" alt="">
-            <h3>完全時系列</h3>
-            <p>BBY／ABY順に映像作品をたどる、アーカイブの中核。</p>
-            <span class="badge">ACCESS OPEN</span>
-          </a>
-          <a class="portal-card" href="pages/characters.html">
-            <img class="portal-icon" src="assets/images/icons/characters.svg" alt="">
-            <h3>キャラクター</h3>
-            <p>人物、所属、時代、関連作品を記録する人物データベース。</p>
-            <span class="badge">PROTOTYPE</span>
-          </a>
-          <a class="portal-card" href="pages/archive.html">
-            <img class="portal-icon" src="assets/images/icons/films.svg" alt="">
-            <h3>銀河アーカイブ</h3>
-            <p>作品、惑星、宇宙船、ライトセーバーへの入口。</p>
-            <span class="badge">EXPANDING</span>
-          </a>
-          <a class="portal-card" href="pages/holocron-log.html">
-            <img class="portal-icon" src="assets/images/icons/log.svg" alt="">
-            <h3>ホロクロン・ログ</h3>
-            <p>データではなく、スター・ウォーズへの個人的な想いを残す場所。</p>
-            <span class="badge">LOG 0001</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="site-shell feature">
-        <article class="feature-panel">
-          <p class="eyebrow">HOLOCRON LOG / FEATURED</p>
-          <blockquote>「新たなる希望」は、何度見ても冒険が始まる映画だ。</blockquote>
-          <p class="section-lead">子どもの頃からスター・ウォーズが大好きだった。このアーカイブは、Excelに時系列をまとめ始めたことから生まれました。</p>
-          <a class="hero-scroll" href="pages/holocron-log.html">READ LOG 0001 →</a>
-        </article>
-        <aside class="feature-panel terminal">
-          <div class="dim">SYSTEM STATUS</div>
-          <div>&gt; TIMELINE DATABASE ...... ONLINE</div>
-          <div>&gt; CHARACTER RECORDS ..... 6 DRAFTS</div>
-          <div>&gt; PLANETARY ARCHIVE ..... LOCKED</div>
-          <div>&gt; SHIP REGISTRY ......... LOCKED</div>
-          <div>&gt; VISITOR COMMENTS ...... PLANNED</div>
-          <div class="dim">&gt; awaiting next transmission_</div>
-        </aside>
-      </div>
-    </section>
+  <main class="hero">
+    <div class="holocron">◇</div>
+    <p class="eyebrow">THE STAR WARS DATA ARCHIVE</p>
+    <h1>HOLOCRON<br>ARCHIVE</h1>
+    <p class="lead">銀河の映像作品を、物語の時系列で記録する。</p>
+    <a class="button" href="pages/timeline.html">ENTER TIMELINE</a>
   </main>
-
-  <footer class="footer">
-    <div class="site-shell footer-inner">
-      <span>May the Force be with you.</span>
-      <span>Holocron Archive — Created by Sugama &amp; TARS / <span data-year></span></span>
-    </div>
-  </footer>
-
-  <script src="assets/js/app.js"></script>
 </body>
 </html>

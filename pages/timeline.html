@@ -3,17 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>完全時系列 | Holocron Archive</title>
-  <link rel="icon" href="../assets/images/logos/favicon.svg">
+  <title>Timeline | Holocron Archive</title>
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-  <header class="topbar"><div class="site-shell topbar-inner"><a class="brand-mini" href="../index.html"><img src="../assets/images/logos/holocron-icon.svg" alt="">HOLOCRON ARCHIVE</a><nav class="nav-links"><a href="../index.html">HOME</a><a class="active" href="timeline.html">TIMELINE</a><a href="characters.html">CHARACTERS</a><a href="archive.html">ARCHIVE</a><a href="holocron-log.html">LOG</a><a href="about.html">ABOUT</a></nav></div></header>
-  <main>
-    <section class="page-hero site-shell"><img class="page-icon" src="../assets/images/icons/timeline.svg" alt=""><p class="eyebrow">GALACTIC CHRONOLOGY DATABASE</p><h1 class="page-title">完全時系列</h1><p class="page-subtitle">映像作品を物語上の年代順に収録。</p></section>
-    <section class="section"><div class="site-shell"><div class="search-box"><img src="../assets/images/icons/search.svg" alt=""><input id="timeline-search" type="search" placeholder="作品名・年代・形式を検索"></div><div class="controls"><button class="filter-btn active" data-filter="すべて">すべて</button><button class="filter-btn" data-filter="映画">映画</button><button class="filter-btn" data-filter="実写ドラマ">実写</button><button class="filter-btn" data-filter="アニメ">アニメ</button></div><div id="timeline-list" class="timeline-list"></div></div></section>
+  <div class="stars"></div>
+  <header class="site-header">
+    <a class="brand" href="../index.html">HOLOCRON ARCHIVE</a>
+    <nav><a class="active" href="timeline.html">TIMELINE</a></nav>
+  </header>
+  <main class="page-shell">
+    <section class="page-title">
+      <p class="eyebrow">GALACTIC CHRONOLOGY</p>
+      <h1>TIMELINE</h1>
+      <p>スター・ウォーズ映像作品 完全時系列（カノン中心）</p>
+    </section>
+
+    <section class="controls">
+      <div id="formatFilters" class="filters"></div>
+      <label class="search">
+        <span>SEARCH</span>
+        <input id="searchInput" type="search" placeholder="作品名・年代・備考">
+      </label>
+    </section>
+
+    <section class="stats" id="stats"></section>
+    <section id="timelineList" class="timeline-list" aria-live="polite"></section>
   </main>
-  <footer class="footer"><div class="site-shell footer-inner"><span>May the Force be with you.</span><span>Holocron Archive / <span data-year></span></span></div></footer>
-  <script src="../assets/js/app.js"></script><script src="../assets/js/timeline.js"></script>
+  <script src="../assets/js/timeline.js"></script>
 </body>
 </html>

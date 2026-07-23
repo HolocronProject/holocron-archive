@@ -1,19 +1,24 @@
-# Holocron Archive Ver0.4.1
+# Holocron Archive Ver0.5
 
-## 反映方法
-1. ZIPを展開する
-2. 展開したフォルダ内の中身を、既存の `P:\GitHub\holocron-archive` に上書きコピー
-3. VS Codeで `P:\GitHub\holocron-archive` を開く
-4. `index.html` を右クリック → Open with Live Server
-5. 問題なければGitHub DesktopでCommit → Push
+スター・ウォーズ映像作品の完全時系列を、JSONから表示する静的Webサイトです。
 
-## 正しい構成
-- assets/
-  - css/
-  - js/
-  - data/
-  - images/
-- pages/
-- index.html
-- README.md
-- CHANGELOG.md
+## 起動方法
+
+VS Codeでフォルダを開き、`index.html`をLive Serverで起動してください。
+
+## 主なファイル
+
+- `assets/data/timeline.json` — 作品単位の完全時系列
+- `assets/data/clone-wars.json` — クローン・ウォーズ劇場版＋全133話
+- `pages/timeline.html` — 時系列ページ
+- `assets/js/timeline.js` — JSON読込・検索・絞り込み・展開
+- `assets/css/style.css` — 共通デザイン
+
+## 更新方法
+
+JSON内の `items` 配列へレコードを追加・修正します。画面側のHTMLを変更する必要はありません。
+
+## 注意
+
+ブラウザでHTMLファイルを直接ダブルクリックすると、JSONの読込がブロックされる場合があります。
+必ずLive ServerまたはWebサーバー経由で開いてください。
