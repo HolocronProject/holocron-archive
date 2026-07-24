@@ -1,0 +1,8 @@
+[
+ {"id":"cal-kestis","name":"カル・ケスティス","en":"Cal Kestis","type":"character","era":"帝国時代","species":"人間","affiliation":"ジェダイ／スティンガー・マンティス乗組員","master":"ジャロ・タパル","media":["game"],"works":["Jedi: Fallen Order","Jedi: Survivor"],"summary":"オーダー66を生き延び、帝国の支配下でジェダイとして再び立ち上がった。","icon":"CK"},
+ {"id":"bd-1","name":"BD-1","en":"BD-1","type":"droid","era":"帝国時代","species":"探査ドロイド","affiliation":"カル・ケスティス","media":["game"],"works":["Jedi: Fallen Order","Jedi: Survivor"],"summary":"カルと旅する小型探査ドロイド。スティム供給とハッキングを担当。","icon":"BD"},
+ {"id":"merrin","name":"メリン","en":"Merrin","type":"character","era":"帝国時代","species":"ザブラク／ナイトシスター","affiliation":"スティンガー・マンティス乗組員","media":["game"],"works":["Jedi: Fallen Order","Jedi: Survivor"],"summary":"ダソミアのナイトシスター。カルの重要な仲間。","icon":"ME"},
+ {"id":"dagan-gera","name":"ダガン・ゲラ","en":"Dagan Gera","type":"character","era":"ハイ・リパブリック／帝国時代","species":"人間","affiliation":"元ジェダイ","media":["game"],"works":["Jedi: Survivor"],"summary":"タナルーへの執着からジェダイ評議会と対立したハイ・リパブリック時代のジェダイ。","icon":"DG"},
+ {"id":"jaro-tapal","name":"ジャロ・タパル","en":"Jaro Tapal","type":"character","era":"クローン戦争","species":"ラサット","affiliation":"ジェダイ・オーダー","media":["game"],"works":["Jedi: Fallen Order"],"summary":"カルの師匠。オーダー66の際、弟子を守って命を落とした。","icon":"JT"},
+ {"id":"crosshair","name":"クロスヘア","en":"Crosshair","type":"character","era":"帝国成立期","species":"クローン","affiliation":"クローン・フォース99／銀河帝国","media":["animation"],"works":["The Bad Batch"],"summary":"命令への忠誠と仲間への思いの間で揺れた狙撃手。","icon":"CH"}
+]

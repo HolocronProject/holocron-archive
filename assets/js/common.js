@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('.menu-btn'),n=document.querySelector('.nav');if(b&&n)b.onclick=()=>n.classList.toggle('open')});async function loadJSON(p){const r=await fetch(p);if(!r.ok)throw Error(p);return r.json()}function rootPath(){return document.body.dataset.root||'.'}

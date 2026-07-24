@@ -1,0 +1,23 @@
+[
+ {"id":"coruscant","name":"コルサント","en":"Coruscant","region":"Core Worlds","x":50,"y":49,"status":"active","summary":"銀河共和国と銀河帝国の首都。銀河政治の中心地。","media":["movie","animation","series","game"]},
+ {"id":"alderaan","name":"オルデラン","en":"Alderaan","region":"Core Worlds","x":44,"y":39,"status":"destroyed","destroyed":"0 BBY｜初代デス・スター","summary":"平和と文化で知られた惑星。ヤヴィンの戦い直前に破壊された。","media":["movie","series"]},
+ {"id":"corellia","name":"コレリア","en":"Corellia","region":"Core Worlds","x":39,"y":53,"status":"active","summary":"造船業で知られるハン・ソロの故郷。","media":["movie","series"]},
+ {"id":"dantooine","name":"ダントゥイン","en":"Dantooine","region":"Outer Rim","x":23,"y":35,"status":"active","summary":"古代ジェダイ遺跡が存在する農業惑星。反乱軍基地として言及された。","media":["movie","animation","game"]},
+ {"id":"kessel","name":"ケッセル","en":"Kessel","region":"Outer Rim","x":76,"y":39,"status":"active","summary":"スパイス鉱山とケッセル・ランで知られる。","media":["movie","animation","series"]},
+ {"id":"dagobah","name":"ダゴバ","en":"Dagobah","region":"Outer Rim","x":69,"y":73,"status":"active","summary":"ヨーダが隠遁した、フォースの生命力に満ちた沼沢惑星。","media":["movie","animation"]},
+ {"id":"tatooine","name":"タトゥイーン","en":"Tatooine","region":"Outer Rim","x":85,"y":62,"status":"active","summary":"双子の太陽を持つ砂漠惑星。スカイウォーカー家の物語と深く結び付く。","media":["movie","animation","series","game"]},
+ {"id":"mustafar","name":"ムスタファー","en":"Mustafar","region":"Outer Rim","x":75,"y":82,"status":"active","summary":"溶岩に覆われた火山惑星。アナキンとオビ＝ワンの決闘の地。","media":["movie","animation","series","game"]},
+ {"id":"mandalore","name":"マンダロア","en":"Mandalore","region":"Outer Rim","x":28,"y":63,"status":"devastated","summary":"マンダロリアン文明の母星。帝国時代の大粛清で荒廃した。","media":["animation","series"]},
+ {"id":"kamino","name":"カミーノ","en":"Kamino","region":"Outer Rim","x":90,"y":33,"status":"devastated","summary":"共和国軍クローン兵を生み出した海洋惑星。帝国により都市が爆撃された。","media":["movie","animation","series"]},
+ {"id":"geonosis","name":"ジオノーシス","en":"Geonosis","region":"Outer Rim","x":82,"y":46,"status":"devastated","summary":"クローン戦争開戦の地。後に帝国による絶滅政策を受けた。","media":["movie","animation","series"]},
+ {"id":"jedha","name":"ジェダ","en":"Jedha","region":"Mid Rim","x":63,"y":28,"status":"devastated","summary":"フォース信仰の聖地。デス・スターの試射で大規模な破壊を受けた。","media":["movie","comic"]},
+ {"id":"scarif","name":"スカリフ","en":"Scarif","region":"Outer Rim","x":87,"y":76,"status":"devastated","summary":"帝国軍の機密保管施設が置かれ、デス・スターの攻撃を受けた。","media":["movie","game"]},
+ {"id":"lothal","name":"ロザル","en":"Lothal","region":"Outer Rim","x":20,"y":73,"status":"active","summary":"帝国支配から解放されたエズラ・ブリッジャーの故郷。","media":["animation","series"]},
+ {"id":"kashyyyk","name":"キャッシーク","en":"Kashyyyk","region":"Mid Rim","x":60,"y":65,"status":"active","summary":"ウーキーの母星。巨大樹と密林に覆われる。","media":["movie","animation","game"]},
+ {"id":"dathomir","name":"ダソミア","en":"Dathomir","region":"Outer Rim","x":31,"y":25,"status":"active","summary":"ナイトシスターとナイトブラザーの故郷。","media":["animation","game"]},
+ {"id":"koboh","name":"コボー","en":"Koboh","region":"Outer Rim","x":18,"y":48,"status":"active","summary":"カル・ケスティスが拠点を築いたフロンティア惑星。","media":["game"]},
+ {"id":"jedha-game","name":"ジェダ（Jedi）","en":"Jedha","region":"Mid Rim","x":61,"y":25,"status":"devastated","summary":"カルがセレ・ジュンダの隠された道と合流した地。","media":["game"]},
+ {"id":"tanalorr","name":"タナルー","en":"Tanalorr","region":"Koboh Abyss","x":8,"y":18,"status":"active","summary":"コボー・アビスの彼方に隠された惑星。","media":["game"]},
+ {"id":"exegol","name":"エグゼゴル","en":"Exegol","region":"Unknown Regions","x":6,"y":80,"status":"active","summary":"シスの隠れた要塞世界。","media":["movie"]},
+ {"id":"ilum","name":"イラム","en":"Ilum / Starkiller Base","region":"Unknown Regions","x":12,"y":67,"status":"destroyed","destroyed":"34 ABY｜スターキラー基地崩壊","summary":"ジェダイがカイバー・クリスタルを探した聖地。後にスターキラー基地へ改造された。","media":["animation","game","movie"]}
+]

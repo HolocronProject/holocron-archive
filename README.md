@@ -1,24 +1,28 @@
-# Holocron Archive Ver0.5
+# Holocron Archive Ver0.7
 
-スター・ウォーズ映像作品の完全時系列を、JSONから表示する静的Webサイトです。
+スター・ウォーズの銀河を「読む」のではなく「探索する」ファンメイド・プロトタイプです。
 
-## 起動方法
+## Ver0.7の追加
 
-VS Codeでフォルダを開き、`index.html`をLive Serverで起動してください。
+- インタラクティブ銀河地図 α.1
+- ケッセル、ダゴバ、ダントゥイン、オルデラン、ジェダ、カミーノ等を追加
+- 破壊・壊滅した惑星の状態表示
+- ゲームフィルターと、コボー／タナルー等のゲーム惑星
+- カル・ケスティス、BD-1、メリン、ダガン・ゲラ、ジャロ・タパル
+- Jedi: Fallen Order / Jedi: Survivor のゲーム記録ページ
+- 名言ページ「Good soldiers follow orders.」
+- 完全オリジナルの16bit風WAV効果音3種
 
-## 主なファイル
+## 開き方
 
-- `assets/data/timeline.json` — 作品単位の完全時系列
-- `assets/data/clone-wars.json` — クローン・ウォーズ劇場版＋全133話
-- `pages/timeline.html` — 時系列ページ
-- `assets/js/timeline.js` — JSON読込・検索・絞り込み・展開
-- `assets/css/style.css` — 共通デザイン
+VS Codeでフォルダを開き、`index.html`を右クリックして **Open with Live Server** を選択してください。
+JSONをfetchするため、ファイルを直接ダブルクリックする方法では一部機能が動きません。
 
-## 更新方法
+## GitHub Pagesへ反映
 
-JSON内の `items` 配列へレコードを追加・修正します。画面側のHTMLを変更する必要はありません。
+このフォルダの中身を既存リポジトリへ上書きし、GitHub DesktopでCommit → Pushしてください。
 
 ## 注意
 
-ブラウザでHTMLファイルを直接ダブルクリックすると、JSONの読込がブロックされる場合があります。
-必ずLive ServerまたはWebサーバー経由で開いてください。
+銀河地図の座標は探索UIの初版です。公式の厳密な銀河座標を再現したものではありません。
+Star Warsおよび関連名称は各権利者に帰属します。本作は非公式ファンメイドです。

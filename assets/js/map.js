@@ -1,0 +1,8 @@
+(async()=>{
+ const layer=document.querySelector('#planet-layer'),panel=document.querySelector('#planet-panel'),filter=document.querySelector('#media-filter'),soundToggle=document.querySelector('#sound-toggle');
+ let planets=[]; const audio=new Audio('../assets/sounds/map-select.wav'); audio.volume=.35;
+ const statusLabel={active:'現存',devastated:'壊滅・荒廃',destroyed:'破壊'};
+ function render(){const mode=filter.value;layer.innerHTML=planets.filter(p=>mode==='all'||p.media.includes(mode)).map(p=>`<button class="planet-node ${p.status}" style="left:${p.x}%;top:${p.y}%" data-id="${p.id}" type="button"><span class="planet-pulse"></span><span class="planet-name">${p.name}</span></button>`).join('');}
+ function openPlanet(id){const p=planets.find(x=>x.id===id);if(!p)return;if(soundToggle.checked){audio.currentTime=0;audio.play().catch(()=>{});}panel.innerHTML=`<div class="panel-kicker">${p.region}</div><div class="status-row"><span class="status ${p.status}">${statusLabel[p.status]}</span>${p.destroyed?`<span>${p.destroyed}</span>`:''}</div><h2>${p.name}</h2><p class="english">${p.en}</p><p>${p.summary}</p><div class="media-list">${p.media.map(m=>`<span class="badge">${m.toUpperCase()}</span>`).join('')}</div><button type="button" class="btn mini" id="close-panel">座標表示へ戻る</button>`;document.querySelector('#close-panel').addEventListener('click',()=>location.reload());}
+ try{planets=await fetch('../assets/data/planets.json').then(r=>r.json());render();layer.addEventListener('click',e=>{const b=e.target.closest('.planet-node');if(b)openPlanet(b.dataset.id)});filter.addEventListener('change',render);}catch(e){panel.innerHTML='<h2>DATA ERROR</h2><p>Live Serverで開いてください。</p>'}
+})();

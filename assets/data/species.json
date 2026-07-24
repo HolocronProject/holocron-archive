@@ -1,0 +1,23 @@
+[
+  {
+    "id": "togruta",
+    "code": "HLA-S-0001",
+    "nameJa": "トグルータ",
+    "nameEn": "Togruta",
+    "icon": "togruta.svg"
+  },
+  {
+    "id": "wookiee",
+    "code": "HLA-S-0002",
+    "nameJa": "ウーキー",
+    "nameEn": "Wookiee",
+    "icon": "wookiee.svg"
+  },
+  {
+    "id": "zabrak",
+    "code": "HLA-S-0003",
+    "nameJa": "ザブラク",
+    "nameEn": "Zabrak",
+    "icon": "zabrak.svg"
+  }
+]

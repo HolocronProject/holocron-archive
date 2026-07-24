@@ -1,351 +1,293 @@
-{
-  "metadata": {
-    "project": "Holocron Archive",
-    "version": "0.5.0",
-    "language": "ja",
-    "scope": "映像作品・カノン中心",
-    "generatedFrom": "ユーザー提供Excel『スターウォーズ_完全時系列_クローンウォーズ全話.xlsx』",
-    "counts": {
-      "mainTimeline": 30,
-      "cloneWars": 134,
-      "totalRecords": 164
-    },
-    "notes": [
-      "クローン・ウォーズは劇場版1作＋TV全133話を公式時系列順で収録。",
-      "日本語タイトルが未入力の回は英語タイトルを表示する。",
-      "今後の更新に備え、データと画面を分離している。"
+[
+  {
+    "id": "ep1",
+    "type": "movie",
+    "era": "32 BBY",
+    "sort": -32,
+    "titleJa": "エピソード1／ファントム・メナス",
+    "titleEn": "The Phantom Menace",
+    "summary": "若きアナキンの物語が始まる。",
+    "mainCharacters": [
+      "anakin",
+      "obi-wan"
+    ],
+    "planet": "naboo",
+    "badges": [
+      "MOVIE"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "MOVIE",
+        "titleJa": "ファントム・メナス",
+        "titleEn": "The Phantom Menace",
+        "characters": [
+          "anakin",
+          "obi-wan"
+        ],
+        "planet": "naboo",
+        "badges": [
+          "MOVIE"
+        ]
+      }
     ]
   },
-  "items": [
-    {
-      "id": "timeline-001",
-      "order": 1,
-      "era": "約232 BBY",
-      "title": "スター・ウォーズ：ヤング・ジェダイ・アドベンチャー",
-      "format": "アニメ",
-      "granularity": "シリーズ単位",
-      "note": "ハイ・リパブリック期",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-002",
-      "order": 2,
-      "era": "約132 BBY",
-      "title": "スター・ウォーズ：アコライト",
-      "format": "実写ドラマ",
-      "granularity": "シリーズ単位",
-      "note": "EP1の約100年前",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-003",
-      "order": 3,
-      "era": "68～42 BBY",
-      "title": "テイルズ・オブ・ジェダイ（一部）",
-      "format": "短編アニメ",
-      "granularity": "話ごとに年代が異なる",
-      "note": "ドゥークー／アソーカ編",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-004",
-      "order": 4,
-      "era": "32 BBY",
-      "title": "スター・ウォーズ エピソード1／ファントム・メナス",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-005",
-      "order": 5,
-      "era": "32～22 BBY",
-      "title": "テイルズ・オブ・ジェダイ（一部）",
-      "format": "短編アニメ",
-      "granularity": "話ごとに年代が異なる",
-      "note": "EP1後～EP2前",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-006",
-      "order": 6,
-      "era": "22 BBY",
-      "title": "スター・ウォーズ エピソード2／クローンの攻撃",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "クローン戦争開戦",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-007",
-      "order": 7,
-      "era": "22～19 BBY",
-      "title": "スター・ウォーズ：クローン・ウォーズ",
-      "format": "映画＋アニメ",
-      "granularity": "全134項目",
-      "note": "劇場版＋TV全133話",
-      "seriesKey": "clone-wars",
-      "status": "released"
-    },
-    {
-      "id": "timeline-008",
-      "order": 8,
-      "era": "19 BBY",
-      "title": "スター・ウォーズ エピソード3／シスの復讐",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "CW最終4話と同時進行",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-009",
-      "order": 9,
-      "era": "19 BBY～",
-      "title": "スター・ウォーズ：バッド・バッチ",
-      "format": "アニメ",
-      "granularity": "シリーズ単位",
-      "note": "帝国成立直後",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-010",
-      "order": 10,
-      "era": "帝国初期",
-      "title": "テイルズ・オブ・ジ・エンパイア",
-      "format": "短編アニメ",
-      "granularity": "話ごとに年代が異なる",
-      "note": "モーガン／バリス編",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-011",
-      "order": 11,
-      "era": "13～10 BBY",
-      "title": "ハン・ソロ／スター・ウォーズ・ストーリー",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-012",
-      "order": 12,
-      "era": "9 BBY",
-      "title": "オビ＝ワン・ケノービ",
-      "format": "実写ドラマ",
-      "granularity": "シリーズ単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-013",
-      "order": 13,
-      "era": "5～0 BBY",
-      "title": "スター・ウォーズ 反乱者たち",
-      "format": "アニメ",
-      "granularity": "シリーズ単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-014",
-      "order": 14,
-      "era": "5～0 BBY",
-      "title": "スター・ウォーズ：キャシアン・アンドー",
-      "format": "実写ドラマ",
-      "granularity": "シリーズ単位",
-      "note": "S1・S2",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-015",
-      "order": 15,
-      "era": "0 BBY",
-      "title": "ローグ・ワン／スター・ウォーズ・ストーリー",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "EP4直前",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-016",
-      "order": 16,
-      "era": "0 BBY／0 ABY",
-      "title": "スター・ウォーズ エピソード4／新たなる希望",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "ヤヴィンの戦い",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-017",
-      "order": 17,
-      "era": "3 ABY",
-      "title": "スター・ウォーズ エピソード5／帝国の逆襲",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-018",
-      "order": 18,
-      "era": "4 ABY",
-      "title": "スター・ウォーズ エピソード6／ジェダイの帰還",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-019",
-      "order": 19,
-      "era": "9 ABY",
-      "title": "マンダロリアン シーズン1",
-      "format": "実写ドラマ",
-      "granularity": "シーズン単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-020",
-      "order": 20,
-      "era": "9 ABY",
-      "title": "マンダロリアン シーズン2",
-      "format": "実写ドラマ",
-      "granularity": "シーズン単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-021",
-      "order": 21,
-      "era": "9 ABY",
-      "title": "ボバ・フェット／The Book of Boba Fett",
-      "format": "実写ドラマ",
-      "granularity": "シリーズ単位",
-      "note": "Mando S2とS3の間",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-022",
-      "order": 22,
-      "era": "9 ABY",
-      "title": "マンダロリアン シーズン3",
-      "format": "実写ドラマ",
-      "granularity": "シーズン単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-023",
-      "order": 23,
-      "era": "約9 ABY",
-      "title": "アソーカ",
-      "format": "実写ドラマ",
-      "granularity": "シリーズ単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-024",
-      "order": 24,
-      "era": "約9 ABY",
-      "title": "スケルトン・クルー",
-      "format": "実写ドラマ",
-      "granularity": "シリーズ単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-025",
-      "order": 25,
-      "era": "新共和国期",
-      "title": "スター・ウォーズ／マンダロリアン・アンド・グローグー",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "公開予定作品",
-      "seriesKey": null,
-      "status": "announced"
-    },
-    {
-      "id": "timeline-026",
-      "order": 26,
-      "era": "34 ABY",
-      "title": "スター・ウォーズ レジスタンス シーズン1",
-      "format": "アニメ",
-      "granularity": "シーズン単位",
-      "note": "EP7前～同時期",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-027",
-      "order": 27,
-      "era": "34 ABY",
-      "title": "スター・ウォーズ エピソード7／フォースの覚醒",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-028",
-      "order": 28,
-      "era": "34 ABY",
-      "title": "スター・ウォーズ エピソード8／最後のジェダイ",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "EP7直後",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-029",
-      "order": 29,
-      "era": "34～35 ABY",
-      "title": "スター・ウォーズ レジスタンス シーズン2",
-      "format": "アニメ",
-      "granularity": "シーズン単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    },
-    {
-      "id": "timeline-030",
-      "order": 30,
-      "era": "35 ABY",
-      "title": "スター・ウォーズ エピソード9／スカイウォーカーの夜明け",
-      "format": "映画",
-      "granularity": "作品単位",
-      "note": "",
-      "seriesKey": null,
-      "status": "released"
-    }
-  ]
-}
+  {
+    "id": "clone-wars",
+    "type": "animation",
+    "era": "22–19 BBY",
+    "sort": -22,
+    "titleJa": "スター・ウォーズ／クローン・ウォーズ",
+    "titleEn": "Star Wars: The Clone Wars",
+    "summary": "銀河規模の戦争を歴史上の順番でたどる。",
+    "mainCharacters": [
+      "ahsoka",
+      "anakin"
+    ],
+    "planet": "coruscant",
+    "badges": [
+      "TV ANIMATION",
+      "CHRONOLOGICAL"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S02E16",
+        "titleJa": "封鎖線を突破せよ",
+        "titleEn": "Cat and Mouse",
+        "characters": [
+          "anakin",
+          "obi-wan"
+        ],
+        "planet": "coruscant",
+        "badges": [
+          "TV EPISODE",
+          "CHRONOLOGICAL"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E16",
+        "titleJa": "内なる敵",
+        "titleEn": "The Hidden Enemy",
+        "characters": [
+          "anakin",
+          "obi-wan"
+        ],
+        "planet": "coruscant",
+        "badges": [
+          "TV EPISODE",
+          "CHRONOLOGICAL"
+        ]
+      },
+      {
+        "order": 131,
+        "label": "S07E09",
+        "titleJa": "忘れがたき旧友",
+        "titleEn": "Old Friends Not Forgotten",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "badges": [
+          "FINAL SEASON",
+          "EP3 同時進行"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bad-batch",
+    "type": "animation",
+    "era": "19–18 BBY",
+    "sort": -18.9,
+    "titleJa": "スター・ウォーズ：バッド・バッチ",
+    "titleEn": "The Bad Batch",
+    "summary": "共和国から帝国へ移る時代。",
+    "mainCharacters": [
+      "vader",
+      "obi-wan"
+    ],
+    "planet": "coruscant",
+    "badges": [
+      "TV ANIMATION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "余波",
+        "titleEn": "Aftermath",
+        "characters": [
+          "vader",
+          "obi-wan"
+        ],
+        "planet": "coruscant",
+        "badges": [
+          "TV EPISODE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rebels",
+    "type": "animation",
+    "era": "5–1 BBY",
+    "sort": -5,
+    "titleJa": "スター・ウォーズ 反乱者たち",
+    "titleEn": "Star Wars Rebels",
+    "summary": "帝国支配下で反乱の火が広がる。",
+    "mainCharacters": [
+      "ahsoka",
+      "vader"
+    ],
+    "planet": "mandalore",
+    "badges": [
+      "TV ANIMATION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "反乱の口火",
+        "titleEn": "Spark of Rebellion",
+        "characters": [
+          "ahsoka",
+          "vader"
+        ],
+        "planet": "mandalore",
+        "badges": [
+          "TV EPISODE"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "嘆きのドロイド",
+        "titleEn": "Droids in Distress",
+        "characters": [
+          "ahsoka",
+          "vader"
+        ],
+        "planet": "mandalore",
+        "badges": [
+          "TV EPISODE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "andor",
+    "type": "drama",
+    "era": "5 BBY",
+    "sort": -4.9,
+    "titleJa": "キャシアン・アンドー",
+    "titleEn": "Andor",
+    "summary": "反乱同盟軍誕生前夜。",
+    "mainCharacters": [
+      "luke",
+      "vader"
+    ],
+    "planet": "coruscant",
+    "badges": [
+      "LIVE ACTION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "カッサ",
+        "titleEn": "Kassa",
+        "characters": [
+          "luke",
+          "vader"
+        ],
+        "planet": "coruscant",
+        "badges": [
+          "TV EPISODE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ep4",
+    "type": "movie",
+    "era": "0 BBY / 0 ABY",
+    "sort": 0,
+    "titleJa": "エピソード4／新たなる希望",
+    "titleEn": "A New Hope",
+    "summary": "ルークが銀河の運命へ踏み出す。",
+    "mainCharacters": [
+      "luke",
+      "vader"
+    ],
+    "planet": "tatooine",
+    "badges": [
+      "MOVIE"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "MOVIE",
+        "titleJa": "新たなる希望",
+        "titleEn": "A New Hope",
+        "characters": [
+          "luke",
+          "vader"
+        ],
+        "planet": "tatooine",
+        "badges": [
+          "MOVIE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mando",
+    "type": "drama",
+    "era": "9 ABY",
+    "sort": 9,
+    "titleJa": "マンダロリアン",
+    "titleEn": "The Mandalorian",
+    "summary": "帝国崩壊後の銀河を旅する。",
+    "mainCharacters": [
+      "mando",
+      "grogu"
+    ],
+    "planet": "tatooine",
+    "badges": [
+      "LIVE ACTION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "チャプター1：マンダロリアン",
+        "titleEn": "Chapter 1",
+        "characters": [
+          "mando",
+          "grogu"
+        ],
+        "planet": "tatooine",
+        "badges": [
+          "TV EPISODE"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "チャプター2：ザ・チャイルド",
+        "titleEn": "Chapter 2",
+        "characters": [
+          "mando",
+          "grogu"
+        ],
+        "planet": "tatooine",
+        "badges": [
+          "TV EPISODE"
+        ]
+      }
+    ]
+  }
+]
