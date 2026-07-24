@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             ${episodes.map(e=>`<div class="episode-card ${e.badges?.includes('EP3 同時進行')?'ep3-concurrent':''}">
               <div class="ep-order"><strong>#${String(e.order).padStart(3,"0")}</strong><br>${esc(e.label)}<br><span>${esc(e.era||item.era)}</span></div>
               <div class="ep-title"><strong>${esc(e.titleJa)}</strong><small>${esc(e.titleEn)}</small>
-                ${e.arc?`<div class="arc-label">ARC：${esc(e.arc)}</div>`:""}
+                ${e.arc?`<div class="arc-label">ARC：${esc(e.arc)}</div>`:""}${e.openingQuote?`<div class="opening-quote">「${esc(e.openingQuote)}」</div>`:""}
                 <div class="refs">${(e.characters||[]).slice(0,2).map(characterChip).join("")}${planetChip(e.planet)}</div>
               </div>
               <div class="episode-badges">${(e.badges||[]).map(b=>`<span class="badge">${esc(b)}</span>`).join("")}</div>
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           </div>
         </div></article>`;
     }).join("");
-    count.textContent = query ? `${shownEpisodes}件の記録` : `クローン・ウォーズ 全134項目収録`;
+    const totalEpisodes=items.reduce((n,x)=>n+(x.episodes||[]).length,0); count.textContent = query ? `${shownEpisodes}件の記録` : `全${items.length}作品・各話${totalEpisodes}件収録`;
     wrap.querySelectorAll(".series-toggle").forEach(btn => btn.addEventListener("click", () => {
       const card = btn.closest(".series-card"); card.classList.toggle("open"); btn.setAttribute("aria-expanded",card.classList.contains("open"));
     }));

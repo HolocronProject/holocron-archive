@@ -1,50 +1,96 @@
 [
   {
+    "id": "young-jedi",
+    "sort": -232,
+    "era": "約232 BBY",
+    "titleJa": "スター・ウォーズ：ヤング・ジェダイ・アドベンチャー",
+    "titleEn": "Star Wars: Young Jedi Adventures",
+    "type": "animation",
+    "summary": "ハイ・リパブリック期を描くアニメシリーズ。",
+    "badges": [
+      "TV ANIMATION"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "acolyte",
+    "sort": -132,
+    "era": "約132 BBY",
+    "titleJa": "スター・ウォーズ：アコライト",
+    "titleEn": "Star Wars: The Acolyte",
+    "type": "live",
+    "summary": "エピソード1の約100年前。ジェダイ全盛期の闇を描く。",
+    "badges": [
+      "LIVE ACTION"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "tales-jedi-early",
+    "sort": -68,
+    "era": "68～42 BBY",
+    "titleJa": "テイルズ・オブ・ジェダイ（一部）",
+    "titleEn": "Tales of the Jedi",
+    "type": "animation",
+    "summary": "ドゥークーとアソーカの物語。話ごとに年代が異なる。",
+    "badges": [
+      "ANIMATION"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
     "id": "ep1",
-    "type": "movie",
-    "era": "32 BBY",
     "sort": -32,
+    "era": "32 BBY",
     "titleJa": "エピソード1／ファントム・メナス",
     "titleEn": "The Phantom Menace",
+    "type": "movie",
     "summary": "若きアナキンの物語が始まる。",
-    "mainCharacters": [
-      "anakin",
-      "obi-wan"
-    ],
-    "planet": "naboo",
     "badges": [
       "MOVIE"
     ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "MOVIE",
-        "titleJa": "ファントム・メナス",
-        "titleEn": "The Phantom Menace",
-        "characters": [
-          "anakin",
-          "obi-wan"
-        ],
-        "planet": "naboo",
-        "badges": [
-          "MOVIE"
-        ]
-      }
-    ]
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "tales-jedi-mid",
+    "sort": -31.5,
+    "era": "32～22 BBY",
+    "titleJa": "テイルズ・オブ・ジェダイ（一部）",
+    "titleEn": "Tales of the Jedi",
+    "type": "animation",
+    "summary": "エピソード1後からエピソード2前の短編。",
+    "badges": [
+      "ANIMATION"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "ep2",
+    "sort": -22.2,
+    "era": "22 BBY",
+    "titleJa": "エピソード2／クローンの攻撃",
+    "titleEn": "Attack of the Clones",
+    "type": "movie",
+    "summary": "クローン戦争が開戦する。",
+    "badges": [
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
   },
   {
     "id": "clone-wars",
-    "type": "animation",
-    "era": "22–19 BBY",
     "sort": -22,
+    "era": "22～19 BBY",
     "titleJa": "スター・ウォーズ／クローン・ウォーズ",
     "titleEn": "Star Wars: The Clone Wars",
-    "summary": "劇場版1作＋TV全133話を公式時系列順で収録。全話を通し番号・話数・日本語／英語タイトル付きで表示します。",
-    "mainCharacters": [
-      "ahsoka",
-      "anakin"
-    ],
-    "planet": "coruscant",
+    "type": "animation",
+    "summary": "劇場版1作＋TV全133話を公式時系列順で収録。",
     "badges": [
       "TV ANIMATION",
       "134 RECORDS",
@@ -54,5150 +100,2574 @@
       {
         "order": 1,
         "label": "S02E16",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "封鎖線を突破せよ",
         "titleEn": "Cat and Mouse",
-        "characters": [
-          "anakin",
-          "obi-wan"
-        ],
-        "planet": "",
-        "arc": "クリストフシス戦役",
+        "openingQuote": "賢い指導者は、従うべき時を知っている。",
+        "quoteTheme": "リーダーシップ",
         "badges": [
-          "TV EPISODE",
-          "クリストフシス戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 2,
         "label": "S01E16",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "内なる敵",
         "titleEn": "The Hidden Enemy",
-        "characters": [
-          "anakin",
-          "obi-wan"
-        ],
-        "planet": "",
-        "arc": "クリストフシス戦役",
+        "openingQuote": "真実は頭を照らしても、心を幸せにするとは限らない。",
+        "quoteTheme": "真実",
         "badges": [
-          "TV EPISODE",
-          "クリストフシス戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 3,
-        "label": "MOVIE",
+        "label": "劇場版",
         "era": "22 BBY",
         "titleJa": "スター・ウォーズ／クローン・ウォーズ",
         "titleEn": "Star Wars: The Clone Wars",
-        "characters": [
-          "anakin",
-          "obi-wan"
-        ],
-        "planet": "",
-        "arc": "クリストフシス戦役",
-        "badges": [
-          "劇場版",
-          "クリストフシス戦役"
-        ]
+        "openingQuote": "",
+        "quoteTheme": "",
+        "badges": []
       },
       {
         "order": 4,
         "label": "S03E01",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "トルーパーへの道",
         "titleEn": "Clone Cadets",
-        "characters": [],
-        "planet": "",
-        "arc": "クローン兵の始まり",
+        "openingQuote": "共に戦う兄弟は、生涯の兄弟。",
+        "quoteTheme": "兄弟愛",
         "badges": [
-          "TV EPISODE",
-          "クローン兵の始まり"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 5,
         "label": "S03E03",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "補給線をつなげ",
         "titleEn": "Supply Lines",
-        "characters": [],
-        "planet": "",
-        "arc": "クローン兵の始まり",
+        "openingQuote": "強い意志があれば道は開ける。",
+        "quoteTheme": "強さ",
         "badges": [
-          "TV EPISODE",
-          "クローン兵の始まり"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 6,
         "label": "S01E01",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "待ち伏せ",
         "titleEn": "Ambush",
-        "characters": [],
-        "planet": "",
-        "arc": "トイダリア任務",
+        "openingQuote": "偉大な指導者は、他者の力を引き出す。",
+        "quoteTheme": "リーダーシップ",
         "badges": [
-          "TV EPISODE",
-          "トイダリア任務"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 7,
         "label": "S01E02",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "マレボランス襲来",
         "titleEn": "Rising Malevolence",
-        "characters": [],
-        "planet": "",
-        "arc": "マレボランス三部作",
+        "openingQuote": "信念は選ぶものではなく、確信するもの。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "マレボランス三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 8,
         "label": "S01E03",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "マレボランスの影",
         "titleEn": "Shadow of Malevolence",
-        "characters": [],
-        "planet": "",
-        "arc": "マレボランス三部作",
+        "openingQuote": "自我に曇らされなければ、知恵への道は開ける。",
+        "quoteTheme": "知恵",
         "badges": [
-          "TV EPISODE",
-          "マレボランス三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 9,
         "label": "S01E04",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "撃破！マレボランス",
         "titleEn": "Destroy Malevolence",
-        "characters": [],
-        "planet": "",
-        "arc": "マレボランス三部作",
+        "openingQuote": "計画は、実行する者がいてこそ意味を持つ。",
+        "quoteTheme": "計画",
         "badges": [
-          "TV EPISODE",
-          "マレボランス三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 10,
         "label": "S01E05",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ルーキーたち",
         "titleEn": "Rookies",
-        "characters": [],
-        "planet": "",
-        "arc": "リシ・ムーン防衛",
+        "openingQuote": "自信を育てる最良の方法は経験である。",
+        "quoteTheme": "法と秩序",
         "badges": [
-          "TV EPISODE",
-          "リシ・ムーン防衛"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 11,
         "label": "S01E06",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "消えたドロイド",
         "titleEn": "Downfall of a Droid",
-        "characters": [],
-        "planet": "",
-        "arc": "R2-D2捜索",
+        "openingQuote": "友を信じれば、友もあなたを信じる理由を持つ。",
+        "quoteTheme": "友情",
         "badges": [
-          "TV EPISODE",
-          "R2-D2捜索"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 12,
         "label": "S01E07",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ドロイドの決闘",
         "titleEn": "Duel of the Droids",
-        "characters": [],
-        "planet": "",
-        "arc": "R2-D2捜索",
+        "openingQuote": "友情を守るには、頭より少しだけ心を柔らかく。",
+        "quoteTheme": "友情",
         "badges": [
-          "TV EPISODE",
-          "R2-D2捜索"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 13,
         "label": "S01E08",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "型破りなジェダイ",
         "titleEn": "Bombad Jedi",
-        "characters": [],
-        "planet": "",
-        "arc": "ヌート・ガンレイ／グリーヴァス",
+        "openingQuote": "英雄は時代によって生まれる。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ヌート・ガンレイ／グリーヴァス"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 14,
         "label": "S01E09",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "闇のマント",
         "titleEn": "Cloak of Darkness",
-        "characters": [],
-        "planet": "",
-        "arc": "ヌート・ガンレイ／グリーヴァス",
+        "openingQuote": "直感を無視すれば、代償を払うことになる。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ヌート・ガンレイ／グリーヴァス"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 15,
         "label": "S01E10",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "グリーヴァスのアジト",
         "titleEn": "Lair of Grievous",
-        "characters": [],
-        "planet": "",
-        "arc": "ヌート・ガンレイ／グリーヴァス",
+        "openingQuote": "真に強い者は、自分の力を制御できる。",
+        "quoteTheme": "自己理解／強さ",
         "badges": [
-          "TV EPISODE",
-          "ヌート・ガンレイ／グリーヴァス"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 16,
         "label": "S01E11",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "囚人ドゥークー",
         "titleEn": "Dooku Captured",
-        "characters": [],
-        "planet": "",
-        "arc": "ドゥークー捕縛",
+        "openingQuote": "平和への道は遠回りでも進む価値がある。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ドゥークー捕縛"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 17,
         "label": "S01E12",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "グンガンの将軍",
         "titleEn": "The Gungan General",
-        "characters": [],
-        "planet": "",
-        "arc": "ドゥークー捕縛",
+        "openingQuote": "不正に勝つより、誇りをもって敗れよ。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ドゥークー捕縛"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 18,
         "label": "S01E13",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ジェダイの遭難",
         "titleEn": "Jedi Crash",
-        "characters": [],
-        "planet": "",
-        "arc": "マーリダン戦役",
+        "openingQuote": "強欲と喪失への恐れは、悪の根になる。",
+        "quoteTheme": "恐怖／善悪／強さ",
         "badges": [
-          "TV EPISODE",
-          "マーリダン戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 19,
         "label": "S01E14",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "平和の守護者",
         "titleEn": "Defenders of Peace",
-        "characters": [],
-        "planet": "",
-        "arc": "マーリダン戦役",
+        "openingQuote": "戦争に囲まれれば、やがて立場を選ばねばならない。",
+        "quoteTheme": "戦争",
         "badges": [
-          "TV EPISODE",
-          "マーリダン戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 20,
         "label": "S01E15",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "侵入者",
         "titleEn": "Trespass",
-        "characters": [],
-        "planet": "",
-        "arc": "マーリダン戦役",
+        "openingQuote": "傲慢さは知恵を失わせる。",
+        "quoteTheme": "知恵",
         "badges": [
-          "TV EPISODE",
-          "マーリダン戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 21,
         "label": "S01E17",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ブルー・シャドー・ウイルス",
         "titleEn": "Blue Shadow Virus",
-        "characters": [],
-        "planet": "",
-        "arc": "ブルー・シャドー・ウイルス",
+        "openingQuote": "恐れは病、希望はその治療薬。",
+        "quoteTheme": "希望／恐怖",
         "badges": [
-          "TV EPISODE",
-          "ブルー・シャドー・ウイルス"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 22,
         "label": "S01E18",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "千の月の謎",
         "titleEn": "Mystery of a Thousand Moons",
-        "characters": [],
-        "planet": "",
-        "arc": "ブルー・シャドー・ウイルス",
+        "openingQuote": "たった一度の機会でも、銀河ほどの希望になり得る。",
+        "quoteTheme": "希望",
         "badges": [
-          "TV EPISODE",
-          "ブルー・シャドー・ウイルス"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 23,
         "label": "S01E19",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ライロスの嵐",
         "titleEn": "Storm Over Ryloth",
-        "characters": [],
-        "planet": "",
-        "arc": "ライロス解放",
+        "openingQuote": "偉大さの頂へ続く道は険しい。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ライロス解放"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 24,
         "label": "S01E20",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ライロスの罪なき人々",
         "titleEn": "Innocents of Ryloth",
-        "characters": [],
-        "planet": "",
-        "arc": "ライロス解放",
+        "openingQuote": "戦争の代償は決して完全には数えられない。",
+        "quoteTheme": "戦争",
         "badges": [
-          "TV EPISODE",
-          "ライロス解放"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 25,
         "label": "S01E21",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ライロスの解放",
         "titleEn": "Liberty on Ryloth",
-        "characters": [],
-        "planet": "",
-        "arc": "ライロス解放",
+        "openingQuote": "妥協は弱さではなく、育てるべき美徳。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ライロス解放"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 26,
         "label": "S02E01",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ホロクロン強奪",
         "titleEn": "Holocron Heist",
-        "characters": [],
-        "planet": "",
-        "arc": "ホロクロン三部作",
+        "openingQuote": "学んだ教訓は、自分の力になる。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "ホロクロン三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 27,
         "label": "S02E02",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "破滅の積荷",
         "titleEn": "Cargo of Doom",
-        "characters": [],
-        "planet": "",
-        "arc": "ホロクロン三部作",
+        "openingQuote": "過信は最も危険な油断。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ホロクロン三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 28,
         "label": "S02E03",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "フォースの子供たち",
         "titleEn": "Children of the Force",
-        "characters": [],
-        "planet": "",
-        "arc": "ホロクロン三部作",
+        "openingQuote": "過ちを正す第一歩は、焦らず耐えること。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ホロクロン三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 29,
         "label": "S02E17",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "七人の傭兵",
         "titleEn": "Bounty Hunters",
-        "characters": [],
-        "planet": "",
-        "arc": "賞金稼ぎ",
+        "openingQuote": "勇気は英雄を生み、信頼は友情を築く。",
+        "quoteTheme": "信頼／友情／勇気",
         "badges": [
-          "TV EPISODE",
-          "賞金稼ぎ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 30,
         "label": "S02E18",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "いにしえの巨獣",
         "titleEn": "The Zillo Beast",
-        "characters": [],
-        "planet": "",
-        "arc": "ジロ・ビースト",
+        "openingQuote": "楽な道ではなく、正しい道を選べ。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ジロ・ビースト"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 31,
         "label": "S02E19",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "コルサント炎上",
         "titleEn": "The Zillo Beast Strikes Back",
-        "characters": [],
-        "planet": "",
-        "arc": "ジロ・ビースト",
+        "openingQuote": "最も危険な怪物は、自分の内側にいる。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "ジロ・ビースト"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 32,
         "label": "S02E04",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "元老院のスパイ",
         "titleEn": "Senate Spy",
-        "characters": [],
-        "planet": "",
-        "arc": "元老院のスパイ",
+        "openingQuote": "真心を安易に疑ってはいけない。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "元老院のスパイ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 33,
         "label": "S02E05",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "砲火を抜けて",
         "titleEn": "Landing at Point Rain",
-        "characters": [],
-        "planet": "",
-        "arc": "第二次ジオノーシス戦役",
+        "openingQuote": "自分を信じなければ、誰も信じてくれない。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "第二次ジオノーシス戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 34,
         "label": "S02E06",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "強襲 ドロイド工場",
         "titleEn": "Weapons Factory",
-        "characters": [],
-        "planet": "",
-        "arc": "第二次ジオノーシス戦役",
+        "openingQuote": "信頼ほど貴重な贈り物はない。",
+        "quoteTheme": "信頼",
         "badges": [
-          "TV EPISODE",
-          "第二次ジオノーシス戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 35,
         "label": "S02E07",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "恐怖の遺産",
         "titleEn": "Legacy of Terror",
-        "characters": [],
-        "planet": "",
-        "arc": "第二次ジオノーシス戦役",
+        "openingQuote": "助けを求めることは、助けることより難しい場合がある。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "第二次ジオノーシス戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 36,
         "label": "S02E08",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ブレイン・インベーダー",
         "titleEn": "Brain Invaders",
-        "characters": [],
-        "planet": "",
-        "arc": "第二次ジオノーシス戦役",
+        "openingQuote": "執着は思いやりではない。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "第二次ジオノーシス戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 37,
         "label": "S02E09",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "囚われたジェダイ",
         "titleEn": "Grievous Intrigue",
-        "characters": [],
-        "planet": "",
-        "arc": "グリーヴァス追跡",
+        "openingQuote": "何かを得れば、別の何かを失う。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "グリーヴァス追跡"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 38,
         "label": "S02E10",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "逃亡者",
         "titleEn": "The Deserter",
-        "characters": [],
-        "planet": "",
-        "arc": "グリーヴァス追跡",
+        "openingQuote": "名誉を求める姿勢が、人を名誉ある者にする。",
+        "quoteTheme": "名誉",
         "badges": [
-          "TV EPISODE",
-          "グリーヴァス追跡"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 39,
         "label": "S02E11",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "奪われたライトセーバー",
         "titleEn": "Lightsaber Lost",
-        "characters": [],
-        "planet": "",
-        "arc": "ライトセーバー捜索",
+        "openingQuote": "簡単に見えても、単純とは限らない。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ライトセーバー捜索"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 40,
         "label": "S02E12",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "デス・ウォッチの陰謀",
         "titleEn": "The Mandalore Plot",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア三部作",
+        "openingQuote": "過去を無視すれば、未来を危険にさらす。",
+        "quoteTheme": "過去と未来",
         "badges": [
-          "TV EPISODE",
-          "マンダロア三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 41,
         "label": "S02E13",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "誘惑の航海",
         "titleEn": "Voyage of Temptation",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア三部作",
+        "openingQuote": "未来を恐れず、過去を嘆きすぎない。",
+        "quoteTheme": "恐怖／過去と未来",
         "badges": [
-          "TV EPISODE",
-          "マンダロア三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 42,
         "label": "S02E14",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "狙われた女公爵",
         "titleEn": "Duchess of Mandalore",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア三部作",
+        "openingQuote": "戦争では真実が最初の犠牲者になる。",
+        "quoteTheme": "戦争／真実／犠牲",
         "badges": [
-          "TV EPISODE",
-          "マンダロア三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 43,
         "label": "S02E20",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "デス・トラップ",
         "titleEn": "Death Trap",
-        "characters": [],
-        "planet": "",
-        "arc": "ボバ・フェットの復讐",
+        "openingQuote": "父親が誰だったかより、どう記憶しているかが大切。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ボバ・フェットの復讐"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 44,
         "label": "S02E21",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "絆",
         "titleEn": "R2 Come Home",
-        "characters": [],
-        "planet": "",
-        "arc": "ボバ・フェットの復讐",
+        "openingQuote": "逆境こそ友情の本当の試練。",
+        "quoteTheme": "友情",
         "badges": [
-          "TV EPISODE",
-          "ボバ・フェットの復讐"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 45,
         "label": "S02E22",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "危険な追跡",
         "titleEn": "Lethal Trackdown",
-        "characters": [],
-        "planet": "",
-        "arc": "ボバ・フェットの復讐",
+        "openingQuote": "復讐は、痛みを告白する行為である。",
+        "quoteTheme": "復讐",
         "badges": [
-          "TV EPISODE",
-          "ボバ・フェットの復讐"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 46,
         "label": "S03E05",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "星を蝕むもの",
         "titleEn": "Corruption",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア腐敗",
+        "openingQuote": "希望の試練とは、腐敗に打ち勝つこと。",
+        "quoteTheme": "希望",
         "badges": [
-          "TV EPISODE",
-          "マンダロア腐敗"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 47,
         "label": "S03E06",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "王立アカデミー",
         "titleEn": "The Academy",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア腐敗",
+        "openingQuote": "法を執行する者こそ、法を守らねばならない。",
+        "quoteTheme": "法と秩序",
         "badges": [
-          "TV EPISODE",
-          "マンダロア腐敗"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 48,
         "label": "S03E07",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "悪夢の暗殺者",
         "titleEn": "Assassin",
-        "characters": [],
-        "planet": "",
-        "arc": "ズィロ暗殺未遂",
+        "openingQuote": "未来には多くの道がある。慎重に選べ。",
+        "quoteTheme": "過去と未来",
         "badges": [
-          "TV EPISODE",
-          "ズィロ暗殺未遂"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 49,
         "label": "S03E02",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "誇り高き兵士たち",
         "titleEn": "ARC Troopers",
-        "characters": [],
-        "planet": "",
-        "arc": "カミーノ／パントラ",
+        "openingQuote": "戦場は技量を試し、故郷を守る戦いは心を試す。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "カミーノ／パントラ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 50,
         "label": "S03E04",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "惑星封鎖を解き放て",
         "titleEn": "Sphere of Influence",
-        "characters": [],
-        "planet": "",
-        "arc": "カミーノ／パントラ",
+        "openingQuote": "子どもが奪われれば、希望も失われる。",
+        "quoteTheme": "希望",
         "badges": [
-          "TV EPISODE",
-          "カミーノ／パントラ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 51,
         "label": "S03E08",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "邪悪なる計画",
         "titleEn": "Evil Plans",
-        "characters": [],
-        "planet": "",
-        "arc": "ズィロ・ザ・ハット",
+        "openingQuote": "準備不足は、失敗を準備すること。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ズィロ・ザ・ハット"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 52,
         "label": "S01E22",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "人質",
         "titleEn": "Hostage Crisis",
-        "characters": [],
-        "planet": "",
-        "arc": "ズィロ・ザ・ハット",
+        "openingQuote": "秘密を共有することは、信頼を結ぶこと。",
+        "quoteTheme": "信頼",
         "badges": [
-          "TV EPISODE",
-          "ズィロ・ザ・ハット"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 53,
         "label": "S03E09",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ズィロを追え！",
         "titleEn": "Hunt for Ziro",
-        "characters": [],
-        "planet": "",
-        "arc": "ズィロ・ザ・ハット",
+        "openingQuote": "愛の形や大きさは一つではない。",
+        "quoteTheme": "愛",
         "badges": [
-          "TV EPISODE",
-          "ズィロ・ザ・ハット"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 54,
         "label": "S03E10",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "分離主義者の友",
         "titleEn": "Heroes on Both Sides",
-        "characters": [],
-        "planet": "",
-        "arc": "元老院和平交渉",
+        "openingQuote": "恐れは人を強く動かす。",
+        "quoteTheme": "恐怖／強さ",
         "badges": [
-          "TV EPISODE",
-          "元老院和平交渉"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 55,
         "label": "S03E11",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "平和を求めて",
         "titleEn": "Pursuit of Peace",
-        "characters": [],
-        "planet": "",
-        "arc": "元老院和平交渉",
+        "openingQuote": "真実は恐怖の幻を打ち破る。",
+        "quoteTheme": "真実",
         "badges": [
-          "TV EPISODE",
-          "元老院和平交渉"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 56,
         "label": "S02E15",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "議員暗殺",
         "titleEn": "Senate Murders",
-        "characters": [],
-        "planet": "",
-        "arc": "元老院和平交渉",
+        "openingQuote": "真実を探すより、受け入れる方が難しい。",
+        "quoteTheme": "真実",
         "badges": [
-          "TV EPISODE",
-          "元老院和平交渉"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 57,
         "label": "S03E12",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ダソミアの魔女",
         "titleEn": "Nightsisters",
-        "characters": [],
-        "planet": "",
-        "arc": "ナイトシスターズ",
+        "openingQuote": "復讐は破滅への最短路。",
+        "quoteTheme": "復讐",
         "badges": [
-          "TV EPISODE",
-          "ナイトシスターズ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 58,
         "label": "S03E13",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "新たな脅威",
         "titleEn": "Monster",
-        "characters": [],
-        "planet": "",
-        "arc": "ナイトシスターズ",
+        "openingQuote": "悪は生まれつきではなく、教え込まれる。",
+        "quoteTheme": "善悪",
         "badges": [
-          "TV EPISODE",
-          "ナイトシスターズ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 59,
         "label": "S03E14",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "灰色の魔女",
         "titleEn": "Witches of the Mist",
-        "characters": [],
-        "planet": "",
-        "arc": "ナイトシスターズ",
+        "openingQuote": "悪への道は力を与えても、忠誠までは与えない。",
+        "quoteTheme": "善悪／忠誠",
         "badges": [
-          "TV EPISODE",
-          "ナイトシスターズ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 60,
         "label": "S03E15",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "フォースの惑星",
         "titleEn": "Overlords",
-        "characters": [],
-        "planet": "",
-        "arc": "モーティス三部作",
+        "openingQuote": "罪と向き合う者の中に均衡は生まれる。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "モーティス三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 61,
         "label": "S03E16",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "光と闇",
         "titleEn": "Altar of Mortis",
-        "characters": [],
-        "planet": "",
-        "arc": "モーティス三部作",
+        "openingQuote": "希望を手放すことは、生を手放すこと。",
+        "quoteTheme": "希望",
         "badges": [
-          "TV EPISODE",
-          "モーティス三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 62,
         "label": "S03E17",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "未来の選択",
         "titleEn": "Ghosts of Mortis",
-        "characters": [],
-        "planet": "",
-        "arc": "モーティス三部作",
+        "openingQuote": "運命を支配しようとする者に平穏は訪れない。",
+        "quoteTheme": "運命",
         "badges": [
-          "TV EPISODE",
-          "モーティス三部作"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 63,
         "label": "S03E18",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "鉄壁の要塞",
         "titleEn": "The Citadel",
-        "characters": [],
-        "planet": "",
-        "arc": "シタデル救出",
+        "openingQuote": "適応こそ生存の鍵。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "シタデル救出"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 64,
         "label": "S03E19",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "決死の脱出",
         "titleEn": "Counterattack",
-        "characters": [],
-        "planet": "",
-        "arc": "シタデル救出",
+        "openingQuote": "起こり得る失敗は、いつか起こる。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "シタデル救出"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 65,
         "label": "S03E20",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "勝利の代償",
         "titleEn": "Citadel Rescue",
-        "characters": [],
-        "planet": "",
-        "arc": "シタデル救出",
+        "openingQuote": "名誉なき勝利は空虚。",
+        "quoteTheme": "名誉／勝敗",
         "badges": [
-          "TV EPISODE",
-          "シタデル救出"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 66,
         "label": "S03E21",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "囚われのパダワン パート1",
         "titleEn": "Padawan Lost",
-        "characters": [],
-        "planet": "",
-        "arc": "トランドーシャン狩猟",
+        "openingQuote": "謙虚さのない勇気は危険な遊び。",
+        "quoteTheme": "勇気／謙虚さ",
         "badges": [
-          "TV EPISODE",
-          "トランドーシャン狩猟"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 67,
         "label": "S03E22",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "囚われのパダワン パート2",
         "titleEn": "Wookiee Hunt",
-        "characters": [],
-        "planet": "",
-        "arc": "トランドーシャン狩猟",
+        "openingQuote": "優れた生徒は、教師が目指す姿でもある。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "トランドーシャン狩猟"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 68,
         "label": "S04E01",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "海洋惑星の激戦",
         "titleEn": "Water War",
-        "characters": [],
-        "planet": "",
-        "arc": "モン・カラ戦役",
+        "openingQuote": "運命に呼ばれた者に、逃げる選択肢はない。",
+        "quoteTheme": "運命",
         "badges": [
-          "TV EPISODE",
-          "モン・カラ戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 69,
         "label": "S04E02",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "グンガン参戦",
         "titleEn": "Gungan Attack",
-        "characters": [],
-        "planet": "",
-        "arc": "モン・カラ戦役",
+        "openingQuote": "強い剣は炎の中で鍛えられる。",
+        "quoteTheme": "強さ",
         "badges": [
-          "TV EPISODE",
-          "モン・カラ戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 70,
         "label": "S04E03",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "囚われた王国",
         "titleEn": "Prisoners",
-        "characters": [],
-        "planet": "",
-        "arc": "モン・カラ戦役",
+        "openingQuote": "王冠は受け継げても、王国は勝ち取るもの。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "モン・カラ戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 71,
         "label": "S04E04",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "危険な影武者",
         "titleEn": "Shadow Warrior",
-        "characters": [],
-        "planet": "",
-        "arc": "ナブー影武者",
+        "openingQuote": "人の本質は、目だけでは見抜けない。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ナブー影武者"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 72,
         "label": "S04E05",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "アリーン支援作戦",
         "titleEn": "Mercy Mission",
-        "characters": [],
-        "planet": "",
-        "arc": "アリーン／ドロイド漂流",
+        "openingQuote": "理解とは、表面の下にある真実を尊重すること。",
+        "quoteTheme": "真実",
         "badges": [
-          "TV EPISODE",
-          "アリーン／ドロイド漂流"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 73,
         "label": "S04E06",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "さまよえるドロイドたち",
         "titleEn": "Nomad Droids",
-        "characters": [],
-        "planet": "",
-        "arc": "アリーン／ドロイド漂流",
+        "openingQuote": "愚か者より愚かなのは、考えずに従う者。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "アリーン／ドロイド漂流"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 74,
         "label": "S04E07",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "アンバラの暗雲",
         "titleEn": "Darkness on Umbara",
-        "characters": [],
-        "planet": "",
-        "arc": "アンバラ戦役",
+        "openingQuote": "忠誠への第一歩は信頼。",
+        "quoteTheme": "信頼／忠誠",
         "badges": [
-          "TV EPISODE",
-          "アンバラ戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 75,
         "label": "S04E08",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "クレル将軍",
         "titleEn": "The General",
-        "characters": [],
-        "planet": "",
-        "arc": "アンバラ戦役",
+        "openingQuote": "無知の道を導くのは恐れ。",
+        "quoteTheme": "恐怖",
         "badges": [
-          "TV EPISODE",
-          "アンバラ戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 76,
         "label": "S04E09",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "作戦への反抗",
         "titleEn": "Plan of Dissent",
-        "characters": [],
-        "planet": "",
-        "arc": "アンバラ戦役",
+        "openingQuote": "賢者が導き、強者が従う。",
+        "quoteTheme": "強さ",
         "badges": [
-          "TV EPISODE",
-          "アンバラ戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 77,
         "label": "S04E10",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "クレルの正体",
         "titleEn": "Carnage of Krell",
-        "characters": [],
-        "planet": "",
-        "arc": "アンバラ戦役",
+        "openingQuote": "行動が自分の残すものを決める。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "アンバラ戦役"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 78,
         "label": "S04E11",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "消えた植民者",
         "titleEn": "Kidnapped",
-        "characters": [],
-        "planet": "",
-        "arc": "ザイゲリア奴隷帝国",
+        "openingQuote": "向かう先には、来た道が映し出される。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ザイゲリア奴隷帝国"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 79,
         "label": "S04E12",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "共和国の奴隷たち",
         "titleEn": "Slaves of the Republic",
-        "characters": [],
-        "planet": "",
-        "arc": "ザイゲリア奴隷帝国",
+        "openingQuote": "他者を奴隷にする者は、やがて自らも囚われる。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ザイゲリア奴隷帝国"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 80,
         "label": "S04E13",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "カダーヴォからの脱出",
         "titleEn": "Escape from Kadavo",
-        "characters": [],
-        "planet": "",
-        "arc": "ザイゲリア奴隷帝国",
+        "openingQuote": "小さな犠牲から大きな希望が生まれることがある。",
+        "quoteTheme": "希望／犠牲",
         "badges": [
-          "TV EPISODE",
-          "ザイゲリア奴隷帝国"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 81,
         "label": "S04E14",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "友情の真価",
         "titleEn": "A Friend in Need",
-        "characters": [],
-        "planet": "",
-        "arc": "ルクソン／デス・ウォッチ",
+        "openingQuote": "友情は本当の自分を映し出す。",
+        "quoteTheme": "友情／自己理解",
         "badges": [
-          "TV EPISODE",
-          "ルクソン／デス・ウォッチ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 82,
         "label": "S04E15",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "オビ＝ワン暗殺",
         "titleEn": "Deception",
-        "characters": [],
-        "planet": "",
-        "arc": "オビ＝ワン潜入任務",
+        "openingQuote": "戦いの基本は欺くこと。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "オビ＝ワン潜入任務"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 83,
         "label": "S04E16",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "疑惑の賞金稼ぎ",
         "titleEn": "Friends and Enemies",
-        "characters": [],
-        "planet": "",
-        "arc": "オビ＝ワン潜入任務",
+        "openingQuote": "友を近くに置き、敵はさらに近くに置け。",
+        "quoteTheme": "友情",
         "badges": [
-          "TV EPISODE",
-          "オビ＝ワン潜入任務"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 84,
         "label": "S04E17",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "サバイバル・ボックス",
         "titleEn": "The Box",
-        "characters": [],
-        "planet": "",
-        "arc": "オビ＝ワン潜入任務",
+        "openingQuote": "強者は生き残り、高潔な者は乗り越える。",
+        "quoteTheme": "生存／強さ",
         "badges": [
-          "TV EPISODE",
-          "オビ＝ワン潜入任務"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 85,
         "label": "S04E18",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "狙われた祭典",
         "titleEn": "Crisis on Naboo",
-        "characters": [],
-        "planet": "",
-        "arc": "オビ＝ワン潜入任務",
+        "openingQuote": "信頼は最大の贈り物だが、勝ち取らねばならない。",
+        "quoteTheme": "信頼",
         "badges": [
-          "TV EPISODE",
-          "オビ＝ワン潜入任務"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 86,
         "label": "S04E19",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "魔女狩り",
         "titleEn": "Massacre",
-        "characters": [],
-        "planet": "",
-        "arc": "モール帰還",
+        "openingQuote": "未来をつかむには、過去を手放す必要がある。",
+        "quoteTheme": "過去と未来",
         "badges": [
-          "TV EPISODE",
-          "モール帰還"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 87,
         "label": "S04E20",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "その手に掴むもの",
         "titleEn": "Bounty",
-        "characters": [],
-        "planet": "",
-        "arc": "モール帰還",
+        "openingQuote": "本質は変わらなくても、自己認識は変わる。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "モール帰還"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 88,
         "label": "S04E21",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "邂逅",
         "titleEn": "Brothers",
-        "characters": [],
-        "planet": "",
-        "arc": "モール帰還",
+        "openingQuote": "倒した敵は再び立つが、和解した敵は本当に克服できる。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "モール帰還"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 89,
         "label": "S04E22",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "復讐の狼煙",
         "titleEn": "Revenge",
-        "characters": [],
-        "planet": "",
-        "arc": "モール帰還",
+        "openingQuote": "敵の敵は味方になり得る。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "モール帰還"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 90,
         "label": "S05E02",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "オンダロン支援作戦",
         "titleEn": "A War on Two Fronts",
-        "characters": [],
-        "planet": "",
-        "arc": "オンダロン反乱",
+        "openingQuote": "恐怖は形を変えて使える武器。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "オンダロン反乱"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 91,
         "label": "S05E03",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "戦場を駆ける者たち",
         "titleEn": "Front Runners",
-        "characters": [],
-        "planet": "",
-        "arc": "オンダロン反乱",
+        "openingQuote": "何かを探すことは、その存在を信じること。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "オンダロン反乱"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 92,
         "label": "S05E04",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "王の奪還",
         "titleEn": "The Soft War",
-        "characters": [],
-        "planet": "",
-        "arc": "オンダロン反乱",
+        "openingQuote": "争いは真実から始まり、真実によって終わることが多い。",
+        "quoteTheme": "真実",
         "badges": [
-          "TV EPISODE",
-          "オンダロン反乱"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 93,
         "label": "S05E05",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ターニング・ポイント",
         "titleEn": "Tipping Points",
-        "characters": [],
-        "planet": "",
-        "arc": "オンダロン反乱",
+        "openingQuote": "反抗は変化を求める声。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "オンダロン反乱"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 94,
         "label": "S05E06",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ギャザリングへの挑戦",
         "titleEn": "The Gathering",
-        "characters": [],
-        "planet": "",
-        "arc": "ヤングリングの試練",
+        "openingQuote": "自分自身と向き合う者は、自分を見つける。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "ヤングリングの試練"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 95,
         "label": "S05E07",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "試される力",
         "titleEn": "A Test of Strength",
-        "characters": [],
-        "planet": "",
-        "arc": "ヤングリングの試練",
+        "openingQuote": "若者の力は過小評価されがち。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ヤングリングの試練"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 96,
         "label": "S05E08",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "アソーカを救え",
         "titleEn": "Bound for Rescue",
-        "characters": [],
-        "planet": "",
-        "arc": "ヤングリングの試練",
+        "openingQuote": "他者を救うことは、自分自身を救うことでもある。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "ヤングリングの試練"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 97,
         "label": "S05E09",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "求められる絆",
         "titleEn": "A Necessary Bond",
-        "characters": [],
-        "planet": "",
-        "arc": "ヤングリングの試練",
+        "openingQuote": "敵は慎重に選べ。最後の希望になるかもしれない。",
+        "quoteTheme": "希望",
         "badges": [
-          "TV EPISODE",
-          "ヤングリングの試練"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 98,
         "label": "S05E10",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "特務分隊結成",
         "titleEn": "Secret Weapons",
-        "characters": [],
-        "planet": "",
-        "arc": "D分隊",
+        "openingQuote": "屈辱を防ぐ唯一の盾は謙虚さ。",
+        "quoteTheme": "謙虚さ",
         "badges": [
-          "TV EPISODE",
-          "D分隊"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 99,
         "label": "S05E11",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "虚無の惑星",
         "titleEn": "A Sunny Day in the Void",
-        "characters": [],
-        "planet": "",
-        "arc": "D分隊",
+        "openingQuote": "すべてが絶望に見える時、真の英雄は希望を与える。",
+        "quoteTheme": "希望",
         "badges": [
-          "TV EPISODE",
-          "D分隊"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 100,
         "label": "S05E12",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "生きていた兵士",
         "titleEn": "Missing in Action",
-        "characters": [],
-        "planet": "",
-        "arc": "D分隊",
+        "openingQuote": "兵士の最強の武器は勇気。",
+        "quoteTheme": "勇気／強さ",
         "badges": [
-          "TV EPISODE",
-          "D分隊"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 101,
         "label": "S05E13",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "惨劇へのカウントダウン",
         "titleEn": "Point of No Return",
-        "characters": [],
-        "planet": "",
-        "arc": "D分隊",
+        "openingQuote": "他者を信頼しなければ成功はない。",
+        "quoteTheme": "信頼",
         "badges": [
-          "TV EPISODE",
-          "D分隊"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 102,
         "label": "S05E01",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "復活のシス",
         "titleEn": "Revival",
-        "characters": [],
-        "planet": "",
-        "arc": "シャドウ・コレクティブ",
+        "openingQuote": "人格の強さは、数の力に勝る。",
+        "quoteTheme": "強さ",
         "badges": [
-          "TV EPISODE",
-          "シャドウ・コレクティブ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 103,
         "label": "S05E14",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "悪の同盟",
         "titleEn": "Eminence",
-        "characters": [],
-        "planet": "",
-        "arc": "シャドウ・コレクティブ",
+        "openingQuote": "一つの光景にも多くの解釈がある。",
+        "quoteTheme": "光と闇",
         "badges": [
-          "TV EPISODE",
-          "シャドウ・コレクティブ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 104,
         "label": "S05E15",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "仕組まれた救世主",
         "titleEn": "Shades of Reason",
-        "characters": [],
-        "planet": "",
-        "arc": "シャドウ・コレクティブ",
+        "openingQuote": "同盟は本当の目的を隠すことがある。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "シャドウ・コレクティブ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 105,
         "label": "S05E16",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "歪みゆく惑星",
         "titleEn": "The Lawless",
-        "characters": [],
-        "planet": "",
-        "arc": "シャドウ・コレクティブ",
+        "openingQuote": "道徳心が英雄と悪党を分ける。",
+        "quoteTheme": "善悪",
         "badges": [
-          "TV EPISODE",
-          "シャドウ・コレクティブ"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 106,
         "label": "S05E17",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "爆破犯を追え",
         "titleEn": "Sabotage",
-        "characters": [],
-        "planet": "",
-        "arc": "アソーカ冤罪事件",
+        "openingQuote": "小さな疑いでも、大きな信念を揺るがす。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "アソーカ冤罪事件"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 107,
         "label": "S05E18",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "真実の行方",
         "titleEn": "The Jedi Who Knew Too Much",
-        "characters": [],
-        "planet": "",
-        "arc": "アソーカ冤罪事件",
+        "openingQuote": "勇気は自分を信じることから始まる。",
+        "quoteTheme": "勇気／自己理解",
         "badges": [
-          "TV EPISODE",
-          "アソーカ冤罪事件"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 108,
         "label": "S05E19",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "逃亡者アソーカ",
         "titleEn": "To Catch a Jedi",
-        "characters": [],
-        "planet": "",
-        "arc": "アソーカ冤罪事件",
+        "openingQuote": "追い詰められても、信頼できない者を頼るな。",
+        "quoteTheme": "信頼",
         "badges": [
-          "TV EPISODE",
-          "アソーカ冤罪事件"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 109,
         "label": "S05E20",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "ジェダイの過ち",
         "titleEn": "The Wrong Jedi",
-        "characters": [],
-        "planet": "",
-        "arc": "アソーカ冤罪事件",
+        "openingQuote": "どれほど暗くても、希望を捨ててはならない。",
+        "quoteTheme": "希望",
         "badges": [
-          "TV EPISODE",
-          "アソーカ冤罪事件"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 110,
         "label": "S06E01",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "未知の症状",
         "titleEn": "The Unknown",
-        "characters": [],
-        "planet": "",
-        "arc": "オーダー66の陰謀",
+        "openingQuote": "自分自身についての真実が、最も受け入れにくい。",
+        "quoteTheme": "真実／自己理解",
         "badges": [
-          "TV EPISODE",
-          "オーダー66の陰謀"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 111,
         "label": "S06E02",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "陰謀",
         "titleEn": "Conspiracy",
-        "characters": [],
-        "planet": "",
-        "arc": "オーダー66の陰謀",
+        "openingQuote": "賢い者は別の意見からも学ぶ。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "オーダー66の陰謀"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 112,
         "label": "S06E03",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "逃亡者",
         "titleEn": "Fugitive",
-        "characters": [],
-        "planet": "",
-        "arc": "オーダー66の陰謀",
+        "openingQuote": "迷った時は、根源を確かめよ。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "オーダー66の陰謀"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 113,
         "label": "S06E04",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "命令",
         "titleEn": "Orders",
-        "characters": [],
-        "planet": "",
-        "arc": "オーダー66の陰謀",
+        "openingQuote": "多数派の考えが正しいとは限らない。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "オーダー66の陰謀"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 114,
         "label": "S06E05",
-        "era": "22–19 BBY",
-        "titleJa": "古い友",
+        "era": "22～19 BBY",
+        "titleJa": "古い友達",
         "titleEn": "An Old Friend",
-        "characters": [],
-        "planet": "",
-        "arc": "クローヴィス危機",
+        "openingQuote": "愛することは信頼すること、信頼することは信じること。",
+        "quoteTheme": "信頼／愛",
         "badges": [
-          "TV EPISODE",
-          "クローヴィス危機"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 115,
         "label": "S06E06",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "クローヴィスの台頭",
         "titleEn": "The Rise of Clovis",
-        "characters": [],
-        "planet": "",
-        "arc": "クローヴィス危機",
+        "openingQuote": "嫉妬は混乱への道。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "クローヴィス危機"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 116,
         "label": "S06E07",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "危機的状況",
         "titleEn": "Crisis at the Heart",
-        "characters": [],
-        "planet": "",
-        "arc": "クローヴィス危機",
+        "openingQuote": "欺きは強欲が使う武器。",
+        "quoteTheme": "強さ",
         "badges": [
-          "TV EPISODE",
-          "クローヴィス危機"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 117,
         "label": "S06E08",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "失踪 パート1",
         "titleEn": "The Disappeared",
-        "characters": [],
-        "planet": "",
-        "arc": "バードータ失踪事件",
+        "openingQuote": "闇がなければ光も存在しない。",
+        "quoteTheme": "光と闇",
         "badges": [
-          "TV EPISODE",
-          "バードータ失踪事件"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 118,
         "label": "S06E09",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "失踪 パート2",
-        "titleEn": "The Disappeared Part II",
-        "characters": [],
-        "planet": "",
-        "arc": "バードータ失踪事件",
+        "titleEn": "The Disappeared: Part II",
+        "openingQuote": "知恵は賢者だけでなく、愚者の中にも生まれる。",
+        "quoteTheme": "知恵",
         "badges": [
-          "TV EPISODE",
-          "バードータ失踪事件"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 119,
         "label": "S06E10",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "失われた者",
         "titleEn": "The Lost One",
-        "characters": [],
-        "planet": "",
-        "arc": "ヨーダの試練",
+        "openingQuote": "失われたものは、思わぬ形で見つかる。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ヨーダの試練"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 120,
         "label": "S06E11",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "声",
         "titleEn": "Voices",
-        "characters": [],
-        "planet": "",
-        "arc": "ヨーダの試練",
+        "openingQuote": "狂気が真実へ続く道になることもある。",
+        "quoteTheme": "真実",
         "badges": [
-          "TV EPISODE",
-          "ヨーダの試練"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 121,
         "label": "S06E12",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "運命",
         "titleEn": "Destiny",
-        "characters": [],
-        "planet": "",
-        "arc": "ヨーダの試練",
+        "openingQuote": "死は終わりではなく、始まり。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "ヨーダの試練"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 122,
         "label": "S06E13",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "犠牲",
         "titleEn": "Sacrifice",
-        "characters": [],
-        "planet": "",
-        "arc": "ヨーダの試練",
+        "openingQuote": "恐れるすべてと向き合えば、自分自身から自由になれる。",
+        "quoteTheme": "恐怖／自己理解",
         "badges": [
-          "TV EPISODE",
-          "ヨーダの試練"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 123,
         "label": "S07E05",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "危険な道",
         "titleEn": "Gone with a Trace",
-        "characters": [],
-        "planet": "",
-        "arc": "マルテス姉妹",
+        "openingQuote": "道がなければ、自分で道を作れ。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "マルテス姉妹",
-          "FINAL SEASON"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 124,
         "label": "S07E06",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "取引なし",
         "titleEn": "Deal No Deal",
-        "characters": [],
-        "planet": "",
-        "arc": "マルテス姉妹",
+        "openingQuote": "過ちは価値ある教訓だが、気づくのが遅いことも多い。",
+        "quoteTheme": "人生訓",
         "badges": [
-          "TV EPISODE",
-          "マルテス姉妹",
-          "FINAL SEASON"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 125,
         "label": "S07E07",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "危険な借金",
         "titleEn": "Dangerous Debt",
-        "characters": [],
-        "planet": "",
-        "arc": "マルテス姉妹",
+        "openingQuote": "過去の自分が、今の自分を決める必要はない。",
+        "quoteTheme": "過去と未来／自己理解",
         "badges": [
-          "TV EPISODE",
-          "マルテス姉妹",
-          "FINAL SEASON"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 126,
         "label": "S07E08",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "再結束",
         "titleEn": "Together Again",
-        "characters": [],
-        "planet": "",
-        "arc": "マルテス姉妹",
+        "openingQuote": "自分を変えることはできても、自分自身から逃げることはできない。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "マルテス姉妹",
-          "FINAL SEASON"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 127,
         "label": "S07E01",
-        "era": "22–19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "不良分隊",
         "titleEn": "The Bad Batch",
-        "characters": [
-          "anakin"
-        ],
-        "planet": "",
-        "arc": "バッド・バッチ",
+        "openingQuote": "違いを受け入れることで、自分は完全になる。",
+        "quoteTheme": "自己理解",
         "badges": [
-          "TV EPISODE",
-          "バッド・バッチ",
-          "FINAL SEASON"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 128,
         "label": "S07E02",
-        "era": "22–19 BBY",
-        "titleJa": "遠い残響",
+        "era": "22～19 BBY",
+        "titleJa": "遠い記憶",
         "titleEn": "A Distant Echo",
-        "characters": [
-          "anakin"
-        ],
-        "planet": "",
-        "arc": "バッド・バッチ",
+        "openingQuote": "真実を探す旅は、信じることから始まる。",
+        "quoteTheme": "真実",
         "badges": [
-          "TV EPISODE",
-          "バッド・バッチ",
-          "FINAL SEASON"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 129,
         "label": "S07E03",
-        "era": "22–19 BBY",
-        "titleJa": "キーラダックの翼",
+        "era": "22～19 BBY",
+        "titleJa": "キーラダックの翼に乗って",
         "titleEn": "On the Wings of Keeradaks",
-        "characters": [
-          "anakin"
-        ],
-        "planet": "",
-        "arc": "バッド・バッチ",
+        "openingQuote": "生き残ることは、生きる道の一歩にすぎない。",
+        "quoteTheme": "生存",
         "badges": [
-          "TV EPISODE",
-          "バッド・バッチ",
-          "FINAL SEASON"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 130,
         "label": "S07E04",
-        "era": "22–19 BBY",
-        "titleJa": "未完の仕事",
+        "era": "22～19 BBY",
+        "titleJa": "未完の任務",
         "titleEn": "Unfinished Business",
-        "characters": [
-          "anakin"
-        ],
-        "planet": "",
-        "arc": "バッド・バッチ",
+        "openingQuote": "誰かに託した信頼は、その人が得た信頼でもある。",
+        "quoteTheme": "信頼",
         "badges": [
-          "TV EPISODE",
-          "バッド・バッチ",
-          "FINAL SEASON"
+          "冒頭格言あり"
         ]
       },
       {
         "order": 131,
         "label": "S07E09",
-        "era": "19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "忘れがたき旧友",
         "titleEn": "Old Friends Not Forgotten",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア包囲戦",
+        "openingQuote": "冒頭格言なし",
+        "quoteTheme": "なし",
         "badges": [
-          "TV EPISODE",
-          "マンダロア包囲戦",
-          "FINAL SEASON",
-          "EP3 同時進行"
+          "EP3 同時進行",
+          "冒頭格言あり"
         ]
       },
       {
         "order": 132,
         "label": "S07E10",
-        "era": "19 BBY",
-        "titleJa": "幻の弟子",
+        "era": "22～19 BBY",
+        "titleJa": "幻影の弟子",
         "titleEn": "The Phantom Apprentice",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア包囲戦",
+        "openingQuote": "冒頭格言なし",
+        "quoteTheme": "なし",
         "badges": [
-          "TV EPISODE",
-          "マンダロア包囲戦",
-          "FINAL SEASON",
-          "EP3 同時進行"
+          "EP3 同時進行",
+          "冒頭格言あり"
         ]
       },
       {
         "order": 133,
         "label": "S07E11",
-        "era": "19 BBY",
-        "titleJa": "打ち砕かれた忠誠",
+        "era": "22～19 BBY",
+        "titleJa": "崩壊",
         "titleEn": "Shattered",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア包囲戦",
+        "openingQuote": "冒頭格言なし",
+        "quoteTheme": "なし",
         "badges": [
-          "TV EPISODE",
-          "マンダロア包囲戦",
-          "FINAL SEASON",
-          "EP3 同時進行"
+          "EP3 同時進行",
+          "冒頭格言あり"
         ]
       },
       {
         "order": 134,
         "label": "S07E12",
-        "era": "19 BBY",
+        "era": "22～19 BBY",
         "titleJa": "勝利と死",
         "titleEn": "Victory and Death",
-        "characters": [
-          "ahsoka",
-          "bo-katan"
-        ],
-        "planet": "mandalore",
-        "arc": "マンダロア包囲戦",
+        "openingQuote": "冒頭格言なし",
+        "quoteTheme": "なし",
         "badges": [
-          "TV EPISODE",
-          "マンダロア包囲戦",
-          "FINAL SEASON",
           "EP3 同時進行",
-          "SERIES FINALE"
+          "冒頭格言あり"
         ]
       }
     ],
-    "episodeCount": 134
+    "mainCharacters": []
   },
   {
-    "id": "ep4",
+    "id": "ep3",
+    "sort": -19.5,
+    "era": "19 BBY",
+    "titleJa": "エピソード3／シスの復讐",
+    "titleEn": "Revenge of the Sith",
     "type": "movie",
-    "era": "0 BBY / 0 ABY",
-    "sort": 0,
-    "titleJa": "エピソード4／新たなる希望",
-    "titleEn": "A New Hope",
-    "summary": "ルークが銀河の運命へ踏み出す。",
-    "mainCharacters": [
-      "luke",
-      "vader"
-    ],
-    "planet": "tatooine",
+    "summary": "共和国が崩壊し、銀河帝国が誕生する。",
     "badges": [
       "MOVIE"
     ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "MOVIE",
-        "titleJa": "新たなる希望",
-        "titleEn": "A New Hope",
-        "characters": [
-          "luke",
-          "vader"
-        ],
-        "planet": "tatooine",
-        "badges": [
-          "MOVIE"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mando",
-    "type": "drama",
-    "era": "9 ABY",
-    "sort": 9,
-    "titleJa": "マンダロリアン",
-    "titleEn": "The Mandalorian",
-    "summary": "帝国崩壊後の銀河を旅する。",
-    "mainCharacters": [
-      "mando",
-      "grogu"
-    ],
-    "planet": "tatooine",
-    "badges": [
-      "LIVE ACTION"
-    ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "チャプター1：マンダロリアン",
-        "titleEn": "Chapter 1",
-        "characters": [
-          "mando",
-          "grogu"
-        ],
-        "planet": "tatooine",
-        "badges": [
-          "TV EPISODE"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "チャプター2：ザ・チャイルド",
-        "titleEn": "Chapter 2",
-        "characters": [
-          "mando",
-          "grogu"
-        ],
-        "planet": "tatooine",
-        "badges": [
-          "TV EPISODE"
-        ]
-      }
-    ]
+    "mainCharacters": [],
+    "episodes": []
   },
   {
     "id": "bad-batch",
-    "sort": 500,
-    "type": "animation",
-    "era": "19–18 BBY",
+    "sort": -19.4,
+    "era": "19～18 BBY",
     "titleJa": "スター・ウォーズ：バッド・バッチ",
     "titleEn": "Star Wars: The Bad Batch",
-    "summary": "全47話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
-    "badges": [
-      "全話収録",
-      "ANIMATION"
-    ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 3,
-        "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 4,
-        "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 5,
-        "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 6,
-        "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 7,
-        "label": "S01E07",
-        "titleJa": "シーズン1 第7話",
-        "titleEn": "Season 1, Episode 7",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 8,
-        "label": "S01E08",
-        "titleJa": "シーズン1 第8話",
-        "titleEn": "Season 1, Episode 8",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 9,
-        "label": "S01E09",
-        "titleJa": "シーズン1 第9話",
-        "titleEn": "Season 1, Episode 9",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 10,
-        "label": "S01E10",
-        "titleJa": "シーズン1 第10話",
-        "titleEn": "Season 1, Episode 10",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 11,
-        "label": "S01E11",
-        "titleJa": "シーズン1 第11話",
-        "titleEn": "Season 1, Episode 11",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 12,
-        "label": "S01E12",
-        "titleJa": "シーズン1 第12話",
-        "titleEn": "Season 1, Episode 12",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 13,
-        "label": "S01E13",
-        "titleJa": "シーズン1 第13話",
-        "titleEn": "Season 1, Episode 13",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 14,
-        "label": "S01E14",
-        "titleJa": "シーズン1 第14話",
-        "titleEn": "Season 1, Episode 14",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 15,
-        "label": "S01E15",
-        "titleJa": "シーズン1 第15話",
-        "titleEn": "Season 1, Episode 15",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 16,
-        "label": "S01E16",
-        "titleJa": "シーズン1 第16話",
-        "titleEn": "Season 1, Episode 16",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 17,
-        "label": "S02E01",
-        "titleJa": "シーズン2 第1話",
-        "titleEn": "Season 2, Episode 1",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 18,
-        "label": "S02E02",
-        "titleJa": "シーズン2 第2話",
-        "titleEn": "Season 2, Episode 2",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 19,
-        "label": "S02E03",
-        "titleJa": "シーズン2 第3話",
-        "titleEn": "Season 2, Episode 3",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 20,
-        "label": "S02E04",
-        "titleJa": "シーズン2 第4話",
-        "titleEn": "Season 2, Episode 4",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 21,
-        "label": "S02E05",
-        "titleJa": "シーズン2 第5話",
-        "titleEn": "Season 2, Episode 5",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 22,
-        "label": "S02E06",
-        "titleJa": "シーズン2 第6話",
-        "titleEn": "Season 2, Episode 6",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 23,
-        "label": "S02E07",
-        "titleJa": "シーズン2 第7話",
-        "titleEn": "Season 2, Episode 7",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 24,
-        "label": "S02E08",
-        "titleJa": "シーズン2 第8話",
-        "titleEn": "Season 2, Episode 8",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 25,
-        "label": "S02E09",
-        "titleJa": "シーズン2 第9話",
-        "titleEn": "Season 2, Episode 9",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 26,
-        "label": "S02E10",
-        "titleJa": "シーズン2 第10話",
-        "titleEn": "Season 2, Episode 10",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 27,
-        "label": "S02E11",
-        "titleJa": "シーズン2 第11話",
-        "titleEn": "Season 2, Episode 11",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 28,
-        "label": "S02E12",
-        "titleJa": "シーズン2 第12話",
-        "titleEn": "Season 2, Episode 12",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 29,
-        "label": "S02E13",
-        "titleJa": "シーズン2 第13話",
-        "titleEn": "Season 2, Episode 13",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 30,
-        "label": "S02E14",
-        "titleJa": "シーズン2 第14話",
-        "titleEn": "Season 2, Episode 14",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 31,
-        "label": "S02E15",
-        "titleJa": "シーズン2 第15話",
-        "titleEn": "Season 2, Episode 15",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 32,
-        "label": "S02E16",
-        "titleJa": "シーズン2 第16話",
-        "titleEn": "Season 2, Episode 16",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 33,
-        "label": "S03E01",
-        "titleJa": "シーズン3 第1話",
-        "titleEn": "Season 3, Episode 1",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 34,
-        "label": "S03E02",
-        "titleJa": "シーズン3 第2話",
-        "titleEn": "Season 3, Episode 2",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 35,
-        "label": "S03E03",
-        "titleJa": "シーズン3 第3話",
-        "titleEn": "Season 3, Episode 3",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 36,
-        "label": "S03E04",
-        "titleJa": "シーズン3 第4話",
-        "titleEn": "Season 3, Episode 4",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 37,
-        "label": "S03E05",
-        "titleJa": "シーズン3 第5話",
-        "titleEn": "Season 3, Episode 5",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 38,
-        "label": "S03E06",
-        "titleJa": "シーズン3 第6話",
-        "titleEn": "Season 3, Episode 6",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 39,
-        "label": "S03E07",
-        "titleJa": "シーズン3 第7話",
-        "titleEn": "Season 3, Episode 7",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 40,
-        "label": "S03E08",
-        "titleJa": "シーズン3 第8話",
-        "titleEn": "Season 3, Episode 8",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 41,
-        "label": "S03E09",
-        "titleJa": "シーズン3 第9話",
-        "titleEn": "Season 3, Episode 9",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 42,
-        "label": "S03E10",
-        "titleJa": "シーズン3 第10話",
-        "titleEn": "Season 3, Episode 10",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 43,
-        "label": "S03E11",
-        "titleJa": "シーズン3 第11話",
-        "titleEn": "Season 3, Episode 11",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 44,
-        "label": "S03E12",
-        "titleJa": "シーズン3 第12話",
-        "titleEn": "Season 3, Episode 12",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 45,
-        "label": "S03E13",
-        "titleJa": "シーズン3 第13話",
-        "titleEn": "Season 3, Episode 13",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 46,
-        "label": "S03E14",
-        "titleJa": "シーズン3 第14話",
-        "titleEn": "Season 3, Episode 14",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 47,
-        "label": "S03E15",
-        "titleJa": "シーズン3 第15話",
-        "titleEn": "Season 3, Episode 15",
-        "era": "19–18 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rebels",
-    "sort": 510,
     "type": "animation",
-    "era": "5–1 BBY",
-    "titleJa": "スター・ウォーズ 反乱者たち",
-    "titleEn": "Star Wars Rebels",
-    "summary": "全75話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "summary": "帝国成立直後を描く全3シーズンのアニメシリーズ。",
     "badges": [
-      "全話収録",
-      "ANIMATION"
+      "ANIMATION",
+      "3 SEASONS"
     ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 3,
-        "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 4,
-        "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 5,
-        "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 6,
-        "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 7,
-        "label": "S01E07",
-        "titleJa": "シーズン1 第7話",
-        "titleEn": "Season 1, Episode 7",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 8,
-        "label": "S01E08",
-        "titleJa": "シーズン1 第8話",
-        "titleEn": "Season 1, Episode 8",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 9,
-        "label": "S01E09",
-        "titleJa": "シーズン1 第9話",
-        "titleEn": "Season 1, Episode 9",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 10,
-        "label": "S01E10",
-        "titleJa": "シーズン1 第10話",
-        "titleEn": "Season 1, Episode 10",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 11,
-        "label": "S01E11",
-        "titleJa": "シーズン1 第11話",
-        "titleEn": "Season 1, Episode 11",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 12,
-        "label": "S01E12",
-        "titleJa": "シーズン1 第12話",
-        "titleEn": "Season 1, Episode 12",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 13,
-        "label": "S01E13",
-        "titleJa": "シーズン1 第13話",
-        "titleEn": "Season 1, Episode 13",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 14,
-        "label": "S01E14",
-        "titleJa": "シーズン1 第14話",
-        "titleEn": "Season 1, Episode 14",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 15,
-        "label": "S01E15",
-        "titleJa": "シーズン1 第15話",
-        "titleEn": "Season 1, Episode 15",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 16,
-        "label": "S02E01",
-        "titleJa": "シーズン2 第1話",
-        "titleEn": "Season 2, Episode 1",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 17,
-        "label": "S02E02",
-        "titleJa": "シーズン2 第2話",
-        "titleEn": "Season 2, Episode 2",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 18,
-        "label": "S02E03",
-        "titleJa": "シーズン2 第3話",
-        "titleEn": "Season 2, Episode 3",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 19,
-        "label": "S02E04",
-        "titleJa": "シーズン2 第4話",
-        "titleEn": "Season 2, Episode 4",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 20,
-        "label": "S02E05",
-        "titleJa": "シーズン2 第5話",
-        "titleEn": "Season 2, Episode 5",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 21,
-        "label": "S02E06",
-        "titleJa": "シーズン2 第6話",
-        "titleEn": "Season 2, Episode 6",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 22,
-        "label": "S02E07",
-        "titleJa": "シーズン2 第7話",
-        "titleEn": "Season 2, Episode 7",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 23,
-        "label": "S02E08",
-        "titleJa": "シーズン2 第8話",
-        "titleEn": "Season 2, Episode 8",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 24,
-        "label": "S02E09",
-        "titleJa": "シーズン2 第9話",
-        "titleEn": "Season 2, Episode 9",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 25,
-        "label": "S02E10",
-        "titleJa": "シーズン2 第10話",
-        "titleEn": "Season 2, Episode 10",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 26,
-        "label": "S02E11",
-        "titleJa": "シーズン2 第11話",
-        "titleEn": "Season 2, Episode 11",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 27,
-        "label": "S02E12",
-        "titleJa": "シーズン2 第12話",
-        "titleEn": "Season 2, Episode 12",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 28,
-        "label": "S02E13",
-        "titleJa": "シーズン2 第13話",
-        "titleEn": "Season 2, Episode 13",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 29,
-        "label": "S02E14",
-        "titleJa": "シーズン2 第14話",
-        "titleEn": "Season 2, Episode 14",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 30,
-        "label": "S02E15",
-        "titleJa": "シーズン2 第15話",
-        "titleEn": "Season 2, Episode 15",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 31,
-        "label": "S02E16",
-        "titleJa": "シーズン2 第16話",
-        "titleEn": "Season 2, Episode 16",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 32,
-        "label": "S02E17",
-        "titleJa": "シーズン2 第17話",
-        "titleEn": "Season 2, Episode 17",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 33,
-        "label": "S02E18",
-        "titleJa": "シーズン2 第18話",
-        "titleEn": "Season 2, Episode 18",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 34,
-        "label": "S02E19",
-        "titleJa": "シーズン2 第19話",
-        "titleEn": "Season 2, Episode 19",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 35,
-        "label": "S02E20",
-        "titleJa": "シーズン2 第20話",
-        "titleEn": "Season 2, Episode 20",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 36,
-        "label": "S02E21",
-        "titleJa": "シーズン2 第21話",
-        "titleEn": "Season 2, Episode 21",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 37,
-        "label": "S02E22",
-        "titleJa": "シーズン2 第22話",
-        "titleEn": "Season 2, Episode 22",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 38,
-        "label": "S03E01",
-        "titleJa": "シーズン3 第1話",
-        "titleEn": "Season 3, Episode 1",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 39,
-        "label": "S03E02",
-        "titleJa": "シーズン3 第2話",
-        "titleEn": "Season 3, Episode 2",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 40,
-        "label": "S03E03",
-        "titleJa": "シーズン3 第3話",
-        "titleEn": "Season 3, Episode 3",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 41,
-        "label": "S03E04",
-        "titleJa": "シーズン3 第4話",
-        "titleEn": "Season 3, Episode 4",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 42,
-        "label": "S03E05",
-        "titleJa": "シーズン3 第5話",
-        "titleEn": "Season 3, Episode 5",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 43,
-        "label": "S03E06",
-        "titleJa": "シーズン3 第6話",
-        "titleEn": "Season 3, Episode 6",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 44,
-        "label": "S03E07",
-        "titleJa": "シーズン3 第7話",
-        "titleEn": "Season 3, Episode 7",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 45,
-        "label": "S03E08",
-        "titleJa": "シーズン3 第8話",
-        "titleEn": "Season 3, Episode 8",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 46,
-        "label": "S03E09",
-        "titleJa": "シーズン3 第9話",
-        "titleEn": "Season 3, Episode 9",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 47,
-        "label": "S03E10",
-        "titleJa": "シーズン3 第10話",
-        "titleEn": "Season 3, Episode 10",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 48,
-        "label": "S03E11",
-        "titleJa": "シーズン3 第11話",
-        "titleEn": "Season 3, Episode 11",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 49,
-        "label": "S03E12",
-        "titleJa": "シーズン3 第12話",
-        "titleEn": "Season 3, Episode 12",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 50,
-        "label": "S03E13",
-        "titleJa": "シーズン3 第13話",
-        "titleEn": "Season 3, Episode 13",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 51,
-        "label": "S03E14",
-        "titleJa": "シーズン3 第14話",
-        "titleEn": "Season 3, Episode 14",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 52,
-        "label": "S03E15",
-        "titleJa": "シーズン3 第15話",
-        "titleEn": "Season 3, Episode 15",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 53,
-        "label": "S03E16",
-        "titleJa": "シーズン3 第16話",
-        "titleEn": "Season 3, Episode 16",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 54,
-        "label": "S03E17",
-        "titleJa": "シーズン3 第17話",
-        "titleEn": "Season 3, Episode 17",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 55,
-        "label": "S03E18",
-        "titleJa": "シーズン3 第18話",
-        "titleEn": "Season 3, Episode 18",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 56,
-        "label": "S03E19",
-        "titleJa": "シーズン3 第19話",
-        "titleEn": "Season 3, Episode 19",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 57,
-        "label": "S03E20",
-        "titleJa": "シーズン3 第20話",
-        "titleEn": "Season 3, Episode 20",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 58,
-        "label": "S03E21",
-        "titleJa": "シーズン3 第21話",
-        "titleEn": "Season 3, Episode 21",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 59,
-        "label": "S03E22",
-        "titleJa": "シーズン3 第22話",
-        "titleEn": "Season 3, Episode 22",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 60,
-        "label": "S04E01",
-        "titleJa": "シーズン4 第1話",
-        "titleEn": "Season 4, Episode 1",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 61,
-        "label": "S04E02",
-        "titleJa": "シーズン4 第2話",
-        "titleEn": "Season 4, Episode 2",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 62,
-        "label": "S04E03",
-        "titleJa": "シーズン4 第3話",
-        "titleEn": "Season 4, Episode 3",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 63,
-        "label": "S04E04",
-        "titleJa": "シーズン4 第4話",
-        "titleEn": "Season 4, Episode 4",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 64,
-        "label": "S04E05",
-        "titleJa": "シーズン4 第5話",
-        "titleEn": "Season 4, Episode 5",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 65,
-        "label": "S04E06",
-        "titleJa": "シーズン4 第6話",
-        "titleEn": "Season 4, Episode 6",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 66,
-        "label": "S04E07",
-        "titleJa": "シーズン4 第7話",
-        "titleEn": "Season 4, Episode 7",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 67,
-        "label": "S04E08",
-        "titleJa": "シーズン4 第8話",
-        "titleEn": "Season 4, Episode 8",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 68,
-        "label": "S04E09",
-        "titleJa": "シーズン4 第9話",
-        "titleEn": "Season 4, Episode 9",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 69,
-        "label": "S04E10",
-        "titleJa": "シーズン4 第10話",
-        "titleEn": "Season 4, Episode 10",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 70,
-        "label": "S04E11",
-        "titleJa": "シーズン4 第11話",
-        "titleEn": "Season 4, Episode 11",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 71,
-        "label": "S04E12",
-        "titleJa": "シーズン4 第12話",
-        "titleEn": "Season 4, Episode 12",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 72,
-        "label": "S04E13",
-        "titleJa": "シーズン4 第13話",
-        "titleEn": "Season 4, Episode 13",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 73,
-        "label": "S04E14",
-        "titleJa": "シーズン4 第14話",
-        "titleEn": "Season 4, Episode 14",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 74,
-        "label": "S04E15",
-        "titleJa": "シーズン4 第15話",
-        "titleEn": "Season 4, Episode 15",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 75,
-        "label": "S04E16",
-        "titleJa": "シーズン4 第16話",
-        "titleEn": "Season 4, Episode 16",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tales-jedi",
-    "sort": 520,
-    "type": "animation",
-    "era": "68–19 BBY",
-    "titleJa": "テイルズ・オブ・ジェダイ",
-    "titleEn": "Tales of the Jedi",
-    "summary": "全6話を一覧表示。各話の詳細情報は順次拡張可能。",
     "mainCharacters": [],
-    "planet": null,
-    "badges": [
-      "全話収録",
-      "ANIMATION"
-    ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "68–19 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "68–19 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 3,
-        "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "68–19 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 4,
-        "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "68–19 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 5,
-        "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "68–19 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 6,
-        "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "68–19 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      }
-    ]
+    "episodes": []
   },
   {
     "id": "tales-empire",
-    "sort": 530,
-    "type": "animation",
-    "era": "20–9 BBY",
-    "titleJa": "テイルズ・オブ・エンパイア",
+    "sort": -18.5,
+    "era": "帝国初期",
+    "titleJa": "テイルズ・オブ・ジ・エンパイア",
     "titleEn": "Tales of the Empire",
-    "summary": "全6話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "type": "animation",
+    "summary": "モーガン・エルズベスとバリス・オフィーの短編。",
     "badges": [
-      "全話収録",
       "ANIMATION"
     ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "20–9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "20–9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 3,
-        "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "20–9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 4,
-        "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "20–9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 5,
-        "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "20–9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 6,
-        "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "20–9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      }
-    ]
+    "mainCharacters": [],
+    "episodes": []
   },
   {
-    "id": "tales-underworld",
-    "sort": 540,
-    "type": "animation",
-    "era": "帝国時代",
-    "titleJa": "テイルズ・オブ・アンダーワールド",
-    "titleEn": "Tales of the Underworld",
-    "summary": "全6話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "id": "solo",
+    "sort": -13,
+    "era": "13～10 BBY",
+    "titleJa": "ハン・ソロ／スター・ウォーズ・ストーリー",
+    "titleEn": "Solo: A Star Wars Story",
+    "type": "movie",
+    "summary": "若きハン・ソロの冒険。",
     "badges": [
-      "全話収録",
-      "ANIMATION"
+      "MOVIE"
     ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "帝国時代",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "帝国時代",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 3,
-        "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "帝国時代",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 4,
-        "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "帝国時代",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 5,
-        "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "帝国時代",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 6,
-        "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "帝国時代",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      }
-    ]
+    "mainCharacters": [],
+    "episodes": []
   },
   {
     "id": "obi-wan",
-    "sort": 550,
-    "type": "series",
+    "sort": -9,
     "era": "9 BBY",
     "titleJa": "オビ＝ワン・ケノービ",
     "titleEn": "Obi-Wan Kenobi",
-    "summary": "全6話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "type": "live",
+    "summary": "隠遁生活を送るオビ＝ワンとダース・ベイダーの再会。",
     "badges": [
-      "全話収録",
-      "SERIES"
+      "LIVE ACTION",
+      "6 EPISODES"
     ],
     "episodes": [
       {
         "order": 1,
+        "season": 1,
+        "episode": 1,
         "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート1",
+        "titleEn": "Part I",
+        "badges": []
       },
       {
         "order": 2,
+        "season": 1,
+        "episode": 2,
         "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート2",
+        "titleEn": "Part II",
+        "badges": []
       },
       {
         "order": 3,
+        "season": 1,
+        "episode": 3,
         "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート3",
+        "titleEn": "Part III",
+        "badges": []
       },
       {
         "order": 4,
+        "season": 1,
+        "episode": 4,
         "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート4",
+        "titleEn": "Part IV",
+        "badges": []
       },
       {
         "order": 5,
+        "season": 1,
+        "episode": 5,
         "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート5",
+        "titleEn": "Part V",
+        "badges": []
       },
       {
         "order": 6,
+        "season": 1,
+        "episode": 6,
         "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "9 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート6",
+        "titleEn": "Part VI",
+        "badges": []
       }
-    ]
+    ],
+    "mainCharacters": []
+  },
+  {
+    "id": "rebels",
+    "sort": -5.2,
+    "era": "5～0 BBY",
+    "titleJa": "スター・ウォーズ 反乱者たち",
+    "titleEn": "Star Wars Rebels",
+    "type": "animation",
+    "summary": "反乱同盟軍の誕生へつながるゴースト・チームの物語。",
+    "badges": [
+      "ANIMATION",
+      "4 SEASONS"
+    ],
+    "mainCharacters": [],
+    "episodes": []
   },
   {
     "id": "andor",
-    "sort": 560,
-    "type": "series",
-    "era": "5–1 BBY",
-    "titleJa": "キャシアン・アンドー",
-    "titleEn": "Andor",
-    "summary": "全24話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "sort": -5.1,
+    "era": "5～0 BBY",
+    "titleJa": "スター・ウォーズ：キャシアン・アンドー",
+    "titleEn": "Star Wars: Andor",
+    "type": "live",
+    "summary": "キャシアン・アンドーと反乱運動の誕生を描く全2シーズン。",
     "badges": [
-      "全話収録",
-      "SERIES"
+      "LIVE ACTION",
+      "24 EPISODES"
     ],
     "episodes": [
       {
         "order": 1,
+        "season": 1,
+        "episode": 1,
         "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "キャサ",
+        "titleEn": "Kassa",
+        "badges": []
       },
       {
         "order": 2,
+        "season": 1,
+        "episode": 2,
         "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "俺だったら",
+        "titleEn": "That Would Be Me",
+        "badges": []
       },
       {
         "order": 3,
+        "season": 1,
+        "episode": 3,
         "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "報い",
+        "titleEn": "Reckoning",
+        "badges": []
       },
       {
         "order": 4,
+        "season": 1,
+        "episode": 4,
         "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "アルダーニ",
+        "titleEn": "Aldhani",
+        "badges": []
       },
       {
         "order": 5,
+        "season": 1,
+        "episode": 5,
         "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "斧は忘れる",
+        "titleEn": "The Axe Forgets",
+        "badges": []
       },
       {
         "order": 6,
+        "season": 1,
+        "episode": 6,
         "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "目",
+        "titleEn": "The Eye",
+        "badges": []
       },
       {
         "order": 7,
+        "season": 1,
+        "episode": 7,
         "label": "S01E07",
-        "titleJa": "シーズン1 第7話",
-        "titleEn": "Season 1, Episode 7",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "声明",
+        "titleEn": "Announcement",
+        "badges": []
       },
       {
         "order": 8,
+        "season": 1,
+        "episode": 8,
         "label": "S01E08",
-        "titleJa": "シーズン1 第8話",
-        "titleEn": "Season 1, Episode 8",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "ナーキーナ・ファイブ",
+        "titleEn": "Narkina 5",
+        "badges": []
       },
       {
         "order": 9,
+        "season": 1,
+        "episode": 9,
         "label": "S01E09",
-        "titleJa": "シーズン1 第9話",
-        "titleEn": "Season 1, Episode 9",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "誰も聞いていない！",
+        "titleEn": "Nobody's Listening!",
+        "badges": []
       },
       {
         "order": 10,
+        "season": 1,
+        "episode": 10,
         "label": "S01E10",
-        "titleJa": "シーズン1 第10話",
-        "titleEn": "Season 1, Episode 10",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "脱出への道",
+        "titleEn": "One Way Out",
+        "badges": []
       },
       {
         "order": 11,
+        "season": 1,
+        "episode": 11,
         "label": "S01E11",
-        "titleJa": "シーズン1 第11話",
-        "titleEn": "Season 1, Episode 11",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "フェリックスの娘",
+        "titleEn": "Daughter of Ferrix",
+        "badges": []
       },
       {
         "order": 12,
+        "season": 1,
+        "episode": 12,
         "label": "S01E12",
-        "titleJa": "シーズン1 第12話",
-        "titleEn": "Season 1, Episode 12",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "リックス・ロード",
+        "titleEn": "Rix Road",
+        "badges": []
       },
       {
         "order": 13,
+        "season": 2,
+        "episode": 1,
         "label": "S02E01",
-        "titleJa": "シーズン2 第1話",
-        "titleEn": "Season 2, Episode 1",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "1年後",
+        "titleEn": "One Year Later",
+        "badges": []
       },
       {
         "order": 14,
+        "season": 2,
+        "episode": 2,
         "label": "S02E02",
-        "titleJa": "シーズン2 第2話",
-        "titleEn": "Season 2, Episode 2",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "サグロナ・ティーマ",
+        "titleEn": "Sagrona Teema",
+        "badges": []
       },
       {
         "order": 15,
+        "season": 2,
+        "episode": 3,
         "label": "S02E03",
-        "titleJa": "シーズン2 第3話",
-        "titleEn": "Season 2, Episode 3",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "収穫",
+        "titleEn": "Harvest",
+        "badges": []
       },
       {
         "order": 16,
+        "season": 2,
+        "episode": 4,
         "label": "S02E04",
-        "titleJa": "シーズン2 第4話",
-        "titleEn": "Season 2, Episode 4",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "ゴーマンに行ったことは？",
+        "titleEn": "Ever Been to Ghorman?",
+        "badges": []
       },
       {
         "order": 17,
+        "season": 2,
+        "episode": 5,
         "label": "S02E05",
-        "titleJa": "シーズン2 第5話",
-        "titleEn": "Season 2, Episode 5",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "友は至る所に",
+        "titleEn": "I Have Friends Everywhere",
+        "badges": []
       },
       {
         "order": 18,
+        "season": 2,
+        "episode": 6,
         "label": "S02E06",
-        "titleJa": "シーズン2 第6話",
-        "titleEn": "Season 2, Episode 6",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "なんて華やかな夜",
+        "titleEn": "What a Festive Evening",
+        "badges": []
       },
       {
         "order": 19,
+        "season": 2,
+        "episode": 7,
         "label": "S02E07",
-        "titleJa": "シーズン2 第7話",
-        "titleEn": "Season 2, Episode 7",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "使者",
+        "titleEn": "Messenger",
+        "badges": []
       },
       {
         "order": 20,
+        "season": 2,
+        "episode": 8,
         "label": "S02E08",
-        "titleJa": "シーズン2 第8話",
-        "titleEn": "Season 2, Episode 8",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "お前は何者だ？",
+        "titleEn": "Who Are You?",
+        "badges": []
       },
       {
         "order": 21,
+        "season": 2,
+        "episode": 9,
         "label": "S02E09",
-        "titleJa": "シーズン2 第9話",
-        "titleEn": "Season 2, Episode 9",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "反乱軍へようこそ",
+        "titleEn": "Welcome to the Rebellion",
+        "badges": []
       },
       {
         "order": 22,
+        "season": 2,
+        "episode": 10,
         "label": "S02E10",
-        "titleJa": "シーズン2 第10話",
-        "titleEn": "Season 2, Episode 10",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "止めてくれ",
+        "titleEn": "Make It Stop",
+        "badges": []
       },
       {
         "order": 23,
+        "season": 2,
+        "episode": 11,
         "label": "S02E11",
-        "titleJa": "シーズン2 第11話",
-        "titleEn": "Season 2, Episode 11",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "ほかに誰が知っている？",
+        "titleEn": "Who Else Knows?",
+        "badges": []
       },
       {
         "order": 24,
+        "season": 2,
+        "episode": 12,
         "label": "S02E12",
-        "titleJa": "シーズン2 第12話",
-        "titleEn": "Season 2, Episode 12",
-        "era": "5–1 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "ジェダ、カイバー、アーソ",
+        "titleEn": "Jedha, Kyber, Erso",
+        "badges": []
       }
-    ]
+    ],
+    "mainCharacters": []
   },
   {
-    "id": "ahsoka",
-    "sort": 570,
-    "type": "series",
-    "era": "9 ABY",
-    "titleJa": "アソーカ",
-    "titleEn": "Ahsoka",
-    "summary": "全8話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "id": "rogue-one",
+    "sort": -0.2,
+    "era": "0 BBY",
+    "titleJa": "ローグ・ワン／スター・ウォーズ・ストーリー",
+    "titleEn": "Rogue One: A Star Wars Story",
+    "type": "movie",
+    "summary": "デス・スター設計図を奪取する反乱軍の決死作戦。",
     "badges": [
-      "全話収録",
-      "SERIES"
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "ep4",
+    "sort": 0,
+    "era": "0 BBY / 0 ABY",
+    "titleJa": "エピソード4／新たなる希望",
+    "titleEn": "A New Hope",
+    "type": "movie",
+    "summary": "ルークが銀河の運命へ踏み出す。",
+    "badges": [
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "ep5",
+    "sort": 3,
+    "era": "3 ABY",
+    "titleJa": "エピソード5／帝国の逆襲",
+    "titleEn": "The Empire Strikes Back",
+    "type": "movie",
+    "summary": "帝国の追撃とルークの修行。",
+    "badges": [
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "ep6",
+    "sort": 4,
+    "era": "4 ABY",
+    "titleJa": "エピソード6／ジェダイの帰還",
+    "titleEn": "Return of the Jedi",
+    "type": "movie",
+    "summary": "反乱軍と帝国の決戦。",
+    "badges": [
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "mando-s1",
+    "sort": 9.01,
+    "era": "9 ABY",
+    "titleJa": "マンダロリアン シーズン1",
+    "titleEn": "The Mandalorian Season 1",
+    "type": "live",
+    "summary": "帝国崩壊後の銀河を旅する賞金稼ぎの物語。",
+    "badges": [
+      "LIVE ACTION",
+      "8 EPISODES"
     ],
     "episodes": [
       {
         "order": 1,
+        "season": 1,
+        "episode": 1,
         "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター1：マンダロリアン",
+        "titleEn": "Chapter 1: The Mandalorian",
+        "badges": []
       },
       {
         "order": 2,
+        "season": 1,
+        "episode": 2,
         "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター2：ザ・チャイルド",
+        "titleEn": "Chapter 2: The Child",
+        "badges": []
       },
       {
         "order": 3,
+        "season": 1,
+        "episode": 3,
         "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター3：罪",
+        "titleEn": "Chapter 3: The Sin",
+        "badges": []
       },
       {
         "order": 4,
+        "season": 1,
+        "episode": 4,
         "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター4：楽園",
+        "titleEn": "Chapter 4: Sanctuary",
+        "badges": []
       },
       {
         "order": 5,
+        "season": 1,
+        "episode": 5,
         "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター5：ガンファイター",
+        "titleEn": "Chapter 5: The Gunslinger",
+        "badges": []
       },
       {
         "order": 6,
+        "season": 1,
+        "episode": 6,
         "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター6：囚人",
+        "titleEn": "Chapter 6: The Prisoner",
+        "badges": []
       },
       {
         "order": 7,
+        "season": 1,
+        "episode": 7,
         "label": "S01E07",
-        "titleJa": "シーズン1 第7話",
-        "titleEn": "Season 1, Episode 7",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター7：罰",
+        "titleEn": "Chapter 7: The Reckoning",
+        "badges": []
       },
       {
         "order": 8,
+        "season": 1,
+        "episode": 8,
         "label": "S01E08",
-        "titleJa": "シーズン1 第8話",
-        "titleEn": "Season 1, Episode 8",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター8：贖罪",
+        "titleEn": "Chapter 8: Redemption",
+        "badges": []
       }
-    ]
+    ],
+    "mainCharacters": []
   },
   {
-    "id": "mandalorian",
-    "sort": 580,
-    "type": "series",
+    "id": "mando-s2",
+    "sort": 9.02,
     "era": "9 ABY",
-    "titleJa": "マンダロリアン",
-    "titleEn": "The Mandalorian",
-    "summary": "全24話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "titleJa": "マンダロリアン シーズン2",
+    "titleEn": "The Mandalorian Season 2",
+    "type": "live",
+    "summary": "ザ・チャイルドを同族へ届ける旅。",
     "badges": [
-      "全話収録",
-      "SERIES"
+      "LIVE ACTION",
+      "8 EPISODES"
     ],
     "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 3,
-        "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 4,
-        "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 5,
-        "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 6,
-        "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 7,
-        "label": "S01E07",
-        "titleJa": "シーズン1 第7話",
-        "titleEn": "Season 1, Episode 7",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 8,
-        "label": "S01E08",
-        "titleJa": "シーズン1 第8話",
-        "titleEn": "Season 1, Episode 8",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
       {
         "order": 9,
+        "season": 2,
+        "episode": 1,
         "label": "S02E01",
-        "titleJa": "シーズン2 第1話",
-        "titleEn": "Season 2, Episode 1",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター9：保安官",
+        "titleEn": "Chapter 9: The Marshal",
+        "badges": []
       },
       {
         "order": 10,
+        "season": 2,
+        "episode": 2,
         "label": "S02E02",
-        "titleJa": "シーズン2 第2話",
-        "titleEn": "Season 2, Episode 2",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター10：乗客",
+        "titleEn": "Chapter 10: The Passenger",
+        "badges": []
       },
       {
         "order": 11,
+        "season": 2,
+        "episode": 3,
         "label": "S02E03",
-        "titleJa": "シーズン2 第3話",
-        "titleEn": "Season 2, Episode 3",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター11：後継者",
+        "titleEn": "Chapter 11: The Heiress",
+        "badges": []
       },
       {
         "order": 12,
+        "season": 2,
+        "episode": 4,
         "label": "S02E04",
-        "titleJa": "シーズン2 第4話",
-        "titleEn": "Season 2, Episode 4",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター12：包囲",
+        "titleEn": "Chapter 12: The Siege",
+        "badges": []
       },
       {
         "order": 13,
+        "season": 2,
+        "episode": 5,
         "label": "S02E05",
-        "titleJa": "シーズン2 第5話",
-        "titleEn": "Season 2, Episode 5",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター13：ジェダイ",
+        "titleEn": "Chapter 13: The Jedi",
+        "badges": []
       },
       {
         "order": 14,
+        "season": 2,
+        "episode": 6,
         "label": "S02E06",
-        "titleJa": "シーズン2 第6話",
-        "titleEn": "Season 2, Episode 6",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター14：悲劇",
+        "titleEn": "Chapter 14: The Tragedy",
+        "badges": []
       },
       {
         "order": 15,
+        "season": 2,
+        "episode": 7,
         "label": "S02E07",
-        "titleJa": "シーズン2 第7話",
-        "titleEn": "Season 2, Episode 7",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター15：信奉者",
+        "titleEn": "Chapter 15: The Believer",
+        "badges": []
       },
       {
         "order": 16,
+        "season": 2,
+        "episode": 8,
         "label": "S02E08",
-        "titleJa": "シーズン2 第8話",
-        "titleEn": "Season 2, Episode 8",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 17,
-        "label": "S03E01",
-        "titleJa": "シーズン3 第1話",
-        "titleEn": "Season 3, Episode 1",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 18,
-        "label": "S03E02",
-        "titleJa": "シーズン3 第2話",
-        "titleEn": "Season 3, Episode 2",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 19,
-        "label": "S03E03",
-        "titleJa": "シーズン3 第3話",
-        "titleEn": "Season 3, Episode 3",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 20,
-        "label": "S03E04",
-        "titleJa": "シーズン3 第4話",
-        "titleEn": "Season 3, Episode 4",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 21,
-        "label": "S03E05",
-        "titleJa": "シーズン3 第5話",
-        "titleEn": "Season 3, Episode 5",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 22,
-        "label": "S03E06",
-        "titleJa": "シーズン3 第6話",
-        "titleEn": "Season 3, Episode 6",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 23,
-        "label": "S03E07",
-        "titleJa": "シーズン3 第7話",
-        "titleEn": "Season 3, Episode 7",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 24,
-        "label": "S03E08",
-        "titleJa": "シーズン3 第8話",
-        "titleEn": "Season 3, Episode 8",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター16：救出",
+        "titleEn": "Chapter 16: The Rescue",
+        "badges": []
       }
-    ]
+    ],
+    "mainCharacters": []
   },
   {
-    "id": "boba-fett",
-    "sort": 590,
-    "type": "series",
+    "id": "boba",
+    "sort": 9.03,
     "era": "9 ABY",
     "titleJa": "ボバ・フェット／The Book of Boba Fett",
     "titleEn": "The Book of Boba Fett",
-    "summary": "全7話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "type": "live",
+    "summary": "ボバ・フェットがタトゥイーンの支配権を巡って戦う。",
     "badges": [
-      "全話収録",
-      "SERIES"
+      "LIVE ACTION",
+      "7 EPISODES"
     ],
     "episodes": [
       {
         "order": 1,
+        "season": 1,
+        "episode": 1,
         "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター1：異邦人",
+        "titleEn": "Chapter 1: Stranger in a Strange Land",
+        "badges": []
       },
       {
         "order": 2,
+        "season": 1,
+        "episode": 2,
         "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター2：タトゥイーンの部族",
+        "titleEn": "Chapter 2: The Tribes of Tatooine",
+        "badges": []
       },
       {
         "order": 3,
+        "season": 1,
+        "episode": 3,
         "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター3：モス・エスパの町",
+        "titleEn": "Chapter 3: The Streets of Mos Espa",
+        "badges": []
       },
       {
         "order": 4,
+        "season": 1,
+        "episode": 4,
         "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター4：迫り来る嵐",
+        "titleEn": "Chapter 4: The Gathering Storm",
+        "badges": []
       },
       {
         "order": 5,
+        "season": 1,
+        "episode": 5,
         "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター5：マンダロリアンの帰還",
+        "titleEn": "Chapter 5: Return of the Mandalorian",
+        "badges": []
       },
       {
         "order": 6,
+        "season": 1,
+        "episode": 6,
         "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター6：砂漠から来た流れ者",
+        "titleEn": "Chapter 6: From the Desert Comes a Stranger",
+        "badges": []
       },
       {
         "order": 7,
+        "season": 1,
+        "episode": 7,
         "label": "S01E07",
-        "titleJa": "シーズン1 第7話",
-        "titleEn": "Season 1, Episode 7",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "チャプター7：名誉のために",
+        "titleEn": "Chapter 7: In the Name of Honor",
+        "badges": []
       }
-    ]
+    ],
+    "mainCharacters": []
   },
   {
-    "id": "acolyte",
-    "sort": 600,
-    "type": "series",
-    "era": "132 BBY",
-    "titleJa": "スター・ウォーズ：アコライト",
-    "titleEn": "The Acolyte",
-    "summary": "全8話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "id": "mando-s3",
+    "sort": 9.04,
+    "era": "9 ABY",
+    "titleJa": "マンダロリアン シーズン3",
+    "titleEn": "The Mandalorian Season 3",
+    "type": "live",
+    "summary": "マンダロア再興を目指す旅。",
     "badges": [
-      "全話収録",
-      "SERIES"
+      "LIVE ACTION",
+      "8 EPISODES"
+    ],
+    "episodes": [
+      {
+        "order": 17,
+        "season": 3,
+        "episode": 1,
+        "label": "S03E01",
+        "titleJa": "チャプター17：背教者",
+        "titleEn": "Chapter 17: The Apostate",
+        "badges": []
+      },
+      {
+        "order": 18,
+        "season": 3,
+        "episode": 2,
+        "label": "S03E02",
+        "titleJa": "チャプター18：マンダロアの鉱山",
+        "titleEn": "Chapter 18: The Mines of Mandalore",
+        "badges": []
+      },
+      {
+        "order": 19,
+        "season": 3,
+        "episode": 3,
+        "label": "S03E03",
+        "titleJa": "チャプター19：改心",
+        "titleEn": "Chapter 19: The Convert",
+        "badges": []
+      },
+      {
+        "order": 20,
+        "season": 3,
+        "episode": 4,
+        "label": "S03E04",
+        "titleJa": "チャプター20：孤児",
+        "titleEn": "Chapter 20: The Foundling",
+        "badges": []
+      },
+      {
+        "order": 21,
+        "season": 3,
+        "episode": 5,
+        "label": "S03E05",
+        "titleJa": "チャプター21：海賊",
+        "titleEn": "Chapter 21: The Pirate",
+        "badges": []
+      },
+      {
+        "order": 22,
+        "season": 3,
+        "episode": 6,
+        "label": "S03E06",
+        "titleJa": "チャプター22：傭兵",
+        "titleEn": "Chapter 22: Guns for Hire",
+        "badges": []
+      },
+      {
+        "order": 23,
+        "season": 3,
+        "episode": 7,
+        "label": "S03E07",
+        "titleJa": "チャプター23：スパイ",
+        "titleEn": "Chapter 23: The Spies",
+        "badges": []
+      },
+      {
+        "order": 24,
+        "season": 3,
+        "episode": 8,
+        "label": "S03E08",
+        "titleJa": "チャプター24：帰還",
+        "titleEn": "Chapter 24: The Return",
+        "badges": []
+      }
+    ],
+    "mainCharacters": []
+  },
+  {
+    "id": "ahsoka",
+    "sort": 9.05,
+    "era": "約9 ABY",
+    "titleJa": "アソーカ",
+    "titleEn": "Ahsoka",
+    "type": "live",
+    "summary": "アソーカ・タノが銀河を脅かす新たな危機を追う。",
+    "badges": [
+      "LIVE ACTION",
+      "8 EPISODES"
     ],
     "episodes": [
       {
         "order": 1,
+        "season": 1,
+        "episode": 1,
         "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "132 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート1：師と弟子",
+        "titleEn": "Part One: Master and Apprentice",
+        "badges": []
       },
       {
         "order": 2,
+        "season": 1,
+        "episode": 2,
         "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "132 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート2：苦難と困難",
+        "titleEn": "Part Two: Toil and Trouble",
+        "badges": []
       },
       {
         "order": 3,
+        "season": 1,
+        "episode": 3,
         "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "132 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート3：飛び立つ時",
+        "titleEn": "Part Three: Time to Fly",
+        "badges": []
       },
       {
         "order": 4,
+        "season": 1,
+        "episode": 4,
         "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "132 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート4：堕ちたジェダイ",
+        "titleEn": "Part Four: Fallen Jedi",
+        "badges": []
       },
       {
         "order": 5,
+        "season": 1,
+        "episode": 5,
         "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "132 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート5：影の戦士",
+        "titleEn": "Part Five: Shadow Warrior",
+        "badges": []
       },
       {
         "order": 6,
+        "season": 1,
+        "episode": 6,
         "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "132 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート6：遥か彼方へ",
+        "titleEn": "Part Six: Far, Far Away",
+        "badges": []
       },
       {
         "order": 7,
+        "season": 1,
+        "episode": 7,
         "label": "S01E07",
-        "titleJa": "シーズン1 第7話",
-        "titleEn": "Season 1, Episode 7",
-        "era": "132 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート7：夢と狂気",
+        "titleEn": "Part Seven: Dreams and Madness",
+        "badges": []
       },
       {
         "order": 8,
+        "season": 1,
+        "episode": 8,
         "label": "S01E08",
-        "titleJa": "シーズン1 第8話",
-        "titleEn": "Season 1, Episode 8",
-        "era": "132 BBY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
+        "titleJa": "パート8：ジェダイ、魔女、そして将軍",
+        "titleEn": "Part Eight: The Jedi, the Witch, and the Warlord",
+        "badges": []
       }
-    ]
+    ],
+    "mainCharacters": []
   },
   {
     "id": "skeleton-crew",
-    "sort": 610,
-    "type": "series",
-    "era": "9 ABY",
-    "titleJa": "スター・ウォーズ：スケルトン・クルー",
-    "titleEn": "Skeleton Crew",
-    "summary": "全8話を一覧表示。各話の詳細情報は順次拡張可能。",
-    "mainCharacters": [],
-    "planet": null,
+    "sort": 9.06,
+    "era": "約9 ABY",
+    "titleJa": "スケルトン・クルー",
+    "titleEn": "Star Wars: Skeleton Crew",
+    "type": "live",
+    "summary": "故郷への帰還を目指す子どもたちの銀河冒険。",
     "badges": [
-      "全話収録",
-      "SERIES"
+      "LIVE ACTION",
+      "8 EPISODES"
     ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "シーズン1 第1話",
-        "titleEn": "Season 1, Episode 1",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "シーズン1 第2話",
-        "titleEn": "Season 1, Episode 2",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 3,
-        "label": "S01E03",
-        "titleJa": "シーズン1 第3話",
-        "titleEn": "Season 1, Episode 3",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 4,
-        "label": "S01E04",
-        "titleJa": "シーズン1 第4話",
-        "titleEn": "Season 1, Episode 4",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 5,
-        "label": "S01E05",
-        "titleJa": "シーズン1 第5話",
-        "titleEn": "Season 1, Episode 5",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 6,
-        "label": "S01E06",
-        "titleJa": "シーズン1 第6話",
-        "titleEn": "Season 1, Episode 6",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 7,
-        "label": "S01E07",
-        "titleJa": "シーズン1 第7話",
-        "titleEn": "Season 1, Episode 7",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      },
-      {
-        "order": 8,
-        "label": "S01E08",
-        "titleJa": "シーズン1 第8話",
-        "titleEn": "Season 1, Episode 8",
-        "era": "9 ABY",
-        "arc": "全話記録",
-        "characters": [],
-        "planet": null,
-        "badges": [
-          "FULL EPISODE INDEX"
-        ]
-      }
-    ]
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "mando-grogu",
+    "sort": 10,
+    "era": "新共和国期",
+    "titleJa": "マンダロリアン・アンド・グローグー",
+    "titleEn": "The Mandalorian and Grogu",
+    "type": "movie",
+    "summary": "マンダロリアンとグローグーの劇場作品。",
+    "badges": [
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "resistance-s1",
+    "sort": 33.8,
+    "era": "34 ABY",
+    "titleJa": "スター・ウォーズ レジスタンス シーズン1",
+    "titleEn": "Star Wars Resistance Season 1",
+    "type": "animation",
+    "summary": "レジスタンスの若きパイロットを描く。",
+    "badges": [
+      "ANIMATION"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "ep7",
+    "sort": 34,
+    "era": "34 ABY",
+    "titleJa": "エピソード7／フォースの覚醒",
+    "titleEn": "The Force Awakens",
+    "type": "movie",
+    "summary": "新世代の物語が始まる。",
+    "badges": [
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "ep8",
+    "sort": 34.1,
+    "era": "34 ABY",
+    "titleJa": "エピソード8／最後のジェダイ",
+    "titleEn": "The Last Jedi",
+    "type": "movie",
+    "summary": "エピソード7直後から続く戦い。",
+    "badges": [
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "resistance-s2",
+    "sort": 34.5,
+    "era": "34～35 ABY",
+    "titleJa": "スター・ウォーズ レジスタンス シーズン2",
+    "titleEn": "Star Wars Resistance Season 2",
+    "type": "animation",
+    "summary": "ファースト・オーダーとの戦いが続く。",
+    "badges": [
+      "ANIMATION"
+    ],
+    "mainCharacters": [],
+    "episodes": []
+  },
+  {
+    "id": "ep9",
+    "sort": 35,
+    "era": "35 ABY",
+    "titleJa": "エピソード9／スカイウォーカーの夜明け",
+    "titleEn": "The Rise of Skywalker",
+    "type": "movie",
+    "summary": "スカイウォーカー・サーガの完結編。",
+    "badges": [
+      "MOVIE"
+    ],
+    "mainCharacters": [],
+    "episodes": []
   }
 ]

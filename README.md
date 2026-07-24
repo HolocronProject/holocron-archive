@@ -3,3 +3,10 @@ ZIPを展開し、フォルダ内のファイルを既存リポジトリへ上�
 
 ## 注意
 クローン・ウォーズは詳細タイトル入りの公式時系列データです。その他の作品は全話数を網羅する一覧枠を実装し、現時点ではシーズン・話数表記を基礎データとして収録しています。日本語／英語タイトル、惑星、人物、事件はJSONへ順次追記できます。
+
+
+## Ver2.0 additions
+- Star Wars Roulette
+- Viewing Journal with local browser storage and JSON backup
+- Corrected numeric BBY/ABY ordering
+- Episode opening quotes on timeline
