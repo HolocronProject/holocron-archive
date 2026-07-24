@@ -1992,119 +1992,6 @@
     "episodeCount": 134
   },
   {
-    "id": "bad-batch",
-    "type": "animation",
-    "era": "19–18 BBY",
-    "sort": -18.9,
-    "titleJa": "スター・ウォーズ：バッド・バッチ",
-    "titleEn": "The Bad Batch",
-    "summary": "共和国から帝国へ移る時代。",
-    "mainCharacters": [
-      "vader",
-      "obi-wan"
-    ],
-    "planet": "coruscant",
-    "badges": [
-      "TV ANIMATION"
-    ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "余波",
-        "titleEn": "Aftermath",
-        "characters": [
-          "vader",
-          "obi-wan"
-        ],
-        "planet": "coruscant",
-        "badges": [
-          "TV EPISODE"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rebels",
-    "type": "animation",
-    "era": "5–1 BBY",
-    "sort": -5,
-    "titleJa": "スター・ウォーズ 反乱者たち",
-    "titleEn": "Star Wars Rebels",
-    "summary": "帝国支配下で反乱の火が広がる。",
-    "mainCharacters": [
-      "ahsoka",
-      "vader"
-    ],
-    "planet": "mandalore",
-    "badges": [
-      "TV ANIMATION"
-    ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "反乱の口火",
-        "titleEn": "Spark of Rebellion",
-        "characters": [
-          "ahsoka",
-          "vader"
-        ],
-        "planet": "mandalore",
-        "badges": [
-          "TV EPISODE"
-        ]
-      },
-      {
-        "order": 2,
-        "label": "S01E02",
-        "titleJa": "嘆きのドロイド",
-        "titleEn": "Droids in Distress",
-        "characters": [
-          "ahsoka",
-          "vader"
-        ],
-        "planet": "mandalore",
-        "badges": [
-          "TV EPISODE"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "andor",
-    "type": "drama",
-    "era": "5 BBY",
-    "sort": -4.9,
-    "titleJa": "キャシアン・アンドー",
-    "titleEn": "Andor",
-    "summary": "反乱同盟軍誕生前夜。",
-    "mainCharacters": [
-      "luke",
-      "vader"
-    ],
-    "planet": "coruscant",
-    "badges": [
-      "LIVE ACTION"
-    ],
-    "episodes": [
-      {
-        "order": 1,
-        "label": "S01E01",
-        "titleJa": "カッサ",
-        "titleEn": "Kassa",
-        "characters": [
-          "luke",
-          "vader"
-        ],
-        "planet": "coruscant",
-        "badges": [
-          "TV EPISODE"
-        ]
-      }
-    ]
-  },
-  {
     "id": "ep4",
     "type": "movie",
     "era": "0 BBY / 0 ABY",
@@ -2180,6 +2067,3135 @@
         "planet": "tatooine",
         "badges": [
           "TV EPISODE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bad-batch",
+    "sort": 500,
+    "type": "animation",
+    "era": "19–18 BBY",
+    "titleJa": "スター・ウォーズ：バッド・バッチ",
+    "titleEn": "Star Wars: The Bad Batch",
+    "summary": "全47話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "ANIMATION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E07",
+        "titleJa": "シーズン1 第7話",
+        "titleEn": "Season 1, Episode 7",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 8,
+        "label": "S01E08",
+        "titleJa": "シーズン1 第8話",
+        "titleEn": "Season 1, Episode 8",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 9,
+        "label": "S01E09",
+        "titleJa": "シーズン1 第9話",
+        "titleEn": "Season 1, Episode 9",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 10,
+        "label": "S01E10",
+        "titleJa": "シーズン1 第10話",
+        "titleEn": "Season 1, Episode 10",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 11,
+        "label": "S01E11",
+        "titleJa": "シーズン1 第11話",
+        "titleEn": "Season 1, Episode 11",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 12,
+        "label": "S01E12",
+        "titleJa": "シーズン1 第12話",
+        "titleEn": "Season 1, Episode 12",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 13,
+        "label": "S01E13",
+        "titleJa": "シーズン1 第13話",
+        "titleEn": "Season 1, Episode 13",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 14,
+        "label": "S01E14",
+        "titleJa": "シーズン1 第14話",
+        "titleEn": "Season 1, Episode 14",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 15,
+        "label": "S01E15",
+        "titleJa": "シーズン1 第15話",
+        "titleEn": "Season 1, Episode 15",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 16,
+        "label": "S01E16",
+        "titleJa": "シーズン1 第16話",
+        "titleEn": "Season 1, Episode 16",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 17,
+        "label": "S02E01",
+        "titleJa": "シーズン2 第1話",
+        "titleEn": "Season 2, Episode 1",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 18,
+        "label": "S02E02",
+        "titleJa": "シーズン2 第2話",
+        "titleEn": "Season 2, Episode 2",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 19,
+        "label": "S02E03",
+        "titleJa": "シーズン2 第3話",
+        "titleEn": "Season 2, Episode 3",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 20,
+        "label": "S02E04",
+        "titleJa": "シーズン2 第4話",
+        "titleEn": "Season 2, Episode 4",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 21,
+        "label": "S02E05",
+        "titleJa": "シーズン2 第5話",
+        "titleEn": "Season 2, Episode 5",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 22,
+        "label": "S02E06",
+        "titleJa": "シーズン2 第6話",
+        "titleEn": "Season 2, Episode 6",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 23,
+        "label": "S02E07",
+        "titleJa": "シーズン2 第7話",
+        "titleEn": "Season 2, Episode 7",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 24,
+        "label": "S02E08",
+        "titleJa": "シーズン2 第8話",
+        "titleEn": "Season 2, Episode 8",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 25,
+        "label": "S02E09",
+        "titleJa": "シーズン2 第9話",
+        "titleEn": "Season 2, Episode 9",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 26,
+        "label": "S02E10",
+        "titleJa": "シーズン2 第10話",
+        "titleEn": "Season 2, Episode 10",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 27,
+        "label": "S02E11",
+        "titleJa": "シーズン2 第11話",
+        "titleEn": "Season 2, Episode 11",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 28,
+        "label": "S02E12",
+        "titleJa": "シーズン2 第12話",
+        "titleEn": "Season 2, Episode 12",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 29,
+        "label": "S02E13",
+        "titleJa": "シーズン2 第13話",
+        "titleEn": "Season 2, Episode 13",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 30,
+        "label": "S02E14",
+        "titleJa": "シーズン2 第14話",
+        "titleEn": "Season 2, Episode 14",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 31,
+        "label": "S02E15",
+        "titleJa": "シーズン2 第15話",
+        "titleEn": "Season 2, Episode 15",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 32,
+        "label": "S02E16",
+        "titleJa": "シーズン2 第16話",
+        "titleEn": "Season 2, Episode 16",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 33,
+        "label": "S03E01",
+        "titleJa": "シーズン3 第1話",
+        "titleEn": "Season 3, Episode 1",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 34,
+        "label": "S03E02",
+        "titleJa": "シーズン3 第2話",
+        "titleEn": "Season 3, Episode 2",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 35,
+        "label": "S03E03",
+        "titleJa": "シーズン3 第3話",
+        "titleEn": "Season 3, Episode 3",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 36,
+        "label": "S03E04",
+        "titleJa": "シーズン3 第4話",
+        "titleEn": "Season 3, Episode 4",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 37,
+        "label": "S03E05",
+        "titleJa": "シーズン3 第5話",
+        "titleEn": "Season 3, Episode 5",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 38,
+        "label": "S03E06",
+        "titleJa": "シーズン3 第6話",
+        "titleEn": "Season 3, Episode 6",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 39,
+        "label": "S03E07",
+        "titleJa": "シーズン3 第7話",
+        "titleEn": "Season 3, Episode 7",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 40,
+        "label": "S03E08",
+        "titleJa": "シーズン3 第8話",
+        "titleEn": "Season 3, Episode 8",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 41,
+        "label": "S03E09",
+        "titleJa": "シーズン3 第9話",
+        "titleEn": "Season 3, Episode 9",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 42,
+        "label": "S03E10",
+        "titleJa": "シーズン3 第10話",
+        "titleEn": "Season 3, Episode 10",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 43,
+        "label": "S03E11",
+        "titleJa": "シーズン3 第11話",
+        "titleEn": "Season 3, Episode 11",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 44,
+        "label": "S03E12",
+        "titleJa": "シーズン3 第12話",
+        "titleEn": "Season 3, Episode 12",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 45,
+        "label": "S03E13",
+        "titleJa": "シーズン3 第13話",
+        "titleEn": "Season 3, Episode 13",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 46,
+        "label": "S03E14",
+        "titleJa": "シーズン3 第14話",
+        "titleEn": "Season 3, Episode 14",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 47,
+        "label": "S03E15",
+        "titleJa": "シーズン3 第15話",
+        "titleEn": "Season 3, Episode 15",
+        "era": "19–18 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rebels",
+    "sort": 510,
+    "type": "animation",
+    "era": "5–1 BBY",
+    "titleJa": "スター・ウォーズ 反乱者たち",
+    "titleEn": "Star Wars Rebels",
+    "summary": "全75話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "ANIMATION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E07",
+        "titleJa": "シーズン1 第7話",
+        "titleEn": "Season 1, Episode 7",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 8,
+        "label": "S01E08",
+        "titleJa": "シーズン1 第8話",
+        "titleEn": "Season 1, Episode 8",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 9,
+        "label": "S01E09",
+        "titleJa": "シーズン1 第9話",
+        "titleEn": "Season 1, Episode 9",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 10,
+        "label": "S01E10",
+        "titleJa": "シーズン1 第10話",
+        "titleEn": "Season 1, Episode 10",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 11,
+        "label": "S01E11",
+        "titleJa": "シーズン1 第11話",
+        "titleEn": "Season 1, Episode 11",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 12,
+        "label": "S01E12",
+        "titleJa": "シーズン1 第12話",
+        "titleEn": "Season 1, Episode 12",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 13,
+        "label": "S01E13",
+        "titleJa": "シーズン1 第13話",
+        "titleEn": "Season 1, Episode 13",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 14,
+        "label": "S01E14",
+        "titleJa": "シーズン1 第14話",
+        "titleEn": "Season 1, Episode 14",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 15,
+        "label": "S01E15",
+        "titleJa": "シーズン1 第15話",
+        "titleEn": "Season 1, Episode 15",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 16,
+        "label": "S02E01",
+        "titleJa": "シーズン2 第1話",
+        "titleEn": "Season 2, Episode 1",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 17,
+        "label": "S02E02",
+        "titleJa": "シーズン2 第2話",
+        "titleEn": "Season 2, Episode 2",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 18,
+        "label": "S02E03",
+        "titleJa": "シーズン2 第3話",
+        "titleEn": "Season 2, Episode 3",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 19,
+        "label": "S02E04",
+        "titleJa": "シーズン2 第4話",
+        "titleEn": "Season 2, Episode 4",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 20,
+        "label": "S02E05",
+        "titleJa": "シーズン2 第5話",
+        "titleEn": "Season 2, Episode 5",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 21,
+        "label": "S02E06",
+        "titleJa": "シーズン2 第6話",
+        "titleEn": "Season 2, Episode 6",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 22,
+        "label": "S02E07",
+        "titleJa": "シーズン2 第7話",
+        "titleEn": "Season 2, Episode 7",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 23,
+        "label": "S02E08",
+        "titleJa": "シーズン2 第8話",
+        "titleEn": "Season 2, Episode 8",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 24,
+        "label": "S02E09",
+        "titleJa": "シーズン2 第9話",
+        "titleEn": "Season 2, Episode 9",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 25,
+        "label": "S02E10",
+        "titleJa": "シーズン2 第10話",
+        "titleEn": "Season 2, Episode 10",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 26,
+        "label": "S02E11",
+        "titleJa": "シーズン2 第11話",
+        "titleEn": "Season 2, Episode 11",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 27,
+        "label": "S02E12",
+        "titleJa": "シーズン2 第12話",
+        "titleEn": "Season 2, Episode 12",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 28,
+        "label": "S02E13",
+        "titleJa": "シーズン2 第13話",
+        "titleEn": "Season 2, Episode 13",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 29,
+        "label": "S02E14",
+        "titleJa": "シーズン2 第14話",
+        "titleEn": "Season 2, Episode 14",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 30,
+        "label": "S02E15",
+        "titleJa": "シーズン2 第15話",
+        "titleEn": "Season 2, Episode 15",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 31,
+        "label": "S02E16",
+        "titleJa": "シーズン2 第16話",
+        "titleEn": "Season 2, Episode 16",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 32,
+        "label": "S02E17",
+        "titleJa": "シーズン2 第17話",
+        "titleEn": "Season 2, Episode 17",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 33,
+        "label": "S02E18",
+        "titleJa": "シーズン2 第18話",
+        "titleEn": "Season 2, Episode 18",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 34,
+        "label": "S02E19",
+        "titleJa": "シーズン2 第19話",
+        "titleEn": "Season 2, Episode 19",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 35,
+        "label": "S02E20",
+        "titleJa": "シーズン2 第20話",
+        "titleEn": "Season 2, Episode 20",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 36,
+        "label": "S02E21",
+        "titleJa": "シーズン2 第21話",
+        "titleEn": "Season 2, Episode 21",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 37,
+        "label": "S02E22",
+        "titleJa": "シーズン2 第22話",
+        "titleEn": "Season 2, Episode 22",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 38,
+        "label": "S03E01",
+        "titleJa": "シーズン3 第1話",
+        "titleEn": "Season 3, Episode 1",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 39,
+        "label": "S03E02",
+        "titleJa": "シーズン3 第2話",
+        "titleEn": "Season 3, Episode 2",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 40,
+        "label": "S03E03",
+        "titleJa": "シーズン3 第3話",
+        "titleEn": "Season 3, Episode 3",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 41,
+        "label": "S03E04",
+        "titleJa": "シーズン3 第4話",
+        "titleEn": "Season 3, Episode 4",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 42,
+        "label": "S03E05",
+        "titleJa": "シーズン3 第5話",
+        "titleEn": "Season 3, Episode 5",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 43,
+        "label": "S03E06",
+        "titleJa": "シーズン3 第6話",
+        "titleEn": "Season 3, Episode 6",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 44,
+        "label": "S03E07",
+        "titleJa": "シーズン3 第7話",
+        "titleEn": "Season 3, Episode 7",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 45,
+        "label": "S03E08",
+        "titleJa": "シーズン3 第8話",
+        "titleEn": "Season 3, Episode 8",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 46,
+        "label": "S03E09",
+        "titleJa": "シーズン3 第9話",
+        "titleEn": "Season 3, Episode 9",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 47,
+        "label": "S03E10",
+        "titleJa": "シーズン3 第10話",
+        "titleEn": "Season 3, Episode 10",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 48,
+        "label": "S03E11",
+        "titleJa": "シーズン3 第11話",
+        "titleEn": "Season 3, Episode 11",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 49,
+        "label": "S03E12",
+        "titleJa": "シーズン3 第12話",
+        "titleEn": "Season 3, Episode 12",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 50,
+        "label": "S03E13",
+        "titleJa": "シーズン3 第13話",
+        "titleEn": "Season 3, Episode 13",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 51,
+        "label": "S03E14",
+        "titleJa": "シーズン3 第14話",
+        "titleEn": "Season 3, Episode 14",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 52,
+        "label": "S03E15",
+        "titleJa": "シーズン3 第15話",
+        "titleEn": "Season 3, Episode 15",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 53,
+        "label": "S03E16",
+        "titleJa": "シーズン3 第16話",
+        "titleEn": "Season 3, Episode 16",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 54,
+        "label": "S03E17",
+        "titleJa": "シーズン3 第17話",
+        "titleEn": "Season 3, Episode 17",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 55,
+        "label": "S03E18",
+        "titleJa": "シーズン3 第18話",
+        "titleEn": "Season 3, Episode 18",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 56,
+        "label": "S03E19",
+        "titleJa": "シーズン3 第19話",
+        "titleEn": "Season 3, Episode 19",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 57,
+        "label": "S03E20",
+        "titleJa": "シーズン3 第20話",
+        "titleEn": "Season 3, Episode 20",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 58,
+        "label": "S03E21",
+        "titleJa": "シーズン3 第21話",
+        "titleEn": "Season 3, Episode 21",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 59,
+        "label": "S03E22",
+        "titleJa": "シーズン3 第22話",
+        "titleEn": "Season 3, Episode 22",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 60,
+        "label": "S04E01",
+        "titleJa": "シーズン4 第1話",
+        "titleEn": "Season 4, Episode 1",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 61,
+        "label": "S04E02",
+        "titleJa": "シーズン4 第2話",
+        "titleEn": "Season 4, Episode 2",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 62,
+        "label": "S04E03",
+        "titleJa": "シーズン4 第3話",
+        "titleEn": "Season 4, Episode 3",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 63,
+        "label": "S04E04",
+        "titleJa": "シーズン4 第4話",
+        "titleEn": "Season 4, Episode 4",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 64,
+        "label": "S04E05",
+        "titleJa": "シーズン4 第5話",
+        "titleEn": "Season 4, Episode 5",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 65,
+        "label": "S04E06",
+        "titleJa": "シーズン4 第6話",
+        "titleEn": "Season 4, Episode 6",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 66,
+        "label": "S04E07",
+        "titleJa": "シーズン4 第7話",
+        "titleEn": "Season 4, Episode 7",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 67,
+        "label": "S04E08",
+        "titleJa": "シーズン4 第8話",
+        "titleEn": "Season 4, Episode 8",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 68,
+        "label": "S04E09",
+        "titleJa": "シーズン4 第9話",
+        "titleEn": "Season 4, Episode 9",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 69,
+        "label": "S04E10",
+        "titleJa": "シーズン4 第10話",
+        "titleEn": "Season 4, Episode 10",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 70,
+        "label": "S04E11",
+        "titleJa": "シーズン4 第11話",
+        "titleEn": "Season 4, Episode 11",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 71,
+        "label": "S04E12",
+        "titleJa": "シーズン4 第12話",
+        "titleEn": "Season 4, Episode 12",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 72,
+        "label": "S04E13",
+        "titleJa": "シーズン4 第13話",
+        "titleEn": "Season 4, Episode 13",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 73,
+        "label": "S04E14",
+        "titleJa": "シーズン4 第14話",
+        "titleEn": "Season 4, Episode 14",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 74,
+        "label": "S04E15",
+        "titleJa": "シーズン4 第15話",
+        "titleEn": "Season 4, Episode 15",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 75,
+        "label": "S04E16",
+        "titleJa": "シーズン4 第16話",
+        "titleEn": "Season 4, Episode 16",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tales-jedi",
+    "sort": 520,
+    "type": "animation",
+    "era": "68–19 BBY",
+    "titleJa": "テイルズ・オブ・ジェダイ",
+    "titleEn": "Tales of the Jedi",
+    "summary": "全6話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "ANIMATION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "68–19 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "68–19 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "68–19 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "68–19 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "68–19 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "68–19 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tales-empire",
+    "sort": 530,
+    "type": "animation",
+    "era": "20–9 BBY",
+    "titleJa": "テイルズ・オブ・エンパイア",
+    "titleEn": "Tales of the Empire",
+    "summary": "全6話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "ANIMATION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "20–9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "20–9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "20–9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "20–9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "20–9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "20–9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tales-underworld",
+    "sort": 540,
+    "type": "animation",
+    "era": "帝国時代",
+    "titleJa": "テイルズ・オブ・アンダーワールド",
+    "titleEn": "Tales of the Underworld",
+    "summary": "全6話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "ANIMATION"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "帝国時代",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "帝国時代",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "帝国時代",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "帝国時代",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "帝国時代",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "帝国時代",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "obi-wan",
+    "sort": 550,
+    "type": "series",
+    "era": "9 BBY",
+    "titleJa": "オビ＝ワン・ケノービ",
+    "titleEn": "Obi-Wan Kenobi",
+    "summary": "全6話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "SERIES"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "9 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "andor",
+    "sort": 560,
+    "type": "series",
+    "era": "5–1 BBY",
+    "titleJa": "キャシアン・アンドー",
+    "titleEn": "Andor",
+    "summary": "全24話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "SERIES"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E07",
+        "titleJa": "シーズン1 第7話",
+        "titleEn": "Season 1, Episode 7",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 8,
+        "label": "S01E08",
+        "titleJa": "シーズン1 第8話",
+        "titleEn": "Season 1, Episode 8",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 9,
+        "label": "S01E09",
+        "titleJa": "シーズン1 第9話",
+        "titleEn": "Season 1, Episode 9",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 10,
+        "label": "S01E10",
+        "titleJa": "シーズン1 第10話",
+        "titleEn": "Season 1, Episode 10",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 11,
+        "label": "S01E11",
+        "titleJa": "シーズン1 第11話",
+        "titleEn": "Season 1, Episode 11",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 12,
+        "label": "S01E12",
+        "titleJa": "シーズン1 第12話",
+        "titleEn": "Season 1, Episode 12",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 13,
+        "label": "S02E01",
+        "titleJa": "シーズン2 第1話",
+        "titleEn": "Season 2, Episode 1",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 14,
+        "label": "S02E02",
+        "titleJa": "シーズン2 第2話",
+        "titleEn": "Season 2, Episode 2",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 15,
+        "label": "S02E03",
+        "titleJa": "シーズン2 第3話",
+        "titleEn": "Season 2, Episode 3",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 16,
+        "label": "S02E04",
+        "titleJa": "シーズン2 第4話",
+        "titleEn": "Season 2, Episode 4",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 17,
+        "label": "S02E05",
+        "titleJa": "シーズン2 第5話",
+        "titleEn": "Season 2, Episode 5",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 18,
+        "label": "S02E06",
+        "titleJa": "シーズン2 第6話",
+        "titleEn": "Season 2, Episode 6",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 19,
+        "label": "S02E07",
+        "titleJa": "シーズン2 第7話",
+        "titleEn": "Season 2, Episode 7",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 20,
+        "label": "S02E08",
+        "titleJa": "シーズン2 第8話",
+        "titleEn": "Season 2, Episode 8",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 21,
+        "label": "S02E09",
+        "titleJa": "シーズン2 第9話",
+        "titleEn": "Season 2, Episode 9",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 22,
+        "label": "S02E10",
+        "titleJa": "シーズン2 第10話",
+        "titleEn": "Season 2, Episode 10",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 23,
+        "label": "S02E11",
+        "titleJa": "シーズン2 第11話",
+        "titleEn": "Season 2, Episode 11",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 24,
+        "label": "S02E12",
+        "titleJa": "シーズン2 第12話",
+        "titleEn": "Season 2, Episode 12",
+        "era": "5–1 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ahsoka",
+    "sort": 570,
+    "type": "series",
+    "era": "9 ABY",
+    "titleJa": "アソーカ",
+    "titleEn": "Ahsoka",
+    "summary": "全8話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "SERIES"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E07",
+        "titleJa": "シーズン1 第7話",
+        "titleEn": "Season 1, Episode 7",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 8,
+        "label": "S01E08",
+        "titleJa": "シーズン1 第8話",
+        "titleEn": "Season 1, Episode 8",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mandalorian",
+    "sort": 580,
+    "type": "series",
+    "era": "9 ABY",
+    "titleJa": "マンダロリアン",
+    "titleEn": "The Mandalorian",
+    "summary": "全24話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "SERIES"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E07",
+        "titleJa": "シーズン1 第7話",
+        "titleEn": "Season 1, Episode 7",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 8,
+        "label": "S01E08",
+        "titleJa": "シーズン1 第8話",
+        "titleEn": "Season 1, Episode 8",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 9,
+        "label": "S02E01",
+        "titleJa": "シーズン2 第1話",
+        "titleEn": "Season 2, Episode 1",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 10,
+        "label": "S02E02",
+        "titleJa": "シーズン2 第2話",
+        "titleEn": "Season 2, Episode 2",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 11,
+        "label": "S02E03",
+        "titleJa": "シーズン2 第3話",
+        "titleEn": "Season 2, Episode 3",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 12,
+        "label": "S02E04",
+        "titleJa": "シーズン2 第4話",
+        "titleEn": "Season 2, Episode 4",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 13,
+        "label": "S02E05",
+        "titleJa": "シーズン2 第5話",
+        "titleEn": "Season 2, Episode 5",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 14,
+        "label": "S02E06",
+        "titleJa": "シーズン2 第6話",
+        "titleEn": "Season 2, Episode 6",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 15,
+        "label": "S02E07",
+        "titleJa": "シーズン2 第7話",
+        "titleEn": "Season 2, Episode 7",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 16,
+        "label": "S02E08",
+        "titleJa": "シーズン2 第8話",
+        "titleEn": "Season 2, Episode 8",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 17,
+        "label": "S03E01",
+        "titleJa": "シーズン3 第1話",
+        "titleEn": "Season 3, Episode 1",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 18,
+        "label": "S03E02",
+        "titleJa": "シーズン3 第2話",
+        "titleEn": "Season 3, Episode 2",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 19,
+        "label": "S03E03",
+        "titleJa": "シーズン3 第3話",
+        "titleEn": "Season 3, Episode 3",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 20,
+        "label": "S03E04",
+        "titleJa": "シーズン3 第4話",
+        "titleEn": "Season 3, Episode 4",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 21,
+        "label": "S03E05",
+        "titleJa": "シーズン3 第5話",
+        "titleEn": "Season 3, Episode 5",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 22,
+        "label": "S03E06",
+        "titleJa": "シーズン3 第6話",
+        "titleEn": "Season 3, Episode 6",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 23,
+        "label": "S03E07",
+        "titleJa": "シーズン3 第7話",
+        "titleEn": "Season 3, Episode 7",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 24,
+        "label": "S03E08",
+        "titleJa": "シーズン3 第8話",
+        "titleEn": "Season 3, Episode 8",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "boba-fett",
+    "sort": 590,
+    "type": "series",
+    "era": "9 ABY",
+    "titleJa": "ボバ・フェット／The Book of Boba Fett",
+    "titleEn": "The Book of Boba Fett",
+    "summary": "全7話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "SERIES"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E07",
+        "titleJa": "シーズン1 第7話",
+        "titleEn": "Season 1, Episode 7",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acolyte",
+    "sort": 600,
+    "type": "series",
+    "era": "132 BBY",
+    "titleJa": "スター・ウォーズ：アコライト",
+    "titleEn": "The Acolyte",
+    "summary": "全8話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "SERIES"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "132 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "132 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "132 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "132 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "132 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "132 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E07",
+        "titleJa": "シーズン1 第7話",
+        "titleEn": "Season 1, Episode 7",
+        "era": "132 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 8,
+        "label": "S01E08",
+        "titleJa": "シーズン1 第8話",
+        "titleEn": "Season 1, Episode 8",
+        "era": "132 BBY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skeleton-crew",
+    "sort": 610,
+    "type": "series",
+    "era": "9 ABY",
+    "titleJa": "スター・ウォーズ：スケルトン・クルー",
+    "titleEn": "Skeleton Crew",
+    "summary": "全8話を一覧表示。各話の詳細情報は順次拡張可能。",
+    "mainCharacters": [],
+    "planet": null,
+    "badges": [
+      "全話収録",
+      "SERIES"
+    ],
+    "episodes": [
+      {
+        "order": 1,
+        "label": "S01E01",
+        "titleJa": "シーズン1 第1話",
+        "titleEn": "Season 1, Episode 1",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 2,
+        "label": "S01E02",
+        "titleJa": "シーズン1 第2話",
+        "titleEn": "Season 1, Episode 2",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "S01E03",
+        "titleJa": "シーズン1 第3話",
+        "titleEn": "Season 1, Episode 3",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S01E04",
+        "titleJa": "シーズン1 第4話",
+        "titleEn": "Season 1, Episode 4",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S01E05",
+        "titleJa": "シーズン1 第5話",
+        "titleEn": "Season 1, Episode 5",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E06",
+        "titleJa": "シーズン1 第6話",
+        "titleEn": "Season 1, Episode 6",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E07",
+        "titleJa": "シーズン1 第7話",
+        "titleEn": "Season 1, Episode 7",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
+        ]
+      },
+      {
+        "order": 8,
+        "label": "S01E08",
+        "titleJa": "シーズン1 第8話",
+        "titleEn": "Season 1, Episode 8",
+        "era": "9 ABY",
+        "arc": "全話記録",
+        "characters": [],
+        "planet": null,
+        "badges": [
+          "FULL EPISODE INDEX"
         ]
       }
     ]

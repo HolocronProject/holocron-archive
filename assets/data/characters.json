@@ -16,7 +16,7 @@
       "Jedi: Survivor"
     ],
     "summary": "オーダー66を生き延び、帝国の支配下でジェダイとして再び立ち上がった。",
-    "icon": "cal-kestis.svg"
+    "icon": "cal.svg"
   },
   {
     "id": "bd-1",
@@ -34,7 +34,7 @@
       "Jedi: Survivor"
     ],
     "summary": "カルと旅する小型探査ドロイド。スティム供給とハッキングを担当。",
-    "icon": "bd-1.svg"
+    "icon": "bd1.svg"
   },
   {
     "id": "merrin",
@@ -104,5 +104,110 @@
     ],
     "summary": "命令への忠誠と仲間への思いの間で揺れた狙撃手。",
     "icon": "crosshair.svg"
+  },
+  {
+    "id": "ahsoka",
+    "nameJa": "アソーカ・タノ",
+    "nameEn": "Ahsoka Tano",
+    "icon": "ahsoka.svg",
+    "media": [
+      "animation",
+      "series"
+    ],
+    "era": "アニメ／ドラマ",
+    "affiliation": "ジェダイ／反乱同盟",
+    "mentor": "アナキン・スカイウォーカー",
+    "summary": "トグルータの元ジェダイ。二刀流と白いライトセーバーが象徴。",
+    "works": []
+  },
+  {
+    "id": "anakin",
+    "nameJa": "アナキン・スカイウォーカー",
+    "nameEn": "Anakin Skywalker",
+    "icon": "anakin.svg",
+    "media": [
+      "animation",
+      "series"
+    ],
+    "era": "共和国時代",
+    "affiliation": "ジェダイ騎士",
+    "mentor": "オビ＝ワン・ケノービ",
+    "summary": "クローン戦争の英雄であり、後のダース・ベイダー。",
+    "works": []
+  },
+  {
+    "id": "obiwan",
+    "nameJa": "オビ＝ワン・ケノービ",
+    "nameEn": "Obi-Wan Kenobi",
+    "icon": "obiwan.svg",
+    "media": [
+      "animation",
+      "series"
+    ],
+    "era": "共和国／帝国時代",
+    "affiliation": "ジェダイ",
+    "mentor": "クワイ＝ガン・ジン",
+    "summary": "共和国末期を生き抜いたジェダイ・マスター。",
+    "works": []
+  },
+  {
+    "id": "rex",
+    "nameJa": "キャプテン・レックス",
+    "nameEn": "Captain Rex",
+    "icon": "rex.svg",
+    "media": [
+      "animation",
+      "series"
+    ],
+    "era": "共和国／帝国時代",
+    "affiliation": "第501大隊",
+    "mentor": "アナキン／アソーカ",
+    "summary": "自由意志を選び取ったクローン兵。",
+    "works": []
+  },
+  {
+    "id": "hunter",
+    "nameJa": "ハンター",
+    "nameEn": "Hunter",
+    "icon": "hunter.svg",
+    "media": [
+      "animation",
+      "series"
+    ],
+    "era": "帝国時代",
+    "affiliation": "クローン・フォース99",
+    "mentor": "—",
+    "summary": "鋭い感覚を持つバッド・バッチのリーダー。",
+    "works": []
+  },
+  {
+    "id": "vader",
+    "nameJa": "ダース・ベイダー",
+    "nameEn": "Darth Vader",
+    "icon": "vader.svg",
+    "media": [
+      "animation",
+      "series"
+    ],
+    "era": "帝国時代",
+    "affiliation": "銀河帝国",
+    "mentor": "ダース・シディアス",
+    "summary": "銀河帝国の暗黒卿。",
+    "works": []
+  },
+  {
+    "id": "grogu",
+    "nameJa": "グローグー",
+    "nameEn": "Grogu",
+    "icon": "grogu.svg",
+    "media": [
+      "animation",
+      "series"
+    ],
+    "era": "新共和国時代",
+    "affiliation": "ディン・ジャリン",
+    "mentor": "ルーク・スカイウォーカー",
+    "summary": "強いフォース感応力を持つ幼い存在。",
+    "works": []
   }
 ]
