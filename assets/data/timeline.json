@@ -39,7 +39,7 @@
     "sort": -22,
     "titleJa": "スター・ウォーズ／クローン・ウォーズ",
     "titleEn": "Star Wars: The Clone Wars",
-    "summary": "銀河規模の戦争を歴史上の順番でたどる。",
+    "summary": "劇場版1作＋TV全133話を公式時系列順で収録。全話を通し番号・話数・日本語／英語タイトル付きで表示します。",
     "mainCharacters": [
       "ahsoka",
       "anakin"
@@ -47,42 +47,1874 @@
     "planet": "coruscant",
     "badges": [
       "TV ANIMATION",
-      "CHRONOLOGICAL"
+      "134 RECORDS",
+      "OFFICIAL CHRONOLOGY"
     ],
     "episodes": [
       {
         "order": 1,
         "label": "S02E16",
+        "era": "22–19 BBY",
         "titleJa": "封鎖線を突破せよ",
         "titleEn": "Cat and Mouse",
         "characters": [
           "anakin",
           "obi-wan"
         ],
-        "planet": "coruscant",
+        "planet": "",
+        "arc": "クリストフシス戦役",
         "badges": [
           "TV EPISODE",
-          "CHRONOLOGICAL"
+          "クリストフシス戦役"
         ]
       },
       {
         "order": 2,
         "label": "S01E16",
+        "era": "22–19 BBY",
         "titleJa": "内なる敵",
         "titleEn": "The Hidden Enemy",
         "characters": [
           "anakin",
           "obi-wan"
         ],
-        "planet": "coruscant",
+        "planet": "",
+        "arc": "クリストフシス戦役",
         "badges": [
           "TV EPISODE",
-          "CHRONOLOGICAL"
+          "クリストフシス戦役"
+        ]
+      },
+      {
+        "order": 3,
+        "label": "MOVIE",
+        "era": "22 BBY",
+        "titleJa": "スター・ウォーズ／クローン・ウォーズ",
+        "titleEn": "Star Wars: The Clone Wars",
+        "characters": [
+          "anakin",
+          "obi-wan"
+        ],
+        "planet": "",
+        "arc": "クリストフシス戦役",
+        "badges": [
+          "劇場版",
+          "クリストフシス戦役"
+        ]
+      },
+      {
+        "order": 4,
+        "label": "S03E01",
+        "era": "22–19 BBY",
+        "titleJa": "トルーパーへの道",
+        "titleEn": "Clone Cadets",
+        "characters": [],
+        "planet": "",
+        "arc": "クローン兵の始まり",
+        "badges": [
+          "TV EPISODE",
+          "クローン兵の始まり"
+        ]
+      },
+      {
+        "order": 5,
+        "label": "S03E03",
+        "era": "22–19 BBY",
+        "titleJa": "補給線をつなげ",
+        "titleEn": "Supply Lines",
+        "characters": [],
+        "planet": "",
+        "arc": "クローン兵の始まり",
+        "badges": [
+          "TV EPISODE",
+          "クローン兵の始まり"
+        ]
+      },
+      {
+        "order": 6,
+        "label": "S01E01",
+        "era": "22–19 BBY",
+        "titleJa": "待ち伏せ",
+        "titleEn": "Ambush",
+        "characters": [],
+        "planet": "",
+        "arc": "トイダリア任務",
+        "badges": [
+          "TV EPISODE",
+          "トイダリア任務"
+        ]
+      },
+      {
+        "order": 7,
+        "label": "S01E02",
+        "era": "22–19 BBY",
+        "titleJa": "マレボランス襲来",
+        "titleEn": "Rising Malevolence",
+        "characters": [],
+        "planet": "",
+        "arc": "マレボランス三部作",
+        "badges": [
+          "TV EPISODE",
+          "マレボランス三部作"
+        ]
+      },
+      {
+        "order": 8,
+        "label": "S01E03",
+        "era": "22–19 BBY",
+        "titleJa": "マレボランスの影",
+        "titleEn": "Shadow of Malevolence",
+        "characters": [],
+        "planet": "",
+        "arc": "マレボランス三部作",
+        "badges": [
+          "TV EPISODE",
+          "マレボランス三部作"
+        ]
+      },
+      {
+        "order": 9,
+        "label": "S01E04",
+        "era": "22–19 BBY",
+        "titleJa": "撃破！マレボランス",
+        "titleEn": "Destroy Malevolence",
+        "characters": [],
+        "planet": "",
+        "arc": "マレボランス三部作",
+        "badges": [
+          "TV EPISODE",
+          "マレボランス三部作"
+        ]
+      },
+      {
+        "order": 10,
+        "label": "S01E05",
+        "era": "22–19 BBY",
+        "titleJa": "ルーキーたち",
+        "titleEn": "Rookies",
+        "characters": [],
+        "planet": "",
+        "arc": "リシ・ムーン防衛",
+        "badges": [
+          "TV EPISODE",
+          "リシ・ムーン防衛"
+        ]
+      },
+      {
+        "order": 11,
+        "label": "S01E06",
+        "era": "22–19 BBY",
+        "titleJa": "消えたドロイド",
+        "titleEn": "Downfall of a Droid",
+        "characters": [],
+        "planet": "",
+        "arc": "R2-D2捜索",
+        "badges": [
+          "TV EPISODE",
+          "R2-D2捜索"
+        ]
+      },
+      {
+        "order": 12,
+        "label": "S01E07",
+        "era": "22–19 BBY",
+        "titleJa": "ドロイドの決闘",
+        "titleEn": "Duel of the Droids",
+        "characters": [],
+        "planet": "",
+        "arc": "R2-D2捜索",
+        "badges": [
+          "TV EPISODE",
+          "R2-D2捜索"
+        ]
+      },
+      {
+        "order": 13,
+        "label": "S01E08",
+        "era": "22–19 BBY",
+        "titleJa": "型破りなジェダイ",
+        "titleEn": "Bombad Jedi",
+        "characters": [],
+        "planet": "",
+        "arc": "ヌート・ガンレイ／グリーヴァス",
+        "badges": [
+          "TV EPISODE",
+          "ヌート・ガンレイ／グリーヴァス"
+        ]
+      },
+      {
+        "order": 14,
+        "label": "S01E09",
+        "era": "22–19 BBY",
+        "titleJa": "闇のマント",
+        "titleEn": "Cloak of Darkness",
+        "characters": [],
+        "planet": "",
+        "arc": "ヌート・ガンレイ／グリーヴァス",
+        "badges": [
+          "TV EPISODE",
+          "ヌート・ガンレイ／グリーヴァス"
+        ]
+      },
+      {
+        "order": 15,
+        "label": "S01E10",
+        "era": "22–19 BBY",
+        "titleJa": "グリーヴァスのアジト",
+        "titleEn": "Lair of Grievous",
+        "characters": [],
+        "planet": "",
+        "arc": "ヌート・ガンレイ／グリーヴァス",
+        "badges": [
+          "TV EPISODE",
+          "ヌート・ガンレイ／グリーヴァス"
+        ]
+      },
+      {
+        "order": 16,
+        "label": "S01E11",
+        "era": "22–19 BBY",
+        "titleJa": "囚人ドゥークー",
+        "titleEn": "Dooku Captured",
+        "characters": [],
+        "planet": "",
+        "arc": "ドゥークー捕縛",
+        "badges": [
+          "TV EPISODE",
+          "ドゥークー捕縛"
+        ]
+      },
+      {
+        "order": 17,
+        "label": "S01E12",
+        "era": "22–19 BBY",
+        "titleJa": "グンガンの将軍",
+        "titleEn": "The Gungan General",
+        "characters": [],
+        "planet": "",
+        "arc": "ドゥークー捕縛",
+        "badges": [
+          "TV EPISODE",
+          "ドゥークー捕縛"
+        ]
+      },
+      {
+        "order": 18,
+        "label": "S01E13",
+        "era": "22–19 BBY",
+        "titleJa": "ジェダイの遭難",
+        "titleEn": "Jedi Crash",
+        "characters": [],
+        "planet": "",
+        "arc": "マーリダン戦役",
+        "badges": [
+          "TV EPISODE",
+          "マーリダン戦役"
+        ]
+      },
+      {
+        "order": 19,
+        "label": "S01E14",
+        "era": "22–19 BBY",
+        "titleJa": "平和の守護者",
+        "titleEn": "Defenders of Peace",
+        "characters": [],
+        "planet": "",
+        "arc": "マーリダン戦役",
+        "badges": [
+          "TV EPISODE",
+          "マーリダン戦役"
+        ]
+      },
+      {
+        "order": 20,
+        "label": "S01E15",
+        "era": "22–19 BBY",
+        "titleJa": "侵入者",
+        "titleEn": "Trespass",
+        "characters": [],
+        "planet": "",
+        "arc": "マーリダン戦役",
+        "badges": [
+          "TV EPISODE",
+          "マーリダン戦役"
+        ]
+      },
+      {
+        "order": 21,
+        "label": "S01E17",
+        "era": "22–19 BBY",
+        "titleJa": "ブルー・シャドー・ウイルス",
+        "titleEn": "Blue Shadow Virus",
+        "characters": [],
+        "planet": "",
+        "arc": "ブルー・シャドー・ウイルス",
+        "badges": [
+          "TV EPISODE",
+          "ブルー・シャドー・ウイルス"
+        ]
+      },
+      {
+        "order": 22,
+        "label": "S01E18",
+        "era": "22–19 BBY",
+        "titleJa": "千の月の謎",
+        "titleEn": "Mystery of a Thousand Moons",
+        "characters": [],
+        "planet": "",
+        "arc": "ブルー・シャドー・ウイルス",
+        "badges": [
+          "TV EPISODE",
+          "ブルー・シャドー・ウイルス"
+        ]
+      },
+      {
+        "order": 23,
+        "label": "S01E19",
+        "era": "22–19 BBY",
+        "titleJa": "ライロスの嵐",
+        "titleEn": "Storm Over Ryloth",
+        "characters": [],
+        "planet": "",
+        "arc": "ライロス解放",
+        "badges": [
+          "TV EPISODE",
+          "ライロス解放"
+        ]
+      },
+      {
+        "order": 24,
+        "label": "S01E20",
+        "era": "22–19 BBY",
+        "titleJa": "ライロスの罪なき人々",
+        "titleEn": "Innocents of Ryloth",
+        "characters": [],
+        "planet": "",
+        "arc": "ライロス解放",
+        "badges": [
+          "TV EPISODE",
+          "ライロス解放"
+        ]
+      },
+      {
+        "order": 25,
+        "label": "S01E21",
+        "era": "22–19 BBY",
+        "titleJa": "ライロスの解放",
+        "titleEn": "Liberty on Ryloth",
+        "characters": [],
+        "planet": "",
+        "arc": "ライロス解放",
+        "badges": [
+          "TV EPISODE",
+          "ライロス解放"
+        ]
+      },
+      {
+        "order": 26,
+        "label": "S02E01",
+        "era": "22–19 BBY",
+        "titleJa": "ホロクロン強奪",
+        "titleEn": "Holocron Heist",
+        "characters": [],
+        "planet": "",
+        "arc": "ホロクロン三部作",
+        "badges": [
+          "TV EPISODE",
+          "ホロクロン三部作"
+        ]
+      },
+      {
+        "order": 27,
+        "label": "S02E02",
+        "era": "22–19 BBY",
+        "titleJa": "破滅の積荷",
+        "titleEn": "Cargo of Doom",
+        "characters": [],
+        "planet": "",
+        "arc": "ホロクロン三部作",
+        "badges": [
+          "TV EPISODE",
+          "ホロクロン三部作"
+        ]
+      },
+      {
+        "order": 28,
+        "label": "S02E03",
+        "era": "22–19 BBY",
+        "titleJa": "フォースの子供たち",
+        "titleEn": "Children of the Force",
+        "characters": [],
+        "planet": "",
+        "arc": "ホロクロン三部作",
+        "badges": [
+          "TV EPISODE",
+          "ホロクロン三部作"
+        ]
+      },
+      {
+        "order": 29,
+        "label": "S02E17",
+        "era": "22–19 BBY",
+        "titleJa": "七人の傭兵",
+        "titleEn": "Bounty Hunters",
+        "characters": [],
+        "planet": "",
+        "arc": "賞金稼ぎ",
+        "badges": [
+          "TV EPISODE",
+          "賞金稼ぎ"
+        ]
+      },
+      {
+        "order": 30,
+        "label": "S02E18",
+        "era": "22–19 BBY",
+        "titleJa": "いにしえの巨獣",
+        "titleEn": "The Zillo Beast",
+        "characters": [],
+        "planet": "",
+        "arc": "ジロ・ビースト",
+        "badges": [
+          "TV EPISODE",
+          "ジロ・ビースト"
+        ]
+      },
+      {
+        "order": 31,
+        "label": "S02E19",
+        "era": "22–19 BBY",
+        "titleJa": "コルサント炎上",
+        "titleEn": "The Zillo Beast Strikes Back",
+        "characters": [],
+        "planet": "",
+        "arc": "ジロ・ビースト",
+        "badges": [
+          "TV EPISODE",
+          "ジロ・ビースト"
+        ]
+      },
+      {
+        "order": 32,
+        "label": "S02E04",
+        "era": "22–19 BBY",
+        "titleJa": "元老院のスパイ",
+        "titleEn": "Senate Spy",
+        "characters": [],
+        "planet": "",
+        "arc": "元老院のスパイ",
+        "badges": [
+          "TV EPISODE",
+          "元老院のスパイ"
+        ]
+      },
+      {
+        "order": 33,
+        "label": "S02E05",
+        "era": "22–19 BBY",
+        "titleJa": "砲火を抜けて",
+        "titleEn": "Landing at Point Rain",
+        "characters": [],
+        "planet": "",
+        "arc": "第二次ジオノーシス戦役",
+        "badges": [
+          "TV EPISODE",
+          "第二次ジオノーシス戦役"
+        ]
+      },
+      {
+        "order": 34,
+        "label": "S02E06",
+        "era": "22–19 BBY",
+        "titleJa": "強襲 ドロイド工場",
+        "titleEn": "Weapons Factory",
+        "characters": [],
+        "planet": "",
+        "arc": "第二次ジオノーシス戦役",
+        "badges": [
+          "TV EPISODE",
+          "第二次ジオノーシス戦役"
+        ]
+      },
+      {
+        "order": 35,
+        "label": "S02E07",
+        "era": "22–19 BBY",
+        "titleJa": "恐怖の遺産",
+        "titleEn": "Legacy of Terror",
+        "characters": [],
+        "planet": "",
+        "arc": "第二次ジオノーシス戦役",
+        "badges": [
+          "TV EPISODE",
+          "第二次ジオノーシス戦役"
+        ]
+      },
+      {
+        "order": 36,
+        "label": "S02E08",
+        "era": "22–19 BBY",
+        "titleJa": "ブレイン・インベーダー",
+        "titleEn": "Brain Invaders",
+        "characters": [],
+        "planet": "",
+        "arc": "第二次ジオノーシス戦役",
+        "badges": [
+          "TV EPISODE",
+          "第二次ジオノーシス戦役"
+        ]
+      },
+      {
+        "order": 37,
+        "label": "S02E09",
+        "era": "22–19 BBY",
+        "titleJa": "囚われたジェダイ",
+        "titleEn": "Grievous Intrigue",
+        "characters": [],
+        "planet": "",
+        "arc": "グリーヴァス追跡",
+        "badges": [
+          "TV EPISODE",
+          "グリーヴァス追跡"
+        ]
+      },
+      {
+        "order": 38,
+        "label": "S02E10",
+        "era": "22–19 BBY",
+        "titleJa": "逃亡者",
+        "titleEn": "The Deserter",
+        "characters": [],
+        "planet": "",
+        "arc": "グリーヴァス追跡",
+        "badges": [
+          "TV EPISODE",
+          "グリーヴァス追跡"
+        ]
+      },
+      {
+        "order": 39,
+        "label": "S02E11",
+        "era": "22–19 BBY",
+        "titleJa": "奪われたライトセーバー",
+        "titleEn": "Lightsaber Lost",
+        "characters": [],
+        "planet": "",
+        "arc": "ライトセーバー捜索",
+        "badges": [
+          "TV EPISODE",
+          "ライトセーバー捜索"
+        ]
+      },
+      {
+        "order": 40,
+        "label": "S02E12",
+        "era": "22–19 BBY",
+        "titleJa": "デス・ウォッチの陰謀",
+        "titleEn": "The Mandalore Plot",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "arc": "マンダロア三部作",
+        "badges": [
+          "TV EPISODE",
+          "マンダロア三部作"
+        ]
+      },
+      {
+        "order": 41,
+        "label": "S02E13",
+        "era": "22–19 BBY",
+        "titleJa": "誘惑の航海",
+        "titleEn": "Voyage of Temptation",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "arc": "マンダロア三部作",
+        "badges": [
+          "TV EPISODE",
+          "マンダロア三部作"
+        ]
+      },
+      {
+        "order": 42,
+        "label": "S02E14",
+        "era": "22–19 BBY",
+        "titleJa": "狙われた女公爵",
+        "titleEn": "Duchess of Mandalore",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "arc": "マンダロア三部作",
+        "badges": [
+          "TV EPISODE",
+          "マンダロア三部作"
+        ]
+      },
+      {
+        "order": 43,
+        "label": "S02E20",
+        "era": "22–19 BBY",
+        "titleJa": "デス・トラップ",
+        "titleEn": "Death Trap",
+        "characters": [],
+        "planet": "",
+        "arc": "ボバ・フェットの復讐",
+        "badges": [
+          "TV EPISODE",
+          "ボバ・フェットの復讐"
+        ]
+      },
+      {
+        "order": 44,
+        "label": "S02E21",
+        "era": "22–19 BBY",
+        "titleJa": "絆",
+        "titleEn": "R2 Come Home",
+        "characters": [],
+        "planet": "",
+        "arc": "ボバ・フェットの復讐",
+        "badges": [
+          "TV EPISODE",
+          "ボバ・フェットの復讐"
+        ]
+      },
+      {
+        "order": 45,
+        "label": "S02E22",
+        "era": "22–19 BBY",
+        "titleJa": "危険な追跡",
+        "titleEn": "Lethal Trackdown",
+        "characters": [],
+        "planet": "",
+        "arc": "ボバ・フェットの復讐",
+        "badges": [
+          "TV EPISODE",
+          "ボバ・フェットの復讐"
+        ]
+      },
+      {
+        "order": 46,
+        "label": "S03E05",
+        "era": "22–19 BBY",
+        "titleJa": "星を蝕むもの",
+        "titleEn": "Corruption",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "arc": "マンダロア腐敗",
+        "badges": [
+          "TV EPISODE",
+          "マンダロア腐敗"
+        ]
+      },
+      {
+        "order": 47,
+        "label": "S03E06",
+        "era": "22–19 BBY",
+        "titleJa": "王立アカデミー",
+        "titleEn": "The Academy",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "arc": "マンダロア腐敗",
+        "badges": [
+          "TV EPISODE",
+          "マンダロア腐敗"
+        ]
+      },
+      {
+        "order": 48,
+        "label": "S03E07",
+        "era": "22–19 BBY",
+        "titleJa": "悪夢の暗殺者",
+        "titleEn": "Assassin",
+        "characters": [],
+        "planet": "",
+        "arc": "ズィロ暗殺未遂",
+        "badges": [
+          "TV EPISODE",
+          "ズィロ暗殺未遂"
+        ]
+      },
+      {
+        "order": 49,
+        "label": "S03E02",
+        "era": "22–19 BBY",
+        "titleJa": "誇り高き兵士たち",
+        "titleEn": "ARC Troopers",
+        "characters": [],
+        "planet": "",
+        "arc": "カミーノ／パントラ",
+        "badges": [
+          "TV EPISODE",
+          "カミーノ／パントラ"
+        ]
+      },
+      {
+        "order": 50,
+        "label": "S03E04",
+        "era": "22–19 BBY",
+        "titleJa": "惑星封鎖を解き放て",
+        "titleEn": "Sphere of Influence",
+        "characters": [],
+        "planet": "",
+        "arc": "カミーノ／パントラ",
+        "badges": [
+          "TV EPISODE",
+          "カミーノ／パントラ"
+        ]
+      },
+      {
+        "order": 51,
+        "label": "S03E08",
+        "era": "22–19 BBY",
+        "titleJa": "邪悪なる計画",
+        "titleEn": "Evil Plans",
+        "characters": [],
+        "planet": "",
+        "arc": "ズィロ・ザ・ハット",
+        "badges": [
+          "TV EPISODE",
+          "ズィロ・ザ・ハット"
+        ]
+      },
+      {
+        "order": 52,
+        "label": "S01E22",
+        "era": "22–19 BBY",
+        "titleJa": "人質",
+        "titleEn": "Hostage Crisis",
+        "characters": [],
+        "planet": "",
+        "arc": "ズィロ・ザ・ハット",
+        "badges": [
+          "TV EPISODE",
+          "ズィロ・ザ・ハット"
+        ]
+      },
+      {
+        "order": 53,
+        "label": "S03E09",
+        "era": "22–19 BBY",
+        "titleJa": "ズィロを追え！",
+        "titleEn": "Hunt for Ziro",
+        "characters": [],
+        "planet": "",
+        "arc": "ズィロ・ザ・ハット",
+        "badges": [
+          "TV EPISODE",
+          "ズィロ・ザ・ハット"
+        ]
+      },
+      {
+        "order": 54,
+        "label": "S03E10",
+        "era": "22–19 BBY",
+        "titleJa": "分離主義者の友",
+        "titleEn": "Heroes on Both Sides",
+        "characters": [],
+        "planet": "",
+        "arc": "元老院和平交渉",
+        "badges": [
+          "TV EPISODE",
+          "元老院和平交渉"
+        ]
+      },
+      {
+        "order": 55,
+        "label": "S03E11",
+        "era": "22–19 BBY",
+        "titleJa": "平和を求めて",
+        "titleEn": "Pursuit of Peace",
+        "characters": [],
+        "planet": "",
+        "arc": "元老院和平交渉",
+        "badges": [
+          "TV EPISODE",
+          "元老院和平交渉"
+        ]
+      },
+      {
+        "order": 56,
+        "label": "S02E15",
+        "era": "22–19 BBY",
+        "titleJa": "議員暗殺",
+        "titleEn": "Senate Murders",
+        "characters": [],
+        "planet": "",
+        "arc": "元老院和平交渉",
+        "badges": [
+          "TV EPISODE",
+          "元老院和平交渉"
+        ]
+      },
+      {
+        "order": 57,
+        "label": "S03E12",
+        "era": "22–19 BBY",
+        "titleJa": "ダソミアの魔女",
+        "titleEn": "Nightsisters",
+        "characters": [],
+        "planet": "",
+        "arc": "ナイトシスターズ",
+        "badges": [
+          "TV EPISODE",
+          "ナイトシスターズ"
+        ]
+      },
+      {
+        "order": 58,
+        "label": "S03E13",
+        "era": "22–19 BBY",
+        "titleJa": "新たな脅威",
+        "titleEn": "Monster",
+        "characters": [],
+        "planet": "",
+        "arc": "ナイトシスターズ",
+        "badges": [
+          "TV EPISODE",
+          "ナイトシスターズ"
+        ]
+      },
+      {
+        "order": 59,
+        "label": "S03E14",
+        "era": "22–19 BBY",
+        "titleJa": "灰色の魔女",
+        "titleEn": "Witches of the Mist",
+        "characters": [],
+        "planet": "",
+        "arc": "ナイトシスターズ",
+        "badges": [
+          "TV EPISODE",
+          "ナイトシスターズ"
+        ]
+      },
+      {
+        "order": 60,
+        "label": "S03E15",
+        "era": "22–19 BBY",
+        "titleJa": "フォースの惑星",
+        "titleEn": "Overlords",
+        "characters": [],
+        "planet": "",
+        "arc": "モーティス三部作",
+        "badges": [
+          "TV EPISODE",
+          "モーティス三部作"
+        ]
+      },
+      {
+        "order": 61,
+        "label": "S03E16",
+        "era": "22–19 BBY",
+        "titleJa": "光と闇",
+        "titleEn": "Altar of Mortis",
+        "characters": [],
+        "planet": "",
+        "arc": "モーティス三部作",
+        "badges": [
+          "TV EPISODE",
+          "モーティス三部作"
+        ]
+      },
+      {
+        "order": 62,
+        "label": "S03E17",
+        "era": "22–19 BBY",
+        "titleJa": "未来の選択",
+        "titleEn": "Ghosts of Mortis",
+        "characters": [],
+        "planet": "",
+        "arc": "モーティス三部作",
+        "badges": [
+          "TV EPISODE",
+          "モーティス三部作"
+        ]
+      },
+      {
+        "order": 63,
+        "label": "S03E18",
+        "era": "22–19 BBY",
+        "titleJa": "鉄壁の要塞",
+        "titleEn": "The Citadel",
+        "characters": [],
+        "planet": "",
+        "arc": "シタデル救出",
+        "badges": [
+          "TV EPISODE",
+          "シタデル救出"
+        ]
+      },
+      {
+        "order": 64,
+        "label": "S03E19",
+        "era": "22–19 BBY",
+        "titleJa": "決死の脱出",
+        "titleEn": "Counterattack",
+        "characters": [],
+        "planet": "",
+        "arc": "シタデル救出",
+        "badges": [
+          "TV EPISODE",
+          "シタデル救出"
+        ]
+      },
+      {
+        "order": 65,
+        "label": "S03E20",
+        "era": "22–19 BBY",
+        "titleJa": "勝利の代償",
+        "titleEn": "Citadel Rescue",
+        "characters": [],
+        "planet": "",
+        "arc": "シタデル救出",
+        "badges": [
+          "TV EPISODE",
+          "シタデル救出"
+        ]
+      },
+      {
+        "order": 66,
+        "label": "S03E21",
+        "era": "22–19 BBY",
+        "titleJa": "囚われのパダワン パート1",
+        "titleEn": "Padawan Lost",
+        "characters": [],
+        "planet": "",
+        "arc": "トランドーシャン狩猟",
+        "badges": [
+          "TV EPISODE",
+          "トランドーシャン狩猟"
+        ]
+      },
+      {
+        "order": 67,
+        "label": "S03E22",
+        "era": "22–19 BBY",
+        "titleJa": "囚われのパダワン パート2",
+        "titleEn": "Wookiee Hunt",
+        "characters": [],
+        "planet": "",
+        "arc": "トランドーシャン狩猟",
+        "badges": [
+          "TV EPISODE",
+          "トランドーシャン狩猟"
+        ]
+      },
+      {
+        "order": 68,
+        "label": "S04E01",
+        "era": "22–19 BBY",
+        "titleJa": "海洋惑星の激戦",
+        "titleEn": "Water War",
+        "characters": [],
+        "planet": "",
+        "arc": "モン・カラ戦役",
+        "badges": [
+          "TV EPISODE",
+          "モン・カラ戦役"
+        ]
+      },
+      {
+        "order": 69,
+        "label": "S04E02",
+        "era": "22–19 BBY",
+        "titleJa": "グンガン参戦",
+        "titleEn": "Gungan Attack",
+        "characters": [],
+        "planet": "",
+        "arc": "モン・カラ戦役",
+        "badges": [
+          "TV EPISODE",
+          "モン・カラ戦役"
+        ]
+      },
+      {
+        "order": 70,
+        "label": "S04E03",
+        "era": "22–19 BBY",
+        "titleJa": "囚われた王国",
+        "titleEn": "Prisoners",
+        "characters": [],
+        "planet": "",
+        "arc": "モン・カラ戦役",
+        "badges": [
+          "TV EPISODE",
+          "モン・カラ戦役"
+        ]
+      },
+      {
+        "order": 71,
+        "label": "S04E04",
+        "era": "22–19 BBY",
+        "titleJa": "危険な影武者",
+        "titleEn": "Shadow Warrior",
+        "characters": [],
+        "planet": "",
+        "arc": "ナブー影武者",
+        "badges": [
+          "TV EPISODE",
+          "ナブー影武者"
+        ]
+      },
+      {
+        "order": 72,
+        "label": "S04E05",
+        "era": "22–19 BBY",
+        "titleJa": "アリーン支援作戦",
+        "titleEn": "Mercy Mission",
+        "characters": [],
+        "planet": "",
+        "arc": "アリーン／ドロイド漂流",
+        "badges": [
+          "TV EPISODE",
+          "アリーン／ドロイド漂流"
+        ]
+      },
+      {
+        "order": 73,
+        "label": "S04E06",
+        "era": "22–19 BBY",
+        "titleJa": "さまよえるドロイドたち",
+        "titleEn": "Nomad Droids",
+        "characters": [],
+        "planet": "",
+        "arc": "アリーン／ドロイド漂流",
+        "badges": [
+          "TV EPISODE",
+          "アリーン／ドロイド漂流"
+        ]
+      },
+      {
+        "order": 74,
+        "label": "S04E07",
+        "era": "22–19 BBY",
+        "titleJa": "アンバラの暗雲",
+        "titleEn": "Darkness on Umbara",
+        "characters": [],
+        "planet": "",
+        "arc": "アンバラ戦役",
+        "badges": [
+          "TV EPISODE",
+          "アンバラ戦役"
+        ]
+      },
+      {
+        "order": 75,
+        "label": "S04E08",
+        "era": "22–19 BBY",
+        "titleJa": "クレル将軍",
+        "titleEn": "The General",
+        "characters": [],
+        "planet": "",
+        "arc": "アンバラ戦役",
+        "badges": [
+          "TV EPISODE",
+          "アンバラ戦役"
+        ]
+      },
+      {
+        "order": 76,
+        "label": "S04E09",
+        "era": "22–19 BBY",
+        "titleJa": "作戦への反抗",
+        "titleEn": "Plan of Dissent",
+        "characters": [],
+        "planet": "",
+        "arc": "アンバラ戦役",
+        "badges": [
+          "TV EPISODE",
+          "アンバラ戦役"
+        ]
+      },
+      {
+        "order": 77,
+        "label": "S04E10",
+        "era": "22–19 BBY",
+        "titleJa": "クレルの正体",
+        "titleEn": "Carnage of Krell",
+        "characters": [],
+        "planet": "",
+        "arc": "アンバラ戦役",
+        "badges": [
+          "TV EPISODE",
+          "アンバラ戦役"
+        ]
+      },
+      {
+        "order": 78,
+        "label": "S04E11",
+        "era": "22–19 BBY",
+        "titleJa": "消えた植民者",
+        "titleEn": "Kidnapped",
+        "characters": [],
+        "planet": "",
+        "arc": "ザイゲリア奴隷帝国",
+        "badges": [
+          "TV EPISODE",
+          "ザイゲリア奴隷帝国"
+        ]
+      },
+      {
+        "order": 79,
+        "label": "S04E12",
+        "era": "22–19 BBY",
+        "titleJa": "共和国の奴隷たち",
+        "titleEn": "Slaves of the Republic",
+        "characters": [],
+        "planet": "",
+        "arc": "ザイゲリア奴隷帝国",
+        "badges": [
+          "TV EPISODE",
+          "ザイゲリア奴隷帝国"
+        ]
+      },
+      {
+        "order": 80,
+        "label": "S04E13",
+        "era": "22–19 BBY",
+        "titleJa": "カダーヴォからの脱出",
+        "titleEn": "Escape from Kadavo",
+        "characters": [],
+        "planet": "",
+        "arc": "ザイゲリア奴隷帝国",
+        "badges": [
+          "TV EPISODE",
+          "ザイゲリア奴隷帝国"
+        ]
+      },
+      {
+        "order": 81,
+        "label": "S04E14",
+        "era": "22–19 BBY",
+        "titleJa": "友情の真価",
+        "titleEn": "A Friend in Need",
+        "characters": [],
+        "planet": "",
+        "arc": "ルクソン／デス・ウォッチ",
+        "badges": [
+          "TV EPISODE",
+          "ルクソン／デス・ウォッチ"
+        ]
+      },
+      {
+        "order": 82,
+        "label": "S04E15",
+        "era": "22–19 BBY",
+        "titleJa": "オビ＝ワン暗殺",
+        "titleEn": "Deception",
+        "characters": [],
+        "planet": "",
+        "arc": "オビ＝ワン潜入任務",
+        "badges": [
+          "TV EPISODE",
+          "オビ＝ワン潜入任務"
+        ]
+      },
+      {
+        "order": 83,
+        "label": "S04E16",
+        "era": "22–19 BBY",
+        "titleJa": "疑惑の賞金稼ぎ",
+        "titleEn": "Friends and Enemies",
+        "characters": [],
+        "planet": "",
+        "arc": "オビ＝ワン潜入任務",
+        "badges": [
+          "TV EPISODE",
+          "オビ＝ワン潜入任務"
+        ]
+      },
+      {
+        "order": 84,
+        "label": "S04E17",
+        "era": "22–19 BBY",
+        "titleJa": "サバイバル・ボックス",
+        "titleEn": "The Box",
+        "characters": [],
+        "planet": "",
+        "arc": "オビ＝ワン潜入任務",
+        "badges": [
+          "TV EPISODE",
+          "オビ＝ワン潜入任務"
+        ]
+      },
+      {
+        "order": 85,
+        "label": "S04E18",
+        "era": "22–19 BBY",
+        "titleJa": "狙われた祭典",
+        "titleEn": "Crisis on Naboo",
+        "characters": [],
+        "planet": "",
+        "arc": "オビ＝ワン潜入任務",
+        "badges": [
+          "TV EPISODE",
+          "オビ＝ワン潜入任務"
+        ]
+      },
+      {
+        "order": 86,
+        "label": "S04E19",
+        "era": "22–19 BBY",
+        "titleJa": "魔女狩り",
+        "titleEn": "Massacre",
+        "characters": [],
+        "planet": "",
+        "arc": "モール帰還",
+        "badges": [
+          "TV EPISODE",
+          "モール帰還"
+        ]
+      },
+      {
+        "order": 87,
+        "label": "S04E20",
+        "era": "22–19 BBY",
+        "titleJa": "その手に掴むもの",
+        "titleEn": "Bounty",
+        "characters": [],
+        "planet": "",
+        "arc": "モール帰還",
+        "badges": [
+          "TV EPISODE",
+          "モール帰還"
+        ]
+      },
+      {
+        "order": 88,
+        "label": "S04E21",
+        "era": "22–19 BBY",
+        "titleJa": "邂逅",
+        "titleEn": "Brothers",
+        "characters": [],
+        "planet": "",
+        "arc": "モール帰還",
+        "badges": [
+          "TV EPISODE",
+          "モール帰還"
+        ]
+      },
+      {
+        "order": 89,
+        "label": "S04E22",
+        "era": "22–19 BBY",
+        "titleJa": "復讐の狼煙",
+        "titleEn": "Revenge",
+        "characters": [],
+        "planet": "",
+        "arc": "モール帰還",
+        "badges": [
+          "TV EPISODE",
+          "モール帰還"
+        ]
+      },
+      {
+        "order": 90,
+        "label": "S05E02",
+        "era": "22–19 BBY",
+        "titleJa": "オンダロン支援作戦",
+        "titleEn": "A War on Two Fronts",
+        "characters": [],
+        "planet": "",
+        "arc": "オンダロン反乱",
+        "badges": [
+          "TV EPISODE",
+          "オンダロン反乱"
+        ]
+      },
+      {
+        "order": 91,
+        "label": "S05E03",
+        "era": "22–19 BBY",
+        "titleJa": "戦場を駆ける者たち",
+        "titleEn": "Front Runners",
+        "characters": [],
+        "planet": "",
+        "arc": "オンダロン反乱",
+        "badges": [
+          "TV EPISODE",
+          "オンダロン反乱"
+        ]
+      },
+      {
+        "order": 92,
+        "label": "S05E04",
+        "era": "22–19 BBY",
+        "titleJa": "王の奪還",
+        "titleEn": "The Soft War",
+        "characters": [],
+        "planet": "",
+        "arc": "オンダロン反乱",
+        "badges": [
+          "TV EPISODE",
+          "オンダロン反乱"
+        ]
+      },
+      {
+        "order": 93,
+        "label": "S05E05",
+        "era": "22–19 BBY",
+        "titleJa": "ターニング・ポイント",
+        "titleEn": "Tipping Points",
+        "characters": [],
+        "planet": "",
+        "arc": "オンダロン反乱",
+        "badges": [
+          "TV EPISODE",
+          "オンダロン反乱"
+        ]
+      },
+      {
+        "order": 94,
+        "label": "S05E06",
+        "era": "22–19 BBY",
+        "titleJa": "ギャザリングへの挑戦",
+        "titleEn": "The Gathering",
+        "characters": [],
+        "planet": "",
+        "arc": "ヤングリングの試練",
+        "badges": [
+          "TV EPISODE",
+          "ヤングリングの試練"
+        ]
+      },
+      {
+        "order": 95,
+        "label": "S05E07",
+        "era": "22–19 BBY",
+        "titleJa": "試される力",
+        "titleEn": "A Test of Strength",
+        "characters": [],
+        "planet": "",
+        "arc": "ヤングリングの試練",
+        "badges": [
+          "TV EPISODE",
+          "ヤングリングの試練"
+        ]
+      },
+      {
+        "order": 96,
+        "label": "S05E08",
+        "era": "22–19 BBY",
+        "titleJa": "アソーカを救え",
+        "titleEn": "Bound for Rescue",
+        "characters": [],
+        "planet": "",
+        "arc": "ヤングリングの試練",
+        "badges": [
+          "TV EPISODE",
+          "ヤングリングの試練"
+        ]
+      },
+      {
+        "order": 97,
+        "label": "S05E09",
+        "era": "22–19 BBY",
+        "titleJa": "求められる絆",
+        "titleEn": "A Necessary Bond",
+        "characters": [],
+        "planet": "",
+        "arc": "ヤングリングの試練",
+        "badges": [
+          "TV EPISODE",
+          "ヤングリングの試練"
+        ]
+      },
+      {
+        "order": 98,
+        "label": "S05E10",
+        "era": "22–19 BBY",
+        "titleJa": "特務分隊結成",
+        "titleEn": "Secret Weapons",
+        "characters": [],
+        "planet": "",
+        "arc": "D分隊",
+        "badges": [
+          "TV EPISODE",
+          "D分隊"
+        ]
+      },
+      {
+        "order": 99,
+        "label": "S05E11",
+        "era": "22–19 BBY",
+        "titleJa": "虚無の惑星",
+        "titleEn": "A Sunny Day in the Void",
+        "characters": [],
+        "planet": "",
+        "arc": "D分隊",
+        "badges": [
+          "TV EPISODE",
+          "D分隊"
+        ]
+      },
+      {
+        "order": 100,
+        "label": "S05E12",
+        "era": "22–19 BBY",
+        "titleJa": "生きていた兵士",
+        "titleEn": "Missing in Action",
+        "characters": [],
+        "planet": "",
+        "arc": "D分隊",
+        "badges": [
+          "TV EPISODE",
+          "D分隊"
+        ]
+      },
+      {
+        "order": 101,
+        "label": "S05E13",
+        "era": "22–19 BBY",
+        "titleJa": "惨劇へのカウントダウン",
+        "titleEn": "Point of No Return",
+        "characters": [],
+        "planet": "",
+        "arc": "D分隊",
+        "badges": [
+          "TV EPISODE",
+          "D分隊"
+        ]
+      },
+      {
+        "order": 102,
+        "label": "S05E01",
+        "era": "22–19 BBY",
+        "titleJa": "復活のシス",
+        "titleEn": "Revival",
+        "characters": [],
+        "planet": "",
+        "arc": "シャドウ・コレクティブ",
+        "badges": [
+          "TV EPISODE",
+          "シャドウ・コレクティブ"
+        ]
+      },
+      {
+        "order": 103,
+        "label": "S05E14",
+        "era": "22–19 BBY",
+        "titleJa": "悪の同盟",
+        "titleEn": "Eminence",
+        "characters": [],
+        "planet": "",
+        "arc": "シャドウ・コレクティブ",
+        "badges": [
+          "TV EPISODE",
+          "シャドウ・コレクティブ"
+        ]
+      },
+      {
+        "order": 104,
+        "label": "S05E15",
+        "era": "22–19 BBY",
+        "titleJa": "仕組まれた救世主",
+        "titleEn": "Shades of Reason",
+        "characters": [],
+        "planet": "",
+        "arc": "シャドウ・コレクティブ",
+        "badges": [
+          "TV EPISODE",
+          "シャドウ・コレクティブ"
+        ]
+      },
+      {
+        "order": 105,
+        "label": "S05E16",
+        "era": "22–19 BBY",
+        "titleJa": "歪みゆく惑星",
+        "titleEn": "The Lawless",
+        "characters": [],
+        "planet": "",
+        "arc": "シャドウ・コレクティブ",
+        "badges": [
+          "TV EPISODE",
+          "シャドウ・コレクティブ"
+        ]
+      },
+      {
+        "order": 106,
+        "label": "S05E17",
+        "era": "22–19 BBY",
+        "titleJa": "爆破犯を追え",
+        "titleEn": "Sabotage",
+        "characters": [],
+        "planet": "",
+        "arc": "アソーカ冤罪事件",
+        "badges": [
+          "TV EPISODE",
+          "アソーカ冤罪事件"
+        ]
+      },
+      {
+        "order": 107,
+        "label": "S05E18",
+        "era": "22–19 BBY",
+        "titleJa": "真実の行方",
+        "titleEn": "The Jedi Who Knew Too Much",
+        "characters": [],
+        "planet": "",
+        "arc": "アソーカ冤罪事件",
+        "badges": [
+          "TV EPISODE",
+          "アソーカ冤罪事件"
+        ]
+      },
+      {
+        "order": 108,
+        "label": "S05E19",
+        "era": "22–19 BBY",
+        "titleJa": "逃亡者アソーカ",
+        "titleEn": "To Catch a Jedi",
+        "characters": [],
+        "planet": "",
+        "arc": "アソーカ冤罪事件",
+        "badges": [
+          "TV EPISODE",
+          "アソーカ冤罪事件"
+        ]
+      },
+      {
+        "order": 109,
+        "label": "S05E20",
+        "era": "22–19 BBY",
+        "titleJa": "ジェダイの過ち",
+        "titleEn": "The Wrong Jedi",
+        "characters": [],
+        "planet": "",
+        "arc": "アソーカ冤罪事件",
+        "badges": [
+          "TV EPISODE",
+          "アソーカ冤罪事件"
+        ]
+      },
+      {
+        "order": 110,
+        "label": "S06E01",
+        "era": "22–19 BBY",
+        "titleJa": "未知の症状",
+        "titleEn": "The Unknown",
+        "characters": [],
+        "planet": "",
+        "arc": "オーダー66の陰謀",
+        "badges": [
+          "TV EPISODE",
+          "オーダー66の陰謀"
+        ]
+      },
+      {
+        "order": 111,
+        "label": "S06E02",
+        "era": "22–19 BBY",
+        "titleJa": "陰謀",
+        "titleEn": "Conspiracy",
+        "characters": [],
+        "planet": "",
+        "arc": "オーダー66の陰謀",
+        "badges": [
+          "TV EPISODE",
+          "オーダー66の陰謀"
+        ]
+      },
+      {
+        "order": 112,
+        "label": "S06E03",
+        "era": "22–19 BBY",
+        "titleJa": "逃亡者",
+        "titleEn": "Fugitive",
+        "characters": [],
+        "planet": "",
+        "arc": "オーダー66の陰謀",
+        "badges": [
+          "TV EPISODE",
+          "オーダー66の陰謀"
+        ]
+      },
+      {
+        "order": 113,
+        "label": "S06E04",
+        "era": "22–19 BBY",
+        "titleJa": "命令",
+        "titleEn": "Orders",
+        "characters": [],
+        "planet": "",
+        "arc": "オーダー66の陰謀",
+        "badges": [
+          "TV EPISODE",
+          "オーダー66の陰謀"
+        ]
+      },
+      {
+        "order": 114,
+        "label": "S06E05",
+        "era": "22–19 BBY",
+        "titleJa": "古い友",
+        "titleEn": "An Old Friend",
+        "characters": [],
+        "planet": "",
+        "arc": "クローヴィス危機",
+        "badges": [
+          "TV EPISODE",
+          "クローヴィス危機"
+        ]
+      },
+      {
+        "order": 115,
+        "label": "S06E06",
+        "era": "22–19 BBY",
+        "titleJa": "クローヴィスの台頭",
+        "titleEn": "The Rise of Clovis",
+        "characters": [],
+        "planet": "",
+        "arc": "クローヴィス危機",
+        "badges": [
+          "TV EPISODE",
+          "クローヴィス危機"
+        ]
+      },
+      {
+        "order": 116,
+        "label": "S06E07",
+        "era": "22–19 BBY",
+        "titleJa": "危機的状況",
+        "titleEn": "Crisis at the Heart",
+        "characters": [],
+        "planet": "",
+        "arc": "クローヴィス危機",
+        "badges": [
+          "TV EPISODE",
+          "クローヴィス危機"
+        ]
+      },
+      {
+        "order": 117,
+        "label": "S06E08",
+        "era": "22–19 BBY",
+        "titleJa": "失踪 パート1",
+        "titleEn": "The Disappeared",
+        "characters": [],
+        "planet": "",
+        "arc": "バードータ失踪事件",
+        "badges": [
+          "TV EPISODE",
+          "バードータ失踪事件"
+        ]
+      },
+      {
+        "order": 118,
+        "label": "S06E09",
+        "era": "22–19 BBY",
+        "titleJa": "失踪 パート2",
+        "titleEn": "The Disappeared Part II",
+        "characters": [],
+        "planet": "",
+        "arc": "バードータ失踪事件",
+        "badges": [
+          "TV EPISODE",
+          "バードータ失踪事件"
+        ]
+      },
+      {
+        "order": 119,
+        "label": "S06E10",
+        "era": "22–19 BBY",
+        "titleJa": "失われた者",
+        "titleEn": "The Lost One",
+        "characters": [],
+        "planet": "",
+        "arc": "ヨーダの試練",
+        "badges": [
+          "TV EPISODE",
+          "ヨーダの試練"
+        ]
+      },
+      {
+        "order": 120,
+        "label": "S06E11",
+        "era": "22–19 BBY",
+        "titleJa": "声",
+        "titleEn": "Voices",
+        "characters": [],
+        "planet": "",
+        "arc": "ヨーダの試練",
+        "badges": [
+          "TV EPISODE",
+          "ヨーダの試練"
+        ]
+      },
+      {
+        "order": 121,
+        "label": "S06E12",
+        "era": "22–19 BBY",
+        "titleJa": "運命",
+        "titleEn": "Destiny",
+        "characters": [],
+        "planet": "",
+        "arc": "ヨーダの試練",
+        "badges": [
+          "TV EPISODE",
+          "ヨーダの試練"
+        ]
+      },
+      {
+        "order": 122,
+        "label": "S06E13",
+        "era": "22–19 BBY",
+        "titleJa": "犠牲",
+        "titleEn": "Sacrifice",
+        "characters": [],
+        "planet": "",
+        "arc": "ヨーダの試練",
+        "badges": [
+          "TV EPISODE",
+          "ヨーダの試練"
+        ]
+      },
+      {
+        "order": 123,
+        "label": "S07E05",
+        "era": "22–19 BBY",
+        "titleJa": "危険な道",
+        "titleEn": "Gone with a Trace",
+        "characters": [],
+        "planet": "",
+        "arc": "マルテス姉妹",
+        "badges": [
+          "TV EPISODE",
+          "マルテス姉妹",
+          "FINAL SEASON"
+        ]
+      },
+      {
+        "order": 124,
+        "label": "S07E06",
+        "era": "22–19 BBY",
+        "titleJa": "取引なし",
+        "titleEn": "Deal No Deal",
+        "characters": [],
+        "planet": "",
+        "arc": "マルテス姉妹",
+        "badges": [
+          "TV EPISODE",
+          "マルテス姉妹",
+          "FINAL SEASON"
+        ]
+      },
+      {
+        "order": 125,
+        "label": "S07E07",
+        "era": "22–19 BBY",
+        "titleJa": "危険な借金",
+        "titleEn": "Dangerous Debt",
+        "characters": [],
+        "planet": "",
+        "arc": "マルテス姉妹",
+        "badges": [
+          "TV EPISODE",
+          "マルテス姉妹",
+          "FINAL SEASON"
+        ]
+      },
+      {
+        "order": 126,
+        "label": "S07E08",
+        "era": "22–19 BBY",
+        "titleJa": "再結束",
+        "titleEn": "Together Again",
+        "characters": [],
+        "planet": "",
+        "arc": "マルテス姉妹",
+        "badges": [
+          "TV EPISODE",
+          "マルテス姉妹",
+          "FINAL SEASON"
+        ]
+      },
+      {
+        "order": 127,
+        "label": "S07E01",
+        "era": "22–19 BBY",
+        "titleJa": "不良分隊",
+        "titleEn": "The Bad Batch",
+        "characters": [
+          "anakin"
+        ],
+        "planet": "",
+        "arc": "バッド・バッチ",
+        "badges": [
+          "TV EPISODE",
+          "バッド・バッチ",
+          "FINAL SEASON"
+        ]
+      },
+      {
+        "order": 128,
+        "label": "S07E02",
+        "era": "22–19 BBY",
+        "titleJa": "遠い残響",
+        "titleEn": "A Distant Echo",
+        "characters": [
+          "anakin"
+        ],
+        "planet": "",
+        "arc": "バッド・バッチ",
+        "badges": [
+          "TV EPISODE",
+          "バッド・バッチ",
+          "FINAL SEASON"
+        ]
+      },
+      {
+        "order": 129,
+        "label": "S07E03",
+        "era": "22–19 BBY",
+        "titleJa": "キーラダックの翼",
+        "titleEn": "On the Wings of Keeradaks",
+        "characters": [
+          "anakin"
+        ],
+        "planet": "",
+        "arc": "バッド・バッチ",
+        "badges": [
+          "TV EPISODE",
+          "バッド・バッチ",
+          "FINAL SEASON"
+        ]
+      },
+      {
+        "order": 130,
+        "label": "S07E04",
+        "era": "22–19 BBY",
+        "titleJa": "未完の仕事",
+        "titleEn": "Unfinished Business",
+        "characters": [
+          "anakin"
+        ],
+        "planet": "",
+        "arc": "バッド・バッチ",
+        "badges": [
+          "TV EPISODE",
+          "バッド・バッチ",
+          "FINAL SEASON"
         ]
       },
       {
         "order": 131,
         "label": "S07E09",
+        "era": "19 BBY",
         "titleJa": "忘れがたき旧友",
         "titleEn": "Old Friends Not Forgotten",
         "characters": [
@@ -90,12 +1922,74 @@
           "bo-katan"
         ],
         "planet": "mandalore",
+        "arc": "マンダロア包囲戦",
         "badges": [
+          "TV EPISODE",
+          "マンダロア包囲戦",
           "FINAL SEASON",
           "EP3 同時進行"
         ]
+      },
+      {
+        "order": 132,
+        "label": "S07E10",
+        "era": "19 BBY",
+        "titleJa": "幻の弟子",
+        "titleEn": "The Phantom Apprentice",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "arc": "マンダロア包囲戦",
+        "badges": [
+          "TV EPISODE",
+          "マンダロア包囲戦",
+          "FINAL SEASON",
+          "EP3 同時進行"
+        ]
+      },
+      {
+        "order": 133,
+        "label": "S07E11",
+        "era": "19 BBY",
+        "titleJa": "打ち砕かれた忠誠",
+        "titleEn": "Shattered",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "arc": "マンダロア包囲戦",
+        "badges": [
+          "TV EPISODE",
+          "マンダロア包囲戦",
+          "FINAL SEASON",
+          "EP3 同時進行"
+        ]
+      },
+      {
+        "order": 134,
+        "label": "S07E12",
+        "era": "19 BBY",
+        "titleJa": "勝利と死",
+        "titleEn": "Victory and Death",
+        "characters": [
+          "ahsoka",
+          "bo-katan"
+        ],
+        "planet": "mandalore",
+        "arc": "マンダロア包囲戦",
+        "badges": [
+          "TV EPISODE",
+          "マンダロア包囲戦",
+          "FINAL SEASON",
+          "EP3 同時進行",
+          "SERIES FINALE"
+        ]
       }
-    ]
+    ],
+    "episodeCount": 134
   },
   {
     "id": "bad-batch",

@@ -1,3 +1,14 @@
+# Holocron Archive Ver0.7.1
+
+Live Serverで `index.html` を開いてください。
+
+## 主な修正
+
+- Clone Wars全134項目（劇場版＋TV全133話）
+- キャラクターの16bit風SVGアイコン
+- 壊れた画像表示の修正
+- タイムライン検索
+
 # Holocron Archive Ver0.7
 
 スター・ウォーズの銀河を「読む」のではなく「探索する」ファンメイド・プロトタイプです。
