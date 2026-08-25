@@ -3,6 +3,8 @@ const rouletteCategory = document.querySelector("#roulette-category");
 const rouletteTitleEn = document.querySelector("#roulette-title-en");
 const spinButton = document.querySelector("#spin-button");
 const writeAboutButton = document.querySelector("#write-about-button");
+const rouletteFilter = document.querySelector("#roulette-filter");
+const rouletteCount = document.querySelector("#roulette-count");
 const writerPanel = document.querySelector("#writer-panel");
 const writerForm = document.querySelector("#writer-form");
 const entryWork = document.querySelector("#entry-work");
@@ -35,15 +37,26 @@ function showStatus(message, isError = false) {
 
 function displayRouletteWork(work) {
   selectedWork = work;
-  rouletteCategory.textContent = work.category;
-  rouletteResult.textContent = work.titleJa;
-  rouletteTitleEn.textContent = work.titleEn;
+  const episodeLabel = work.label ? ` / ${work.label}` : "";
+  rouletteCategory.textContent = `${work.category}${episodeLabel}`;
+  if (work.kind === "episode") {
+    rouletteResult.textContent = work.seriesJa;
+    const title = work.titleJa || work.titleEn;
+    rouletteTitleEn.textContent = work.titleJa && work.titleEn ? `${title} / ${work.titleEn}` : title;
+  } else {
+    rouletteResult.textContent = work.titleJa;
+    rouletteTitleEn.textContent = work.titleEn;
+  }
   writeAboutButton.disabled = false;
   localStorage.setItem(selectionKey, JSON.stringify(work));
 }
 
 function randomWork() {
-  return rouletteWorks[Math.floor(Math.random() * rouletteWorks.length)];
+  const category = rouletteFilter.value;
+  const candidates = category === "all"
+    ? rouletteWorks
+    : rouletteWorks.filter((work) => work.category === category);
+  return candidates[Math.floor(Math.random() * candidates.length)];
 }
 
 function spinRoulette() {
@@ -79,7 +92,12 @@ function spinRoulette() {
 function openWriterForSelection() {
   if (!selectedWork) return;
   writerPanel.open = true;
-  entryWork.value = selectedWork.titleJa;
+  if (selectedWork.kind === "episode") {
+    const title = selectedWork.titleJa || selectedWork.titleEn;
+    entryWork.value = `${selectedWork.seriesJa} ${selectedWork.label}「${title}」`;
+  } else {
+    entryWork.value = selectedWork.titleJa;
+  }
   saveDraft();
   writerPanel.scrollIntoView({ behavior: "smooth", block: "start" });
   window.setTimeout(() => entryTitle.focus(), 350);
@@ -210,6 +228,7 @@ async function loadRoulette() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     rouletteWorks = data.works;
+    updateRouletteCount();
 
     const saved = JSON.parse(localStorage.getItem(selectionKey));
     if (saved && rouletteWorks.some((work) => work.id === saved.id)) displayRouletteWork(saved);
@@ -220,7 +239,25 @@ async function loadRoulette() {
   }
 }
 
+function updateRouletteCount() {
+  const category = rouletteFilter.value;
+  const count = category === "all"
+    ? rouletteWorks.length
+    : rouletteWorks.filter((work) => work.category === category).length;
+  rouletteCount.textContent = `${count}候補から抽選`;
+}
+
+function changeRouletteFilter() {
+  selectedWork = null;
+  writeAboutButton.disabled = true;
+  rouletteCategory.textContent = "WATCH SELECTOR";
+  rouletteResult.textContent = "運命の作品を選択";
+  rouletteTitleEn.textContent = "抽選対象を選んでルーレットを回してください";
+  updateRouletteCount();
+}
+
 spinButton.addEventListener("click", spinRoulette);
+rouletteFilter.addEventListener("change", changeRouletteFilter);
 writeAboutButton.addEventListener("click", openWriterForSelection);
 writerForm.addEventListener("submit", saveDraft);
 copyEntryButton.addEventListener("click", copyEntry);

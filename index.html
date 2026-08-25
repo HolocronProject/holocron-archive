@@ -68,8 +68,19 @@
             <span class="roulette-title-en" id="roulette-title-en">映画・シリーズ・ゲームからランダムに選びます</span>
           </div>
           <div class="roulette-actions">
+            <label class="roulette-filter">
+              <span>抽選対象</span>
+              <select id="roulette-filter">
+                <option value="all">すべて</option>
+                <option value="映画">映画</option>
+                <option value="アニメ">アニメ各話</option>
+                <option value="実写">実写ドラマ各話</option>
+                <option value="ゲーム">ゲーム</option>
+              </select>
+            </label>
             <button class="primary-button" id="spin-button" type="button">ルーレットを回す</button>
             <button class="secondary-button" id="write-about-button" type="button" disabled>この作品で日記を書く</button>
+            <span class="roulette-count" id="roulette-count">候補を読み込み中...</span>
           </div>
         </div>
       </section>

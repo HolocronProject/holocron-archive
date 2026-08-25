@@ -360,6 +360,35 @@ h2 { margin: 0; font-size: clamp(30px, 4vw, 44px); letter-spacing: -0.04em; }
   gap: 10px;
 }
 
+.roulette-filter {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.roulette-filter span,
+.roulette-count {
+  color: var(--dim);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.roulette-filter select {
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 3px;
+  outline: 0;
+  background: #0d1116;
+  color: var(--text);
+  font: inherit;
+  font-size: 12px;
+}
+
+.roulette-filter select:focus { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.roulette-count { text-align: center; }
+
 button {
   min-height: 46px;
   padding: 0 18px;
