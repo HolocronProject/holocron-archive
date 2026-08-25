@@ -1,0 +1,139 @@
+{
+  "phase": 1,
+  "category": "映画",
+  "lastUpdated": "2026-08-25",
+  "works": [
+    {
+      "id": "the-phantom-menace",
+      "timelineOrder": 10,
+      "startYear": 32,
+      "endYear": 32,
+      "era": "BBY",
+      "titleJa": "スター・ウォーズ エピソード1／ファントム・メナス",
+      "titleEn": "Star Wars: Episode I — The Phantom Menace",
+      "releaseYear": 1999,
+      "category": "スカイウォーカー・サーガ"
+    },
+    {
+      "id": "attack-of-the-clones",
+      "timelineOrder": 20,
+      "startYear": 22,
+      "endYear": 22,
+      "era": "BBY",
+      "titleJa": "スター・ウォーズ エピソード2／クローンの攻撃",
+      "titleEn": "Star Wars: Episode II — Attack of the Clones",
+      "releaseYear": 2002,
+      "category": "スカイウォーカー・サーガ"
+    },
+    {
+      "id": "the-clone-wars-film",
+      "timelineOrder": 30,
+      "startYear": 22,
+      "endYear": 22,
+      "era": "BBY",
+      "titleJa": "スター・ウォーズ／クローン・ウォーズ",
+      "titleEn": "Star Wars: The Clone Wars",
+      "releaseYear": 2008,
+      "category": "劇場版アニメーション"
+    },
+    {
+      "id": "revenge-of-the-sith",
+      "timelineOrder": 40,
+      "startYear": 19,
+      "endYear": 19,
+      "era": "BBY",
+      "titleJa": "スター・ウォーズ エピソード3／シスの復讐",
+      "titleEn": "Star Wars: Episode III — Revenge of the Sith",
+      "releaseYear": 2005,
+      "category": "スカイウォーカー・サーガ"
+    },
+    {
+      "id": "solo",
+      "timelineOrder": 50,
+      "startYear": 13,
+      "endYear": 10,
+      "era": "BBY",
+      "titleJa": "ハン・ソロ／スター・ウォーズ・ストーリー",
+      "titleEn": "Solo: A Star Wars Story",
+      "releaseYear": 2018,
+      "category": "アンソロジー"
+    },
+    {
+      "id": "rogue-one",
+      "timelineOrder": 60,
+      "startYear": 0,
+      "endYear": 0,
+      "era": "BBY",
+      "titleJa": "ローグ・ワン／スター・ウォーズ・ストーリー",
+      "titleEn": "Rogue One: A Star Wars Story",
+      "releaseYear": 2016,
+      "category": "アンソロジー"
+    },
+    {
+      "id": "a-new-hope",
+      "timelineOrder": 70,
+      "startYear": 0,
+      "endYear": 0,
+      "era": "ABY",
+      "titleJa": "スター・ウォーズ エピソード4／新たなる希望",
+      "titleEn": "Star Wars: Episode IV — A New Hope",
+      "releaseYear": 1977,
+      "category": "スカイウォーカー・サーガ"
+    },
+    {
+      "id": "the-empire-strikes-back",
+      "timelineOrder": 80,
+      "startYear": 3,
+      "endYear": 3,
+      "era": "ABY",
+      "titleJa": "スター・ウォーズ エピソード5／帝国の逆襲",
+      "titleEn": "Star Wars: Episode V — The Empire Strikes Back",
+      "releaseYear": 1980,
+      "category": "スカイウォーカー・サーガ"
+    },
+    {
+      "id": "return-of-the-jedi",
+      "timelineOrder": 90,
+      "startYear": 4,
+      "endYear": 4,
+      "era": "ABY",
+      "titleJa": "スター・ウォーズ エピソード6／ジェダイの帰還",
+      "titleEn": "Star Wars: Episode VI — Return of the Jedi",
+      "releaseYear": 1983,
+      "category": "スカイウォーカー・サーガ"
+    },
+    {
+      "id": "the-force-awakens",
+      "timelineOrder": 100,
+      "startYear": 34,
+      "endYear": 34,
+      "era": "ABY",
+      "titleJa": "スター・ウォーズ／フォースの覚醒",
+      "titleEn": "Star Wars: Episode VII — The Force Awakens",
+      "releaseYear": 2015,
+      "category": "スカイウォーカー・サーガ"
+    },
+    {
+      "id": "the-last-jedi",
+      "timelineOrder": 110,
+      "startYear": 34,
+      "endYear": 34,
+      "era": "ABY",
+      "titleJa": "スター・ウォーズ／最後のジェダイ",
+      "titleEn": "Star Wars: Episode VIII — The Last Jedi",
+      "releaseYear": 2017,
+      "category": "スカイウォーカー・サーガ"
+    },
+    {
+      "id": "the-rise-of-skywalker",
+      "timelineOrder": 120,
+      "startYear": 35,
+      "endYear": 35,
+      "era": "ABY",
+      "titleJa": "スター・ウォーズ／スカイウォーカーの夜明け",
+      "titleEn": "Star Wars: Episode IX — The Rise of Skywalker",
+      "releaseYear": 2019,
+      "category": "スカイウォーカー・サーガ"
+    }
+  ]
+}
