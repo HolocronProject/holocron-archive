@@ -388,6 +388,7 @@ h2 { margin: 0; font-size: clamp(30px, 4vw, 44px); letter-spacing: -0.04em; }
 
 .roulette-filter select:focus { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
 .roulette-count { text-align: center; }
+.roulette-reset { min-height: auto; padding: 7px 10px; color: var(--dim); font-size: 10px; }
 
 button {
   min-height: 46px;

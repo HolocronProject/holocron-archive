@@ -5,6 +5,7 @@ const spinButton = document.querySelector("#spin-button");
 const writeAboutButton = document.querySelector("#write-about-button");
 const rouletteFilter = document.querySelector("#roulette-filter");
 const rouletteCount = document.querySelector("#roulette-count");
+const resetRouletteButton = document.querySelector("#reset-roulette-button");
 const writerPanel = document.querySelector("#writer-panel");
 const writerForm = document.querySelector("#writer-form");
 const entryWork = document.querySelector("#entry-work");
@@ -18,9 +19,11 @@ const columnList = document.querySelector("#column-list");
 
 const draftKey = "holocron-archive-column-draft";
 const selectionKey = "holocron-archive-roulette-selection";
+const historyKey = "holocron-archive-roulette-history";
 let rouletteWorks = [];
 let columnEntries = [];
 let selectedWork = null;
+let drawnIds = new Set();
 
 function localDateString() {
   const now = new Date();
@@ -35,7 +38,7 @@ function showStatus(message, isError = false) {
   writerStatus.style.color = isError ? "#ef8d8d" : "#5fd49a";
 }
 
-function displayRouletteWork(work) {
+function displayRouletteWork(work, recordResult = false) {
   selectedWork = work;
   const episodeLabel = work.label ? ` / ${work.label}` : "";
   rouletteCategory.textContent = `${work.category}${episodeLabel}`;
@@ -49,27 +52,48 @@ function displayRouletteWork(work) {
   }
   writeAboutButton.disabled = false;
   localStorage.setItem(selectionKey, JSON.stringify(work));
+  if (recordResult) {
+    drawnIds.add(work.id);
+    localStorage.setItem(historyKey, JSON.stringify([...drawnIds]));
+    updateRouletteCount();
+  }
+}
+
+function categoryWorks() {
+  const category = rouletteFilter.value;
+  return category === "all"
+    ? rouletteWorks
+    : rouletteWorks.filter((work) => work.category === category);
+}
+
+function availableWorks() {
+  return categoryWorks().filter((work) => !drawnIds.has(work.id));
 }
 
 function randomWork() {
-  const category = rouletteFilter.value;
-  const candidates = category === "all"
-    ? rouletteWorks
-    : rouletteWorks.filter((work) => work.category === category);
+  const candidates = availableWorks();
   return candidates[Math.floor(Math.random() * candidates.length)];
 }
 
 function spinRoulette() {
   if (!rouletteWorks.length) return;
 
+  const finalWork = randomWork();
+  if (!finalWork) {
+    rouletteCategory.textContent = "ARCHIVE COMPLETE";
+    rouletteResult.textContent = "このカテゴリは全候補抽選済み";
+    rouletteTitleEn.textContent = "もう一度始める場合は抽選履歴をリセットしてください";
+    writeAboutButton.disabled = true;
+    updateRouletteCount();
+    return;
+  }
+
   spinButton.disabled = true;
   writeAboutButton.disabled = true;
-  const finalWork = randomWork();
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   if (reduceMotion) {
-    displayRouletteWork(finalWork);
-    spinButton.disabled = false;
+    displayRouletteWork(finalWork, true);
     return;
   }
 
@@ -83,8 +107,7 @@ function spinRoulette() {
 
     if (turns >= 16) {
       window.clearInterval(timer);
-      displayRouletteWork(finalWork);
-      spinButton.disabled = false;
+      displayRouletteWork(finalWork, true);
     }
   }, 85);
 }
@@ -228,6 +251,7 @@ async function loadRoulette() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     rouletteWorks = data.works;
+    loadRouletteHistory();
     updateRouletteCount();
 
     const saved = JSON.parse(localStorage.getItem(selectionKey));
@@ -239,12 +263,24 @@ async function loadRoulette() {
   }
 }
 
+function loadRouletteHistory() {
+  try {
+    const savedIds = JSON.parse(localStorage.getItem(historyKey));
+    const validIds = new Set(rouletteWorks.map((work) => work.id));
+    drawnIds = new Set(Array.isArray(savedIds) ? savedIds.filter((id) => validIds.has(id)) : []);
+    localStorage.setItem(historyKey, JSON.stringify([...drawnIds]));
+  } catch (error) {
+    console.warn("Roulette history could not be loaded:", error);
+    drawnIds = new Set();
+  }
+}
+
 function updateRouletteCount() {
-  const category = rouletteFilter.value;
-  const count = category === "all"
-    ? rouletteWorks.length
-    : rouletteWorks.filter((work) => work.category === category).length;
-  rouletteCount.textContent = `${count}候補から抽選`;
+  const total = categoryWorks().length;
+  const remaining = availableWorks().length;
+  rouletteCount.textContent = `残り ${remaining} / ${total}候補`;
+  spinButton.disabled = remaining === 0;
+  resetRouletteButton.disabled = drawnIds.size === 0;
 }
 
 function changeRouletteFilter() {
@@ -256,8 +292,22 @@ function changeRouletteFilter() {
   updateRouletteCount();
 }
 
+function resetRouletteHistory() {
+  if (!drawnIds.size) return;
+  if (!window.confirm("これまでの抽選履歴をすべてリセットしますか？")) return;
+  drawnIds.clear();
+  localStorage.removeItem(historyKey);
+  selectedWork = null;
+  writeAboutButton.disabled = true;
+  rouletteCategory.textContent = "WATCH SELECTOR";
+  rouletteResult.textContent = "抽選履歴をリセットしました";
+  rouletteTitleEn.textContent = "全候補が再び抽選対象になりました";
+  updateRouletteCount();
+}
+
 spinButton.addEventListener("click", spinRoulette);
 rouletteFilter.addEventListener("change", changeRouletteFilter);
+resetRouletteButton.addEventListener("click", resetRouletteHistory);
 writeAboutButton.addEventListener("click", openWriterForSelection);
 writerForm.addEventListener("submit", saveDraft);
 copyEntryButton.addEventListener("click", copyEntry);
