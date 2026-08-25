@@ -7,6 +7,7 @@
     <title>Holocron Archive — Star Wars Canon Timeline</title>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
+    <script src="features.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -17,6 +18,11 @@
           <small>STAR WARS CANON TIMELINE</small>
         </span>
       </a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="#timeline-section">Timeline</a>
+        <a href="#roulette">Roulette</a>
+        <a href="#columns">Column</a>
+      </nav>
     </header>
 
     <main id="top">
@@ -31,7 +37,7 @@
         </dl>
       </section>
 
-      <section class="timeline-section" aria-labelledby="timeline-title">
+      <section class="timeline-section" id="timeline-section" aria-labelledby="timeline-title">
         <div class="section-heading">
           <div>
             <p class="section-kicker">CANON CHRONOLOGY</p>
@@ -44,6 +50,79 @@
         <div class="timeline" id="timeline" aria-describedby="timeline-help" aria-live="polite">
           <p class="loading">アーカイブを読み込んでいます...</p>
         </div>
+      </section>
+
+      <section class="feature-section roulette-section" id="roulette" aria-labelledby="roulette-title">
+        <div class="feature-heading">
+          <div>
+            <p class="section-kicker">TRUST IN THE FORCE</p>
+            <h2 id="roulette-title">視聴ルーレット</h2>
+          </div>
+          <p>次に観る一本を、フォースに委ねる。</p>
+        </div>
+
+        <div class="roulette-console">
+          <div class="roulette-result" aria-live="polite" aria-atomic="true">
+            <span class="roulette-category" id="roulette-category">WATCH SELECTOR</span>
+            <strong id="roulette-result">運命の作品を選択</strong>
+            <span class="roulette-title-en" id="roulette-title-en">映画・シリーズ・ゲームからランダムに選びます</span>
+          </div>
+          <div class="roulette-actions">
+            <button class="primary-button" id="spin-button" type="button">ルーレットを回す</button>
+            <button class="secondary-button" id="write-about-button" type="button" disabled>この作品で日記を書く</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-section columns-section" id="columns" aria-labelledby="columns-title">
+        <div class="feature-heading">
+          <div>
+            <p class="section-kicker">KEEPER'S LOG</p>
+            <h2 id="columns-title">主のコラム</h2>
+          </div>
+          <p>銀河を観て、感じたことを記録する。</p>
+        </div>
+
+        <div class="column-list" id="column-list" aria-live="polite">
+          <p class="column-empty">コラムを読み込んでいます...</p>
+        </div>
+
+        <details class="writer-panel" id="writer-panel">
+          <summary>
+            <span>
+              <small>KEEPER'S DESK</small>
+              <strong>新しいコラムを書く</strong>
+            </span>
+            <span class="writer-toggle" aria-hidden="true">＋</span>
+          </summary>
+          <form class="writer-form" id="writer-form">
+            <div class="form-grid">
+              <label>
+                <span>視聴作品</span>
+                <input id="entry-work" name="work" type="text" placeholder="作品名" required>
+              </label>
+              <label>
+                <span>日付</span>
+                <input id="entry-date" name="date" type="date" required>
+              </label>
+            </div>
+            <label>
+              <span>タイトル</span>
+              <input id="entry-title" name="title" type="text" maxlength="80" placeholder="今日の記録" required>
+            </label>
+            <label>
+              <span>本文</span>
+              <textarea id="entry-body" name="body" rows="8" maxlength="4000" placeholder="作品を観て感じたこと、心に残った場面など。" required></textarea>
+            </label>
+            <div class="writer-actions">
+              <button class="primary-button" type="submit">下書きを保存</button>
+              <button class="secondary-button" id="copy-entry-button" type="button">原稿をコピー</button>
+              <button class="text-button" id="export-entry-button" type="button">公開用JSONを作成</button>
+            </div>
+            <p class="writer-note">下書きはこの端末だけに保存されます。「公開用JSON」をGitHubへ反映すると、主のコラムに掲載されます。</p>
+            <p class="writer-status" id="writer-status" role="status"></p>
+          </form>
+        </details>
       </section>
     </main>
 

@@ -1,0 +1,32 @@
+{
+  "lastUpdated": "2026-08-25",
+  "works": [
+    { "id": "the-phantom-menace", "category": "映画", "titleJa": "エピソード1／ファントム・メナス", "titleEn": "Episode I — The Phantom Menace" },
+    { "id": "attack-of-the-clones", "category": "映画", "titleJa": "エピソード2／クローンの攻撃", "titleEn": "Episode II — Attack of the Clones" },
+    { "id": "the-clone-wars-film", "category": "映画", "titleJa": "スター・ウォーズ／クローン・ウォーズ", "titleEn": "Star Wars: The Clone Wars (Movie)" },
+    { "id": "revenge-of-the-sith", "category": "映画", "titleJa": "エピソード3／シスの復讐", "titleEn": "Episode III — Revenge of the Sith" },
+    { "id": "solo", "category": "映画", "titleJa": "ハン・ソロ／スター・ウォーズ・ストーリー", "titleEn": "Solo: A Star Wars Story" },
+    { "id": "rogue-one", "category": "映画", "titleJa": "ローグ・ワン／スター・ウォーズ・ストーリー", "titleEn": "Rogue One: A Star Wars Story" },
+    { "id": "a-new-hope", "category": "映画", "titleJa": "エピソード4／新たなる希望", "titleEn": "Episode IV — A New Hope" },
+    { "id": "the-empire-strikes-back", "category": "映画", "titleJa": "エピソード5／帝国の逆襲", "titleEn": "Episode V — The Empire Strikes Back" },
+    { "id": "return-of-the-jedi", "category": "映画", "titleJa": "エピソード6／ジェダイの帰還", "titleEn": "Episode VI — Return of the Jedi" },
+    { "id": "the-force-awakens", "category": "映画", "titleJa": "スター・ウォーズ／フォースの覚醒", "titleEn": "Episode VII — The Force Awakens" },
+    { "id": "the-last-jedi", "category": "映画", "titleJa": "スター・ウォーズ／最後のジェダイ", "titleEn": "Episode VIII — The Last Jedi" },
+    { "id": "the-rise-of-skywalker", "category": "映画", "titleJa": "スター・ウォーズ／スカイウォーカーの夜明け", "titleEn": "Episode IX — The Rise of Skywalker" },
+    { "id": "the-clone-wars-series", "category": "アニメシリーズ", "titleJa": "スター・ウォーズ：クローン・ウォーズ", "titleEn": "Star Wars: The Clone Wars" },
+    { "id": "the-bad-batch", "category": "アニメシリーズ", "titleJa": "スター・ウォーズ：バッド・バッチ", "titleEn": "Star Wars: The Bad Batch" },
+    { "id": "rebels", "category": "アニメシリーズ", "titleJa": "スター・ウォーズ 反乱者たち", "titleEn": "Star Wars Rebels" },
+    { "id": "tales-of-the-jedi", "category": "アニメシリーズ", "titleJa": "スター・ウォーズ：テイルズ・オブ・ジェダイ", "titleEn": "Star Wars: Tales of the Jedi" },
+    { "id": "tales-of-the-empire", "category": "アニメシリーズ", "titleJa": "スター・ウォーズ：テイルズ・オブ・エンパイア", "titleEn": "Star Wars: Tales of the Empire" },
+    { "id": "tales-of-the-underworld", "category": "アニメシリーズ", "titleJa": "スター・ウォーズ：テイルズ・オブ・アンダーワールド", "titleEn": "Star Wars: Tales of the Underworld" },
+    { "id": "obi-wan-kenobi", "category": "実写シリーズ", "titleJa": "オビ＝ワン・ケノービ", "titleEn": "Obi-Wan Kenobi" },
+    { "id": "andor", "category": "実写シリーズ", "titleJa": "キャシアン・アンドー", "titleEn": "Andor" },
+    { "id": "the-mandalorian", "category": "実写シリーズ", "titleJa": "マンダロリアン", "titleEn": "The Mandalorian" },
+    { "id": "the-book-of-boba-fett", "category": "実写シリーズ", "titleJa": "ボバ・フェット／The Book of Boba Fett", "titleEn": "The Book of Boba Fett" },
+    { "id": "ahsoka", "category": "実写シリーズ", "titleJa": "アソーカ", "titleEn": "Ahsoka" },
+    { "id": "the-acolyte", "category": "実写シリーズ", "titleJa": "アコライト", "titleEn": "The Acolyte" },
+    { "id": "skeleton-crew", "category": "実写シリーズ", "titleJa": "スター・ウォーズ：スケルトン・クルー", "titleEn": "Star Wars: Skeleton Crew" },
+    { "id": "jedi-fallen-order", "category": "ゲーム", "titleJa": "スター・ウォーズ ジェダイ：フォールン・オーダー", "titleEn": "Star Wars Jedi: Fallen Order" },
+    { "id": "jedi-survivor", "category": "ゲーム", "titleJa": "スター・ウォーズ ジェダイ：サバイバー", "titleEn": "Star Wars Jedi: Survivor" }
+  ]
+}
