@@ -1,0 +1,3440 @@
+{
+  "metadata": {
+    "project": "Holocron Archive",
+    "version": "0.5.1",
+    "language": "ja",
+    "scope": "映像作品・カノン中心",
+    "generatedFrom": "ユーザー提供Excel『スターウォーズ_完全時系列_クローンウォーズ全話.xlsx』",
+    "counts": {
+      "mainTimeline": 30,
+      "cloneWars": 134,
+      "totalRecords": 164
+    },
+    "notes": [
+      "劇場版1作＋TV全133話を公式時系列順で収録。",
+      "全134項目に日本語タイトルと英語タイトルを収録。",
+      "各項目にストーリーアーク等のバッジ情報を追加。",
+      "最終4話には『EP3 同時進行』バッジを表示。"
+    ]
+  },
+  "items": [
+    {
+      "id": "cw-001",
+      "chronologicalOrder": 1,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 16,
+      "code": "S02E16",
+      "titleJa": "封鎖線を突破せよ",
+      "titleEn": "Cat and Mouse",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "クリストフシス戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "クリストフシス戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-002",
+      "chronologicalOrder": 2,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 16,
+      "code": "S01E16",
+      "titleJa": "内なる敵",
+      "titleEn": "The Hidden Enemy",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "クリストフシス戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "クリストフシス戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-003",
+      "chronologicalOrder": 3,
+      "era": "22 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "movie",
+      "season": null,
+      "episode": null,
+      "code": "MOVIE",
+      "titleJa": "スター・ウォーズ／クローン・ウォーズ",
+      "titleEn": "Star Wars: The Clone Wars",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "クリストフシス戦役",
+      "badges": [
+        {
+          "key": "movie",
+          "label": "劇場版"
+        },
+        {
+          "key": "arc",
+          "label": "クリストフシス戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-004",
+      "chronologicalOrder": 4,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 1,
+      "code": "S03E01",
+      "titleJa": "トルーパーへの道",
+      "titleEn": "Clone Cadets",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "クローン兵の始まり",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "クローン兵の始まり"
+        }
+      ]
+    },
+    {
+      "id": "cw-005",
+      "chronologicalOrder": 5,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 3,
+      "code": "S03E03",
+      "titleJa": "補給線をつなげ",
+      "titleEn": "Supply Lines",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "クローン兵の始まり",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "クローン兵の始まり"
+        }
+      ]
+    },
+    {
+      "id": "cw-006",
+      "chronologicalOrder": 6,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 1,
+      "code": "S01E01",
+      "titleJa": "待ち伏せ",
+      "titleEn": "Ambush",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "トイダリア任務",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "トイダリア任務"
+        }
+      ]
+    },
+    {
+      "id": "cw-007",
+      "chronologicalOrder": 7,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 2,
+      "code": "S01E02",
+      "titleJa": "マレボランス襲来",
+      "titleEn": "Rising Malevolence",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マレボランス三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マレボランス三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-008",
+      "chronologicalOrder": 8,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 3,
+      "code": "S01E03",
+      "titleJa": "マレボランスの影",
+      "titleEn": "Shadow of Malevolence",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マレボランス三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マレボランス三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-009",
+      "chronologicalOrder": 9,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 4,
+      "code": "S01E04",
+      "titleJa": "撃破！マレボランス",
+      "titleEn": "Destroy Malevolence",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マレボランス三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マレボランス三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-010",
+      "chronologicalOrder": 10,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 5,
+      "code": "S01E05",
+      "titleJa": "ルーキーたち",
+      "titleEn": "Rookies",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "リシ・ムーン防衛",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "リシ・ムーン防衛"
+        }
+      ]
+    },
+    {
+      "id": "cw-011",
+      "chronologicalOrder": 11,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 6,
+      "code": "S01E06",
+      "titleJa": "消えたドロイド",
+      "titleEn": "Downfall of a Droid",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "R2-D2捜索",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "R2-D2捜索"
+        }
+      ]
+    },
+    {
+      "id": "cw-012",
+      "chronologicalOrder": 12,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 7,
+      "code": "S01E07",
+      "titleJa": "ドロイドの決闘",
+      "titleEn": "Duel of the Droids",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "R2-D2捜索",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "R2-D2捜索"
+        }
+      ]
+    },
+    {
+      "id": "cw-013",
+      "chronologicalOrder": 13,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 8,
+      "code": "S01E08",
+      "titleJa": "型破りなジェダイ",
+      "titleEn": "Bombad Jedi",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヌート・ガンレイ／グリーヴァス",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヌート・ガンレイ／グリーヴァス"
+        }
+      ]
+    },
+    {
+      "id": "cw-014",
+      "chronologicalOrder": 14,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 9,
+      "code": "S01E09",
+      "titleJa": "闇のマント",
+      "titleEn": "Cloak of Darkness",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヌート・ガンレイ／グリーヴァス",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヌート・ガンレイ／グリーヴァス"
+        }
+      ]
+    },
+    {
+      "id": "cw-015",
+      "chronologicalOrder": 15,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 10,
+      "code": "S01E10",
+      "titleJa": "グリーヴァスのアジト",
+      "titleEn": "Lair of Grievous",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヌート・ガンレイ／グリーヴァス",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヌート・ガンレイ／グリーヴァス"
+        }
+      ]
+    },
+    {
+      "id": "cw-016",
+      "chronologicalOrder": 16,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 11,
+      "code": "S01E11",
+      "titleJa": "囚人ドゥークー",
+      "titleEn": "Dooku Captured",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ドゥークー捕縛",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ドゥークー捕縛"
+        }
+      ]
+    },
+    {
+      "id": "cw-017",
+      "chronologicalOrder": 17,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 12,
+      "code": "S01E12",
+      "titleJa": "グンガンの将軍",
+      "titleEn": "The Gungan General",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ドゥークー捕縛",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ドゥークー捕縛"
+        }
+      ]
+    },
+    {
+      "id": "cw-018",
+      "chronologicalOrder": 18,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 13,
+      "code": "S01E13",
+      "titleJa": "ジェダイの遭難",
+      "titleEn": "Jedi Crash",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マーリダン戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マーリダン戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-019",
+      "chronologicalOrder": 19,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 14,
+      "code": "S01E14",
+      "titleJa": "平和の守護者",
+      "titleEn": "Defenders of Peace",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マーリダン戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マーリダン戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-020",
+      "chronologicalOrder": 20,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 15,
+      "code": "S01E15",
+      "titleJa": "侵入者",
+      "titleEn": "Trespass",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マーリダン戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マーリダン戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-021",
+      "chronologicalOrder": 21,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 17,
+      "code": "S01E17",
+      "titleJa": "ブルー・シャドー・ウイルス",
+      "titleEn": "Blue Shadow Virus",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ブルー・シャドー・ウイルス",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ブルー・シャドー・ウイルス"
+        }
+      ]
+    },
+    {
+      "id": "cw-022",
+      "chronologicalOrder": 22,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 18,
+      "code": "S01E18",
+      "titleJa": "千の月の謎",
+      "titleEn": "Mystery of a Thousand Moons",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ブルー・シャドー・ウイルス",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ブルー・シャドー・ウイルス"
+        }
+      ]
+    },
+    {
+      "id": "cw-023",
+      "chronologicalOrder": 23,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 19,
+      "code": "S01E19",
+      "titleJa": "ライロスの嵐",
+      "titleEn": "Storm Over Ryloth",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ライロス解放",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ライロス解放"
+        }
+      ]
+    },
+    {
+      "id": "cw-024",
+      "chronologicalOrder": 24,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 20,
+      "code": "S01E20",
+      "titleJa": "ライロスの罪なき人々",
+      "titleEn": "Innocents of Ryloth",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ライロス解放",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ライロス解放"
+        }
+      ]
+    },
+    {
+      "id": "cw-025",
+      "chronologicalOrder": 25,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 21,
+      "code": "S01E21",
+      "titleJa": "ライロスの解放",
+      "titleEn": "Liberty on Ryloth",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ライロス解放",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ライロス解放"
+        }
+      ]
+    },
+    {
+      "id": "cw-026",
+      "chronologicalOrder": 26,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 1,
+      "code": "S02E01",
+      "titleJa": "ホロクロン強奪",
+      "titleEn": "Holocron Heist",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ホロクロン三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ホロクロン三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-027",
+      "chronologicalOrder": 27,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 2,
+      "code": "S02E02",
+      "titleJa": "破滅の積荷",
+      "titleEn": "Cargo of Doom",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ホロクロン三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ホロクロン三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-028",
+      "chronologicalOrder": 28,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 3,
+      "code": "S02E03",
+      "titleJa": "フォースの子供たち",
+      "titleEn": "Children of the Force",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ホロクロン三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ホロクロン三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-029",
+      "chronologicalOrder": 29,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 17,
+      "code": "S02E17",
+      "titleJa": "七人の傭兵",
+      "titleEn": "Bounty Hunters",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "賞金稼ぎ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "賞金稼ぎ"
+        }
+      ]
+    },
+    {
+      "id": "cw-030",
+      "chronologicalOrder": 30,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 18,
+      "code": "S02E18",
+      "titleJa": "いにしえの巨獣",
+      "titleEn": "The Zillo Beast",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ジロ・ビースト",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ジロ・ビースト"
+        }
+      ]
+    },
+    {
+      "id": "cw-031",
+      "chronologicalOrder": 31,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 19,
+      "code": "S02E19",
+      "titleJa": "コルサント炎上",
+      "titleEn": "The Zillo Beast Strikes Back",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ジロ・ビースト",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ジロ・ビースト"
+        }
+      ]
+    },
+    {
+      "id": "cw-032",
+      "chronologicalOrder": 32,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 4,
+      "code": "S02E04",
+      "titleJa": "元老院のスパイ",
+      "titleEn": "Senate Spy",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "元老院のスパイ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "元老院のスパイ"
+        }
+      ]
+    },
+    {
+      "id": "cw-033",
+      "chronologicalOrder": 33,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 5,
+      "code": "S02E05",
+      "titleJa": "砲火を抜けて",
+      "titleEn": "Landing at Point Rain",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "第二次ジオノーシス戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "第二次ジオノーシス戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-034",
+      "chronologicalOrder": 34,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 6,
+      "code": "S02E06",
+      "titleJa": "強襲 ドロイド工場",
+      "titleEn": "Weapons Factory",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "第二次ジオノーシス戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "第二次ジオノーシス戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-035",
+      "chronologicalOrder": 35,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 7,
+      "code": "S02E07",
+      "titleJa": "恐怖の遺産",
+      "titleEn": "Legacy of Terror",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "第二次ジオノーシス戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "第二次ジオノーシス戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-036",
+      "chronologicalOrder": 36,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 8,
+      "code": "S02E08",
+      "titleJa": "ブレイン・インベーダー",
+      "titleEn": "Brain Invaders",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "第二次ジオノーシス戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "第二次ジオノーシス戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-037",
+      "chronologicalOrder": 37,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 9,
+      "code": "S02E09",
+      "titleJa": "囚われたジェダイ",
+      "titleEn": "Grievous Intrigue",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "グリーヴァス追跡",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "グリーヴァス追跡"
+        }
+      ]
+    },
+    {
+      "id": "cw-038",
+      "chronologicalOrder": 38,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 10,
+      "code": "S02E10",
+      "titleJa": "逃亡者",
+      "titleEn": "The Deserter",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "グリーヴァス追跡",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "グリーヴァス追跡"
+        }
+      ]
+    },
+    {
+      "id": "cw-039",
+      "chronologicalOrder": 39,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 11,
+      "code": "S02E11",
+      "titleJa": "奪われたライトセーバー",
+      "titleEn": "Lightsaber Lost",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ライトセーバー捜索",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ライトセーバー捜索"
+        }
+      ]
+    },
+    {
+      "id": "cw-040",
+      "chronologicalOrder": 40,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 12,
+      "code": "S02E12",
+      "titleJa": "デス・ウォッチの陰謀",
+      "titleEn": "The Mandalore Plot",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-041",
+      "chronologicalOrder": 41,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 13,
+      "code": "S02E13",
+      "titleJa": "誘惑の航海",
+      "titleEn": "Voyage of Temptation",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-042",
+      "chronologicalOrder": 42,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 14,
+      "code": "S02E14",
+      "titleJa": "狙われた女公爵",
+      "titleEn": "Duchess of Mandalore",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-043",
+      "chronologicalOrder": 43,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 20,
+      "code": "S02E20",
+      "titleJa": "デス・トラップ",
+      "titleEn": "Death Trap",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ボバ・フェットの復讐",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ボバ・フェットの復讐"
+        }
+      ]
+    },
+    {
+      "id": "cw-044",
+      "chronologicalOrder": 44,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 21,
+      "code": "S02E21",
+      "titleJa": "絆",
+      "titleEn": "R2 Come Home",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ボバ・フェットの復讐",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ボバ・フェットの復讐"
+        }
+      ]
+    },
+    {
+      "id": "cw-045",
+      "chronologicalOrder": 45,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 22,
+      "code": "S02E22",
+      "titleJa": "危険な追跡",
+      "titleEn": "Lethal Trackdown",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ボバ・フェットの復讐",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ボバ・フェットの復讐"
+        }
+      ]
+    },
+    {
+      "id": "cw-046",
+      "chronologicalOrder": 46,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 5,
+      "code": "S03E05",
+      "titleJa": "星を蝕むもの",
+      "titleEn": "Corruption",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア腐敗",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア腐敗"
+        }
+      ]
+    },
+    {
+      "id": "cw-047",
+      "chronologicalOrder": 47,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 6,
+      "code": "S03E06",
+      "titleJa": "王立アカデミー",
+      "titleEn": "The Academy",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア腐敗",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア腐敗"
+        }
+      ]
+    },
+    {
+      "id": "cw-048",
+      "chronologicalOrder": 48,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 7,
+      "code": "S03E07",
+      "titleJa": "悪夢の暗殺者",
+      "titleEn": "Assassin",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ズィロ暗殺未遂",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ズィロ暗殺未遂"
+        }
+      ]
+    },
+    {
+      "id": "cw-049",
+      "chronologicalOrder": 49,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 2,
+      "code": "S03E02",
+      "titleJa": "誇り高き兵士たち",
+      "titleEn": "ARC Troopers",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "カミーノ／パントラ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "カミーノ／パントラ"
+        }
+      ]
+    },
+    {
+      "id": "cw-050",
+      "chronologicalOrder": 50,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 4,
+      "code": "S03E04",
+      "titleJa": "惑星封鎖を解き放て",
+      "titleEn": "Sphere of Influence",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "カミーノ／パントラ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "カミーノ／パントラ"
+        }
+      ]
+    },
+    {
+      "id": "cw-051",
+      "chronologicalOrder": 51,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 8,
+      "code": "S03E08",
+      "titleJa": "邪悪なる計画",
+      "titleEn": "Evil Plans",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ズィロ・ザ・ハット",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ズィロ・ザ・ハット"
+        }
+      ]
+    },
+    {
+      "id": "cw-052",
+      "chronologicalOrder": 52,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 1,
+      "episode": 22,
+      "code": "S01E22",
+      "titleJa": "人質",
+      "titleEn": "Hostage Crisis",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ズィロ・ザ・ハット",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ズィロ・ザ・ハット"
+        }
+      ]
+    },
+    {
+      "id": "cw-053",
+      "chronologicalOrder": 53,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 9,
+      "code": "S03E09",
+      "titleJa": "ズィロを追え！",
+      "titleEn": "Hunt for Ziro",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ズィロ・ザ・ハット",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ズィロ・ザ・ハット"
+        }
+      ]
+    },
+    {
+      "id": "cw-054",
+      "chronologicalOrder": 54,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 10,
+      "code": "S03E10",
+      "titleJa": "分離主義者の友",
+      "titleEn": "Heroes on Both Sides",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "元老院和平交渉",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "元老院和平交渉"
+        }
+      ]
+    },
+    {
+      "id": "cw-055",
+      "chronologicalOrder": 55,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 11,
+      "code": "S03E11",
+      "titleJa": "平和を求めて",
+      "titleEn": "Pursuit of Peace",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "元老院和平交渉",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "元老院和平交渉"
+        }
+      ]
+    },
+    {
+      "id": "cw-056",
+      "chronologicalOrder": 56,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 2,
+      "episode": 15,
+      "code": "S02E15",
+      "titleJa": "議員暗殺",
+      "titleEn": "Senate Murders",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "元老院和平交渉",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "元老院和平交渉"
+        }
+      ]
+    },
+    {
+      "id": "cw-057",
+      "chronologicalOrder": 57,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 12,
+      "code": "S03E12",
+      "titleJa": "ダソミアの魔女",
+      "titleEn": "Nightsisters",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ナイトシスターズ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ナイトシスターズ"
+        }
+      ]
+    },
+    {
+      "id": "cw-058",
+      "chronologicalOrder": 58,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 13,
+      "code": "S03E13",
+      "titleJa": "新たな脅威",
+      "titleEn": "Monster",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ナイトシスターズ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ナイトシスターズ"
+        }
+      ]
+    },
+    {
+      "id": "cw-059",
+      "chronologicalOrder": 59,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 14,
+      "code": "S03E14",
+      "titleJa": "灰色の魔女",
+      "titleEn": "Witches of the Mist",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ナイトシスターズ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ナイトシスターズ"
+        }
+      ]
+    },
+    {
+      "id": "cw-060",
+      "chronologicalOrder": 60,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 15,
+      "code": "S03E15",
+      "titleJa": "フォースの惑星",
+      "titleEn": "Overlords",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モーティス三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モーティス三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-061",
+      "chronologicalOrder": 61,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 16,
+      "code": "S03E16",
+      "titleJa": "光と闇",
+      "titleEn": "Altar of Mortis",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モーティス三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モーティス三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-062",
+      "chronologicalOrder": 62,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 17,
+      "code": "S03E17",
+      "titleJa": "未来の選択",
+      "titleEn": "Ghosts of Mortis",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モーティス三部作",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モーティス三部作"
+        }
+      ]
+    },
+    {
+      "id": "cw-063",
+      "chronologicalOrder": 63,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 18,
+      "code": "S03E18",
+      "titleJa": "鉄壁の要塞",
+      "titleEn": "The Citadel",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "シタデル救出",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "シタデル救出"
+        }
+      ]
+    },
+    {
+      "id": "cw-064",
+      "chronologicalOrder": 64,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 19,
+      "code": "S03E19",
+      "titleJa": "決死の脱出",
+      "titleEn": "Counterattack",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "シタデル救出",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "シタデル救出"
+        }
+      ]
+    },
+    {
+      "id": "cw-065",
+      "chronologicalOrder": 65,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 20,
+      "code": "S03E20",
+      "titleJa": "勝利の代償",
+      "titleEn": "Citadel Rescue",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "シタデル救出",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "シタデル救出"
+        }
+      ]
+    },
+    {
+      "id": "cw-066",
+      "chronologicalOrder": 66,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 21,
+      "code": "S03E21",
+      "titleJa": "囚われのパダワン パート1",
+      "titleEn": "Padawan Lost",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "トランドーシャン狩猟",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "トランドーシャン狩猟"
+        }
+      ]
+    },
+    {
+      "id": "cw-067",
+      "chronologicalOrder": 67,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 3,
+      "episode": 22,
+      "code": "S03E22",
+      "titleJa": "囚われのパダワン パート2",
+      "titleEn": "Wookiee Hunt",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "トランドーシャン狩猟",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "トランドーシャン狩猟"
+        }
+      ]
+    },
+    {
+      "id": "cw-068",
+      "chronologicalOrder": 68,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 1,
+      "code": "S04E01",
+      "titleJa": "海洋惑星の激戦",
+      "titleEn": "Water War",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モン・カラ戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モン・カラ戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-069",
+      "chronologicalOrder": 69,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 2,
+      "code": "S04E02",
+      "titleJa": "グンガン参戦",
+      "titleEn": "Gungan Attack",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モン・カラ戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モン・カラ戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-070",
+      "chronologicalOrder": 70,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 3,
+      "code": "S04E03",
+      "titleJa": "囚われた王国",
+      "titleEn": "Prisoners",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モン・カラ戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モン・カラ戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-071",
+      "chronologicalOrder": 71,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 4,
+      "code": "S04E04",
+      "titleJa": "危険な影武者",
+      "titleEn": "Shadow Warrior",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ナブー影武者",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ナブー影武者"
+        }
+      ]
+    },
+    {
+      "id": "cw-072",
+      "chronologicalOrder": 72,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 5,
+      "code": "S04E05",
+      "titleJa": "アリーン支援作戦",
+      "titleEn": "Mercy Mission",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アリーン／ドロイド漂流",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アリーン／ドロイド漂流"
+        }
+      ]
+    },
+    {
+      "id": "cw-073",
+      "chronologicalOrder": 73,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 6,
+      "code": "S04E06",
+      "titleJa": "さまよえるドロイドたち",
+      "titleEn": "Nomad Droids",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アリーン／ドロイド漂流",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アリーン／ドロイド漂流"
+        }
+      ]
+    },
+    {
+      "id": "cw-074",
+      "chronologicalOrder": 74,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 7,
+      "code": "S04E07",
+      "titleJa": "アンバラの暗雲",
+      "titleEn": "Darkness on Umbara",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アンバラ戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アンバラ戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-075",
+      "chronologicalOrder": 75,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 8,
+      "code": "S04E08",
+      "titleJa": "クレル将軍",
+      "titleEn": "The General",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アンバラ戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アンバラ戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-076",
+      "chronologicalOrder": 76,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 9,
+      "code": "S04E09",
+      "titleJa": "作戦への反抗",
+      "titleEn": "Plan of Dissent",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アンバラ戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アンバラ戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-077",
+      "chronologicalOrder": 77,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 10,
+      "code": "S04E10",
+      "titleJa": "クレルの正体",
+      "titleEn": "Carnage of Krell",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アンバラ戦役",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アンバラ戦役"
+        }
+      ]
+    },
+    {
+      "id": "cw-078",
+      "chronologicalOrder": 78,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 11,
+      "code": "S04E11",
+      "titleJa": "消えた植民者",
+      "titleEn": "Kidnapped",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ザイゲリア奴隷帝国",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ザイゲリア奴隷帝国"
+        }
+      ]
+    },
+    {
+      "id": "cw-079",
+      "chronologicalOrder": 79,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 12,
+      "code": "S04E12",
+      "titleJa": "共和国の奴隷たち",
+      "titleEn": "Slaves of the Republic",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ザイゲリア奴隷帝国",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ザイゲリア奴隷帝国"
+        }
+      ]
+    },
+    {
+      "id": "cw-080",
+      "chronologicalOrder": 80,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 13,
+      "code": "S04E13",
+      "titleJa": "カダーヴォからの脱出",
+      "titleEn": "Escape from Kadavo",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ザイゲリア奴隷帝国",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ザイゲリア奴隷帝国"
+        }
+      ]
+    },
+    {
+      "id": "cw-081",
+      "chronologicalOrder": 81,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 14,
+      "code": "S04E14",
+      "titleJa": "友情の真価",
+      "titleEn": "A Friend in Need",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ルクソン／デス・ウォッチ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ルクソン／デス・ウォッチ"
+        }
+      ]
+    },
+    {
+      "id": "cw-082",
+      "chronologicalOrder": 82,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 15,
+      "code": "S04E15",
+      "titleJa": "オビ＝ワン暗殺",
+      "titleEn": "Deception",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オビ＝ワン潜入任務",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オビ＝ワン潜入任務"
+        }
+      ]
+    },
+    {
+      "id": "cw-083",
+      "chronologicalOrder": 83,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 16,
+      "code": "S04E16",
+      "titleJa": "疑惑の賞金稼ぎ",
+      "titleEn": "Friends and Enemies",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オビ＝ワン潜入任務",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オビ＝ワン潜入任務"
+        }
+      ]
+    },
+    {
+      "id": "cw-084",
+      "chronologicalOrder": 84,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 17,
+      "code": "S04E17",
+      "titleJa": "サバイバル・ボックス",
+      "titleEn": "The Box",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オビ＝ワン潜入任務",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オビ＝ワン潜入任務"
+        }
+      ]
+    },
+    {
+      "id": "cw-085",
+      "chronologicalOrder": 85,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 18,
+      "code": "S04E18",
+      "titleJa": "狙われた祭典",
+      "titleEn": "Crisis on Naboo",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オビ＝ワン潜入任務",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オビ＝ワン潜入任務"
+        }
+      ]
+    },
+    {
+      "id": "cw-086",
+      "chronologicalOrder": 86,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 19,
+      "code": "S04E19",
+      "titleJa": "魔女狩り",
+      "titleEn": "Massacre",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モール帰還",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モール帰還"
+        }
+      ]
+    },
+    {
+      "id": "cw-087",
+      "chronologicalOrder": 87,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 20,
+      "code": "S04E20",
+      "titleJa": "その手に掴むもの",
+      "titleEn": "Bounty",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モール帰還",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モール帰還"
+        }
+      ]
+    },
+    {
+      "id": "cw-088",
+      "chronologicalOrder": 88,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 21,
+      "code": "S04E21",
+      "titleJa": "邂逅",
+      "titleEn": "Brothers",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モール帰還",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モール帰還"
+        }
+      ]
+    },
+    {
+      "id": "cw-089",
+      "chronologicalOrder": 89,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 4,
+      "episode": 22,
+      "code": "S04E22",
+      "titleJa": "復讐の狼煙",
+      "titleEn": "Revenge",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "モール帰還",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "モール帰還"
+        }
+      ]
+    },
+    {
+      "id": "cw-090",
+      "chronologicalOrder": 90,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 2,
+      "code": "S05E02",
+      "titleJa": "オンダロン支援作戦",
+      "titleEn": "A War on Two Fronts",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オンダロン反乱",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オンダロン反乱"
+        }
+      ]
+    },
+    {
+      "id": "cw-091",
+      "chronologicalOrder": 91,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 3,
+      "code": "S05E03",
+      "titleJa": "戦場を駆ける者たち",
+      "titleEn": "Front Runners",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オンダロン反乱",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オンダロン反乱"
+        }
+      ]
+    },
+    {
+      "id": "cw-092",
+      "chronologicalOrder": 92,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 4,
+      "code": "S05E04",
+      "titleJa": "王の奪還",
+      "titleEn": "The Soft War",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オンダロン反乱",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オンダロン反乱"
+        }
+      ]
+    },
+    {
+      "id": "cw-093",
+      "chronologicalOrder": 93,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 5,
+      "code": "S05E05",
+      "titleJa": "ターニング・ポイント",
+      "titleEn": "Tipping Points",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オンダロン反乱",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オンダロン反乱"
+        }
+      ]
+    },
+    {
+      "id": "cw-094",
+      "chronologicalOrder": 94,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 6,
+      "code": "S05E06",
+      "titleJa": "ギャザリングへの挑戦",
+      "titleEn": "The Gathering",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヤングリングの試練",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヤングリングの試練"
+        }
+      ]
+    },
+    {
+      "id": "cw-095",
+      "chronologicalOrder": 95,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 7,
+      "code": "S05E07",
+      "titleJa": "試される力",
+      "titleEn": "A Test of Strength",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヤングリングの試練",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヤングリングの試練"
+        }
+      ]
+    },
+    {
+      "id": "cw-096",
+      "chronologicalOrder": 96,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 8,
+      "code": "S05E08",
+      "titleJa": "アソーカを救え",
+      "titleEn": "Bound for Rescue",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヤングリングの試練",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヤングリングの試練"
+        }
+      ]
+    },
+    {
+      "id": "cw-097",
+      "chronologicalOrder": 97,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 9,
+      "code": "S05E09",
+      "titleJa": "求められる絆",
+      "titleEn": "A Necessary Bond",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヤングリングの試練",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヤングリングの試練"
+        }
+      ]
+    },
+    {
+      "id": "cw-098",
+      "chronologicalOrder": 98,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 10,
+      "code": "S05E10",
+      "titleJa": "特務分隊結成",
+      "titleEn": "Secret Weapons",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "D分隊",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "D分隊"
+        }
+      ]
+    },
+    {
+      "id": "cw-099",
+      "chronologicalOrder": 99,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 11,
+      "code": "S05E11",
+      "titleJa": "虚無の惑星",
+      "titleEn": "A Sunny Day in the Void",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "D分隊",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "D分隊"
+        }
+      ]
+    },
+    {
+      "id": "cw-100",
+      "chronologicalOrder": 100,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 12,
+      "code": "S05E12",
+      "titleJa": "生きていた兵士",
+      "titleEn": "Missing in Action",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "D分隊",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "D分隊"
+        }
+      ]
+    },
+    {
+      "id": "cw-101",
+      "chronologicalOrder": 101,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 13,
+      "code": "S05E13",
+      "titleJa": "惨劇へのカウントダウン",
+      "titleEn": "Point of No Return",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "D分隊",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "D分隊"
+        }
+      ]
+    },
+    {
+      "id": "cw-102",
+      "chronologicalOrder": 102,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 1,
+      "code": "S05E01",
+      "titleJa": "復活のシス",
+      "titleEn": "Revival",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "シャドウ・コレクティブ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "シャドウ・コレクティブ"
+        }
+      ]
+    },
+    {
+      "id": "cw-103",
+      "chronologicalOrder": 103,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 14,
+      "code": "S05E14",
+      "titleJa": "悪の同盟",
+      "titleEn": "Eminence",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "シャドウ・コレクティブ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "シャドウ・コレクティブ"
+        }
+      ]
+    },
+    {
+      "id": "cw-104",
+      "chronologicalOrder": 104,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 15,
+      "code": "S05E15",
+      "titleJa": "仕組まれた救世主",
+      "titleEn": "Shades of Reason",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "シャドウ・コレクティブ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "シャドウ・コレクティブ"
+        }
+      ]
+    },
+    {
+      "id": "cw-105",
+      "chronologicalOrder": 105,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 16,
+      "code": "S05E16",
+      "titleJa": "歪みゆく惑星",
+      "titleEn": "The Lawless",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "シャドウ・コレクティブ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "シャドウ・コレクティブ"
+        }
+      ]
+    },
+    {
+      "id": "cw-106",
+      "chronologicalOrder": 106,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 17,
+      "code": "S05E17",
+      "titleJa": "爆破犯を追え",
+      "titleEn": "Sabotage",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アソーカ冤罪事件",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アソーカ冤罪事件"
+        }
+      ]
+    },
+    {
+      "id": "cw-107",
+      "chronologicalOrder": 107,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 18,
+      "code": "S05E18",
+      "titleJa": "真実の行方",
+      "titleEn": "The Jedi Who Knew Too Much",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アソーカ冤罪事件",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アソーカ冤罪事件"
+        }
+      ]
+    },
+    {
+      "id": "cw-108",
+      "chronologicalOrder": 108,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 19,
+      "code": "S05E19",
+      "titleJa": "逃亡者アソーカ",
+      "titleEn": "To Catch a Jedi",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アソーカ冤罪事件",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アソーカ冤罪事件"
+        }
+      ]
+    },
+    {
+      "id": "cw-109",
+      "chronologicalOrder": 109,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 5,
+      "episode": 20,
+      "code": "S05E20",
+      "titleJa": "ジェダイの過ち",
+      "titleEn": "The Wrong Jedi",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "アソーカ冤罪事件",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "アソーカ冤罪事件"
+        }
+      ]
+    },
+    {
+      "id": "cw-110",
+      "chronologicalOrder": 110,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 1,
+      "code": "S06E01",
+      "titleJa": "未知の症状",
+      "titleEn": "The Unknown",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オーダー66の陰謀",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オーダー66の陰謀"
+        }
+      ]
+    },
+    {
+      "id": "cw-111",
+      "chronologicalOrder": 111,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 2,
+      "code": "S06E02",
+      "titleJa": "陰謀",
+      "titleEn": "Conspiracy",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オーダー66の陰謀",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オーダー66の陰謀"
+        }
+      ]
+    },
+    {
+      "id": "cw-112",
+      "chronologicalOrder": 112,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 3,
+      "code": "S06E03",
+      "titleJa": "逃亡者",
+      "titleEn": "Fugitive",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オーダー66の陰謀",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オーダー66の陰謀"
+        }
+      ]
+    },
+    {
+      "id": "cw-113",
+      "chronologicalOrder": 113,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 4,
+      "code": "S06E04",
+      "titleJa": "命令",
+      "titleEn": "Orders",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "オーダー66の陰謀",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "オーダー66の陰謀"
+        }
+      ]
+    },
+    {
+      "id": "cw-114",
+      "chronologicalOrder": 114,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 5,
+      "code": "S06E05",
+      "titleJa": "古い友",
+      "titleEn": "An Old Friend",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "クローヴィス危機",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "クローヴィス危機"
+        }
+      ]
+    },
+    {
+      "id": "cw-115",
+      "chronologicalOrder": 115,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 6,
+      "code": "S06E06",
+      "titleJa": "クローヴィスの台頭",
+      "titleEn": "The Rise of Clovis",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "クローヴィス危機",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "クローヴィス危機"
+        }
+      ]
+    },
+    {
+      "id": "cw-116",
+      "chronologicalOrder": 116,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 7,
+      "code": "S06E07",
+      "titleJa": "危機的状況",
+      "titleEn": "Crisis at the Heart",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "クローヴィス危機",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "クローヴィス危機"
+        }
+      ]
+    },
+    {
+      "id": "cw-117",
+      "chronologicalOrder": 117,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 8,
+      "code": "S06E08",
+      "titleJa": "失踪 パート1",
+      "titleEn": "The Disappeared",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "バードータ失踪事件",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "バードータ失踪事件"
+        }
+      ]
+    },
+    {
+      "id": "cw-118",
+      "chronologicalOrder": 118,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 9,
+      "code": "S06E09",
+      "titleJa": "失踪 パート2",
+      "titleEn": "The Disappeared Part II",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "バードータ失踪事件",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "バードータ失踪事件"
+        }
+      ]
+    },
+    {
+      "id": "cw-119",
+      "chronologicalOrder": 119,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 10,
+      "code": "S06E10",
+      "titleJa": "失われた者",
+      "titleEn": "The Lost One",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヨーダの試練",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヨーダの試練"
+        }
+      ]
+    },
+    {
+      "id": "cw-120",
+      "chronologicalOrder": 120,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 11,
+      "code": "S06E11",
+      "titleJa": "声",
+      "titleEn": "Voices",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヨーダの試練",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヨーダの試練"
+        }
+      ]
+    },
+    {
+      "id": "cw-121",
+      "chronologicalOrder": 121,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 12,
+      "code": "S06E12",
+      "titleJa": "運命",
+      "titleEn": "Destiny",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヨーダの試練",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヨーダの試練"
+        }
+      ]
+    },
+    {
+      "id": "cw-122",
+      "chronologicalOrder": 122,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 6,
+      "episode": 13,
+      "code": "S06E13",
+      "titleJa": "犠牲",
+      "titleEn": "Sacrifice",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "ヨーダの試練",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "ヨーダの試練"
+        }
+      ]
+    },
+    {
+      "id": "cw-123",
+      "chronologicalOrder": 123,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 5,
+      "code": "S07E05",
+      "titleJa": "危険な道",
+      "titleEn": "Gone with a Trace",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マルテス姉妹",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マルテス姉妹"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        }
+      ]
+    },
+    {
+      "id": "cw-124",
+      "chronologicalOrder": 124,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 6,
+      "code": "S07E06",
+      "titleJa": "取引なし",
+      "titleEn": "Deal No Deal",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マルテス姉妹",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マルテス姉妹"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        }
+      ]
+    },
+    {
+      "id": "cw-125",
+      "chronologicalOrder": 125,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 7,
+      "code": "S07E07",
+      "titleJa": "危険な借金",
+      "titleEn": "Dangerous Debt",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マルテス姉妹",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マルテス姉妹"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        }
+      ]
+    },
+    {
+      "id": "cw-126",
+      "chronologicalOrder": 126,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 8,
+      "code": "S07E08",
+      "titleJa": "再結束",
+      "titleEn": "Together Again",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マルテス姉妹",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マルテス姉妹"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        }
+      ]
+    },
+    {
+      "id": "cw-127",
+      "chronologicalOrder": 127,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 1,
+      "code": "S07E01",
+      "titleJa": "不良分隊",
+      "titleEn": "The Bad Batch",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "バッド・バッチ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "バッド・バッチ"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        }
+      ]
+    },
+    {
+      "id": "cw-128",
+      "chronologicalOrder": 128,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 2,
+      "code": "S07E02",
+      "titleJa": "遠い残響",
+      "titleEn": "A Distant Echo",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "バッド・バッチ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "バッド・バッチ"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        }
+      ]
+    },
+    {
+      "id": "cw-129",
+      "chronologicalOrder": 129,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 3,
+      "code": "S07E03",
+      "titleJa": "キーラダックの翼",
+      "titleEn": "On the Wings of Keeradaks",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "バッド・バッチ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "バッド・バッチ"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        }
+      ]
+    },
+    {
+      "id": "cw-130",
+      "chronologicalOrder": 130,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 4,
+      "code": "S07E04",
+      "titleJa": "未完の仕事",
+      "titleEn": "Unfinished Business",
+      "episode3Concurrent": false,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "バッド・バッチ",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "バッド・バッチ"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        }
+      ]
+    },
+    {
+      "id": "cw-131",
+      "chronologicalOrder": 131,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 9,
+      "code": "S07E09",
+      "titleJa": "忘れがたき旧友",
+      "titleEn": "Old Friends Not Forgotten",
+      "episode3Concurrent": true,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア包囲戦",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア包囲戦"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        },
+        {
+          "key": "episode3",
+          "label": "EP3 同時進行"
+        }
+      ]
+    },
+    {
+      "id": "cw-132",
+      "chronologicalOrder": 132,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 10,
+      "code": "S07E10",
+      "titleJa": "幻の弟子",
+      "titleEn": "The Phantom Apprentice",
+      "episode3Concurrent": true,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア包囲戦",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア包囲戦"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        },
+        {
+          "key": "episode3",
+          "label": "EP3 同時進行"
+        }
+      ]
+    },
+    {
+      "id": "cw-133",
+      "chronologicalOrder": 133,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 11,
+      "code": "S07E11",
+      "titleJa": "打ち砕かれた忠誠",
+      "titleEn": "Shattered",
+      "episode3Concurrent": true,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア包囲戦",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア包囲戦"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        },
+        {
+          "key": "episode3",
+          "label": "EP3 同時進行"
+        }
+      ]
+    },
+    {
+      "id": "cw-134",
+      "chronologicalOrder": 134,
+      "era": "22～19 BBY",
+      "series": "スター・ウォーズ：クローン・ウォーズ",
+      "type": "episode",
+      "season": 7,
+      "episode": 12,
+      "code": "S07E12",
+      "titleJa": "勝利と死",
+      "titleEn": "Victory and Death",
+      "episode3Concurrent": true,
+      "source": "https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
+      "arc": "マンダロア包囲戦",
+      "badges": [
+        {
+          "key": "episode",
+          "label": "TV EPISODE"
+        },
+        {
+          "key": "arc",
+          "label": "マンダロア包囲戦"
+        },
+        {
+          "key": "final-season",
+          "label": "FINAL SEASON"
+        },
+        {
+          "key": "episode3",
+          "label": "EP3 同時進行"
+        },
+        {
+          "key": "finale",
+          "label": "SERIES FINALE"
+        }
+      ]
+    }
+  ]
+}

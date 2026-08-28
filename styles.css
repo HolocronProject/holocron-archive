@@ -281,6 +281,79 @@ h2 { margin: 0; font-size: clamp(30px, 4vw, 44px); letter-spacing: -0.04em; }
 .card-details div:first-child { padding-left: 0; border-left: 0; }
 .card-details dt { color: var(--dim); font-size: 10px; letter-spacing: 0.08em; }
 .card-details dd { margin: 4px 0 0; font-size: 13px; }
+.timeline-card.has-episodes .card-details { border-radius: 0; }
+
+.episode-section {
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  background: #0b0f13;
+}
+
+.episode-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 62px;
+  padding: 14px 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.episode-list-header h3 { margin: 0; font-size: 14px; letter-spacing: 0.02em; }
+.episode-list-header span { color: var(--muted); font-size: 11px; }
+
+.episode-list {
+  max-height: 620px;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+.episode-item {
+  display: grid;
+  grid-template-columns: 44px 94px minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  min-height: 68px;
+  padding: 11px 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.episode-item:last-child { border-bottom: 0; }
+.episode-item:hover { background: rgba(255, 255, 255, 0.025); }
+
+.episode-order {
+  color: var(--dim);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+.episode-number {
+  display: grid;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.episode-number span { color: var(--dim); font-size: 8px; letter-spacing: 0.08em; }
+.episode-number strong { font-size: 11px; }
+
+.episode-titles { display: block; min-width: 0; }
+.episode-titles strong { display: block; font-size: 13px; line-height: 1.5; }
+.episode-titles > span {
+  display: block;
+  overflow: hidden;
+  margin-top: 1px;
+  color: var(--muted);
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 .loading,
 .error {
@@ -560,6 +633,10 @@ footer p:first-child { color: var(--muted); font-weight: 700; letter-spacing: 0.
   .title-ja { font-size: 14px; }
   .card-details { grid-template-columns: 1fr; gap: 16px; padding: 18px 16px; }
   .card-details div { padding: 0; border: 0; }
+  .episode-list-header { padding: 13px 16px; }
+  .episode-list { max-height: 72vh; }
+  .episode-item { grid-template-columns: 30px 68px minmax(0, 1fr); gap: 10px; padding: 11px 14px; }
+  .episode-titles strong { font-size: 12px; }
   .loading, .error { margin-left: 30px; }
   .feature-section { width: min(calc(100% - 36px), var(--max-width)); padding: 68px 0 80px; }
   .feature-heading { display: block; margin-bottom: 28px; }
