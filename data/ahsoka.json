@@ -1,0 +1,113 @@
+{
+  "work": {
+    "id": "ahsoka",
+    "timelineOrder": 96,
+    "startYear": 9,
+    "endYear": 9,
+    "era": "ABY",
+    "titleJa": "アソーカ",
+    "titleEn": "Ahsoka",
+    "releaseYear": "2023",
+    "category": "実写ドラマ",
+    "episodeCount": 8,
+    "episodeOrderLabel": "エピソード順"
+  },
+  "episodes": [
+    {
+      "id": "ahsoka-s01e01",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アソーカ",
+      "seriesEn": "Ahsoka",
+      "season": 1,
+      "episode": 1,
+      "label": "S01E01",
+      "titleJa": "パート1：師と弟子",
+      "titleEn": "Part One: Master and Apprentice"
+    },
+    {
+      "id": "ahsoka-s01e02",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アソーカ",
+      "seriesEn": "Ahsoka",
+      "season": 1,
+      "episode": 2,
+      "label": "S01E02",
+      "titleJa": "パート2：苦難と困難",
+      "titleEn": "Part Two: Toil and Trouble"
+    },
+    {
+      "id": "ahsoka-s01e03",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アソーカ",
+      "seriesEn": "Ahsoka",
+      "season": 1,
+      "episode": 3,
+      "label": "S01E03",
+      "titleJa": "パート3：飛び立つ時",
+      "titleEn": "Part Three: Time to Fly"
+    },
+    {
+      "id": "ahsoka-s01e04",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アソーカ",
+      "seriesEn": "Ahsoka",
+      "season": 1,
+      "episode": 4,
+      "label": "S01E04",
+      "titleJa": "パート4：堕ちたジェダイ",
+      "titleEn": "Part Four: Fallen Jedi"
+    },
+    {
+      "id": "ahsoka-s01e05",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アソーカ",
+      "seriesEn": "Ahsoka",
+      "season": 1,
+      "episode": 5,
+      "label": "S01E05",
+      "titleJa": "パート5：影の戦士",
+      "titleEn": "Part Five: Shadow Warrior"
+    },
+    {
+      "id": "ahsoka-s01e06",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アソーカ",
+      "seriesEn": "Ahsoka",
+      "season": 1,
+      "episode": 6,
+      "label": "S01E06",
+      "titleJa": "パート6：遥か彼方へ",
+      "titleEn": "Part Six: Far, Far Away"
+    },
+    {
+      "id": "ahsoka-s01e07",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アソーカ",
+      "seriesEn": "Ahsoka",
+      "season": 1,
+      "episode": 7,
+      "label": "S01E07",
+      "titleJa": "パート7：夢と狂気",
+      "titleEn": "Part Seven: Dreams and Madness"
+    },
+    {
+      "id": "ahsoka-s01e08",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アソーカ",
+      "seriesEn": "Ahsoka",
+      "season": 1,
+      "episode": 8,
+      "label": "S01E08",
+      "titleJa": "パート8：ジェダイ、魔女、そして将軍",
+      "titleEn": "Part Eight: The Jedi, the Witch, and the Warlord"
+    }
+  ]
+}

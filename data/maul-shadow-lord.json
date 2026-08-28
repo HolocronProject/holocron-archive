@@ -1,0 +1,135 @@
+{
+  "work": {
+    "id": "maul-shadow-lord",
+    "timelineOrder": 45,
+    "dateLabel": "帝国成立直後",
+    "titleJa": "スター・ウォーズ：モール／シャドー・ロード",
+    "titleEn": "Star Wars: Maul – Shadow Lord",
+    "releaseYear": "2026",
+    "category": "TVアニメ",
+    "episodeCount": 10,
+    "episodeOrderLabel": "エピソード順"
+  },
+  "episodes": [
+    {
+      "id": "maul-shadow-lord-s01e01",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 1,
+      "label": "S01E01",
+      "titleJa": "チャプター1 暗黒の報復",
+      "titleEn": "Chapter 1: The Dark Revenge"
+    },
+    {
+      "id": "maul-shadow-lord-s01e02",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 2,
+      "label": "S01E02",
+      "titleJa": "チャプター2 邪悪な企み",
+      "titleEn": "Chapter 2: Sinister Schemes"
+    },
+    {
+      "id": "maul-shadow-lord-s01e03",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 3,
+      "label": "S01E03",
+      "titleJa": "チャプター3 未知なる世界での囁き",
+      "titleEn": "Chapter 3: Whispers in the Unknown"
+    },
+    {
+      "id": "maul-shadow-lord-s01e04",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 4,
+      "label": "S01E04",
+      "titleJa": "チャプター4 誇りと復讐",
+      "titleEn": "Chapter 4: Pride and Vengeance"
+    },
+    {
+      "id": "maul-shadow-lord-s01e05",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 5,
+      "label": "S01E05",
+      "titleJa": "チャプター5 尋問",
+      "titleEn": "Chapter 5: Inquisition"
+    },
+    {
+      "id": "maul-shadow-lord-s01e06",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 6,
+      "label": "S01E06",
+      "titleJa": "チャプター6 追われる者たちの夜",
+      "titleEn": "Chapter 6: Night of the Hunted"
+    },
+    {
+      "id": "maul-shadow-lord-s01e07",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 7,
+      "label": "S01E07",
+      "titleJa": "チャプター7 忘却への呼び声",
+      "titleEn": "Chapter 7: Call to Oblivion"
+    },
+    {
+      "id": "maul-shadow-lord-s01e08",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 8,
+      "label": "S01E08",
+      "titleJa": "チャプター8 忍び寄る恐怖",
+      "titleEn": "Chapter 8: The Creeping Fear"
+    },
+    {
+      "id": "maul-shadow-lord-s01e09",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 9,
+      "label": "S01E09",
+      "titleJa": "チャプター9 奇妙な同盟",
+      "titleEn": "Chapter 9: Strange Allies"
+    },
+    {
+      "id": "maul-shadow-lord-s01e10",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 10,
+      "label": "S01E10",
+      "titleJa": "チャプター10 暗黒卿",
+      "titleEn": "Chapter 10: The Dark Lord"
+    }
+  ]
+}

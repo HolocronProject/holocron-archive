@@ -1,7 +1,7 @@
 {
   "lastUpdated": "2026-08-26",
   "metadata": {
-    "totalCandidates": 372,
+    "totalCandidates": 382,
     "sources": [
       "Holocron Archive verified Clone Wars dataset",
       "Holocron Archive legacy live-action dataset",
@@ -3512,7 +3512,7 @@
       "season": 1,
       "episode": 1,
       "label": "S01E01",
-      "titleJa": "",
+      "titleJa": "反乱の口火 パート1",
       "titleEn": "Spark of Rebellion: Part One"
     },
     {
@@ -3524,7 +3524,7 @@
       "season": 1,
       "episode": 2,
       "label": "S01E02",
-      "titleJa": "",
+      "titleJa": "反乱の口火 パート2",
       "titleEn": "Spark of Rebellion: Part Two"
     },
     {
@@ -3536,7 +3536,7 @@
       "season": 1,
       "episode": 3,
       "label": "S01E03",
-      "titleJa": "",
+      "titleJa": "嘆きのドロイド",
       "titleEn": "Droids in Distress"
     },
     {
@@ -3548,7 +3548,7 @@
       "season": 1,
       "episode": 4,
       "label": "S01E04",
-      "titleJa": "",
+      "titleJa": "魅惑のフルーツ",
       "titleEn": "Fighter Flight"
     },
     {
@@ -3560,7 +3560,7 @@
       "season": 1,
       "episode": 5,
       "label": "S01E05",
-      "titleJa": "",
+      "titleJa": "マスター救出作戦",
       "titleEn": "Rise of the Old Masters"
     },
     {
@@ -3572,7 +3572,7 @@
       "season": 1,
       "episode": 6,
       "label": "S01E06",
-      "titleJa": "",
+      "titleJa": "候補生エズラ",
       "titleEn": "Breaking Ranks"
     },
     {
@@ -3584,7 +3584,7 @@
       "season": 1,
       "episode": 7,
       "label": "S01E07",
-      "titleJa": "",
+      "titleJa": "闇に光る目",
       "titleEn": "Out of Darkness"
     },
     {
@@ -3596,7 +3596,7 @@
       "season": 1,
       "episode": 8,
       "label": "S01E08",
-      "titleJa": "",
+      "titleJa": "帝国の日",
       "titleEn": "Empire Day"
     },
     {
@@ -3608,7 +3608,7 @@
       "season": 1,
       "episode": 9,
       "label": "S01E09",
-      "titleJa": "",
+      "titleJa": "つのる力",
       "titleEn": "Gathering Forces"
     },
     {
@@ -3620,7 +3620,7 @@
       "season": 1,
       "episode": 10,
       "label": "S01E10",
-      "titleJa": "",
+      "titleJa": "ジェダイへの道",
       "titleEn": "Path of the Jedi"
     },
     {
@@ -3632,7 +3632,7 @@
       "season": 1,
       "episode": 11,
       "label": "S01E11",
-      "titleJa": "",
+      "titleJa": "ギャンブラー",
       "titleEn": "Idiot's Array"
     },
     {
@@ -3644,7 +3644,7 @@
       "season": 1,
       "episode": 12,
       "label": "S01E12",
-      "titleJa": "",
+      "titleJa": "希望のヴィジョン",
       "titleEn": "Vision of Hope"
     },
     {
@@ -3656,7 +3656,7 @@
       "season": 1,
       "episode": 13,
       "label": "S01E13",
-      "titleJa": "",
+      "titleJa": "反乱の呼びかけ",
       "titleEn": "Call to Action"
     },
     {
@@ -3668,7 +3668,7 @@
       "season": 1,
       "episode": 14,
       "label": "S01E14",
-      "titleJa": "",
+      "titleJa": "チームの絆",
       "titleEn": "Rebel Resolve"
     },
     {
@@ -3680,7 +3680,7 @@
       "season": 1,
       "episode": 15,
       "label": "S01E15",
-      "titleJa": "",
+      "titleJa": "銀河に広がる火",
       "titleEn": "Fire Across the Galaxy"
     },
     {
@@ -3692,7 +3692,7 @@
       "season": 2,
       "episode": 1,
       "label": "S02E01",
-      "titleJa": "",
+      "titleJa": "ロザルに立ちこめる暗雲 パート1",
       "titleEn": "The Siege of Lothal: Part One"
     },
     {
@@ -3704,7 +3704,7 @@
       "season": 2,
       "episode": 2,
       "label": "S02E02",
-      "titleJa": "",
+      "titleJa": "ロザルに立ちこめる暗雲 パート2",
       "titleEn": "The Siege of Lothal: Part Two"
     },
     {
@@ -3716,7 +3716,7 @@
       "season": 2,
       "episode": 3,
       "label": "S02E03",
-      "titleJa": "",
+      "titleJa": "消えた戦士たち",
       "titleEn": "The Lost Commanders"
     },
     {
@@ -3728,7 +3728,7 @@
       "season": 2,
       "episode": 4,
       "label": "S02E04",
-      "titleJa": "",
+      "titleJa": "共和国の遺物",
       "titleEn": "Relics of the Old Republic"
     },
     {
@@ -3740,7 +3740,7 @@
       "season": 2,
       "episode": 5,
       "label": "S02E05",
-      "titleJa": "",
+      "titleJa": "2人の尋問官",
       "titleEn": "Always Two There Are"
     },
     {
@@ -3752,7 +3752,7 @@
       "season": 2,
       "episode": 6,
       "label": "S02E06",
-      "titleJa": "",
+      "titleJa": "ジェダイと海賊",
       "titleEn": "Brothers of the Broken Horn"
     },
     {
@@ -3764,7 +3764,7 @@
       "season": 2,
       "episode": 7,
       "label": "S02E07",
-      "titleJa": "",
+      "titleJa": "名パイロットの翼",
       "titleEn": "Wings of the Master"
     },
     {
@@ -3776,7 +3776,7 @@
       "season": 2,
       "episode": 8,
       "label": "S02E08",
-      "titleJa": "",
+      "titleJa": "旧友",
       "titleEn": "Blood Sisters"
     },
     {
@@ -3788,7 +3788,7 @@
       "season": 2,
       "episode": 9,
       "label": "S02E09",
-      "titleJa": "",
+      "titleJa": "潜入工作",
       "titleEn": "Stealth Strike"
     },
     {
@@ -3800,7 +3800,7 @@
       "season": 2,
       "episode": 10,
       "label": "S02E10",
-      "titleJa": "",
+      "titleJa": "フォースの未来",
       "titleEn": "The Future of the Force"
     },
     {
@@ -3812,7 +3812,7 @@
       "season": 2,
       "episode": 11,
       "label": "S02E11",
-      "titleJa": "",
+      "titleJa": "引き継ぐもの",
       "titleEn": "Legacy"
     },
     {
@@ -3824,7 +3824,7 @@
       "season": 2,
       "episode": 12,
       "label": "S02E12",
-      "titleJa": "",
+      "titleJa": "ロザルに来た姫",
       "titleEn": "A Princess on Lothal"
     },
     {
@@ -3836,7 +3836,7 @@
       "season": 2,
       "episode": 13,
       "label": "S02E13",
-      "titleJa": "",
+      "titleJa": "コンコード・ドーンの守護者",
       "titleEn": "The Protector of Concord Dawn"
     },
     {
@@ -3848,7 +3848,7 @@
       "season": 2,
       "episode": 14,
       "label": "S02E14",
-      "titleJa": "",
+      "titleJa": "ラサットの伝説",
       "titleEn": "Legends of the Lasat"
     },
     {
@@ -3860,7 +3860,7 @@
       "season": 2,
       "episode": 15,
       "label": "S02E15",
-      "titleJa": "",
+      "titleJa": "宇宙を旅するもの",
       "titleEn": "The Call"
     },
     {
@@ -3872,7 +3872,7 @@
       "season": 2,
       "episode": 16,
       "label": "S02E16",
-      "titleJa": "",
+      "titleJa": "父と娘",
       "titleEn": "Homecoming"
     },
     {
@@ -3884,7 +3884,7 @@
       "season": 2,
       "episode": 17,
       "label": "S02E17",
-      "titleJa": "",
+      "titleJa": "宿敵",
       "titleEn": "The Honorable Ones"
     },
     {
@@ -3896,7 +3896,7 @@
       "season": 2,
       "episode": 18,
       "label": "S02E18",
-      "titleJa": "",
+      "titleJa": "忍び寄る闇",
       "titleEn": "Shroud of Darkness"
     },
     {
@@ -3908,7 +3908,7 @@
       "season": 2,
       "episode": 19,
       "label": "S02E19",
-      "titleJa": "",
+      "titleJa": "ドロイドと友情",
       "titleEn": "The Forgotten Droid"
     },
     {
@@ -3920,7 +3920,7 @@
       "season": 2,
       "episode": 20,
       "label": "S02E20",
-      "titleJa": "",
+      "titleJa": "新基地の謎",
       "titleEn": "The Mystery of Chopper Base"
     },
     {
@@ -3932,7 +3932,7 @@
       "season": 2,
       "episode": 21,
       "label": "S02E21",
-      "titleJa": "",
+      "titleJa": "シスの秘密 パート1",
       "titleEn": "Twilight of the Apprentice: Part One"
     },
     {
@@ -3944,7 +3944,7 @@
       "season": 2,
       "episode": 22,
       "label": "S02E22",
-      "titleJa": "",
+      "titleJa": "シスの秘密 パート2",
       "titleEn": "Twilight of the Apprentice: Part Two"
     },
     {
@@ -3956,7 +3956,7 @@
       "season": 3,
       "episode": 1,
       "label": "S03E01",
-      "titleJa": "",
+      "titleJa": "影の中へ パート1",
       "titleEn": "Steps Into Shadow: Part One"
     },
     {
@@ -3968,7 +3968,7 @@
       "season": 3,
       "episode": 2,
       "label": "S03E02",
-      "titleJa": "",
+      "titleJa": "影の中へ パート2",
       "titleEn": "Steps Into Shadow: Part Two"
     },
     {
@@ -3980,7 +3980,7 @@
       "season": 3,
       "episode": 3,
       "label": "S03E03",
-      "titleJa": "",
+      "titleJa": "運命のホロクロン",
       "titleEn": "The Holocrons of Fate"
     },
     {
@@ -3992,7 +3992,7 @@
       "season": 3,
       "episode": 4,
       "label": "S03E04",
-      "titleJa": "",
+      "titleJa": "アンティリーズ引き抜き工作",
       "titleEn": "The Antilles Extraction"
     },
     {
@@ -4004,7 +4004,7 @@
       "season": 3,
       "episode": 5,
       "label": "S03E05",
-      "titleJa": "",
+      "titleJa": "ヘラの英雄",
       "titleEn": "Hera's Heroes"
     },
     {
@@ -4016,7 +4016,7 @@
       "season": 3,
       "episode": 6,
       "label": "S03E06",
-      "titleJa": "",
+      "titleJa": "クローン戦争の名残",
       "titleEn": "The Last Battle"
     },
     {
@@ -4028,7 +4028,7 @@
       "season": 3,
       "episode": 7,
       "label": "S03E07",
-      "titleJa": "",
+      "titleJa": "マンダロリアンの誇り",
       "titleEn": "Imperial Supercommandos"
     },
     {
@@ -4040,7 +4040,7 @@
       "season": 3,
       "episode": 8,
       "label": "S03E08",
-      "titleJa": "",
+      "titleJa": "アイアン中隊",
       "titleEn": "Iron Squadron"
     },
     {
@@ -4052,7 +4052,7 @@
       "season": 3,
       "episode": 9,
       "label": "S03E09",
-      "titleJa": "",
+      "titleJa": "ウィンカースーのお宝",
       "titleEn": "The Wynkahthu Job"
     },
     {
@@ -4064,7 +4064,7 @@
       "season": 3,
       "episode": 10,
       "label": "S03E10",
-      "titleJa": "",
+      "titleJa": "内通者",
       "titleEn": "An Inside Man"
     },
     {
@@ -4076,7 +4076,7 @@
       "season": 3,
       "episode": 11,
       "label": "S03E11",
-      "titleJa": "",
+      "titleJa": "ヴィジョンと声",
       "titleEn": "Visions and Voices"
     },
     {
@@ -4088,7 +4088,7 @@
       "season": 3,
       "episode": 12,
       "label": "S03E12",
-      "titleJa": "",
+      "titleJa": "ジオノーシスの亡霊 パート1",
       "titleEn": "Ghosts of Geonosis: Part 1"
     },
     {
@@ -4100,7 +4100,7 @@
       "season": 3,
       "episode": 13,
       "label": "S03E13",
-      "titleJa": "",
+      "titleJa": "ジオノーシスの亡霊 パート2",
       "titleEn": "Ghosts of Geonosis: Part 2"
     },
     {
@@ -4112,7 +4112,7 @@
       "season": 3,
       "episode": 14,
       "label": "S03E14",
-      "titleJa": "",
+      "titleJa": "ゼブの名案",
       "titleEn": "Warhead"
     },
     {
@@ -4124,7 +4124,7 @@
       "season": 3,
       "episode": 15,
       "label": "S03E15",
-      "titleJa": "",
+      "titleJa": "ダークセーバーの試練",
       "titleEn": "Trials of the Darksaber"
     },
     {
@@ -4136,7 +4136,7 @@
       "season": 3,
       "episode": 16,
       "label": "S03E16",
-      "titleJa": "",
+      "titleJa": "マンダロアを継ぐ者たち",
       "titleEn": "Legacy of Mandalore"
     },
     {
@@ -4148,7 +4148,7 @@
       "season": 3,
       "episode": 17,
       "label": "S03E17",
-      "titleJa": "",
+      "titleJa": "追求の目",
       "titleEn": "Through Imperial Eyes"
     },
     {
@@ -4160,7 +4160,7 @@
       "season": 3,
       "episode": 18,
       "label": "S03E18",
-      "titleJa": "",
+      "titleJa": "極秘輸送",
       "titleEn": "Secret Cargo"
     },
     {
@@ -4172,7 +4172,7 @@
       "season": 3,
       "episode": 19,
       "label": "S03E19",
-      "titleJa": "",
+      "titleJa": "二重スパイ・ドロイド",
       "titleEn": "Double Agent Droid"
     },
     {
@@ -4184,7 +4184,7 @@
       "season": 3,
       "episode": 20,
       "label": "S03E20",
-      "titleJa": "",
+      "titleJa": "双子の太陽",
       "titleEn": "Twin Suns"
     },
     {
@@ -4196,7 +4196,7 @@
       "season": 3,
       "episode": 21,
       "label": "S03E21",
-      "titleJa": "",
+      "titleJa": "攻撃開始時刻 パート1",
       "titleEn": "Zero Hour: Part 1"
     },
     {
@@ -4208,7 +4208,7 @@
       "season": 3,
       "episode": 22,
       "label": "S03E22",
-      "titleJa": "",
+      "titleJa": "攻撃開始時刻 パート2",
       "titleEn": "Zero Hour: Part 2"
     },
     {
@@ -4220,7 +4220,7 @@
       "season": 4,
       "episode": 1,
       "label": "S04E01",
-      "titleJa": "",
+      "titleJa": "マンダロアの英雄たち パート1",
       "titleEn": "Heroes of Mandalore: Part 1"
     },
     {
@@ -4232,7 +4232,7 @@
       "season": 4,
       "episode": 2,
       "label": "S04E02",
-      "titleJa": "",
+      "titleJa": "マンダロアの英雄たち パート2",
       "titleEn": "Heroes of Mandalore: Part 2"
     },
     {
@@ -4244,7 +4244,7 @@
       "season": 4,
       "episode": 3,
       "label": "S04E03",
-      "titleJa": "",
+      "titleJa": "反乱組織の名の下に パート1",
       "titleEn": "In the Name of the Rebellion: Part 1"
     },
     {
@@ -4256,7 +4256,7 @@
       "season": 4,
       "episode": 4,
       "label": "S04E04",
-      "titleJa": "",
+      "titleJa": "反乱組織の名の下に パート2",
       "titleEn": "In the Name of the Rebellion: Part 2"
     },
     {
@@ -4268,7 +4268,7 @@
       "season": 4,
       "episode": 5,
       "label": "S04E05",
-      "titleJa": "",
+      "titleJa": "占領",
       "titleEn": "The Occupation"
     },
     {
@@ -4280,7 +4280,7 @@
       "season": 4,
       "episode": 6,
       "label": "S04E06",
-      "titleJa": "",
+      "titleJa": "ディフェンダーの飛行",
       "titleEn": "Flight of the Defender"
     },
     {
@@ -4292,7 +4292,7 @@
       "season": 4,
       "episode": 7,
       "label": "S04E07",
-      "titleJa": "",
+      "titleJa": "同族",
       "titleEn": "Kindred"
     },
     {
@@ -4304,7 +4304,7 @@
       "season": 4,
       "episode": 8,
       "label": "S04E08",
-      "titleJa": "",
+      "titleJa": "クローラー乗っ取り",
       "titleEn": "Crawler Commandeers"
     },
     {
@@ -4316,7 +4316,7 @@
       "season": 4,
       "episode": 9,
       "label": "S04E09",
-      "titleJa": "",
+      "titleJa": "攻撃の時",
       "titleEn": "Rebel Assault"
     },
     {
@@ -4328,7 +4328,7 @@
       "season": 4,
       "episode": 10,
       "label": "S04E10",
-      "titleJa": "",
+      "titleJa": "ジェダイの夜",
       "titleEn": "Jedi Night"
     },
     {
@@ -4340,7 +4340,7 @@
       "season": 4,
       "episode": 11,
       "label": "S04E11",
-      "titleJa": "",
+      "titleJa": "デューム",
       "titleEn": "DUME"
     },
     {
@@ -4352,7 +4352,7 @@
       "season": 4,
       "episode": 12,
       "label": "S04E12",
-      "titleJa": "",
+      "titleJa": "寺院の秘密",
       "titleEn": "Wolves and a Door"
     },
     {
@@ -4364,7 +4364,7 @@
       "season": 4,
       "episode": 13,
       "label": "S04E13",
-      "titleJa": "",
+      "titleJa": "世界の狭間の世界",
       "titleEn": "A World Between Worlds"
     },
     {
@@ -4376,7 +4376,7 @@
       "season": 4,
       "episode": 14,
       "label": "S04E14",
-      "titleJa": "",
+      "titleJa": "無謀な策",
       "titleEn": "A Fool's Hope"
     },
     {
@@ -4388,7 +4388,7 @@
       "season": 4,
       "episode": 15,
       "label": "S04E15",
-      "titleJa": "",
+      "titleJa": "家族の再会 ― そして別れ パート1",
       "titleEn": "Family Reunion – and Farewell: Part One"
     },
     {
@@ -4400,8 +4400,128 @@
       "season": 4,
       "episode": 16,
       "label": "S04E16",
-      "titleJa": "",
+      "titleJa": "家族の再会 ― そして別れ パート2",
       "titleEn": "Family Reunion – and Farewell: Part Two"
+    },
+    {
+      "id": "maul-shadow-lord-s01e01",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 1,
+      "label": "S01E01",
+      "titleJa": "チャプター1 暗黒の報復",
+      "titleEn": "Chapter 1: The Dark Revenge"
+    },
+    {
+      "id": "maul-shadow-lord-s01e02",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 2,
+      "label": "S01E02",
+      "titleJa": "チャプター2 邪悪な企み",
+      "titleEn": "Chapter 2: Sinister Schemes"
+    },
+    {
+      "id": "maul-shadow-lord-s01e03",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 3,
+      "label": "S01E03",
+      "titleJa": "チャプター3 未知なる世界での囁き",
+      "titleEn": "Chapter 3: Whispers in the Unknown"
+    },
+    {
+      "id": "maul-shadow-lord-s01e04",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 4,
+      "label": "S01E04",
+      "titleJa": "チャプター4 誇りと復讐",
+      "titleEn": "Chapter 4: Pride and Vengeance"
+    },
+    {
+      "id": "maul-shadow-lord-s01e05",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 5,
+      "label": "S01E05",
+      "titleJa": "チャプター5 尋問",
+      "titleEn": "Chapter 5: Inquisition"
+    },
+    {
+      "id": "maul-shadow-lord-s01e06",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 6,
+      "label": "S01E06",
+      "titleJa": "チャプター6 追われる者たちの夜",
+      "titleEn": "Chapter 6: Night of the Hunted"
+    },
+    {
+      "id": "maul-shadow-lord-s01e07",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 7,
+      "label": "S01E07",
+      "titleJa": "チャプター7 忘却への呼び声",
+      "titleEn": "Chapter 7: Call to Oblivion"
+    },
+    {
+      "id": "maul-shadow-lord-s01e08",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 8,
+      "label": "S01E08",
+      "titleJa": "チャプター8 忍び寄る恐怖",
+      "titleEn": "Chapter 8: The Creeping Fear"
+    },
+    {
+      "id": "maul-shadow-lord-s01e09",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 9,
+      "label": "S01E09",
+      "titleJa": "チャプター9 奇妙な同盟",
+      "titleEn": "Chapter 9: Strange Allies"
+    },
+    {
+      "id": "maul-shadow-lord-s01e10",
+      "kind": "episode",
+      "category": "アニメ",
+      "seriesJa": "スター・ウォーズ：モール／シャドー・ロード",
+      "seriesEn": "Star Wars: Maul – Shadow Lord",
+      "season": 1,
+      "episode": 10,
+      "label": "S01E10",
+      "titleJa": "チャプター10 暗黒卿",
+      "titleEn": "Chapter 10: The Dark Lord"
     }
   ]
 }

@@ -2,6 +2,7 @@ const timeline = document.querySelector("#timeline");
 const workCount = document.querySelector("#work-count");
 
 function formatDate(work) {
+  if (work.dateLabel) return work.dateLabel;
   if (work.startYear === work.endYear) return `${work.startYear} ${work.era}`;
   return `${work.startYear}–${work.endYear} ${work.era}`;
 }
@@ -35,9 +36,11 @@ function createEpisodeList(work) {
   const header = document.createElement("div");
   header.className = "episode-list-header";
   const heading = document.createElement("h3");
-  heading.textContent = "公式時系列順";
+  heading.textContent = work.episodeOrderLabel || "エピソード順";
   const count = document.createElement("span");
-  count.textContent = `劇場版＋TV全${work.episodeCount}話`;
+  count.textContent = work.includesMovie
+    ? `劇場版＋TV全${work.episodeCount}話`
+    : `全${work.episodeCount}話`;
   header.append(heading, count);
 
   const list = document.createElement("ol");
@@ -122,17 +125,23 @@ function createTimelineItem(work) {
 
 async function loadTimeline() {
   try {
-    const [moviesResponse, cloneWarsResponse] = await Promise.all([
+    const seriesFiles = [
+      "data/maul-shadow-lord.json",
+      "data/rebels.json",
+      "data/mandalorian.json",
+      "data/ahsoka.json"
+    ];
+    const responses = await Promise.all([
       fetch("data/movies.json"),
-      fetch("data/clone-wars.json")
+      fetch("data/clone-wars.json"),
+      ...seriesFiles.map((file) => fetch(file))
     ]);
-    if (!moviesResponse.ok) throw new Error(`Movies HTTP ${moviesResponse.status}`);
-    if (!cloneWarsResponse.ok) throw new Error(`Clone Wars HTTP ${cloneWarsResponse.status}`);
+    const failedResponse = responses.find((response) => !response.ok);
+    if (failedResponse) throw new Error(`Timeline HTTP ${failedResponse.status}`);
 
-    const [moviesData, cloneWarsData] = await Promise.all([
-      moviesResponse.json(),
-      cloneWarsResponse.json()
-    ]);
+    const [moviesData, cloneWarsData, ...seriesData] = await Promise.all(
+      responses.map((response) => response.json())
+    );
     const works = [...moviesData.works];
     const cloneWarsWork = works.find((work) => work.id === "the-clone-wars-film");
     if (!cloneWarsWork) throw new Error("Clone Wars timeline card is missing");
@@ -145,16 +154,31 @@ async function loadTimeline() {
     cloneWarsWork.episodes = [...cloneWarsData.items].sort(
       (a, b) => a.chronologicalOrder - b.chronologicalOrder
     );
+    cloneWarsWork.episodeOrderLabel = "公式時系列順";
+    cloneWarsWork.includesMovie = true;
     cloneWarsWork.episodeCount = cloneWarsWork.episodes.filter(
       (episode) => episode.type === "episode"
     ).length;
+
+    seriesData.forEach(({ work, episodes }) => {
+      works.push({
+        ...work,
+        episodes: [...episodes].sort(
+          (a, b) => a.season - b.season || a.episode - b.episode
+        )
+      });
+    });
 
     works.sort((a, b) => a.timelineOrder - b.timelineOrder);
     const fragment = document.createDocumentFragment();
     works.forEach((work) => fragment.append(createTimelineItem(work)));
 
     timeline.replaceChildren(fragment);
-    workCount.textContent = `${works.length}作品・${cloneWarsWork.episodeCount}話`;
+    const episodeTotal = works.reduce(
+      (total, work) => total + (work.episodeCount || 0),
+      0
+    );
+    workCount.textContent = `${works.length}作品・${episodeTotal}話`;
   } catch (error) {
     console.error("Timeline data could not be loaded:", error);
     const message = document.createElement("p");
