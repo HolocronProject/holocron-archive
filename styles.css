@@ -514,10 +514,7 @@ button:disabled { cursor: not-allowed; opacity: 0.38; }
 }
 
 .column-card-header {
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  gap: 20px;
+  display: block;
 }
 
 .column-card time,
@@ -527,8 +524,20 @@ button:disabled { cursor: not-allowed; opacity: 0.38; }
   letter-spacing: 0.08em;
 }
 
-.column-card h3 { margin: 8px 0 0; font-size: 20px; line-height: 1.45; }
-.column-work { color: var(--accent); text-align: right; }
+.column-card h3 {
+  margin: 8px 0 0;
+  font-size: 20px;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.column-work {
+  display: block;
+  margin-top: 12px;
+  color: var(--accent);
+  line-height: 1.7;
+  text-align: left;
+}
 .column-artwork {
   overflow: hidden;
   margin: 24px 0 0;
@@ -544,7 +553,20 @@ button:disabled { cursor: not-allowed; opacity: 0.38; }
   object-fit: cover;
 }
 
-.column-body { margin: 20px 0 0; color: #c7ccd2; font-size: 14px; white-space: pre-line; }
+.column-body {
+  max-width: 780px;
+  margin: 26px 0 0;
+  color: #c7ccd2;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.column-body p {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.column-body p + p { margin-top: 1.35em; }
 
 .column-empty {
   margin: 0;
@@ -602,8 +624,9 @@ footer p:first-child { color: var(--muted); font-weight: 700; letter-spacing: 0.
   .roulette-console { grid-template-columns: 1fr; min-height: 0; padding: 28px 20px 20px; }
   .roulette-actions { width: 100%; }
   .column-card { padding: 22px 20px; }
-  .column-card-header { display: block; }
-  .column-work { display: block; margin-top: 8px; text-align: left; }
+  .column-card h3 { font-size: 18px; white-space: normal; }
+  .column-work { margin-top: 8px; }
+  .column-body { font-size: 14px; line-height: 1.9; }
   footer { display: block; }
   footer p + p { margin-top: 10px; }
 }

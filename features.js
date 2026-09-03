@@ -116,9 +116,17 @@ function createColumnCard(entry) {
     artwork.append(image);
   }
 
-  const body = document.createElement("p");
+  const body = document.createElement("div");
   body.className = "column-body";
-  body.textContent = entry.body;
+  entry.body
+    .trim()
+    .split(/\n\s*\n/)
+    .filter(Boolean)
+    .forEach((text) => {
+      const paragraph = document.createElement("p");
+      paragraph.textContent = text;
+      body.append(paragraph);
+    });
   article.append(header);
   if (artwork) article.append(artwork);
   article.append(body);
