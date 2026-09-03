@@ -555,63 +555,6 @@ button:disabled { cursor: not-allowed; opacity: 0.38; }
   text-align: center;
 }
 
-.writer-panel {
-  margin-top: 28px;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  background: #0d1116;
-}
-
-.writer-panel > summary {
-  display: flex;
-  min-height: 78px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 24px;
-  cursor: pointer;
-  list-style: none;
-}
-
-.writer-panel > summary::-webkit-details-marker { display: none; }
-.writer-panel > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.writer-panel summary small { display: block; color: var(--accent); font-size: 9px; letter-spacing: 0.14em; }
-.writer-panel summary strong { display: block; margin-top: 2px; font-size: 15px; }
-.writer-toggle { color: var(--muted); font-size: 24px; font-weight: 300; transition: transform 160ms ease; }
-.writer-panel[open] .writer-toggle { transform: rotate(45deg); }
-
-.writer-form {
-  display: grid;
-  gap: 20px;
-  padding: 28px 24px;
-  border-top: 1px solid var(--line);
-}
-
-.form-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 18px; }
-.writer-form label { display: grid; gap: 7px; }
-.writer-form label > span { color: var(--muted); font-size: 11px; }
-
-.writer-form input,
-.writer-form textarea {
-  width: 100%;
-  border: 1px solid var(--line-strong);
-  border-radius: 3px;
-  outline: 0;
-  background: var(--surface);
-  color: var(--text);
-  font: inherit;
-  font-size: 14px;
-}
-
-.writer-form input { height: 46px; padding: 0 14px; }
-.writer-form textarea { min-height: 180px; padding: 12px 14px; line-height: 1.75; resize: vertical; }
-.writer-form input:focus,
-.writer-form textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
-
-.writer-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-.writer-note,
-.writer-status { margin: 0; color: var(--dim); font-size: 11px; }
-.writer-status { min-height: 20px; color: #5fd49a; }
-
 footer {
   display: flex;
   justify-content: space-between;
@@ -661,9 +604,6 @@ footer p:first-child { color: var(--muted); font-weight: 700; letter-spacing: 0.
   .column-card { padding: 22px 20px; }
   .column-card-header { display: block; }
   .column-work { display: block; margin-top: 8px; text-align: left; }
-  .form-grid { grid-template-columns: 1fr; }
-  .writer-actions { display: grid; }
-  .writer-actions button { width: 100%; }
   footer { display: block; }
   footer p + p { margin-top: 10px; }
 }

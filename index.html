@@ -86,7 +86,6 @@
               </select>
             </label>
             <button class="primary-button" id="spin-button" type="button">ルーレットを回す</button>
-            <button class="secondary-button" id="write-about-button" type="button" disabled>この作品で日記を書く</button>
             <span class="roulette-count" id="roulette-count">候補を読み込み中...</span>
             <button class="text-button roulette-reset" id="reset-roulette-button" type="button">抽選履歴をリセット</button>
           </div>
@@ -105,43 +104,6 @@
         <div class="column-list" id="column-list" aria-live="polite">
           <p class="column-empty">コラムを読み込んでいます...</p>
         </div>
-
-        <details class="writer-panel" id="writer-panel">
-          <summary>
-            <span>
-              <small>KEEPER'S DESK</small>
-              <strong>新しいコラムを書く</strong>
-            </span>
-            <span class="writer-toggle" aria-hidden="true">＋</span>
-          </summary>
-          <form class="writer-form" id="writer-form">
-            <div class="form-grid">
-              <label>
-                <span>視聴作品</span>
-                <input id="entry-work" name="work" type="text" placeholder="作品名" required>
-              </label>
-              <label>
-                <span>日付</span>
-                <input id="entry-date" name="date" type="date" required>
-              </label>
-            </div>
-            <label>
-              <span>タイトル</span>
-              <input id="entry-title" name="title" type="text" maxlength="80" placeholder="今日の記録" required>
-            </label>
-            <label>
-              <span>本文</span>
-              <textarea id="entry-body" name="body" rows="8" maxlength="4000" placeholder="作品を観て感じたこと、心に残った場面など。" required></textarea>
-            </label>
-            <div class="writer-actions">
-              <button class="primary-button" type="submit">下書きを保存</button>
-              <button class="secondary-button" id="copy-entry-button" type="button">原稿をコピー</button>
-              <button class="text-button" id="export-entry-button" type="button">公開用JSONを作成</button>
-            </div>
-            <p class="writer-note">下書きはこの端末だけに保存されます。「公開用JSON」をGitHubへ反映すると、主のコラムに掲載されます。</p>
-            <p class="writer-status" id="writer-status" role="status"></p>
-          </form>
-        </details>
       </section>
     </main>
 

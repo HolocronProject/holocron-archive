@@ -2,41 +2,17 @@ const rouletteResult = document.querySelector("#roulette-result");
 const rouletteCategory = document.querySelector("#roulette-category");
 const rouletteTitleEn = document.querySelector("#roulette-title-en");
 const spinButton = document.querySelector("#spin-button");
-const writeAboutButton = document.querySelector("#write-about-button");
 const rouletteFilter = document.querySelector("#roulette-filter");
 const rouletteCount = document.querySelector("#roulette-count");
 const resetRouletteButton = document.querySelector("#reset-roulette-button");
-const writerPanel = document.querySelector("#writer-panel");
-const writerForm = document.querySelector("#writer-form");
-const entryWork = document.querySelector("#entry-work");
-const entryDate = document.querySelector("#entry-date");
-const entryTitle = document.querySelector("#entry-title");
-const entryBody = document.querySelector("#entry-body");
-const writerStatus = document.querySelector("#writer-status");
-const copyEntryButton = document.querySelector("#copy-entry-button");
-const exportEntryButton = document.querySelector("#export-entry-button");
 const columnList = document.querySelector("#column-list");
 
-const draftKey = "holocron-archive-column-draft";
 const selectionKey = "holocron-archive-roulette-selection";
 const historyKey = "holocron-archive-roulette-history";
 let rouletteWorks = [];
 let columnEntries = [];
 let selectedWork = null;
 let drawnIds = new Set();
-
-function localDateString() {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = String(now.getMonth() + 1).padStart(2, "0");
-  const day = String(now.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
-
-function showStatus(message, isError = false) {
-  writerStatus.textContent = message;
-  writerStatus.style.color = isError ? "#ef8d8d" : "#5fd49a";
-}
 
 function displayRouletteWork(work, recordResult = false) {
   selectedWork = work;
@@ -50,7 +26,6 @@ function displayRouletteWork(work, recordResult = false) {
     rouletteResult.textContent = work.titleJa;
     rouletteTitleEn.textContent = work.titleEn;
   }
-  writeAboutButton.disabled = false;
   localStorage.setItem(selectionKey, JSON.stringify(work));
   if (recordResult) {
     drawnIds.add(work.id);
@@ -83,13 +58,11 @@ function spinRoulette() {
     rouletteCategory.textContent = "ARCHIVE COMPLETE";
     rouletteResult.textContent = "このカテゴリは全候補抽選済み";
     rouletteTitleEn.textContent = "もう一度始める場合は抽選履歴をリセットしてください";
-    writeAboutButton.disabled = true;
     updateRouletteCount();
     return;
   }
 
   spinButton.disabled = true;
-  writeAboutButton.disabled = true;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   if (reduceMotion) {
@@ -110,86 +83,6 @@ function spinRoulette() {
       displayRouletteWork(finalWork, true);
     }
   }, 85);
-}
-
-function openWriterForSelection() {
-  if (!selectedWork) return;
-  writerPanel.open = true;
-  if (selectedWork.kind === "episode") {
-    const title = selectedWork.titleJa || selectedWork.titleEn;
-    entryWork.value = `${selectedWork.seriesJa} ${selectedWork.label}「${title}」`;
-  } else {
-    entryWork.value = selectedWork.titleJa;
-  }
-  saveDraft();
-  writerPanel.scrollIntoView({ behavior: "smooth", block: "start" });
-  window.setTimeout(() => entryTitle.focus(), 350);
-}
-
-function readFormEntry() {
-  return {
-    id: `log-${entryDate.value}-${Date.now()}`,
-    date: entryDate.value,
-    work: entryWork.value.trim(),
-    title: entryTitle.value.trim(),
-    body: entryBody.value.trim()
-  };
-}
-
-function saveDraft(event) {
-  if (event) event.preventDefault();
-  const draft = {
-    date: entryDate.value,
-    work: entryWork.value,
-    title: entryTitle.value,
-    body: entryBody.value
-  };
-  localStorage.setItem(draftKey, JSON.stringify(draft));
-  if (event) showStatus("下書きをこの端末に保存しました。");
-}
-
-function loadDraft() {
-  entryDate.value = localDateString();
-  try {
-    const draft = JSON.parse(localStorage.getItem(draftKey));
-    if (!draft) return;
-    entryDate.value = draft.date || entryDate.value;
-    entryWork.value = draft.work || "";
-    entryTitle.value = draft.title || "";
-    entryBody.value = draft.body || "";
-  } catch (error) {
-    console.warn("Saved column draft could not be loaded:", error);
-  }
-}
-
-async function copyEntry() {
-  if (!writerForm.reportValidity()) return;
-  const entry = readFormEntry();
-  const text = `# ${entry.title}\n\n${entry.date} / ${entry.work}\n\n${entry.body}`;
-  try {
-    await navigator.clipboard.writeText(text);
-    showStatus("原稿をクリップボードへコピーしました。");
-  } catch (error) {
-    console.error("Column text could not be copied:", error);
-    showStatus("コピーできませんでした。本文を選択してコピーしてください。", true);
-  }
-}
-
-function exportEntry() {
-  if (!writerForm.reportValidity()) return;
-  const entry = readFormEntry();
-  const data = {
-    lastUpdated: entry.date,
-    entries: [entry, ...columnEntries]
-  };
-  const blob = new Blob([`${JSON.stringify(data, null, 2)}\n`], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = "columns.json";
-  link.click();
-  URL.revokeObjectURL(url);
-  showStatus("公開用columns.jsonを作成しました。GitHubへ反映すると公開されます。");
 }
 
 function createColumnCard(entry) {
@@ -299,7 +192,6 @@ function updateRouletteCount() {
 
 function changeRouletteFilter() {
   selectedWork = null;
-  writeAboutButton.disabled = true;
   rouletteCategory.textContent = "WATCH SELECTOR";
   rouletteResult.textContent = "運命の作品を選択";
   rouletteTitleEn.textContent = "抽選対象を選んでルーレットを回してください";
@@ -312,7 +204,6 @@ function resetRouletteHistory() {
   drawnIds.clear();
   localStorage.removeItem(historyKey);
   selectedWork = null;
-  writeAboutButton.disabled = true;
   rouletteCategory.textContent = "WATCH SELECTOR";
   rouletteResult.textContent = "抽選履歴をリセットしました";
   rouletteTitleEn.textContent = "全候補が再び抽選対象になりました";
@@ -322,12 +213,6 @@ function resetRouletteHistory() {
 spinButton.addEventListener("click", spinRoulette);
 rouletteFilter.addEventListener("change", changeRouletteFilter);
 resetRouletteButton.addEventListener("click", resetRouletteHistory);
-writeAboutButton.addEventListener("click", openWriterForSelection);
-writerForm.addEventListener("submit", saveDraft);
-copyEntryButton.addEventListener("click", copyEntry);
-exportEntryButton.addEventListener("click", exportEntry);
-writerForm.addEventListener("input", () => showStatus(""));
 
-loadDraft();
 loadRoulette();
 loadColumns();
