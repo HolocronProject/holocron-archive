@@ -126,6 +126,7 @@ function createTimelineItem(work) {
 async function loadTimeline() {
   try {
     const seriesFiles = [
+      "data/acolyte.json",
       "data/maul-shadow-lord.json",
       "data/rebels.json",
       "data/mandalorian.json",

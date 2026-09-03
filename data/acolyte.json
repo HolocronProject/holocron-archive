@@ -1,0 +1,111 @@
+{
+  "work": {
+    "id": "the-acolyte",
+    "timelineOrder": 5,
+    "dateLabel": "約132 BBY",
+    "titleJa": "スター・ウォーズ：アコライト",
+    "titleEn": "Star Wars: The Acolyte",
+    "releaseYear": "2024",
+    "category": "実写ドラマ",
+    "episodeCount": 8,
+    "episodeOrderLabel": "エピソード順"
+  },
+  "episodes": [
+    {
+      "id": "the-acolyte-s01e01",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アコライト",
+      "seriesEn": "The Acolyte",
+      "season": 1,
+      "episode": 1,
+      "label": "S01E01",
+      "titleJa": "失って／見つけて",
+      "titleEn": "Lost / Found"
+    },
+    {
+      "id": "the-acolyte-s01e02",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アコライト",
+      "seriesEn": "The Acolyte",
+      "season": 1,
+      "episode": 2,
+      "label": "S01E02",
+      "titleJa": "復讐／正義",
+      "titleEn": "Revenge / Justice"
+    },
+    {
+      "id": "the-acolyte-s01e03",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アコライト",
+      "seriesEn": "The Acolyte",
+      "season": 1,
+      "episode": 3,
+      "label": "S01E03",
+      "titleJa": "運命",
+      "titleEn": "Destiny"
+    },
+    {
+      "id": "the-acolyte-s01e04",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アコライト",
+      "seriesEn": "The Acolyte",
+      "season": 1,
+      "episode": 4,
+      "label": "S01E04",
+      "titleJa": "昼",
+      "titleEn": "Day"
+    },
+    {
+      "id": "the-acolyte-s01e05",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アコライト",
+      "seriesEn": "The Acolyte",
+      "season": 1,
+      "episode": 5,
+      "label": "S01E05",
+      "titleJa": "夜",
+      "titleEn": "Night"
+    },
+    {
+      "id": "the-acolyte-s01e06",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アコライト",
+      "seriesEn": "The Acolyte",
+      "season": 1,
+      "episode": 6,
+      "label": "S01E06",
+      "titleJa": "指導／堕落",
+      "titleEn": "Teach / Corrupt"
+    },
+    {
+      "id": "the-acolyte-s01e07",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アコライト",
+      "seriesEn": "The Acolyte",
+      "season": 1,
+      "episode": 7,
+      "label": "S01E07",
+      "titleJa": "選択",
+      "titleEn": "Choice"
+    },
+    {
+      "id": "the-acolyte-s01e08",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "アコライト",
+      "seriesEn": "The Acolyte",
+      "season": 1,
+      "episode": 8,
+      "label": "S01E08",
+      "titleJa": "アコライト",
+      "titleEn": "The Acolyte"
+    }
+  ]
+}
