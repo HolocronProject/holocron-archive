@@ -529,6 +529,21 @@ button:disabled { cursor: not-allowed; opacity: 0.38; }
 
 .column-card h3 { margin: 8px 0 0; font-size: 20px; line-height: 1.45; }
 .column-work { color: var(--accent); text-align: right; }
+.column-artwork {
+  overflow: hidden;
+  margin: 24px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: #080b0f;
+}
+
+.column-artwork img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .column-body { margin: 20px 0 0; color: #c7ccd2; font-size: 14px; white-space: pre-line; }
 
 .column-empty {

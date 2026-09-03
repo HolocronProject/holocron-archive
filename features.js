@@ -211,10 +211,24 @@ function createColumnCard(entry) {
   work.textContent = entry.work;
   header.append(heading, work);
 
+  let artwork = null;
+  if (entry.image) {
+    artwork = document.createElement("figure");
+    artwork.className = "column-artwork";
+    const image = document.createElement("img");
+    image.src = entry.image;
+    image.alt = entry.imageAlt || "";
+    image.loading = "lazy";
+    image.decoding = "async";
+    artwork.append(image);
+  }
+
   const body = document.createElement("p");
   body.className = "column-body";
   body.textContent = entry.body;
-  article.append(header, body);
+  article.append(header);
+  if (artwork) article.append(artwork);
+  article.append(body);
   return article;
 }
 
