@@ -130,7 +130,8 @@ async function loadTimeline() {
       "data/maul-shadow-lord.json",
       "data/rebels.json",
       "data/mandalorian.json",
-      "data/ahsoka.json"
+      "data/ahsoka.json",
+      "data/skeleton-crew.json"
     ];
     const responses = await Promise.all([
       fetch("data/movies.json"),

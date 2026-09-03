@@ -1,0 +1,111 @@
+{
+  "work": {
+    "id": "skeleton-crew",
+    "timelineOrder": 97,
+    "dateLabel": "約9 ABY",
+    "titleJa": "スター・ウォーズ：スケルトン・クルー",
+    "titleEn": "Star Wars: Skeleton Crew",
+    "releaseYear": "2024–2025",
+    "category": "実写ドラマ",
+    "episodeCount": 8,
+    "episodeOrderLabel": "エピソード順"
+  },
+  "episodes": [
+    {
+      "id": "skeleton-crew-s01e01",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "スター・ウォーズ：スケルトン・クルー",
+      "seriesEn": "Star Wars: Skeleton Crew",
+      "season": 1,
+      "episode": 1,
+      "label": "S01E01",
+      "titleJa": "ホントの冒険ができるかも",
+      "titleEn": "This Could Be a Real Adventure"
+    },
+    {
+      "id": "skeleton-crew-s01e02",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "スター・ウォーズ：スケルトン・クルー",
+      "seriesEn": "Star Wars: Skeleton Crew",
+      "season": 1,
+      "episode": 2,
+      "label": "S01E02",
+      "titleJa": "バリアを越えてはるか遠くへ",
+      "titleEn": "Way, Way Out Past the Barrier"
+    },
+    {
+      "id": "skeleton-crew-s01e03",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "スター・ウォーズ：スケルトン・クルー",
+      "seriesEn": "Star Wars: Skeleton Crew",
+      "season": 1,
+      "episode": 3,
+      "label": "S01E03",
+      "titleJa": "航行に問題のあるとても面白い星",
+      "titleEn": "Very Interesting, as an Astrogration Problem"
+    },
+    {
+      "id": "skeleton-crew-s01e04",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "スター・ウォーズ：スケルトン・クルー",
+      "seriesEn": "Star Wars: Skeleton Crew",
+      "season": 1,
+      "episode": 4,
+      "label": "S01E04",
+      "titleJa": "アト・アティンは記憶にねえ",
+      "titleEn": "Can't Say I Remember No At Attin"
+    },
+    {
+      "id": "skeleton-crew-s01e05",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "スター・ウォーズ：スケルトン・クルー",
+      "seriesEn": "Star Wars: Skeleton Crew",
+      "season": 1,
+      "episode": 5,
+      "label": "S01E05",
+      "titleJa": "お前たちは海賊を分かってない",
+      "titleEn": "You Have a Lot to Learn About Pirates"
+    },
+    {
+      "id": "skeleton-crew-s01e06",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "スター・ウォーズ：スケルトン・クルー",
+      "seriesEn": "Star Wars: Skeleton Crew",
+      "season": 1,
+      "episode": 6,
+      "label": "S01E06",
+      "titleJa": "また友達がいなくなる",
+      "titleEn": "Zero Friends Again"
+    },
+    {
+      "id": "skeleton-crew-s01e07",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "スター・ウォーズ：スケルトン・クルー",
+      "seriesEn": "Star Wars: Skeleton Crew",
+      "season": 1,
+      "episode": 7,
+      "label": "S01E07",
+      "titleJa": "あたしたち絶対怒られる",
+      "titleEn": "We're Gonna Be in So Much Trouble"
+    },
+    {
+      "id": "skeleton-crew-s01e08",
+      "kind": "episode",
+      "category": "実写",
+      "seriesJa": "スター・ウォーズ：スケルトン・クルー",
+      "seriesEn": "Star Wars: Skeleton Crew",
+      "season": 1,
+      "episode": 8,
+      "label": "S01E08",
+      "titleJa": "本当の正義の味方",
+      "titleEn": "The Real Good Guys"
+    }
+  ]
+}
