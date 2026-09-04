@@ -28,6 +28,14 @@ function createDetailList(work) {
   return detailList;
 }
 
+function shortenSummary(text, maxLength = 120) {
+  if (!text || text.length <= maxLength) return text;
+  const sample = text.slice(0, maxLength + 1);
+  const sentenceEnd = sample.lastIndexOf("。");
+  if (sentenceEnd >= 55) return sample.slice(0, sentenceEnd + 1);
+  return `${text.slice(0, maxLength).trim()}…`;
+}
+
 function createEpisodeList(work) {
   const section = document.createElement("section");
   section.className = "episode-section";
@@ -48,6 +56,11 @@ function createEpisodeList(work) {
   work.episodes.forEach((episode, index) => {
     const item = document.createElement("li");
     item.className = "episode-item";
+    const hasNarrative = Boolean(episode.lesson || episode.summary);
+    const episodeCard = hasNarrative ? document.createElement("details") : document.createElement("div");
+    episodeCard.className = "episode-card";
+    const row = hasNarrative ? document.createElement("summary") : document.createElement("div");
+    row.className = "episode-row";
 
     const order = document.createElement("span");
     order.className = "episode-order";
@@ -74,11 +87,57 @@ function createEpisodeList(work) {
     titleEn.textContent = episode.titleEn;
     titles.append(titleJa, titleEn);
 
-    item.append(order, number, titles);
+    row.append(order, number, titles);
+
+    if (hasNarrative) {
+      const chevron = document.createElement("span");
+      chevron.className = "episode-chevron";
+      chevron.setAttribute("aria-hidden", "true");
+      row.append(chevron);
+    }
+
+    episodeCard.append(row);
+
+    if (hasNarrative) {
+      const narrative = document.createElement("div");
+      narrative.className = "episode-narrative";
+
+      if (episode.lesson) {
+        const lesson = document.createElement("p");
+        lesson.className = "episode-lesson";
+        const label = document.createElement("span");
+        label.textContent = "今回の教訓";
+        lesson.append(label, document.createTextNode(episode.lesson));
+        narrative.append(lesson);
+      }
+
+      if (episode.summary) {
+        const episodeSummary = document.createElement("p");
+        episodeSummary.className = "episode-summary";
+        episodeSummary.textContent = shortenSummary(episode.summary);
+        narrative.append(episodeSummary);
+      }
+
+      episodeCard.append(narrative);
+    }
+    item.append(episodeCard);
     list.append(item);
   });
 
   section.append(header, list);
+  return section;
+}
+
+function createWorkNarrative(work) {
+  if (!work.summary) return null;
+
+  const section = document.createElement("section");
+  section.className = "work-narrative";
+  const label = document.createElement("span");
+  label.textContent = work.summaryLabel || "オープニング要約";
+  const copy = document.createElement("p");
+  copy.textContent = work.summary;
+  section.append(label, copy);
   return section;
 }
 
@@ -118,6 +177,8 @@ function createTimelineItem(work) {
   summary.append(titles, meta);
 
   details.append(summary, createDetailList(work));
+  const narrative = createWorkNarrative(work);
+  if (narrative) details.append(narrative);
   if (work.episodes) details.append(createEpisodeList(work));
   article.append(date, details);
   return article;
@@ -180,15 +241,15 @@ async function loadTimeline() {
       (total, work) => total + (work.episodeCount || 0),
       0
     );
-    workCount.textContent = `${works.length}作品・${episodeTotal}話`;
+    if (workCount) workCount.textContent = `${works.length}作品・${episodeTotal}話`;
   } catch (error) {
     console.error("Timeline data could not be loaded:", error);
     const message = document.createElement("p");
     message.className = "error";
     message.textContent = "タイムラインを読み込めませんでした。ページを再読み込みしてください。";
     timeline.replaceChildren(message);
-    workCount.textContent = "--";
+    if (workCount) workCount.textContent = "--";
   }
 }
 
-loadTimeline();
+if (timeline) loadTimeline();

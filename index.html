@@ -7,109 +7,35 @@
     <meta name="theme-color" content="#080a0d">
     <title>Holocron Archive — Star Wars Canon Timeline</title>
     <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon/favicon-48x48.png">
     <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
     <script src="features.js" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Holocron Archive ホーム">
-        <span class="brand-mark" aria-hidden="true">HA</span>
-        <span>
-          <strong>HOLOCRON ARCHIVE</strong>
-          <small>STAR WARS CANON TIMELINE</small>
-        </span>
-      </a>
-      <nav class="site-nav" aria-label="メインナビゲーション">
-        <a href="#timeline-section">Timeline</a>
-        <a href="#roulette">Roulette</a>
-        <a href="#columns">Column</a>
-      </nav>
+      <a class="brand" href="index.html" aria-label="Holocron Archive ホーム"><span class="brand-mark" aria-hidden="true">HA</span><span><strong>HOLOCRON ARCHIVE</strong><small>STAR WARS CANON TIMELINE</small></span></a>
+      <nav class="site-nav" aria-label="メインナビゲーション"><a href="timeline.html">Timeline</a><a href="timeline.html#roulette">Roulette</a><a href="columns.html">Column</a></nav>
     </header>
-
     <main id="top">
       <section class="hero" aria-labelledby="page-title">
         <p class="eyebrow">A LONG TIME AGO, IN A GALAXY FAR, FAR AWAY...</p>
         <h1 id="page-title">銀河の物語を、<br>ひとつの時間軸に。</h1>
         <p class="hero-copy">スター・ウォーズ正史の映像作品を、ヤヴィンの戦いを基準としたBBY・ABY順でたどります。</p>
-        <dl class="summary" aria-label="収録状況">
-          <div><dt>収録作品</dt><dd id="work-count">--</dd></div>
-          <div><dt>収録範囲</dt><dd>約132 BBY — 35 ABY</dd></div>
-          <div><dt>現在のフェーズ</dt><dd>TIMELINE / 拡張中</dd></div>
-        </dl>
+        <div class="hero-actions"><a class="button-link" href="timeline.html">タイムラインを見る</a><a class="button-link secondary" href="timeline.html#roulette">運命の1話を選ぶ</a></div>
+        <dl class="summary" aria-label="収録状況"><div><dt>収録作品</dt><dd>18作品・266話</dd></div><div><dt>収録範囲</dt><dd>約132 BBY — 35 ABY</dd></div><div><dt>現在のフェーズ</dt><dd>TIMELINE / 拡張中</dd></div></dl>
       </section>
-
-      <section class="timeline-section" id="timeline-section" aria-labelledby="timeline-title">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">CANON CHRONOLOGY</p>
-            <h2 id="timeline-title">タイムライン</h2>
-          </div>
-          <p class="phase-status"><span aria-hidden="true"></span>映像作品 拡張中</p>
-        </div>
-
-        <p class="timeline-help" id="timeline-help">作品を選択すると詳細を表示します。</p>
-        <div class="timeline" id="timeline" aria-describedby="timeline-help" aria-live="polite">
-          <p class="loading">アーカイブを読み込んでいます...</p>
-        </div>
-      </section>
-
-      <section class="feature-section roulette-section" id="roulette" aria-labelledby="roulette-title">
-        <div class="feature-heading">
-          <div>
-            <p class="section-kicker">TRUST IN THE FORCE</p>
-            <h2 id="roulette-title">視聴ルーレット</h2>
-          </div>
-          <p>次に観る一本を、フォースに委ねる。</p>
-        </div>
-
-        <div class="roulette-console">
-          <div class="roulette-result" aria-live="polite" aria-atomic="true">
-            <span class="roulette-category" id="roulette-category">WATCH SELECTOR</span>
-            <strong id="roulette-result">運命の作品を選択</strong>
-            <span class="roulette-title-en" id="roulette-title-en">映画・シリーズ・ゲームからランダムに選びます</span>
-          </div>
-          <div class="roulette-actions">
-            <label class="roulette-filter">
-              <span>抽選対象</span>
-              <select id="roulette-filter">
-                <option value="all">すべて</option>
-                <option value="映画">映画</option>
-                <option value="アニメ">アニメ各話</option>
-                <option value="実写">実写ドラマ各話</option>
-                <option value="ゲーム">ゲーム</option>
-              </select>
-            </label>
-            <button class="primary-button" id="spin-button" type="button">ルーレットを回す</button>
-            <span class="roulette-count" id="roulette-count">候補を読み込み中...</span>
-            <button class="text-button roulette-reset" id="reset-roulette-button" type="button">抽選履歴をリセット</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="feature-section columns-section" id="columns" aria-labelledby="columns-title">
-        <div class="feature-heading">
-          <div>
-            <p class="section-kicker">KEEPER'S LOG</p>
-            <h2 id="columns-title">主のコラム</h2>
-          </div>
-          <p>銀河を観て、感じたことを記録する。</p>
-        </div>
-
-        <div class="column-list" id="column-list" aria-live="polite">
-          <p class="column-empty">コラムを読み込んでいます...</p>
-        </div>
+      <nav class="portal-grid" aria-label="アーカイブ案内">
+        <a class="portal-card" href="timeline.html"><span>CANON CHRONOLOGY</span><h2>Timeline</h2><p>映画とシリーズをBBY・ABY順にたどる。</p></a>
+        <a class="portal-card" href="timeline.html#roulette"><span>TRUST IN THE FORCE</span><h2>Roulette</h2><p>次に観る一本を、フォースに委ねる。</p></a>
+        <a class="portal-card" href="columns.html"><span>KEEPER'S LOG</span><h2>Column</h2><p>銀河を観て感じたことを記録する。</p></a>
+      </nav>
+      <section class="feature-section columns-section" aria-labelledby="latest-column-title">
+        <div class="feature-heading"><div><p class="section-kicker">LATEST KEEPER'S LOG</p><h2 id="latest-column-title">最新のコラム</h2></div><p><a href="columns.html">すべての記録を見る →</a></p></div>
+        <div class="column-list" id="column-list" data-limit="1" data-preview="true" aria-live="polite"><p class="column-empty">コラムを読み込んでいます...</p></div>
       </section>
     </main>
-
-    <footer>
-      <p>HOLOCRON ARCHIVE</p>
-      <p>Star Wars and all associated names are trademarks of Lucasfilm Ltd. This is an unofficial fan project.</p>
-    </footer>
+    <footer><p>HOLOCRON ARCHIVE</p><p>Star Wars and all associated names are trademarks of Lucasfilm Ltd. This is an unofficial fan project.</p></footer>
   </body>
 </html>

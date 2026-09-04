@@ -12,7 +12,8 @@
       "titleJa": "スター・ウォーズ エピソード1／ファントム・メナス",
       "titleEn": "Star Wars: Episode I — The Phantom Menace",
       "releaseYear": 1999,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "銀河共和国が混乱する中、ジェダイは惑星ナブーの危機へ向かう。そこで出会った少年アナキンが、銀河の運命を大きく動かし始める。"
     },
     {
       "id": "attack-of-the-clones",
@@ -23,7 +24,8 @@
       "titleJa": "スター・ウォーズ エピソード2／クローンの攻撃",
       "titleEn": "Star Wars: Episode II — Attack of the Clones",
       "releaseYear": 2002,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "分離主義勢力の台頭で銀河が揺れる中、元老院議員パドメが命を狙われる。ジェダイの捜査は、密かに造られたクローン軍へつながっていく。"
     },
     {
       "id": "the-clone-wars-film",
@@ -34,7 +36,9 @@
       "titleJa": "スター・ウォーズ／クローン・ウォーズ",
       "titleEn": "Star Wars: The Clone Wars",
       "releaseYear": 2008,
-      "category": "劇場版アニメーション"
+      "category": "劇場版アニメーション",
+      "summaryLabel": "物語の導入",
+      "summary": "クローン戦争が激化する中、アナキンは新たなパダワン、アソーカと共にジャバ・ザ・ハットの息子救出へ向かう。"
     },
     {
       "id": "revenge-of-the-sith",
@@ -45,7 +49,8 @@
       "titleJa": "スター・ウォーズ エピソード3／シスの復讐",
       "titleEn": "Star Wars: Episode III — Revenge of the Sith",
       "releaseYear": 2005,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "クローン戦争は終盤を迎えるが、銀河共和国の内部ではシスの計画が完成へ近づく。アナキンの恐れと迷いが、ジェダイと銀河の命運を変える。"
     },
     {
       "id": "solo",
@@ -56,7 +61,9 @@
       "titleJa": "ハン・ソロ／スター・ウォーズ・ストーリー",
       "titleEn": "Solo: A Star Wars Story",
       "releaseYear": 2018,
-      "category": "アンソロジー"
+      "category": "アンソロジー",
+      "summaryLabel": "物語の導入",
+      "summary": "帝国支配下の惑星コレリアで生きる青年ハンは、自由を求めて故郷を脱出。危険な仕事を通じ、後の相棒たちと出会っていく。"
     },
     {
       "id": "rogue-one",
@@ -67,7 +74,9 @@
       "titleJa": "ローグ・ワン／スター・ウォーズ・ストーリー",
       "titleEn": "Rogue One: A Star Wars Story",
       "releaseYear": 2016,
-      "category": "アンソロジー"
+      "category": "アンソロジー",
+      "summaryLabel": "物語の導入",
+      "summary": "帝国が究極兵器デス・スターを完成させようとする中、反乱軍はその設計図を奪うため、寄せ集めの部隊を送り込む。"
     },
     {
       "id": "a-new-hope",
@@ -78,7 +87,8 @@
       "titleJa": "スター・ウォーズ エピソード4／新たなる希望",
       "titleEn": "Star Wars: Episode IV — A New Hope",
       "releaseYear": 1977,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "帝国が銀河を支配する中、反乱軍は究極兵器の設計図を奪取。レイアは追手から逃れながら、銀河に残された希望を託す。"
     },
     {
       "id": "the-empire-strikes-back",
@@ -89,7 +99,8 @@
       "titleJa": "スター・ウォーズ エピソード5／帝国の逆襲",
       "titleEn": "Star Wars: Episode V — The Empire Strikes Back",
       "releaseYear": 1980,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "デス・スターを失った帝国は反乱軍を追い詰める。ルークはジェダイの修行へ向かい、ハンたちは帝国軍の執拗な追跡を受ける。"
     },
     {
       "id": "return-of-the-jedi",
@@ -100,7 +111,8 @@
       "titleJa": "スター・ウォーズ エピソード6／ジェダイの帰還",
       "titleEn": "Star Wars: Episode VI — Return of the Jedi",
       "releaseYear": 1983,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "帝国はさらに強力なデス・スターを建造。反乱軍は皇帝を倒す最後の作戦に挑み、ルークは父ダース・ベイダーとの決着へ向かう。"
     },
     {
       "id": "the-force-awakens",
@@ -111,7 +123,8 @@
       "titleJa": "スター・ウォーズ／フォースの覚醒",
       "titleEn": "Star Wars: Episode VII — The Force Awakens",
       "releaseYear": 2015,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "ルーク・スカイウォーカーが姿を消し、帝国の残党ファースト・オーダーが台頭。レイア率いるレジスタンスは、銀河最後の希望を探す。"
     },
     {
       "id": "the-last-jedi",
@@ -122,7 +135,8 @@
       "titleJa": "スター・ウォーズ／最後のジェダイ",
       "titleEn": "Star Wars: Episode VIII — The Last Jedi",
       "releaseYear": 2017,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "レジスタンスが壊滅の危機に陥る中、レイはルークに助けを求める。一方、カイロ・レンは過去との決別を迫られていく。"
     },
     {
       "id": "the-rise-of-skywalker",
@@ -133,7 +147,8 @@
       "titleJa": "スター・ウォーズ／スカイウォーカーの夜明け",
       "titleEn": "Star Wars: Episode IX — The Rise of Skywalker",
       "releaseYear": 2019,
-      "category": "スカイウォーカー・サーガ"
+      "category": "スカイウォーカー・サーガ",
+      "summary": "復活した皇帝の脅威が銀河を覆う。レイたちは手掛かりを追って最後の戦いへ向かい、ジェダイとシスの因縁に終止符を打つ。"
     }
   ]
 }

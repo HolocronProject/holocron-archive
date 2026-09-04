@@ -118,15 +118,26 @@ function createColumnCard(entry) {
 
   const body = document.createElement("div");
   body.className = "column-body";
-  entry.body
-    .trim()
-    .split(/\n\s*\n/)
-    .filter(Boolean)
-    .forEach((text) => {
-      const paragraph = document.createElement("p");
-      paragraph.textContent = text;
-      body.append(paragraph);
-    });
+  if (columnList.dataset.preview === "true") {
+    const paragraph = document.createElement("p");
+    const plainText = entry.body.replace(/\s+/g, " ").trim();
+    paragraph.textContent = `${plainText.slice(0, 180)}${plainText.length > 180 ? "…" : ""}`;
+    const more = document.createElement("a");
+    more.className = "column-more";
+    more.href = "columns.html";
+    more.textContent = "続きを読む →";
+    body.append(paragraph, more);
+  } else {
+    entry.body
+      .trim()
+      .split(/\n\s*\n/)
+      .filter(Boolean)
+      .forEach((text) => {
+        const paragraph = document.createElement("p");
+        paragraph.textContent = text;
+        body.append(paragraph);
+      });
+  }
   article.append(header);
   if (artwork) article.append(artwork);
   article.append(body);
@@ -139,6 +150,8 @@ async function loadColumns() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     columnEntries = [...data.entries].sort((a, b) => b.date.localeCompare(a.date));
+    const limit = Number.parseInt(columnList.dataset.limit, 10);
+    if (Number.isFinite(limit) && limit > 0) columnEntries = columnEntries.slice(0, limit);
 
     if (!columnEntries.length) {
       const empty = document.createElement("p");
@@ -218,9 +231,11 @@ function resetRouletteHistory() {
   updateRouletteCount();
 }
 
-spinButton.addEventListener("click", spinRoulette);
-rouletteFilter.addEventListener("change", changeRouletteFilter);
-resetRouletteButton.addEventListener("click", resetRouletteHistory);
+if (spinButton && rouletteFilter && resetRouletteButton) {
+  spinButton.addEventListener("click", spinRoulette);
+  rouletteFilter.addEventListener("change", changeRouletteFilter);
+  resetRouletteButton.addEventListener("click", resetRouletteHistory);
+  loadRoulette();
+}
 
-loadRoulette();
-loadColumns();
+if (columnList) loadColumns();
