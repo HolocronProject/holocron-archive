@@ -98,8 +98,19 @@ footer {
 }
 
 .hero {
-  min-height: 560px;
-  padding: 112px 0 80px;
+  position: relative;
+  width: 100%;
+  min-height: 650px;
+  padding: 112px max(24px, calc((100vw - var(--max-width)) / 2)) 80px;
+  background:
+    linear-gradient(90deg, #080a0d 0%, rgba(8, 10, 13, 0.97) 20%, rgba(8, 10, 13, 0.78) 45%, rgba(8, 10, 13, 0.18) 72%),
+    linear-gradient(180deg, rgba(8, 10, 13, 0.2) 58%, #080a0d 100%),
+    url("assets/hero-galactic-species.webp") 68% center / cover no-repeat;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .eyebrow,
@@ -596,7 +607,15 @@ footer p:first-child { color: var(--muted); font-weight: 700; letter-spacing: 0.
   .site-nav a { font-size: 8px; }
   .site-nav a:first-child { display: none; }
   .hero, .timeline-section, footer { width: min(calc(100% - 36px), var(--max-width)); }
-  .hero { min-height: auto; padding: 78px 0 64px; }
+  .hero {
+    width: 100%;
+    min-height: 640px;
+    padding: 78px 18px 64px;
+    background:
+      linear-gradient(90deg, rgba(8, 10, 13, 0.98) 0%, rgba(8, 10, 13, 0.88) 58%, rgba(8, 10, 13, 0.48) 100%),
+      linear-gradient(180deg, rgba(8, 10, 13, 0.18) 35%, #080a0d 100%),
+      url("assets/hero-galactic-species.webp") 66% center / cover no-repeat;
+  }
   .hero-copy { font-size: 14px; }
   .summary { display: grid; grid-template-columns: 1fr 1fr; row-gap: 24px; margin-top: 42px; }
   .summary div { min-width: 0; padding: 0 18px; }
