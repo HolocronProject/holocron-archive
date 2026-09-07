@@ -685,6 +685,13 @@ button:disabled { cursor: not-allowed; opacity: 0.38; }
   object-fit: cover;
 }
 
+.column-artwork figcaption {
+  padding: 10px 14px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
 .column-body {
   max-width: 780px;
   margin: 26px 0 0;

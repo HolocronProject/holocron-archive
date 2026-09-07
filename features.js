@@ -88,6 +88,7 @@ function spinRoulette() {
 function createColumnCard(entry) {
   const article = document.createElement("article");
   article.className = "column-card";
+  if (entry.id) article.id = entry.id;
 
   const header = document.createElement("div");
   header.className = "column-card-header";
@@ -114,6 +115,11 @@ function createColumnCard(entry) {
     image.loading = "lazy";
     image.decoding = "async";
     artwork.append(image);
+    if (entry.imageCaption) {
+      const caption = document.createElement("figcaption");
+      caption.textContent = entry.imageCaption;
+      artwork.append(caption);
+    }
   }
 
   const body = document.createElement("div");
