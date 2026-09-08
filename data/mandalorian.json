@@ -10,7 +10,13 @@
     "releaseYear": "2019–2023",
     "category": "実写ドラマ",
     "episodeCount": 24,
-    "episodeOrderLabel": "エピソード順"
+    "episodeOrderLabel": "エピソード順",
+    "releaseDisplay": "2019–2023年（シーズン1〜3）",
+    "releaseSources": [
+      "https://www.starwars.com/news/star-wars-movies-and-series-guide",
+      "https://press.disneyplus.com/news/disney-plus-debuts-the-mandalorian-new-key-art-for-season-3-finale"
+    ],
+    "releaseVerifiedAt": "2026-09-09"
   },
   "episodes": [
     {

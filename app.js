@@ -12,7 +12,7 @@ function createDetailList(work) {
   detailList.className = "card-details";
   const fields = [
     ["作中年代", formatDate(work)],
-    [work.episodes ? "公開期間" : "公開年", `${work.releaseYear}年`],
+    [work.episodes ? "初放送・配信年（収録分）" : "初公開年（米国）", work.releaseDisplay || `${work.releaseYear}年`],
     ["区分", work.category]
   ];
 
@@ -114,7 +114,7 @@ function createEpisodeList(work) {
       if (episode.summary) {
         const episodeSummary = document.createElement("p");
         episodeSummary.className = "episode-summary";
-        episodeSummary.textContent = shortenSummary(episode.summary);
+        episodeSummary.textContent = episode.summary;
         narrative.append(episodeSummary);
       }
 
@@ -212,7 +212,8 @@ async function loadTimeline() {
     cloneWarsWork.titleJa = "スター・ウォーズ：クローン・ウォーズ";
     cloneWarsWork.titleEn = "Star Wars: The Clone Wars";
     cloneWarsWork.endYear = 19;
-    cloneWarsWork.releaseYear = "2008–2020";
+    cloneWarsWork.releaseYear = cloneWarsData.metadata.releaseYear;
+    cloneWarsWork.releaseDisplay = cloneWarsData.metadata.releaseDisplay;
     cloneWarsWork.category = "劇場版＋TVアニメ";
     cloneWarsWork.episodes = [...cloneWarsData.items].sort(
       (a, b) => a.chronologicalOrder - b.chronologicalOrder

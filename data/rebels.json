@@ -10,7 +10,13 @@
     "releaseYear": "2014–2018",
     "category": "TVアニメ",
     "episodeCount": 75,
-    "episodeOrderLabel": "エピソード順"
+    "episodeOrderLabel": "エピソード順",
+    "releaseDisplay": "2014–2018年（シーズン1〜4）",
+    "releaseSources": [
+      "https://www.starwars.com/news/star-wars-movies-and-series-guide",
+      "https://www.starwars.com/news/a-guide-to-star-wars-rebels-books-and-comics"
+    ],
+    "releaseVerifiedAt": "2026-09-09"
   },
   "episodes": [
     {

@@ -8,7 +8,13 @@
     "releaseYear": "2026",
     "category": "TVアニメ",
     "episodeCount": 10,
-    "episodeOrderLabel": "エピソード順"
+    "episodeOrderLabel": "エピソード順",
+    "releaseDisplay": "2026年（シーズン1）",
+    "releaseSources": [
+      "https://www.starwars.com/news/star-wars-movies-and-series-guide",
+      "https://www.starwars.com/news/star-wars-maul-shadow-lord-trailer"
+    ],
+    "releaseVerifiedAt": "2026-09-09"
   },
   "episodes": [
     {

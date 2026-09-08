@@ -1,6 +1,8 @@
 const rouletteResult = document.querySelector("#roulette-result");
 const rouletteCategory = document.querySelector("#roulette-category");
 const rouletteTitleEn = document.querySelector("#roulette-title-en");
+const rouletteEpisode = document.querySelector("#roulette-episode");
+const rouletteTitleJa = document.querySelector("#roulette-title-ja");
 const spinButton = document.querySelector("#spin-button");
 const rouletteFilter = document.querySelector("#roulette-filter");
 const rouletteCount = document.querySelector("#roulette-count");
@@ -15,18 +17,30 @@ let selectedWork = null;
 let drawnIds = new Set();
 let rouletteSpinning = false;
 
-function displayRouletteWork(work, recordResult = false) {
-  selectedWork = work;
-  const episodeLabel = work.label ? ` / ${work.label}` : "";
-  rouletteCategory.textContent = `${work.category}${episodeLabel}`;
+function paintRouletteWork(work) {
+  rouletteCategory.textContent = work.category;
+  if (rouletteEpisode) rouletteEpisode.textContent = "";
+  if (rouletteTitleJa) rouletteTitleJa.textContent = "";
   if (work.kind === "episode") {
     rouletteResult.textContent = work.seriesJa;
     const title = work.titleJa || work.titleEn;
-    rouletteTitleEn.textContent = work.titleJa && work.titleEn ? `${title} / ${work.titleEn}` : title;
+    if (rouletteEpisode) rouletteEpisode.textContent = `シーズン${work.season} ／ 第${work.episode}話`;
+    if (rouletteTitleJa) rouletteTitleJa.textContent = title;
+    rouletteTitleEn.textContent = rouletteTitleJa ? (work.titleJa ? work.titleEn : "") : title;
   } else {
     rouletteResult.textContent = work.titleJa;
     rouletteTitleEn.textContent = work.titleEn;
   }
+}
+
+function clearEpisodeDisplay() {
+  if (rouletteEpisode) rouletteEpisode.textContent = "";
+  if (rouletteTitleJa) rouletteTitleJa.textContent = "";
+}
+
+function displayRouletteWork(work, recordResult = false) {
+  selectedWork = work;
+  paintRouletteWork(work);
   localStorage.setItem(selectionKey, JSON.stringify(work));
   if (recordResult) {
     drawnIds.add(work.id);
@@ -56,6 +70,7 @@ function spinRoulette() {
 
   const finalWork = randomWork();
   if (!finalWork) {
+    clearEpisodeDisplay();
     rouletteCategory.textContent = "ARCHIVE COMPLETE";
     rouletteResult.textContent = "このカテゴリは全候補抽選済み";
     rouletteTitleEn.textContent = "もう一度始める場合は抽選履歴をリセットしてください";
@@ -79,9 +94,7 @@ function spinRoulette() {
   let turns = 0;
   const timer = window.setInterval(() => {
     const preview = turns >= 15 ? finalWork : randomWork();
-    rouletteCategory.textContent = preview.category;
-    rouletteResult.textContent = preview.titleJa;
-    rouletteTitleEn.textContent = preview.titleEn;
+    paintRouletteWork(preview);
     turns += 1;
 
     if (turns >= 16) {
@@ -235,6 +248,7 @@ function updateRouletteCount() {
 
 function changeRouletteFilter() {
   if (rouletteSpinning) return;
+  clearEpisodeDisplay();
   selectedWork = null;
   rouletteCategory.textContent = "WATCH SELECTOR";
   rouletteResult.textContent = "運命の作品を選択";
@@ -248,6 +262,7 @@ function resetRouletteHistory() {
   drawnIds.clear();
   localStorage.removeItem(historyKey);
   localStorage.removeItem(selectionKey);
+  clearEpisodeDisplay();
   selectedWork = null;
   rouletteCategory.textContent = "WATCH SELECTOR";
   rouletteResult.textContent = "抽選履歴をリセットしました";

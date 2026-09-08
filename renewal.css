@@ -27,7 +27,7 @@
 .renewal .latest-section .column-card { display: grid; grid-template-columns: 260px minmax(0,1fr); gap: 18px 28px; }
 .renewal .latest-section .column-artwork { grid-column: 1; grid-row: 1 / span 2; margin: 0; align-self: start; }
 .renewal .latest-section .column-card-header, .renewal .latest-section .column-body { grid-column: 2; margin: 0; }
-.renewal .column-card h3 { white-space: normal; overflow-wrap: anywhere; text-wrap: pretty; }
+.renewal .column-card h3 { white-space: normal; overflow-wrap: break-word; text-wrap: pretty; }
 .renewal .column-body { font-size: 16px; max-width: 44em; min-width: 0; }
 .renewal .column-body p {
   line-break: strict;
@@ -48,7 +48,12 @@
 .route-crosslink { width: min(calc(100% - 48px),var(--max-width)); margin: 0 auto 56px; color: var(--muted); font-size: 14px; }
 .route-crosslink a { color: var(--accent); }
 .renewal .roulette-filter span, .renewal .roulette-count, .renewal .text-button { font-size: 14px; }
-.renewal .roulette-result strong { font-size: clamp(26px,3vw,40px); }
+.renewal .roulette-result strong { font-size: clamp(1.35rem,2.5vw,1.75rem); overflow-wrap: break-word; letter-spacing: 0; }
+.renewal .roulette-category { font-size: .875rem; letter-spacing: .04em; margin-bottom: 12px; }
+.renewal .roulette-episode { display: block; margin-top: 20px; font-size: clamp(1.125rem,2vw,1.375rem); font-weight: 700; color: var(--accent); }
+.renewal .roulette-result .roulette-title-ja { margin-top: 10px; font-size: clamp(1.5rem,2.8vw,2rem); line-height: 1.55; }
+.renewal .roulette-title-en { margin-top: 10px; font-size: 1rem; line-height: 1.65; }
+.renewal .roulette-episode:empty, .renewal .roulette-title-ja:empty, .renewal .roulette-title-en:empty { display: none; }
 .renewal .column-card { scroll-margin-top: 140px; }
 .atlas-section { width: min(calc(100% - 40px),var(--max-width)); margin: 48px auto 72px; }
 .atlas-notice, .atlas-note { color: #b4c0cc; font-size: 14px; line-height: 1.9; }
@@ -96,4 +101,39 @@
  .route-banner { padding: 32px 20px; min-height: 230px; }
  .renewal .feature-heading h2 { font-size: 28px; }
  .renewal .column-body { font-size: 16px; }
+}
+
+/* Japanese wrapping: preserve paragraphs, avoid forced character breaks. */
+.renewal { line-break: strict; word-break: normal; overflow-wrap: break-word; }
+.renewal :is(h1,h2,h3,h4,p,.title-ja,.title-en,.episode-titles,.roulette-result) { text-wrap: pretty; }
+.renewal :is(.site-nav a,.portal-card h2,.episode-number,.card-meta) { word-break: keep-all; overflow-wrap: normal; }
+.renewal :is(.card-summary > span,.card-details > div,.feature-heading > div,.portal-card,.column-card,.route-banner-copy) { min-width: 0; }
+.renewal .title-en, .renewal .episode-titles > span {
+  white-space: normal; overflow: visible; text-overflow: clip; overflow-wrap: break-word; font-size: .8125rem; line-height: 1.65;
+}
+.renewal .card-details { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.renewal .card-details dt { font-size: .8125rem; letter-spacing: 0; }
+.renewal .card-details dd { font-size: .9375rem; line-height: 1.8; }
+.renewal .timeline-help { font-size: .875rem; color: var(--muted); }
+.renewal .episode-titles strong { font-size: .9375rem; line-height: 1.7; }
+.renewal .episode-number span { font-size: .75rem; letter-spacing: 0; }
+.renewal .episode-number strong { font-size: .875rem; }
+.renewal .episode-summary, .renewal .episode-lesson { font-size: .9375rem; line-height: 1.9; }
+.renewal .brand strong { letter-spacing: .08em; }
+@media(max-width:900px) {
+  .renewal .roulette-console { grid-template-columns: minmax(0,1fr); gap: 28px; }
+  .renewal .roulette-actions { width: 100%; max-width: 360px; }
+}
+@media(max-width:640px) {
+  .renewal .card-summary { grid-template-columns: minmax(0,1fr); gap: 10px; }
+  .renewal .card-meta { justify-content: space-between; }
+  .renewal .card-details { grid-template-columns: minmax(0,1fr); }
+  .renewal .episode-row { grid-template-columns: 32px minmax(0,1fr) 14px; gap: 10px; padding: 14px; }
+  .renewal .episode-number { display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; }
+  .renewal .episode-titles { grid-column: 1 / -1; grid-row: 2; }
+  .renewal .episode-chevron { grid-column: 3; grid-row: 1; }
+  .renewal .episode-list-header { flex-wrap: wrap; gap: 8px; }
+  .renewal .welcome-banner h1 { font-size: clamp(1.8rem,7.5vw,2.75rem); }
+  .renewal .route-banner h1 { font-size: clamp(1.6rem,6.5vw,2.2rem); }
+  .renewal .portal-card h2 { font-size: clamp(1rem,4.3vw,1.25rem); }
 }
