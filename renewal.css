@@ -28,7 +28,13 @@
 .renewal .latest-section .column-artwork { grid-column: 1; grid-row: 1 / span 2; margin: 0; align-self: start; }
 .renewal .latest-section .column-card-header, .renewal .latest-section .column-body { grid-column: 2; margin: 0; }
 .renewal .column-card h3 { white-space: normal; overflow-wrap: anywhere; text-wrap: pretty; }
-.renewal .column-body { font-size: 16px; }
+.renewal .column-body { font-size: 16px; max-width: 44em; min-width: 0; }
+.renewal .column-body p {
+  line-break: strict;
+  word-break: normal;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
 .renewal .column-work { font-size: 13px; }
 .renewal .column-more { font-size: 14px; }
 .route-banner { padding: 44px max(24px, calc((100vw - var(--max-width)) / 2)); min-height: 260px; display: grid; align-items: center; }
