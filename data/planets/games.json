@@ -1,0 +1,90 @@
+[
+  {
+    "id": "koboh",
+    "nameJa": "コーボー",
+    "nameEn": "Koboh",
+    "kind": "惑星",
+    "summary": "カルが傷ついたマンティスで訪れる世界。グリーズの店があるランブラーズ・リーチと、ハイ・リパブリック期の遺構がある。",
+    "appearances": [
+      "Jedi: Survivor"
+    ],
+    "media": [
+      "games"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/cal-kestis"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "tanalorr",
+    "nameJa": "タナロー",
+    "nameEn": "Tanalorr",
+    "kind": "惑星",
+    "summary": "コーボー・アビスの向こうに隠された世界。ダガン・ゲラが執着し、カルたちもその地を目指す。",
+    "appearances": [
+      "Jedi: Survivor"
+    ],
+    "media": [
+      "games"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/dagan-gera"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "bracca",
+    "nameJa": "ブラッカ",
+    "nameEn": "Bracca",
+    "kind": "惑星",
+    "summary": "退役した宇宙船が集まる解体の世界。回収した部品は帝国の軍需に流れ、カルも身を隠して解体工として働いた。",
+    "appearances": [
+      "Jedi: Fallen Order",
+      "バッド・バッチ"
+    ],
+    "media": [
+      "games",
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/bracca"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "bogano",
+    "nameJa": "ボガーノ",
+    "nameEn": "Bogano",
+    "kind": "惑星",
+    "summary": "多くの地図に載らない、辺境の世界。広い台地と湿地には、まだ解き明かされていない秘密が眠る。",
+    "appearances": [
+      "Jedi: Fallen Order"
+    ],
+    "media": [
+      "games"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/bogano"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "zeffo",
+    "nameJa": "ゼフォ",
+    "nameEn": "Zeffo",
+    "kind": "惑星",
+    "summary": "山岳地形と古代文明の謎を持つ世界。カルが遺構を探索し、フォースにまつわる知識を追う。",
+    "appearances": [
+      "Jedi: Fallen Order"
+    ],
+    "media": [
+      "games"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/zeffo",
+      "https://www.starwars.com/news/we-played-star-wars-jedi-fallen-order-and-we-love-it"
+    ],
+    "verifiedAt": "2026-09-08"
+  }
+]

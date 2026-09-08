@@ -1,0 +1,93 @@
+/* Renewal layer: retain the original timeline and roulette components. */
+.renewal { --max-width: 1200px; }
+.renewal .site-header { flex-wrap: wrap; gap: 14px 28px; padding-block: 16px; }
+.renewal .site-nav { flex-wrap: wrap; gap: 10px 22px; }
+.renewal .site-nav a { display: inline-block; font-size: 14px; letter-spacing: 0; }
+.renewal .site-nav a[aria-current="page"] { color: var(--accent); }
+.skip-link { position: fixed; top: 8px; left: 12px; z-index: 100; padding: 10px; background: var(--bg); transform: translateY(-150%); }
+.skip-link:focus { transform: none; }
+.renewal :focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.welcome-banner, .route-banner { position: relative; isolation: isolate; background: #101820; }
+.welcome-banner::before, .route-banner::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg,rgba(5,9,14,.94),rgba(5,9,14,.7) 45%,rgba(5,9,14,.08)),var(--banner) center / cover; }
+.welcome-banner { --banner: url('assets/hero-galactic-species.webp'); min-height: 440px; display: grid; align-items: center; padding: 70px max(24px, calc((100vw - var(--max-width)) / 2)); }
+.welcome-banner h1 { font-size: clamp(38px,5.5vw,68px); line-height: 1.25; letter-spacing: -.035em; }
+.welcome-banner p:not(.eyebrow) { font-size: 17px; color: #c7ced7; margin: 24px 0; }
+.welcome-jump { font-size: 14px; color: var(--accent); text-underline-offset: 5px; }
+.renewal .eyebrow, .renewal .section-kicker { font-size: 12px; }
+.renewal .portal-grid { position: relative; display: grid; grid-template-columns: repeat(4,1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin: 0 auto; width: min(calc(100% - 48px),var(--max-width)); }
+.renewal .portal-card { position: relative; border: 0; padding: 28px; background: #0e131a; min-height: 226px; transition: background .2s; }
+.renewal .portal-card:hover { background: #19232e; }
+.portal-icon { display: block; width: 40px; height: 40px; color: var(--accent); margin-bottom: 20px; }
+.renewal .portal-card span { font-size: 12px; }
+.renewal .portal-card h2 { font-size: 24px; margin: 8px 0; }
+.renewal .portal-card p { font-size: 14px; }
+.portal-arrow { position: absolute; right: 20px; top: 24px; color: var(--muted); }
+.renewal .feature-section { padding-block: 52px; }
+.latest-intro { color: var(--muted); }
+.renewal .latest-section .column-card { display: grid; grid-template-columns: 260px minmax(0,1fr); gap: 18px 28px; }
+.renewal .latest-section .column-artwork { grid-column: 1; grid-row: 1 / span 2; margin: 0; align-self: start; }
+.renewal .latest-section .column-card-header, .renewal .latest-section .column-body { grid-column: 2; margin: 0; }
+.renewal .column-card h3 { white-space: normal; overflow-wrap: anywhere; text-wrap: pretty; }
+.renewal .column-body { font-size: 16px; }
+.renewal .column-work { font-size: 13px; }
+.renewal .column-more { font-size: 14px; }
+.route-banner { padding: 44px max(24px, calc((100vw - var(--max-width)) / 2)); min-height: 260px; display: grid; align-items: center; }
+.banner-archive { --banner: url('assets/hero-galactic-species.webp'); }
+.banner-roulette { --banner: url('assets/renewal/roulette-cockpit.png'); }
+.banner-galaxy { --banner: url('assets/renewal/galaxy-purrgil.png'); }
+.welcome-banner { --banner: url('assets/hero-galactic-species.webp'); }
+.route-banner h1 { font-size: clamp(30px,4vw,46px); line-height: 1.3; }
+.route-banner p:last-child { max-width: 620px; font-size: 16px; color: #c7ced7; }
+.renewal .timeline-section { padding-top: 44px; }
+.route-crosslink { width: min(calc(100% - 48px),var(--max-width)); margin: 0 auto 56px; color: var(--muted); font-size: 14px; }
+.route-crosslink a { color: var(--accent); }
+.renewal .roulette-filter span, .renewal .roulette-count, .renewal .text-button { font-size: 14px; }
+.renewal .roulette-result strong { font-size: clamp(26px,3vw,40px); }
+.renewal .column-card { scroll-margin-top: 140px; }
+.atlas-section { width: min(calc(100% - 40px),var(--max-width)); margin: 48px auto 72px; }
+.atlas-notice, .atlas-note { color: #b4c0cc; font-size: 14px; line-height: 1.9; }
+.atlas-controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; margin: 26px 0; }
+.atlas-controls label { display: grid; gap: 8px; font-size: 14px; }
+.atlas-controls label:first-child { flex: 1 1 240px; }
+.atlas-controls input, .atlas-controls select, .atlas-controls button { min-height: 44px; padding: 10px 14px; color: #edf3f8; background: #151e28; border: 1px solid #405066; border-radius: 4px; font: inherit; }
+.atlas-controls button { cursor: pointer; }
+#planet-count { font-size: 14px; color: var(--accent); }
+.atlas-layout { display: grid; grid-template-columns: minmax(0,1fr) 320px; gap: 24px; align-items: start; }
+.star-field { position: relative; padding: 20px; border: 1px solid #344254; border-radius: 8px; background: linear-gradient(#080d16dd,#080d16ed), url('assets/renewal/galaxy-purrgil.png') center / cover; min-height: 400px; }
+.star-sector + .star-sector { margin-top: 30px; }
+.star-sector h3 { font-size: 13px; letter-spacing: .08em; color: #aabbd0; border-bottom: 1px solid #354254; padding-bottom: 12px; }
+.planet-nodes { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px 8px; }
+.planet-node { display: flex; flex-direction: column; align-items: center; gap: 7px; padding: 12px 6px; color: #eaf1f9; background: transparent; border: 1px solid transparent; border-radius: 8px; min-width: 0; font: inherit; font-size: 14px; cursor: pointer; }
+.planet-node small { color: #9eafc5; font-size: 12px; }
+.planet-node:hover, .planet-node[aria-pressed="true"] { border-color: #b39340; background: #d4af3714; }
+.planet-orb { width: 22px; height: 22px; border-radius: 50%; background: radial-gradient(circle at 30% 30%,#a4c8d1,#426177 50%,#101c35 78%); box-shadow: 0 0 20px #517c9533; }
+.planet-node:nth-child(3n+1) .planet-orb { background: radial-gradient(circle at 30% 30%,#e0c58d,#8d7350 50%,#262437 78%); }
+.planet-detail { position: sticky; top: 130px; padding: 26px; background: #111a24; border: 1px solid #394858; border-top: 2px solid var(--accent); border-radius: 4px; scroll-margin-top: 20px; }
+.planet-detail h3 { font-size: 26px; margin: 14px 0 6px; line-height: 1.4; }
+.planet-english { color: var(--accent); font-size: 14px; }
+.planet-summary { font-size: 16px; line-height: 1.95; margin: 24px 0; }
+.planet-detail h4 { font-size: 13px; color: #b9c7d5; }
+.planet-detail ul { padding-left: 20px; font-size: 14px; line-height: 1.9; }
+.planet-sources { display: flex; flex-wrap: wrap; gap: 12px; font-size: 13px; }
+.planet-sources a, .atlas-note a { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
+.planet-detail small { color: #98a8bb; font-size: 12px; }
+.atlas-empty { padding: 20px; }
+.atlas-coverage { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 22px; font-size: 14px; line-height: 1.9; }
+.atlas-coverage summary { cursor: pointer; color: var(--accent); }
+@media(max-width:800px) { .atlas-layout { grid-template-columns: 1fr; } .planet-detail { position: static; } .star-field { max-height: 540px; overflow-y: auto; } }
+@media(max-width:400px) { .planet-nodes { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:900px) { .renewal .site-nav { margin-left: 0; width: 100%; } .renewal .portal-grid { grid-template-columns: repeat(2,1fr); } }
+@media(max-width:600px) {
+ .renewal .site-header { position: relative; padding: 14px 18px; }
+ .renewal .site-nav { gap: 10px 16px; }
+ .welcome-banner { min-height: 360px; padding: 44px 20px; }
+ .welcome-banner::before, .route-banner::before { background: linear-gradient(90deg,rgba(5,9,14,.92),rgba(5,9,14,.65)),var(--banner) 65% center / cover; }
+ .renewal .portal-grid { width: calc(100% - 32px); }
+ .renewal .portal-card { padding: 20px 16px; min-height: 198px; }
+ .renewal .portal-card h2 { font-size: 20px; }
+ .renewal .latest-section .column-card { display: flex; flex-direction: column; }
+ .renewal .latest-section .column-artwork { order: -1; width: 100%; }
+ .route-banner { padding: 32px 20px; min-height: 230px; }
+ .renewal .feature-heading h2 { font-size: 28px; }
+ .renewal .column-body { font-size: 16px; }
+}

@@ -1,0 +1,197 @@
+{
+  "updatedAt": "2026-09-08",
+  "status": "partial",
+  "scope": "正史の映画・アニメ・実写ドラマ・ゲーム。名前が判明している惑星・衛星。小説・コミック限定、Legends、人工宇宙ステーションは対象外。全作品母集団の確定は未完。",
+  "coordinatePolicy": "作品別見取り図。銀河座標・距離は未収録。実際の位置を表さない。",
+  "files": [
+    "movies.json",
+    "animation.json",
+    "live-action.json",
+    "games.json"
+  ],
+  "catalogCount": 42,
+  "workAudit": [
+    {
+      "work": "EP1",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "EP2",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "EP3",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "EP4",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "EP5",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "EP6",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "EP7",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "EP8",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "EP9",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "The Clone Wars 劇場版",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Rogue One",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Solo",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "The Mandalorian and Grogu",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "The Clone Wars TV",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "The Bad Batch",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Rebels",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Tales of the Jedi",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Tales of the Empire",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Tales of the Underworld",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Maul: Shadow Lord",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Resistance",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Young Jedi Adventures",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Obi-Wan Kenobi",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Andor",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "The Mandalorian",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "The Book of Boba Fett",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Ahsoka",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "The Acolyte",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Skeleton Crew",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Jedi: Fallen Order",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Jedi: Survivor",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Battlefront II",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Squadrons",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Outlaws",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    },
+    {
+      "work": "Vader Immortal",
+      "status": "not-fully-audited",
+      "note": "収録有無と全ロケーションを作品単位で照合する。発売・公開状況と正史対象も再確認。"
+    }
+  ],
+  "nextSteps": [
+    "映画全作品の舞台一覧を公式資料と照合して不足を追加",
+    "クローン・ウォーズを各話単位で照合",
+    "その他アニメ・ドラマ・ゲームを同様に照合",
+    "登場作品の一部記載を完全対応表へ拡張",
+    "座標は公式地図等の根拠と利用可能性を確認してから別途実装"
+  ]
+}

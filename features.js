@@ -13,6 +13,7 @@ let rouletteWorks = [];
 let columnEntries = [];
 let selectedWork = null;
 let drawnIds = new Set();
+let rouletteSpinning = false;
 
 function displayRouletteWork(work, recordResult = false) {
   selectedWork = work;
@@ -51,7 +52,7 @@ function randomWork() {
 }
 
 function spinRoulette() {
-  if (!rouletteWorks.length) return;
+  if (!rouletteWorks.length || rouletteSpinning) return;
 
   const finalWork = randomWork();
   if (!finalWork) {
@@ -62,10 +63,15 @@ function spinRoulette() {
     return;
   }
 
+  rouletteSpinning = true;
   spinButton.disabled = true;
+  rouletteFilter.disabled = true;
+  resetRouletteButton.disabled = true;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   if (reduceMotion) {
+    rouletteSpinning = false;
+    rouletteFilter.disabled = false;
     displayRouletteWork(finalWork, true);
     return;
   }
@@ -80,6 +86,8 @@ function spinRoulette() {
 
     if (turns >= 16) {
       window.clearInterval(timer);
+      rouletteSpinning = false;
+      rouletteFilter.disabled = false;
       displayRouletteWork(finalWork, true);
     }
   }, 85);
@@ -130,7 +138,7 @@ function createColumnCard(entry) {
     paragraph.textContent = `${plainText.slice(0, 180)}${plainText.length > 180 ? "…" : ""}`;
     const more = document.createElement("a");
     more.className = "column-more";
-    more.href = "columns.html";
+    more.href = entry.id ? `columns.html#${encodeURIComponent(entry.id)}` : "columns.html";
     more.textContent = "続きを読む →";
     body.append(paragraph, more);
   } else {
@@ -170,6 +178,14 @@ async function loadColumns() {
     const fragment = document.createDocumentFragment();
     columnEntries.forEach((entry) => fragment.append(createColumnCard(entry)));
     columnList.replaceChildren(fragment);
+    if (columnList.dataset.preview !== "true" && location.hash) {
+      try {
+        const entry = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (entry && entry.classList.contains("column-card")) entry.scrollIntoView();
+      } catch (_) {
+        // Ignore malformed fragments from external links.
+      }
+    }
   } catch (error) {
     console.error("Columns could not be loaded:", error);
     const message = document.createElement("p");
@@ -218,6 +234,7 @@ function updateRouletteCount() {
 }
 
 function changeRouletteFilter() {
+  if (rouletteSpinning) return;
   selectedWork = null;
   rouletteCategory.textContent = "WATCH SELECTOR";
   rouletteResult.textContent = "運命の作品を選択";
@@ -226,10 +243,11 @@ function changeRouletteFilter() {
 }
 
 function resetRouletteHistory() {
-  if (!drawnIds.size) return;
+  if (!drawnIds.size || rouletteSpinning) return;
   if (!window.confirm("これまでの抽選履歴をすべてリセットしますか？")) return;
   drawnIds.clear();
   localStorage.removeItem(historyKey);
+  localStorage.removeItem(selectionKey);
   selectedWork = null;
   rouletteCategory.textContent = "WATCH SELECTOR";
   rouletteResult.textContent = "抽選履歴をリセットしました";

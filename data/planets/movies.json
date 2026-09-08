@@ -1,0 +1,446 @@
+[
+  {
+    "id": "tatooine",
+    "nameJa": "タトゥイーン",
+    "nameEn": "Tatooine",
+    "kind": "惑星",
+    "summary": "砂漠と二つの太陽の世界。水分農場や宇宙港が点在し、アナキンとルークの故郷となった。",
+    "appearances": [
+      "映画 EP1・2・3・4・6・9",
+      "クローン・ウォーズ",
+      "反乱者たち",
+      "マンダロリアン",
+      "オビ＝ワン・ケノービ",
+      "ボバ・フェット"
+    ],
+    "media": [
+      "movies",
+      "animation",
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/tatooine"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "coruscant",
+    "nameJa": "コルサント",
+    "nameEn": "Coruscant",
+    "kind": "惑星",
+    "summary": "惑星全体を都市が覆う銀河政治の中心。高層建築の下には幾重もの生活圏が広がる。",
+    "appearances": [
+      "映画 EP1・2・3・6",
+      "クローン・ウォーズ",
+      "バッド・バッチ",
+      "キャシアン・アンドー",
+      "アコライト",
+      "Jedi: Survivor"
+    ],
+    "media": [
+      "movies",
+      "animation",
+      "live-action",
+      "games"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/coruscant",
+      "https://www.starwars.com/databank/cal-kestis"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "naboo",
+    "nameJa": "ナブー",
+    "nameEn": "Naboo",
+    "kind": "惑星",
+    "summary": "湖や緑の平原に恵まれた世界。地上のナブー人と、水中都市に暮らすグンガンが共存する。",
+    "appearances": [
+      "映画 EP1・2・3・6",
+      "クローン・ウォーズ",
+      "テイルズ・オブ・ジェダイ",
+      "キャシアン・アンドー"
+    ],
+    "media": [
+      "movies",
+      "animation",
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/naboo"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "geonosis",
+    "nameJa": "ジオノーシス",
+    "nameEn": "Geonosis",
+    "kind": "惑星",
+    "summary": "岩と砂漠の世界に、尖塔状の巣と巨大なドロイド工場が築かれている。クローン戦争開戦の地。",
+    "appearances": [
+      "映画 EP2",
+      "クローン・ウォーズ"
+    ],
+    "media": [
+      "movies",
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/geonosis"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "kamino",
+    "nameJa": "カミーノ",
+    "nameEn": "Kamino",
+    "kind": "惑星",
+    "summary": "嵐の海が広がり、海上に都市がそびえる。共和国のクローン兵を生み出したクローニング技術の中心地。",
+    "appearances": [
+      "映画 EP2",
+      "クローン・ウォーズ",
+      "バッド・バッチ"
+    ],
+    "media": [
+      "movies",
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/kamino"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "mustafar",
+    "nameJa": "ムスタファー",
+    "nameEn": "Mustafar",
+    "kind": "惑星",
+    "summary": "溶岩と火山に覆われた過酷な世界。アナキンとオビ＝ワンの決闘の舞台となった。",
+    "appearances": [
+      "映画 EP3・9",
+      "ローグ・ワン",
+      "クローン・ウォーズ",
+      "反乱者たち"
+    ],
+    "media": [
+      "movies",
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/mustafar"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "kashyyyk",
+    "nameJa": "キャッシーク",
+    "nameEn": "Kashyyyk",
+    "kind": "惑星",
+    "summary": "巨木の上に都市を築くウーキーの故郷。豊かな森林と、高度な技術を持つ文化が共存する。",
+    "appearances": [
+      "映画 EP3",
+      "バッド・バッチ"
+    ],
+    "media": [
+      "movies",
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/kashyyyk"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "utapau",
+    "nameJa": "ウータパウ",
+    "nameEn": "Utapau",
+    "kind": "惑星",
+    "summary": "巨大な陥没穴に集落が築かれた世界。乾いた地表の下には洞窟や地下水系が広がる。",
+    "appearances": [
+      "映画 EP3"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/utapau"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "alderaan",
+    "nameJa": "オルデラン",
+    "nameEn": "Alderaan",
+    "kind": "惑星",
+    "summary": "緑の谷と雪山に恵まれ、芸術を大切にする世界。帝国のデス・スターによって破壊された。",
+    "appearances": [
+      "映画 EP3・4",
+      "オビ＝ワン・ケノービ",
+      "クローン・ウォーズ"
+    ],
+    "media": [
+      "movies",
+      "animation",
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/alderaan"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "hoth",
+    "nameJa": "ホス",
+    "nameEn": "Hoth",
+    "kind": "惑星",
+    "summary": "雪と氷に覆われた極寒の惑星。反乱同盟のエコー基地が置かれ、ワンパなどが生息する。",
+    "appearances": [
+      "映画 EP5"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/hoth"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "dagobah",
+    "nameJa": "ダゴバ",
+    "nameEn": "Dagobah",
+    "kind": "惑星",
+    "summary": "濃い森と沼地に生命が満ちる世界。強いフォースを帯び、ヨーダが隠遁生活を送った。",
+    "appearances": [
+      "映画 EP5・6",
+      "クローン・ウォーズ"
+    ],
+    "media": [
+      "movies",
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/dagobah"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "bespin",
+    "nameJa": "ベスピン",
+    "nameEn": "Bespin",
+    "kind": "惑星",
+    "summary": "巨大なガス惑星。人が生活できる大気層に、ガス採掘都市クラウド・シティが浮かぶ。",
+    "appearances": [
+      "映画 EP5・6"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/bespin"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "endor",
+    "nameJa": "エンドア（森林衛星）",
+    "nameEn": "Endor",
+    "kind": "衛星",
+    "summary": "イウォークが暮らす緑豊かな森林衛星。第二デス・スターを巡る、反乱同盟と帝国の決戦の舞台。",
+    "appearances": [
+      "映画 EP6・9"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/endor"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "yavin-4",
+    "nameJa": "ヤヴィン4",
+    "nameEn": "Yavin 4",
+    "kind": "衛星",
+    "summary": "ガス惑星ヤヴィンを巡る、ジャングルに覆われた衛星。反乱軍が基地を設けた。",
+    "appearances": [
+      "映画 EP4",
+      "ローグ・ワン",
+      "反乱者たち",
+      "キャシアン・アンドー"
+    ],
+    "media": [
+      "movies",
+      "animation",
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/yavin-4"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "jakku",
+    "nameJa": "ジャクー",
+    "nameEn": "Jakku",
+    "kind": "惑星",
+    "summary": "砂漠に戦艦の残骸が眠る世界。厳しい環境で、廃品回収者たちが部品を集めて生計を立てる。",
+    "appearances": [
+      "映画 EP7"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/jakku"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "ahch-to",
+    "nameJa": "オク＝トー",
+    "nameEn": "Ahch-To",
+    "kind": "惑星",
+    "summary": "未知領域の海と島の世界。最初のジェダイ・テンプルがあり、ルークが隠遁先に選んだ。",
+    "appearances": [
+      "映画 EP8"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/ahch-to"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "crait",
+    "nameJa": "クレイト",
+    "nameEn": "Crait",
+    "kind": "惑星",
+    "summary": "白い塩の層が光を反射する鉱物の世界。かつての反乱軍前哨基地が、レジスタンスの避難先となる。",
+    "appearances": [
+      "映画 EP8"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/crait"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "exegol",
+    "nameJa": "エクセゴル",
+    "nameEn": "Exegol",
+    "kind": "惑星",
+    "summary": "未知領域の奥深くにある古いシスの世界。巨大な城塞にシスを信奉する者たちが潜む。",
+    "appearances": [
+      "映画 EP9"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/exegol"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "scarif",
+    "nameJa": "スカリフ",
+    "nameEn": "Scarif",
+    "kind": "惑星",
+    "summary": "熱帯の海と島々に、帝国の重要軍事施設が置かれた世界。惑星を守るシールドが厳重に警戒される。",
+    "appearances": [
+      "ローグ・ワン"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/scarif"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "kessel",
+    "nameJa": "ケッセル",
+    "nameEn": "Kessel",
+    "kind": "惑星",
+    "summary": "スパイスとコアクシウムを産出する鉱山世界。パイク・シンジケートの下で、労働者が過酷な採掘を強いられる。",
+    "appearances": [
+      "ハン・ソロ",
+      "クローン・ウォーズ",
+      "反乱者たち"
+    ],
+    "media": [
+      "movies",
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/kessel"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "corellia",
+    "nameJa": "コレリア",
+    "nameEn": "Corellia",
+    "kind": "惑星",
+    "summary": "巨大な造船所で知られる古い工業世界。帝国はその生産力を戦闘機や大型戦艦の建造に利用した。",
+    "appearances": [
+      "ハン・ソロ",
+      "バッド・バッチ",
+      "アソーカ"
+    ],
+    "media": [
+      "movies",
+      "animation",
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/corellia"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "takodana",
+    "nameJa": "タコダナ",
+    "nameEn": "Takodana",
+    "kind": "惑星",
+    "summary": "緑豊かな世界。マズ・カナタの古い城には、各地の密輸業者や旅人、情報を求める者が集まる。",
+    "appearances": [
+      "映画 EP7"
+    ],
+    "media": [
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/takodana"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "jedha",
+    "nameJa": "ジェダ",
+    "nameEn": "Jedha",
+    "kind": "衛星",
+    "summary": "寒さが続く砂漠の衛星。フォースを探求する歴史を持ち、各地から巡礼者が集まる聖地。",
+    "appearances": [
+      "ローグ・ワン",
+      "Jedi: Survivor"
+    ],
+    "media": [
+      "movies",
+      "games"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/jedha",
+      "https://www.starwars.com/databank/cal-kestis"
+    ],
+    "verifiedAt": "2026-09-08"
+  }
+]

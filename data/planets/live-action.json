@@ -1,0 +1,106 @@
+[
+  {
+    "id": "nevarro",
+    "nameJa": "ネヴァロ",
+    "nameEn": "Nevarro",
+    "kind": "惑星",
+    "summary": "黒い砂と溶岩が広がる世界。賞金稼ぎの拠点だった街は、学校を持つ穏やかな生活の場へ変わっていく。",
+    "appearances": [
+      "マンダロリアン",
+      "マンダロリアン・アンド・グローグー"
+    ],
+    "media": [
+      "live-action",
+      "movies"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/nevarro"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "peridea",
+    "nameJa": "ペリディア",
+    "nameEn": "Peridea",
+    "kind": "惑星（別銀河）",
+    "summary": "遠い別の銀河にある、ダソミアの人々の祖先の世界。パーギルの銀河間回遊路の終着地として記録される。",
+    "appearances": [
+      "アソーカ"
+    ],
+    "media": [
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/peridea"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "at-attin",
+    "nameJa": "アト・アティン",
+    "nameEn": "At Attin",
+    "kind": "惑星",
+    "summary": "勤勉な住民とサービス・ドロイドに支えられた、秩序ある穏やかな世界。",
+    "appearances": [
+      "スケルトン・クルー"
+    ],
+    "media": [
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/at-attin"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "brendok",
+    "nameJa": "ブレンドク",
+    "nameEn": "Brendok",
+    "kind": "惑星",
+    "summary": "山々と苔むした森林に覆われ、二つの月を持つ世界。古い要塞に魔女たちが暮らす。",
+    "appearances": [
+      "アコライト"
+    ],
+    "media": [
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/brendok"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "ferrix",
+    "nameJa": "フェリックス",
+    "nameEn": "Ferrix",
+    "kind": "惑星",
+    "summary": "中古部品の市場と修理の仕事で栄える世界。廃品回収者や技術者たちの、結びつきの強い共同体がある。",
+    "appearances": [
+      "キャシアン・アンドー"
+    ],
+    "media": [
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/ferrix"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "nur",
+    "nameJa": "ヌア",
+    "nameEn": "Nur",
+    "kind": "衛星",
+    "summary": "海に覆われた衛星。尋問官の要塞は、海面から突き出す頂部を除いて水中に隠されている。",
+    "appearances": [
+      "オビ＝ワン・ケノービ"
+    ],
+    "media": [
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/nur"
+    ],
+    "verifiedAt": "2026-09-08"
+  }
+]

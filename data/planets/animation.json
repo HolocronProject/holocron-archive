@@ -1,0 +1,152 @@
+[
+  {
+    "id": "lothal",
+    "nameJa": "ロザル",
+    "nameEn": "Lothal",
+    "kind": "惑星",
+    "summary": "草原や農地と都市が広がる世界。帝国の占領で兵器工場が築かれ、自由を求める反乱の舞台となった。",
+    "appearances": [
+      "反乱者たち",
+      "アソーカ"
+    ],
+    "media": [
+      "animation",
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/lothal"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "mandalore",
+    "nameJa": "マンダロア",
+    "nameEn": "Mandalore",
+    "kind": "惑星",
+    "summary": "戦士の文化と多くの氏族を持つ世界。長い戦争で荒廃し、その統治を巡って争いが繰り返される。",
+    "appearances": [
+      "クローン・ウォーズ",
+      "反乱者たち",
+      "マンダロリアン",
+      "ボバ・フェット"
+    ],
+    "media": [
+      "animation",
+      "live-action"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/mandalore"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "ryloth",
+    "nameJa": "ライロス",
+    "nameEn": "Ryloth",
+    "kind": "惑星",
+    "summary": "トワイレックの故郷。分離主義勢力の侵攻、続く帝国の占領に対して、自由を求める抵抗が続いた。",
+    "appearances": [
+      "クローン・ウォーズ",
+      "反乱者たち",
+      "バッド・バッチ"
+    ],
+    "media": [
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/ryloth"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "dathomir",
+    "nameJa": "ダソミア",
+    "nameEn": "Dathomir",
+    "kind": "惑星",
+    "summary": "赤い光の下に、ねじれた森や沼地が広がる。ナイトシスターとナイトブラザーの文化が根づく世界。",
+    "appearances": [
+      "クローン・ウォーズ",
+      "反乱者たち",
+      "アソーカ",
+      "Jedi: Fallen Order"
+    ],
+    "media": [
+      "animation",
+      "live-action",
+      "games"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/dathomir",
+      "https://www.starwars.com/databank/nightsister-merrin"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "florrum",
+    "nameJa": "フローラム",
+    "nameEn": "Florrum",
+    "kind": "惑星",
+    "summary": "主要航路から離れた乾燥した砂漠の世界。ホンドー・オナカーが海賊とサルベージの拠点にしていた。",
+    "appearances": [
+      "クローン・ウォーズ"
+    ],
+    "media": [
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/florrum"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "ilum",
+    "nameJa": "イラム",
+    "nameEn": "Ilum",
+    "kind": "惑星",
+    "summary": "氷に覆われたジェダイの聖地。若き修行者は地下の洞窟で、自分に応えるクリスタルを探す。",
+    "appearances": [
+      "クローン・ウォーズ"
+    ],
+    "media": [
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/ilum"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "umbara",
+    "nameJa": "アンバラ",
+    "nameEn": "Umbara",
+    "kind": "惑星",
+    "summary": "太陽光が十分に届かず、常に暗闇に包まれる世界。高度な技術を持つ住民はクローン戦争中に分離主義勢力へ加わった。",
+    "appearances": [
+      "クローン・ウォーズ"
+    ],
+    "media": [
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/umbara"
+    ],
+    "verifiedAt": "2026-09-08"
+  },
+  {
+    "id": "onderon",
+    "nameJa": "オンダロン",
+    "nameEn": "Onderon",
+    "kind": "惑星",
+    "summary": "危険な生物が住む密林と、防壁に囲まれた都市を持つ世界。首都イジズを中心に王権を巡る対立が起こる。",
+    "appearances": [
+      "クローン・ウォーズ"
+    ],
+    "media": [
+      "animation"
+    ],
+    "sources": [
+      "https://www.starwars.com/databank/onderon"
+    ],
+    "verifiedAt": "2026-09-08"
+  }
+]
