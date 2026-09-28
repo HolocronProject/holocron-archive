@@ -35,6 +35,7 @@
     detail.replaceChildren(el("p", planet.kind + " / WORLD RECORD", "section-kicker"), title,
       el("p", planet.nameEn, "planet-english"), el("p", planet.summary, "planet-summary"),
       el("h4", "登場作品（確認済みの一部）"), list, sources, el("small", "資料確認日： " + planet.verifiedAt));
+    detail.scrollTop = 0;
     map.querySelectorAll("[data-planet]").forEach(button => {
       button.setAttribute("aria-pressed", String(button.dataset.planet === selected));
     });
