@@ -1,0 +1,117 @@
+[
+  {
+    "id": "rex",
+    "nameJa": "レックス",
+    "nameEn": "Rex",
+    "designation": "CT-7567",
+    "role": "クローン・キャプテン",
+    "unit": "第501大隊",
+    "summary": "アナキンとアソーカのもとで戦った第501大隊の指揮官。帝国成立後も、仲間のクローンを助ける道を選んだ。",
+    "source": "https://www.starwars.com/databank/clone-captain-rex"
+  },
+  {
+    "id": "cody",
+    "nameJa": "コーディー",
+    "nameEn": "Cody",
+    "role": "クローン・コマンダー",
+    "unit": "第212突撃大隊",
+    "summary": "オビ＝ワン・ケノービのもとで第212突撃大隊を率いた指揮官。戦場ではレックスとも連携した。",
+    "source": "https://www.starwars.com/databank/clone-commander-cody"
+  },
+  {
+    "id": "fives",
+    "nameJa": "ファイヴズ",
+    "nameEn": "Fives",
+    "designation": "CT-27-5555",
+    "role": "ARCトルーパー",
+    "unit": "第501大隊",
+    "summary": "ドミノ分隊出身。エコーとともにARCトルーパーとなり、クローンたちに隠された秘密へ迫った。",
+    "source": "https://www.starwars.com/databank/arc-trooper-fives"
+  },
+  {
+    "id": "echo",
+    "nameJa": "エコー",
+    "nameEn": "Echo",
+    "designation": "CT-1409",
+    "role": "ARCトルーパー",
+    "unit": "第501大隊／クローン・フォース99",
+    "summary": "ドミノ分隊から第501大隊へ。救出後はクローン・フォース99に加わり、のちにレックスと仲間の救出に動いた。",
+    "source": "https://www.starwars.com/databank/echo"
+  },
+  {
+    "id": "wolffe",
+    "nameJa": "ウォルフ",
+    "nameEn": "Wolffe",
+    "designation": "CC-3636",
+    "role": "クローン・コマンダー",
+    "unit": "ウルフパック",
+    "summary": "ジェダイ将軍プロ・クーンのもとでウルフパックを指揮。戦争を生き抜き、のちにレックスやグレガーと暮らした。",
+    "source": "https://www.starwars.com/databank/clone-commander-wolffe"
+  },
+  {
+    "id": "gregor",
+    "nameJa": "グレガー",
+    "nameEn": "Gregor",
+    "designation": "CC-5576-39",
+    "role": "クローン・コマンドー",
+    "unit": "共和国軍",
+    "summary": "アバファーで記憶を失っていた精鋭コマンドー。任務を思い出し、仲間を逃がすために戦った。",
+    "source": "https://www.starwars.com/databank/gregor"
+  },
+  {
+    "id": "jesse",
+    "nameJa": "ジェシー",
+    "nameEn": "Jesse",
+    "designation": "CT-5597",
+    "role": "ARCトルーパー",
+    "unit": "第501大隊",
+    "summary": "共和国の紋章を顔と装甲に刻んだ第501大隊の兵士。戦争終盤にはARCトルーパーとしても戦った。",
+    "source": "https://www.starwars.com/databank/jesse"
+  },
+  {
+    "id": "kix",
+    "nameJa": "キックス",
+    "nameEn": "Kix",
+    "role": "衛生兵",
+    "unit": "第501大隊",
+    "summary": "戦場で仲間の手当てを担う衛生兵。救護を優先しつつ、必要な場面では自ら武器も取る。",
+    "source": "https://www.starwars.com/databank/kix"
+  },
+  {
+    "id": "dogma",
+    "nameJa": "ドグマ",
+    "nameEn": "Dogma",
+    "role": "クローン・トルーパー",
+    "unit": "第501大隊",
+    "summary": "命令への忠誠を貫こうとした兵士。アンバラではクレル将軍を疑う仲間たちと対照的な立場に立った。",
+    "source": "https://www.starwars.com/databank/dogma"
+  },
+  {
+    "id": "tup",
+    "nameJa": "タップ",
+    "nameEn": "Tup",
+    "designation": "CT-5385",
+    "role": "クローン・トルーパー",
+    "unit": "第501大隊",
+    "summary": "仲間の経験から学ぼうとする若い兵士。アンバラを戦い抜き、のちに彼の異変がクローン軍の秘密へつながる。",
+    "source": "https://www.starwars.com/databank/tup"
+  },
+  {
+    "id": "hardcase",
+    "nameJa": "ハードケース",
+    "nameEn": "Hardcase",
+    "role": "クローン・トルーパー",
+    "unit": "第501大隊",
+    "summary": "敵を前にすると真っ先に飛び出す勇猛な兵士。回転式ブラスターを手に、圧倒的な敵にも臆さず立ち向かう。",
+    "source": "https://www.starwars.com/databank/hardcase"
+  },
+  {
+    "id": "appo",
+    "nameJa": "アッポー",
+    "nameEn": "Appo",
+    "role": "クローン・トルーパー",
+    "unit": "共和国軍",
+    "summary": "アンバラではポング・クレルの指揮下に入った兵士。戦争終盤にはコルサントのジェダイ聖堂での作戦にも参加した。",
+    "source": "https://www.starwars.com/databank/appo"
+  }
+]
