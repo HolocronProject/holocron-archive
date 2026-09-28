@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "id": "high-republic",
+      "title": "ハイ・リパブリック後期",
+      "characters": [
+        { "name": "ヴァーネストラ・ロウ", "detail": "ジェダイ・マスター／『アコライト』", "source": "https://www.starwars.com/databank/vernestra-vern-rwoh" },
+        { "name": "ソル", "detail": "ジェダイ・マスター／『アコライト』", "source": "https://www.starwars.com/databank/sol" },
+        { "name": "インダーラ", "detail": "ジェダイ・マスター／『アコライト』", "source": "https://www.starwars.com/databank/indara" },
+        { "name": "ケルナッカ", "detail": "ウーキーのジェダイ・マスター", "source": "https://www.starwars.com/databank/kelnacca" }
+      ]
+    },
+    {
+      "id": "republic",
+      "title": "共和国末期とクローン大戦",
+      "characters": [
+        { "name": "クワイ＝ガン・ジン", "detail": "オビ＝ワンの師", "source": "https://www.starwars.com/databank/qui-gon-jinn" },
+        { "name": "ヨーダ", "detail": "ジェダイ評議会のグランド・マスター", "source": "https://www.starwars.com/databank/yoda" },
+        { "name": "メイス・ウィンドゥ", "detail": "ジェダイ評議会の中心人物", "source": "https://www.starwars.com/databank/mace-windu" },
+        { "name": "オビ＝ワン・ケノービ", "detail": "アナキンの師／共和国軍の将軍", "source": "https://www.starwars.com/databank/obi-wan-kenobi" },
+        { "name": "アナキン・スカイウォーカー", "detail": "アソーカの師／のちのダース・ベイダー", "source": "https://www.starwars.com/databank/anakin-skywalker" },
+        { "name": "アソーカ・タノ", "detail": "アナキンの元パダワン／のちに離脱", "source": "https://www.starwars.com/databank/ahsoka-tano" },
+        { "name": "プロ・クーン", "detail": "評議会の一員／ウルフパックと行動", "source": "https://www.starwars.com/databank/plo-koon" },
+        { "name": "キット・フィストー", "detail": "ノートランのジェダイ・マスター", "source": "https://www.starwars.com/databank/kit-fisto" },
+        { "name": "アイラ・セキュラ", "detail": "トワイレックのジェダイ／ブライと行動", "source": "https://www.starwars.com/databank/aayla-secura" },
+        { "name": "シャアク・ティ", "detail": "カミーノでクローンの訓練を監督", "source": "https://www.starwars.com/databank/shaak-ti" },
+        { "name": "ルミナーラ・アンドゥリ", "detail": "バリス・オフィーの師", "source": "https://www.starwars.com/databank/luminara-unduli" },
+        { "name": "バリス・オフィー", "detail": "元パダワン／のちに尋問官へ", "source": "https://www.starwars.com/databank/barriss-offee" },
+        { "name": "キ＝アディ＝ムンディ", "detail": "ジェダイ評議会の一員", "source": "https://www.starwars.com/databank/ki-adi-mundi" },
+        { "name": "クインラン・ヴォス", "detail": "物体の記憶を読むジェダイ", "source": "https://www.starwars.com/databank/quinlan-vos" },
+        { "name": "デパ・ビラバ", "detail": "ケイレブ・デュームの師", "source": "https://www.starwars.com/databank/depa-billaba" },
+        { "name": "ジャロ・タパル", "detail": "カル・ケスティスの師", "source": "https://www.starwars.com/databank/jaro-tapal" }
+      ]
+    },
+    {
+      "id": "empire",
+      "title": "帝国期と反乱",
+      "characters": [
+        { "name": "ケイナン・ジャラス", "detail": "オーダー66の生存者／エズラの師", "source": "https://www.starwars.com/databank/kanan-jarrus" },
+        { "name": "エズラ・ブリッジャー", "detail": "ロザル出身のパダワン", "source": "https://www.starwars.com/databank/ezra-bridger" },
+        { "name": "カル・ケスティス", "detail": "オーダー66の生存者／ゲーム主人公", "source": "https://www.starwars.com/databank/cal-kestis" },
+        { "name": "シア・ジュンダ", "detail": "カルを導いた生存者", "source": "https://www.starwars.com/databank/cere" },
+        { "name": "ルーク・スカイウォーカー", "detail": "帝国に抗ったジェダイ", "source": "https://www.starwars.com/databank/luke-skywalker" }
+      ]
+    },
+    {
+      "id": "sequel",
+      "title": "ファースト・オーダー期",
+      "characters": [
+        { "name": "レイ", "detail": "ルークに師事し、フォースの道を歩む", "source": "https://www.starwars.com/databank/rey" }
+      ]
+    }
+  ]
+}

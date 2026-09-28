@@ -68,4 +68,47 @@
     .catch(() => {
       grid.replaceChildren(makeText("p", "character-loading", "キャラクターを読み込めませんでした。時間をおいて再読み込みしてください。"));
     });
+
+  const jediRoot = document.getElementById("jedi-groups");
+  const jediCount = document.getElementById("jedi-count");
+  if (!jediRoot || !jediCount) return;
+
+  function makeJediGroup(group) {
+    const section = document.createElement("section");
+    section.className = "jedi-group";
+    section.id = `jedi-${group.id}`;
+    section.append(makeText("h3", "", group.title));
+    const list = document.createElement("ul");
+    list.className = "jedi-list";
+    group.characters.forEach((character) => {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = character.source;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.append(
+        makeText("strong", "", character.name),
+        makeText("span", "", character.detail)
+      );
+      item.append(link);
+      list.append(item);
+    });
+    section.append(list);
+    return section;
+  }
+
+  fetch("data/jedi-characters.json")
+    .then((response) => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    })
+    .then((data) => {
+      if (!Array.isArray(data.groups)) throw new Error("Invalid Jedi data");
+      jediRoot.replaceChildren(...data.groups.map(makeJediGroup));
+      const total = data.groups.reduce((count, group) => count + group.characters.length, 0);
+      jediCount.textContent = `${total}名を選出`;
+    })
+    .catch(() => {
+      jediRoot.replaceChildren(makeText("p", "character-loading", "ジェダイの一覧を読み込めませんでした。時間をおいて再読み込みしてください。"));
+    });
 })();
