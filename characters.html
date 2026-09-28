@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="スター・ウォーズ正史の人物を、立場・時代・名前から探せるHolocron Archiveのキャラクター一覧。">
+  <meta name="description" content="スター・ウォーズ正史のキャラクターを、クローン、ジェダイ、反乱勢力などの分野別にまとめた一覧。">
   <meta name="theme-color" content="#080a0d">
   <title>キャラクター — Holocron Archive</title>
   <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="renewal.css?v=20260928">
-  <link rel="stylesheet" href="characters.css?v=20260929">
-  <script src="characters.js?v=20260929" defer></script>
+  <link rel="stylesheet" href="characters.css?v=20260929-simple">
+  <script src="characters.js?v=20260929-simple" defer></script>
 </head>
 <body class="renewal characters-page">
   <a class="skip-link" href="#main-content">本文へスキップ</a>
@@ -34,43 +34,8 @@
       <div class="route-banner-copy">
         <p class="eyebrow">THE CHARACTER ARCHIVE</p>
         <h1>銀河の人物を、知る。</h1>
-        <p>クローン、ジェダイ、暗黒面、反乱者、マンダロリアン。いろいろな入口から人物を探す。</p>
+        <p>クローン、ジェダイ、暗黒面、反乱者、マンダロリアン。銀河の人物を分野別に並べました。</p>
       </div>
-    </section>
-    <section class="character-section character-directory" aria-labelledby="directory-title">
-      <div class="feature-heading character-heading">
-        <div>
-          <p class="section-kicker">FIND YOUR WAY THROUGH THE GALAXY</p>
-          <h2 id="directory-title">人物を探す</h2>
-        </div>
-        <p id="directory-total">一覧を読み込み中</p>
-      </div>
-      <p class="character-intro">名前・立場・時代で絞り込めます。画像がない人物も先に登録し、公式資料へつなぎます。時代は主な活動期で分類しています。</p>
-      <div class="character-controls">
-        <label>名前・キーワード<input id="directory-search" type="search" placeholder="例：アソーカ、ドミノ分隊" autocomplete="off"></label>
-        <label>立場・テーマ<select id="directory-category">
-          <option value="">すべて</option>
-          <option value="clone">クローン</option>
-          <option value="jedi">ジェダイと元ジェダイ</option>
-          <option value="dark">暗黒面に関わる人物</option>
-          <option value="rebels">反乱勢力</option>
-          <option value="mandalore">マンダロリアン</option>
-          <option value="underworld">賞金稼ぎ・裏社会</option>
-          <option value="droid">ドロイド</option>
-          <option value="leaders">政治・軍の指導者</option>
-        </select></label>
-        <label>時代<select id="directory-era">
-          <option value="">すべて</option>
-          <option value="high-republic">ハイ・リパブリック後期</option>
-          <option value="republic">共和国末期・クローン大戦</option>
-          <option value="empire">帝国期・反乱</option>
-          <option value="new-republic">新共和国期</option>
-          <option value="sequel">ファースト・オーダー期</option>
-        </select></label>
-      </div>
-      <p id="directory-status" class="directory-status" role="status" aria-live="polite"></p>
-      <ul id="directory-results" class="directory-results"><li class="character-loading">人物を読み込み中...</li></ul>
-      <button id="directory-more" class="directory-more" type="button" hidden>さらに表示</button>
     </section>
     <section class="character-section" aria-labelledby="character-title">
       <div class="feature-heading character-heading">
@@ -95,7 +60,7 @@
       </div>
       <p class="character-intro">まずは99、ヘヴィ、ワクサー、ボイル、ハンター、クロスヘアーから。画像と紹介文が整った人物から、上の完成カードへ移します。</p>
       <ul class="character-upcoming-list" id="character-upcoming-list"><li class="character-loading">候補を読み込み中...</li></ul>
-      <p class="character-upcoming-note">99は兵士ではなく、カミーノで仲間を支えたクローンです。オメガはクローン兵とは別枠の候補。ボバ・フェットは裏社会の人物として上の索引に掲載しています。</p>
+      <p class="character-upcoming-note">99は兵士ではなく、カミーノで仲間を支えたクローンです。オメガはクローン兵とは別枠の候補。ボバ・フェットは下の「賞金稼ぎ・裏社会」に掲載しています。</p>
     </section>
     <section class="character-section jedi-section" aria-labelledby="jedi-title">
       <div class="feature-heading character-heading">
@@ -108,6 +73,19 @@
       <p class="character-intro">映画・アニメ・ドラマ・ゲームから、物語の軸になる人物を時代別に整理しました。画像付き紹介はこれから制作します。アソーカやバリスなど、後にジェダイ・オーダーを離れた人物も含みます。</p>
       <div id="jedi-groups" class="jedi-groups" aria-live="polite">
         <p class="character-loading">ジェダイの一覧を読み込み中...</p>
+      </div>
+    </section>
+    <section class="character-section collection-section" aria-labelledby="collection-title">
+      <div class="feature-heading character-heading">
+        <div>
+          <p class="section-kicker">MORE STORIES, MORE FACES</p>
+          <h2 id="collection-title">銀河の仲間と敵</h2>
+        </div>
+        <p id="collection-count">一覧を読み込み中</p>
+      </div>
+      <p class="character-intro">暗黒面、反乱勢力、マンダロリアン、裏社会、ドロイド、政治・軍の人物をまとめました。画像がない人物も、公式資料へのリンクからたどれます。</p>
+      <div id="character-collections" class="character-collections" aria-live="polite">
+        <p class="character-loading">一覧を読み込み中...</p>
       </div>
     </section>
     <p class="route-crosslink">物語の中で彼らに会うなら。<a href="timeline.html">タイムラインへ →</a></p>

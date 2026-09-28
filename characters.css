@@ -103,68 +103,6 @@
   grid-column: 1 / -1;
   color: var(--muted);
 }
-.character-directory { margin-bottom: 72px; }
-.character-controls {
-  display: grid;
-  grid-template-columns: minmax(220px, 2fr) repeat(2, minmax(180px, 1fr));
-  gap: 12px;
-  margin-bottom: 15px;
-}
-.character-controls label { display: grid; gap: 7px; color: #b8c1cc; font-size: 13px; }
-.character-controls input,
-.character-controls select {
-  min-width: 0;
-  min-height: 46px;
-  padding: 10px 12px;
-  border: 1px solid #405066;
-  border-radius: 4px;
-  background: #151e28;
-  color: #edf3f8;
-  font: inherit;
-  font-size: 15px;
-}
-.directory-status { margin: 0 0 15px; color: var(--accent); font-size: 13px; }
-.directory-results {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.directory-results li { min-width: 0; }
-.directory-results a {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  height: 100%;
-  min-height: 108px;
-  padding: 15px;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  background: #10151c;
-  color: #e0e5ec;
-  text-decoration: none;
-}
-.directory-results a:hover,
-.directory-results a:focus-visible { border-color: var(--accent); }
-.directory-results strong { font-size: 16px; line-height: 1.5; }
-.directory-detail { color: #b8c1cc; font-size: 13px; line-height: 1.5; }
-.directory-tags { margin-top: auto; color: var(--accent); font-size: 11px; line-height: 1.5; }
-.directory-empty { grid-column: 1 / -1; padding: 18px; color: #b8c1cc; }
-.directory-more {
-  display: block;
-  min-height: 44px;
-  margin: 20px auto 0;
-  padding: 9px 20px;
-  border: 1px solid var(--accent);
-  border-radius: 4px;
-  background: transparent;
-  color: var(--accent);
-  font: inherit;
-  cursor: pointer;
-}
-.directory-more[hidden] { display: none; }
 .character-upcoming { margin-top: 0; }
 .character-upcoming-list {
   display: grid;
@@ -196,13 +134,16 @@
   line-height: 1.8;
 }
 .jedi-section { margin-top: 0; }
-.jedi-group + .jedi-group { margin-top: 38px; }
-.jedi-group h3 {
+.jedi-group + .jedi-group,
+.collection-group + .collection-group { margin-top: 38px; }
+.jedi-group h3,
+.collection-group h3 {
   margin: 0 0 15px;
   color: var(--accent);
   font-size: 18px;
 }
-.jedi-list {
+.jedi-list,
+.collection-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
@@ -210,8 +151,10 @@
   padding: 0;
   list-style: none;
 }
-.jedi-list li { min-width: 0; }
-.jedi-list a {
+.jedi-list li,
+.collection-list li { min-width: 0; }
+.jedi-list a,
+.collection-list a {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -224,19 +167,20 @@
   text-decoration: none;
 }
 .jedi-list a:hover,
-.jedi-list a:focus-visible { border-color: var(--accent); }
-.jedi-list strong { font-size: 15px; line-height: 1.5; }
-.jedi-list span { color: #a9b7c8; font-size: 12px; line-height: 1.5; }
+.jedi-list a:focus-visible,
+.collection-list a:hover,
+.collection-list a:focus-visible { border-color: var(--accent); }
+.jedi-list strong,
+.collection-list strong { font-size: 15px; line-height: 1.5; }
+.jedi-list span,
+.collection-list span { color: #a9b7c8; font-size: 12px; line-height: 1.5; }
 @media (max-width: 950px) {
   .character-grid { grid-template-columns: 1fr; }
-  .directory-results { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .character-upcoming-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .jedi-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .jedi-list, .collection-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .character-section { width: calc(100% - 32px); margin-block: 42px 56px; }
-  .character-controls, .directory-results { grid-template-columns: 1fr; }
-  .directory-results a { min-height: 0; }
   .character-card { grid-template-columns: 1fr; gap: 14px; padding: 18px; }
   .character-picture { width: 112px; height: 112px; }
   .character-name h3 { font-size: 19px; }
@@ -244,6 +188,6 @@
   .character-meta { font-size: 11px; }
   .character-upcoming-list { gap: 8px; }
   .character-upcoming-list a { padding: 11px 12px; font-size: 13px; }
-  .jedi-list { grid-template-columns: 1fr; gap: 8px; }
-  .jedi-list a { min-height: 0; padding: 12px 14px; }
+  .jedi-list, .collection-list { grid-template-columns: 1fr; gap: 8px; }
+  .jedi-list a, .collection-list a { min-height: 0; padding: 12px 14px; }
 }

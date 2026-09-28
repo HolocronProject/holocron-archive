@@ -133,83 +133,44 @@
     upcomingList.replaceChildren(makeText("li", "character-loading", "候補を読み込めませんでした。"));
   });
 
-  const search = document.getElementById("directory-search");
-  const category = document.getElementById("directory-category");
-  const era = document.getElementById("directory-era");
-  const results = document.getElementById("directory-results");
-  const status = document.getElementById("directory-status");
-  const total = document.getElementById("directory-total");
-  const more = document.getElementById("directory-more");
-  const categoryLabels = {
-    clone: "クローン", jedi: "ジェダイと元ジェダイ", dark: "暗黒面",
-    rebels: "反乱勢力", mandalore: "マンダロリアン", underworld: "裏社会",
-    droid: "ドロイド", leaders: "政治・軍"
-  };
-  const eraLabels = {
-    "high-republic": "ハイ・リパブリック後期", republic: "共和国末期・クローン大戦",
-    empire: "帝国期・反乱", "new-republic": "新共和国期", sequel: "ファースト・オーダー期"
-  };
-  let directory = [];
-  let visible = 24;
+  const collectionRoot = document.getElementById("character-collections");
+  const collectionCount = document.getElementById("collection-count");
+  const collections = [
+    ["dark", "暗黒面に関わる人物"],
+    ["rebels", "反乱勢力"],
+    ["mandalore", "マンダロリアン"],
+    ["underworld", "賞金稼ぎ・裏社会"],
+    ["droid", "ドロイド"],
+    ["leaders", "政治・軍の指導者"]
+  ];
 
-  function makeDirectoryItem(person) {
-    const item = document.createElement("li");
-    const link = document.createElement("a");
-    link.href = person.link;
-    if (person.link.startsWith("https://")) {
+  function makeCollectionGroup(category, title, people) {
+    const section = document.createElement("section");
+    section.className = "collection-group";
+    section.id = `collection-${category}`;
+    section.append(makeText("h3", "", title));
+    const list = document.createElement("ul");
+    list.className = "collection-list";
+    people.forEach((person) => {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = person.source;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
-    }
-    link.append(
-      makeText("strong", "", person.name),
-      makeText("span", "directory-detail", person.detail),
-      makeText("span", "directory-tags", `${categoryLabels[person.category]} · ${eraLabels[person.era]}${person.hasImage ? " · 画像あり" : ""}`)
-    );
-    item.append(link);
-    return item;
+      link.append(makeText("strong", "", person.name), makeText("span", "", person.detail));
+      item.append(link);
+      list.append(item);
+    });
+    section.append(list);
+    return section;
   }
 
-  function renderDirectory() {
-    const query = search.value.trim().normalize("NFKC").toLocaleLowerCase("ja");
-    const filtered = directory.filter((person) => {
-      if (category.value && person.category !== category.value) return false;
-      if (era.value && person.era !== era.value) return false;
-      return !query || `${person.name} ${person.detail} ${categoryLabels[person.category]} ${eraLabels[person.era]}`
-        .normalize("NFKC").toLocaleLowerCase("ja").includes(query);
-    });
-    const shown = filtered.slice(0, visible);
-    results.replaceChildren(...(shown.length
-      ? shown.map(makeDirectoryItem)
-      : [makeText("li", "directory-empty", "該当する人物がいません。条件を変えてください。")]));
-    status.textContent = `${filtered.length}名が該当 · ${shown.length}名を表示`;
-    more.hidden = shown.length >= filtered.length;
-  }
-
-  [search, category, era].forEach((control) => {
-    control.addEventListener(control === search ? "input" : "change", () => {
-      visible = 24;
-      renderDirectory();
-    });
-  });
-  more.addEventListener("click", () => {
-    visible += 24;
-    renderDirectory();
-  });
-
-  Promise.all([cloneData, candidateData, jediData, indexData]).then(([clones, candidates, jedi, extras]) => {
-    if (!Array.isArray(clones) || !Array.isArray(candidates) || !Array.isArray(jedi.groups) || !Array.isArray(extras)) {
-      throw new Error("Invalid directory data");
-    }
-    directory = [
-      ...clones.map((person) => ({ name: person.nameJa, detail: `${person.role}／${person.unit}`, category: "clone", era: "republic", link: `#${person.id}`, hasImage: true })),
-      ...candidates.map((person) => ({ name: person.name, detail: person.detail, category: "clone", era: "republic", link: person.source })),
-      ...jedi.groups.flatMap((group) => group.characters.map((person) => ({ name: person.name, detail: person.detail, category: "jedi", era: group.id, link: person.source }))),
-      ...extras.map((person) => ({ ...person, link: person.source }))
-    ];
-    total.textContent = `${directory.length}名を収録`;
-    renderDirectory();
+  indexData.then((people) => {
+    if (!Array.isArray(people)) throw new Error("Invalid collection data");
+    collectionRoot.replaceChildren(...collections.map(([category, title]) =>
+      makeCollectionGroup(category, title, people.filter((person) => person.category === category))));
+    collectionCount.textContent = `${people.length}名を収録`;
   }).catch(() => {
-    total.textContent = "読み込みエラー";
-    results.replaceChildren(makeText("li", "directory-empty", "一覧を読み込めませんでした。時間をおいて再読み込みしてください。"));
+    collectionRoot.replaceChildren(makeText("p", "character-loading", "一覧を読み込めませんでした。時間をおいて再読み込みしてください。"));
   });
 })();
