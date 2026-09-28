@@ -1,0 +1,20 @@
+[
+  { "name": "99", "detail": "カミーノで訓練生を支えた整備担当", "source": "https://www.starwars.com/databank/clone-99" },
+  { "name": "ヘヴィ", "detail": "ドミノ分隊／リシの前哨基地", "source": "https://www.starwars.com/news/the-clone-wars-rewatch-rookies" },
+  { "name": "ワクサー", "detail": "ボイルと組み、ライロスでヌーマを守った", "source": "https://www.starwars.com/databank/waxer" },
+  { "name": "ボイル", "detail": "ワクサーの相棒", "source": "https://www.starwars.com/databank/boil" },
+  { "name": "ハンター", "detail": "クローン・フォース99のリーダー", "source": "https://www.starwars.com/databank/hunter" },
+  { "name": "クロスヘアー", "detail": "クローン・フォース99の狙撃手", "source": "https://www.starwars.com/databank/crosshair" },
+  { "name": "カット・ロクウェイン", "detail": "軍を離れ家族と暮らす", "source": "https://www.starwars.com/databank/cut-lawquane" },
+  { "name": "フォックス", "detail": "コルサント衛兵隊の指揮官", "source": "https://www.starwars.com/databank/clone-commander-fox" },
+  { "name": "ソーン", "detail": "スキピオでパドメの護衛を率いた", "source": "https://www.starwars.com/databank/clone-commander-thorn" },
+  { "name": "グリー", "detail": "キャッシークに展開した指揮官", "source": "https://www.starwars.com/databank/clone-commander-gree" },
+  { "name": "ブライ", "detail": "第327星間軍団の指揮官", "source": "https://www.starwars.com/databank/clone-commander-bly" },
+  { "name": "ポンズ", "detail": "メイス・ウィンドゥ配下の指揮官", "source": "https://www.starwars.com/databank/clone-commander-ponds" },
+  { "name": "レッカー", "detail": "クローン・フォース99の怪力担当", "source": "https://www.starwars.com/databank/wrecker" },
+  { "name": "テク", "detail": "クローン・フォース99の技術担当", "source": "https://www.starwars.com/databank/tech" },
+  { "name": "ハウザー", "detail": "ライロスを守ったクローン・キャプテン", "source": "https://www.starwars.com/databank/clone-captain-howzer" },
+  { "name": "メイデイ", "detail": "バートンIVの補給基地の指揮官", "source": "https://www.starwars.com/databank/clone-commander-mayday" },
+  { "name": "カタップ", "detail": "ドミノ分隊の訓練生", "source": "https://www.starwars.com/series/clone-wars/clone-cadets-episode-guide" },
+  { "name": "ドロイドベイト", "detail": "ドミノ分隊の訓練生", "source": "https://www.starwars.com/series/clone-wars/clone-cadets-episode-guide" }
+]

@@ -1,0 +1,40 @@
+[
+  { "name": "モール", "detail": "暗黒面と裏社会の間を歩んだ戦士", "category": "dark", "era": "republic", "source": "https://www.starwars.com/databank/maul" },
+  { "name": "ドゥークー伯爵", "detail": "元ジェダイ／分離主義勢力の指導者", "category": "dark", "era": "republic", "source": "https://www.starwars.com/databank/count-dooku" },
+  { "name": "パルパティーン", "detail": "シスの暗黒卿／銀河帝国の皇帝", "category": "dark", "era": "republic", "source": "https://www.starwars.com/databank/emperor-palpatine-darth-sidious" },
+  { "name": "ダース・ベイダー", "detail": "帝国の暗黒卿／かつてのアナキン", "category": "dark", "era": "empire", "source": "https://www.starwars.com/databank/darth-vader" },
+  { "name": "アサージ・ヴェントレス", "detail": "ドゥークーの元弟子／のちに賞金稼ぎ", "category": "dark", "era": "republic", "source": "https://www.starwars.com/databank/asajj-ventress" },
+  { "name": "サヴァージ・オプレス", "detail": "ダソミア出身／モールの弟", "category": "dark", "era": "republic", "source": "https://www.starwars.com/databank/savage-opress" },
+
+  { "name": "レイア・オーガナ", "detail": "反乱同盟軍の指導者／オルデランの王女", "category": "rebels", "era": "empire", "source": "https://www.starwars.com/databank/princess-leia-organa" },
+  { "name": "ヘラ・シンドゥーラ", "detail": "ゴーストの船長／反乱軍の指揮官", "category": "rebels", "era": "empire", "source": "https://www.starwars.com/databank/hera-syndulla" },
+  { "name": "キャシアン・アンドー", "detail": "反乱軍の情報将校", "category": "rebels", "era": "empire", "source": "https://www.starwars.com/databank/cassian-andor" },
+  { "name": "ジン・アーソ", "detail": "デス・スター設計図奪取作戦の中心人物", "category": "rebels", "era": "empire", "source": "https://www.starwars.com/databank/jyn-erso" },
+  { "name": "ソウ・ゲレラ", "detail": "帝国に抗う過激派パルチザンの指導者", "category": "rebels", "era": "empire", "source": "https://www.starwars.com/databank/saw-gerrera" },
+  { "name": "ゼブ・オレリオス", "detail": "ゴースト乗組員／ラサットの戦士", "category": "rebels", "era": "empire", "source": "https://www.starwars.com/databank/zeb-orrelios" },
+
+  { "name": "ボ＝カターン・クライズ", "detail": "マンダロアの未来を担う戦士", "category": "mandalore", "era": "new-republic", "source": "https://www.starwars.com/databank/bo-katan-kryze" },
+  { "name": "ディン・ジャリン", "detail": "グローグーと旅するマンダロリアン", "category": "mandalore", "era": "new-republic", "source": "https://www.starwars.com/databank/the-mandalorian" },
+  { "name": "サビーヌ・レン", "detail": "マンダロリアンの芸術家／ゴースト乗組員", "category": "mandalore", "era": "empire", "source": "https://www.starwars.com/databank/sabine-wren" },
+  { "name": "サティーン・クライズ", "detail": "マンダロアの平和主義者／公爵", "category": "mandalore", "era": "republic", "source": "https://www.starwars.com/databank/duchess-satine-kryze" },
+  { "name": "アーマラー", "detail": "マンダロリアンの鍛冶師", "category": "mandalore", "era": "new-republic", "source": "https://www.starwars.com/databank/the-armorer" },
+  { "name": "パズ・ヴィズラ", "detail": "頑強なマンダロリアンの戦士", "category": "mandalore", "era": "new-republic", "source": "https://www.starwars.com/databank/paz-vizsla" },
+
+  { "name": "ボバ・フェット", "detail": "賞金稼ぎ／のちにタトゥイーンで勢力を築く", "category": "underworld", "era": "new-republic", "source": "https://www.starwars.com/databank/boba-fett" },
+  { "name": "キャド・ベイン", "detail": "デュロス出身の賞金稼ぎ", "category": "underworld", "era": "republic", "source": "https://www.starwars.com/databank/cad-bane" },
+  { "name": "ホンドー・オナカー", "detail": "海賊団を率いる曲者", "category": "underworld", "era": "republic", "source": "https://www.starwars.com/databank/hondo-ohnaka" },
+  { "name": "フェネック・シャンド", "detail": "腕利きの暗殺者／ボバの協力者", "category": "underworld", "era": "new-republic", "source": "https://www.starwars.com/databank/fennec-shand" },
+
+  { "name": "R2-D2", "detail": "多くの時代を生き抜くアストロメク・ドロイド", "category": "droid", "era": "republic", "source": "https://www.starwars.com/databank/r2-d2" },
+  { "name": "C-3PO", "detail": "儀礼・通訳用ドロイド", "category": "droid", "era": "republic", "source": "https://www.starwars.com/databank/c-3po" },
+  { "name": "BB-8", "detail": "レジスタンスで働くアストロメク・ドロイド", "category": "droid", "era": "sequel", "source": "https://www.starwars.com/databank/bb-8" },
+  { "name": "チョッパー", "detail": "ゴースト乗組員のアストロメク・ドロイド", "category": "droid", "era": "empire", "source": "https://www.starwars.com/databank/chopper" },
+  { "name": "K-2SO", "detail": "反乱軍に協力する元帝国保安ドロイド", "category": "droid", "era": "empire", "source": "https://www.starwars.com/databank/k-2so-kay-tuesso" },
+  { "name": "IG-11", "detail": "新共和国期に活動したIG型ドロイド", "category": "droid", "era": "new-republic", "source": "https://www.starwars.com/databank/ig-11" },
+
+  { "name": "パドメ・アミダラ", "detail": "ナブーの元女王／共和国元老院議員", "category": "leaders", "era": "republic", "source": "https://www.starwars.com/databank/padme-amidala" },
+  { "name": "ベイル・オーガナ", "detail": "オルデランの元老院議員／反乱の支援者", "category": "leaders", "era": "empire", "source": "https://www.starwars.com/databank/bail-organa" },
+  { "name": "モン・モスマ", "detail": "反乱同盟軍の政治的指導者", "category": "leaders", "era": "empire", "source": "https://www.starwars.com/databank/mon-mothma" },
+  { "name": "ターキン", "detail": "帝国のグランド・モフ", "category": "leaders", "era": "empire", "source": "https://www.starwars.com/databank/grand-moff-tarkin" },
+  { "name": "スローン", "detail": "帝国の大提督", "category": "leaders", "era": "empire", "source": "https://www.starwars.com/databank/grand-admiral-thrawn" }
+]

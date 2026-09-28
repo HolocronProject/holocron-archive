@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="スター・ウォーズ正史のクローンと主要ジェダイを、時代ごとにたどるHolocron Archiveのキャラクター一覧。">
+  <meta name="description" content="スター・ウォーズ正史の人物を、立場・時代・名前から探せるHolocron Archiveのキャラクター一覧。">
   <meta name="theme-color" content="#080a0d">
   <title>キャラクター — Holocron Archive</title>
   <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="renewal.css?v=20260928">
-  <link rel="stylesheet" href="characters.css?v=20260928c">
-  <script src="characters.js?v=20260928c" defer></script>
+  <link rel="stylesheet" href="characters.css?v=20260929">
+  <script src="characters.js?v=20260929" defer></script>
 </head>
 <body class="renewal characters-page">
   <a class="skip-link" href="#main-content">本文へスキップ</a>
@@ -34,8 +34,43 @@
       <div class="route-banner-copy">
         <p class="eyebrow">THE CHARACTER ARCHIVE</p>
         <h1>銀河の人物を、知る。</h1>
-        <p>同じ顔で違う道を歩んだクローン。時代を越えて受け継がれるジェダイの物語。</p>
+        <p>クローン、ジェダイ、暗黒面、反乱者、マンダロリアン。いろいろな入口から人物を探す。</p>
       </div>
+    </section>
+    <section class="character-section character-directory" aria-labelledby="directory-title">
+      <div class="feature-heading character-heading">
+        <div>
+          <p class="section-kicker">FIND YOUR WAY THROUGH THE GALAXY</p>
+          <h2 id="directory-title">人物を探す</h2>
+        </div>
+        <p id="directory-total">一覧を読み込み中</p>
+      </div>
+      <p class="character-intro">名前・立場・時代で絞り込めます。画像がない人物も先に登録し、公式資料へつなぎます。時代は主な活動期で分類しています。</p>
+      <div class="character-controls">
+        <label>名前・キーワード<input id="directory-search" type="search" placeholder="例：アソーカ、ドミノ分隊" autocomplete="off"></label>
+        <label>立場・テーマ<select id="directory-category">
+          <option value="">すべて</option>
+          <option value="clone">クローン</option>
+          <option value="jedi">ジェダイと元ジェダイ</option>
+          <option value="dark">暗黒面に関わる人物</option>
+          <option value="rebels">反乱勢力</option>
+          <option value="mandalore">マンダロリアン</option>
+          <option value="underworld">賞金稼ぎ・裏社会</option>
+          <option value="droid">ドロイド</option>
+          <option value="leaders">政治・軍の指導者</option>
+        </select></label>
+        <label>時代<select id="directory-era">
+          <option value="">すべて</option>
+          <option value="high-republic">ハイ・リパブリック後期</option>
+          <option value="republic">共和国末期・クローン大戦</option>
+          <option value="empire">帝国期・反乱</option>
+          <option value="new-republic">新共和国期</option>
+          <option value="sequel">ファースト・オーダー期</option>
+        </select></label>
+      </div>
+      <p id="directory-status" class="directory-status" role="status" aria-live="polite"></p>
+      <ul id="directory-results" class="directory-results"><li class="character-loading">人物を読み込み中...</li></ul>
+      <button id="directory-more" class="directory-more" type="button" hidden>さらに表示</button>
     </section>
     <section class="character-section" aria-labelledby="character-title">
       <div class="feature-heading character-heading">
@@ -59,26 +94,7 @@
         <p>画像制作前・未掲載</p>
       </div>
       <p class="character-intro">まずは99、ヘヴィ、ワクサー、ボイル、ハンター、クロスヘアーから。画像と紹介文が整った人物から、上の完成カードへ移します。</p>
-      <ul class="character-upcoming-list">
-        <li><a href="https://www.starwars.com/databank/clone-99">99</a></li>
-        <li><a href="https://www.starwars.com/news/the-clone-wars-rewatch-rookies">ヘヴィ</a></li>
-        <li><a href="https://www.starwars.com/databank/waxer">ワクサー</a></li>
-        <li><a href="https://www.starwars.com/databank/boil">ボイル</a></li>
-        <li><a href="https://www.starwars.com/databank/hunter">ハンター</a></li>
-        <li><a href="https://www.starwars.com/databank/crosshair">クロスヘアー</a></li>
-        <li><a href="https://www.starwars.com/databank/cut-lawquane">カット・ロクウェイン</a></li>
-        <li><a href="https://www.starwars.com/databank/clone-commander-fox">フォックス</a></li>
-        <li><a href="https://www.starwars.com/databank/clone-commander-thorn">ソーン</a></li>
-        <li><a href="https://www.starwars.com/databank/clone-commander-gree">グリー</a></li>
-        <li><a href="https://www.starwars.com/databank/clone-commander-bly">ブライ</a></li>
-        <li><a href="https://www.starwars.com/databank/clone-commander-ponds">ポンズ</a></li>
-        <li><a href="https://www.starwars.com/databank/wrecker">レッカー</a></li>
-        <li><a href="https://www.starwars.com/databank/tech">テク</a></li>
-        <li><a href="https://www.starwars.com/databank/clone-captain-howzer">ハウザー</a></li>
-        <li><a href="https://www.starwars.com/databank/clone-commander-mayday">メイデイ</a></li>
-        <li><a href="https://www.starwars.com/series/clone-wars/clone-cadets-episode-guide">カタップ</a></li>
-        <li><a href="https://www.starwars.com/series/clone-wars/clone-cadets-episode-guide">ドロイドベイト</a></li>
-      </ul>
+      <ul class="character-upcoming-list" id="character-upcoming-list"><li class="character-loading">候補を読み込み中...</li></ul>
       <p class="character-upcoming-note">99は兵士ではなく、カミーノで仲間を支えたクローンです。オメガとボバ・フェットは別枠で紹介を検討します。</p>
     </section>
     <section class="character-section jedi-section" aria-labelledby="jedi-title">
