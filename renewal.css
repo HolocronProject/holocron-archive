@@ -73,7 +73,7 @@
 .planet-node:hover, .planet-node[aria-pressed="true"] { border-color: #b39340; background: #d4af3714; }
 .planet-orb { width: 22px; height: 22px; border-radius: 50%; background: radial-gradient(circle at 30% 30%,#a4c8d1,#426177 50%,#101c35 78%); box-shadow: 0 0 20px #517c9533; }
 .planet-node:nth-child(3n+1) .planet-orb { background: radial-gradient(circle at 30% 30%,#e0c58d,#8d7350 50%,#262437 78%); }
-.planet-detail { position: sticky; top: 100px; max-height: min(72vh,760px); overflow-y: auto; padding: 26px; background: #111a24; border: 1px solid #394858; border-top: 2px solid var(--accent); border-radius: 4px; scroll-margin-top: 20px; }
+.planet-detail { position: sticky; top: 100px; max-height: min(72vh,760px); overflow-y: auto; padding: 26px; background: #111a24; border: 1px solid #394858; border-top: 2px solid var(--accent); border-radius: 4px; scroll-margin-top: 100px; }
 .planet-detail h3 { font-size: 26px; margin: 14px 0 6px; line-height: 1.4; }
 .planet-english { color: var(--accent); font-size: 14px; }
 .planet-summary { font-size: 16px; line-height: 1.95; margin: 24px 0; }
@@ -85,7 +85,7 @@
 .atlas-empty { padding: 20px; }
 .atlas-coverage { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 22px; font-size: 14px; line-height: 1.9; }
 .atlas-coverage summary { cursor: pointer; color: var(--accent); }
-@media(max-width:800px) { .atlas-layout { grid-template-columns: 1fr; } .planet-detail { position: static; max-height: none; overflow: visible; } .star-field { max-height: 540px; } }
+@media(max-width:800px) { .atlas-layout { grid-template-columns: 1fr; } .planet-detail { position: static; max-height: none; overflow: visible; scroll-margin-top: 20px; } .star-field { max-height: 540px; } }
 @media(max-width:400px) { .planet-nodes { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media(max-width:1050px) { .renewal .portal-grid { grid-template-columns: repeat(3,1fr); } .renewal .portal-card:last-child { grid-column: span 2; } }
 @media(max-width:900px) { .renewal .site-nav { margin-left: 0; width: 100%; } .renewal .portal-grid { grid-template-columns: repeat(2,1fr); } }

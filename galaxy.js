@@ -40,7 +40,7 @@
       button.setAttribute("aria-pressed", String(button.dataset.planet === selected));
     });
     if (focus) title.focus({ preventScroll: true });
-    if (focus && window.matchMedia("(max-width: 800px)").matches) detail.scrollIntoView({ behavior: "auto", block: "start" });
+    if (focus) detail.scrollIntoView({ behavior: "auto", block: "start" });
   }
   function render() {
     const term = normalize(search.value);
