@@ -3,10 +3,13 @@
 人物は画像の完成を待たず、名前・短い説明・公式資料へのリンクから登録する。
 
 - 画像付きのクローン：`data/clone-characters.json`。画像は `assets/characters/<id>.png`。
-- 画像制作前のクローン：`data/clone-candidates.json`。完成後は候補から削除し、画像付き一覧へ移す。
+- 詳細カード制作前のクローン：`data/clone-candidates.json`。紹介文と画像が整ったら候補から削除し、画像付き詳細カードへ移す。
 - ジェダイと元ジェダイ：`data/jedi-characters.json`。主な活動時代のグループへ登録する。
 - それ以外の人物：`data/character-index.json`。`name`、`detail`、`category`、`era`、`source` を必ず記入する。
+- 肖像画ギャラリー：`data/character-portraits.json`。配信用WebPは `assets/characters/portraits/`、PNG原本は `assets/characters/` に保管する。`candidate` は完成候補、`review` は要確認の下書き。既存のクローン詳細カード画像は重複登録しない。
 
 `characters.js` が4つのJSONを読み、画像付きクローン・制作候補・時代別ジェダイ・分野別の人物一覧に表示する。`category` は主な立場、`era` は主な活動時代を1つ選ぶ。複数の勢力・時代に関わる人物も、ここでは主な掲載場所を1つに絞る。将来、複数タグが必要になった時点でスキーマを拡張する。
+
+`portraits.js` は肖像画のJSONを読み、ホームの抜粋とキャラクターページの検索可能なギャラリーに表示する。`name` は表示用のカタカナ表記、`romanizedName` は英語名での検索用（存在する場合）。ドロイドの型番は英数字のまま表示する。要確認の画像もプレビュー用に掲載するが、公式画像ではないことと状態を必ず明示する。画像の採否が決まるまでは公開リポジトリへの反映を保留する。
 
 追加時は、公式Databankまたは公式エピソード資料で人物名と説明を確認する。識別番号・階級・種族など、確認できない情報は書かない。画像を掲載する際は、人物の特徴を確認し、AI生成画像を公式画像と誤認させない。

@@ -1,0 +1,2457 @@
+[
+  {
+    "number": 484,
+    "name": "ビーラ",
+    "romanizedName": "Beela",
+    "image": "portraits/beela-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/beela"
+  },
+  {
+    "number": 483,
+    "name": "バーディ",
+    "romanizedName": "Bardi",
+    "image": "portraits/bardi-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/bardi"
+  },
+  {
+    "number": 482,
+    "name": "アテンダント・ジョイダリ",
+    "romanizedName": "Attendant Joydali",
+    "image": "portraits/attendant-joydali-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/attendant-joydali"
+  },
+  {
+    "number": 481,
+    "name": "アーヴェル・スキーン",
+    "romanizedName": "Arvel Skeen",
+    "image": "portraits/arvel-skeen-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/arvel-skeen"
+  },
+  {
+    "number": 480,
+    "name": "ロニー・ユング",
+    "romanizedName": "Lonni Jung",
+    "image": "portraits/lonni-jung-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/lonni-jung"
+  },
+  {
+    "number": 479,
+    "name": "ジェジ",
+    "romanizedName": "Jezzi",
+    "image": "portraits/jezzi-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/jezzi"
+  },
+  {
+    "number": 478,
+    "name": "ヒート",
+    "romanizedName": "Heert",
+    "image": "portraits/heert-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/heert"
+  },
+  {
+    "number": 477,
+    "name": "LX-1",
+    "image": "portraits/lx-1-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/news/star-wars-hunters-interview"
+  },
+  {
+    "number": 476,
+    "name": "ボズ・ヴェガ",
+    "romanizedName": "Boz Vega",
+    "image": "portraits/boz-vega-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/news/star-wars-hunters-interview"
+  },
+  {
+    "number": 474,
+    "name": "J-3DI",
+    "image": "portraits/j-3di-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/news/star-wars-hunters-gameplay-trailer"
+  },
+  {
+    "number": 472,
+    "name": "ザイナ",
+    "romanizedName": "Zaina",
+    "image": "portraits/zaina-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/zaina"
+  },
+  {
+    "number": 471,
+    "name": "リーヴ",
+    "romanizedName": "Rieve",
+    "image": "portraits/rieve-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/rieve"
+  },
+  {
+    "number": 469,
+    "name": "ボー・キーヴィル",
+    "romanizedName": "Bo Keevil",
+    "image": "portraits/bo-keevil-v1.webp",
+    "status": "candidate",
+    "source": "https://www.starwars.com/databank/bo-keevil"
+  },
+  {
+    "number": 468,
+    "name": "カズーダ・ジオノ",
+    "romanizedName": "Kazuda Xiono",
+    "image": "portraits/kazuda-xiono-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/kazuda-kaz-xiono"
+  },
+  {
+    "number": 467,
+    "name": "フレイヤ・フェンリス",
+    "romanizedName": "Freya Fenris",
+    "image": "portraits/freya-fenris-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/freya-fenris"
+  },
+  {
+    "number": 464,
+    "name": "エメリック・カフター",
+    "romanizedName": "Emerick Caphtor",
+    "image": "portraits/emerick-caphtor-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/news/first-look-at-star-wars-the-high-republic-trail-of-shadows-and-more-from-star-wars-the-high-republic-show"
+  },
+  {
+    "number": 463,
+    "name": "ポーター・エングル",
+    "romanizedName": "Porter Engle",
+    "image": "portraits/porter-engle-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/news/what-is-star-wars-the-high-republic"
+  },
+  {
+    "number": 462,
+    "name": "アズリン・レル",
+    "romanizedName": "Azlin Rell",
+    "image": "portraits/azlin-rell-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/azlin-rell"
+  },
+  {
+    "number": 461,
+    "name": "アマデオ・アザッゾ",
+    "romanizedName": "Amadeo Azzazzo",
+    "image": "portraits/amadeo-azzazzo-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/amadeo-azzazzo"
+  },
+  {
+    "number": 459,
+    "name": "レイ・スローン",
+    "romanizedName": "Rae Sloane",
+    "image": "portraits/rae-sloane-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/rae-sloane"
+  },
+  {
+    "number": 458,
+    "name": "ウィラード・ウェイリン",
+    "romanizedName": "Willard Waylin",
+    "image": "portraits/willard-waylin-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/willard-waylin"
+  },
+  {
+    "number": 457,
+    "name": "LT-514",
+    "image": "portraits/lt-514-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/lt-514"
+  },
+  {
+    "number": 456,
+    "name": "シェン",
+    "romanizedName": "Shen",
+    "image": "portraits/shen-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/news/star-wars-squadrons-databank"
+  },
+  {
+    "number": 454,
+    "name": "ゼレルダ・セイジ",
+    "romanizedName": "Zerelda Sage",
+    "image": "portraits/zerelda-sage-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/zerelda-sage"
+  },
+  {
+    "number": 453,
+    "name": "アルド・バロダイ",
+    "romanizedName": "Ardo Barodai",
+    "image": "portraits/ardo-barodai-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/ardo-barodai"
+  },
+  {
+    "number": 452,
+    "name": "リンドン・ジェイヴス",
+    "romanizedName": "Lindon Javes",
+    "image": "portraits/lindon-javes-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/lindon-javes"
+  },
+  {
+    "number": 451,
+    "name": "レラ・ソル",
+    "romanizedName": "Rella Sol",
+    "image": "portraits/rella-sol-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/rella-sol"
+  },
+  {
+    "number": 450,
+    "name": "ハヴィナ・ヴォンレグ",
+    "romanizedName": "Havina Vonreg",
+    "image": "portraits/havina-vonreg-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/havina-vonreg"
+  },
+  {
+    "number": 449,
+    "name": "テリサ・ケリル",
+    "romanizedName": "Terisa Kerrill",
+    "image": "portraits/terisa-kerrill-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/terisa-kerrill"
+  },
+  {
+    "number": 448,
+    "name": "フリスク",
+    "romanizedName": "Frisk（Feresk Tssat）",
+    "image": "portraits/frisk-v1.webp",
+    "status": "candidate",
+    "source": "https://www.starwars.com/databank/frisk"
+  },
+  {
+    "number": 447,
+    "name": "ガニー",
+    "romanizedName": "Gunny（Kierah Koovah）",
+    "image": "portraits/gunny-koovah-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/gunny"
+  },
+  {
+    "number": 446,
+    "name": "グレース・シーナー",
+    "romanizedName": "Grace Sienar",
+    "image": "portraits/grace-sienar-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/grace-sienar"
+  },
+  {
+    "number": 444,
+    "name": "ヴァーコ・グレイ",
+    "romanizedName": "Varko Grey",
+    "image": "portraits/varko-grey-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/varko-grey"
+  },
+  {
+    "number": 443,
+    "name": "ヴランキ・ザ・ブルー",
+    "romanizedName": "Vranki the Blue",
+    "image": "portraits/vranki-the-blue-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/vranki-the-blue"
+  },
+  {
+    "number": 442,
+    "name": "ミカ・グレイ",
+    "romanizedName": "Mika Grey",
+    "image": "portraits/mika-grey-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/mika-grey"
+  },
+  {
+    "number": 441,
+    "name": "ハイプ・フェイゾン",
+    "romanizedName": "Hype Fazon",
+    "image": "portraits/hype-fazon-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/hype-fazon"
+  },
+  {
+    "number": 439,
+    "name": "スナール",
+    "romanizedName": "Snarl",
+    "image": "portraits/snarl-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/snarl"
+  },
+  {
+    "number": 438,
+    "name": "ドレル",
+    "romanizedName": "Drell",
+    "image": "portraits/drell-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/drell"
+  },
+  {
+    "number": 437,
+    "name": "エオシアン・クイーン",
+    "romanizedName": "Aeosian Queen",
+    "image": "portraits/aeosian-queen-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/aeosian-queen"
+  },
+  {
+    "number": 435,
+    "name": "ドレイヴン将軍",
+    "romanizedName": "General Draven",
+    "image": "portraits/general-draven-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/general-draven"
+  },
+  {
+    "number": 434,
+    "name": "TAY-0",
+    "image": "portraits/tay-0-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/tay-0"
+  },
+  {
+    "number": 431,
+    "name": "ラファ・マルテス",
+    "romanizedName": "Rafa Martez",
+    "image": "portraits/rafa-martez-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/rafa"
+  },
+  {
+    "number": 430,
+    "name": "メリック将軍",
+    "romanizedName": "General Merrick",
+    "image": "portraits/general-merrick-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/general-merrick"
+  },
+  {
+    "number": 429,
+    "name": "ケイブ",
+    "romanizedName": "Keibu",
+    "image": "portraits/keibu-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/keibu"
+  },
+  {
+    "number": 428,
+    "name": "ニーヴァ",
+    "romanizedName": "Neeva",
+    "image": "portraits/neeva-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/neeva"
+  },
+  {
+    "number": 427,
+    "name": "ルビー",
+    "romanizedName": "Ruby",
+    "image": "portraits/ruby-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/ruby"
+  },
+  {
+    "number": 426,
+    "name": "シド",
+    "romanizedName": "Ciddarin \"Cid\" Scaleback",
+    "image": "portraits/cid-scaleback-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/cid"
+  },
+  {
+    "number": 425,
+    "name": "AZI-3",
+    "image": "portraits/azi-3-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/azi-3"
+  },
+  {
+    "number": 423,
+    "name": "タラ・デュリス",
+    "romanizedName": "Tala Durith",
+    "image": "portraits/tala-durith-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/tala-durith"
+  },
+  {
+    "number": 421,
+    "name": "イサ・デュラン",
+    "romanizedName": "Isa Durand",
+    "image": "portraits/isa-durand-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/isa-durand"
+  },
+  {
+    "number": 420,
+    "name": "GS-8",
+    "image": "portraits/gs-8-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/gs-8"
+  },
+  {
+    "number": 417,
+    "name": "ローランド・デュラン",
+    "romanizedName": "Roland Durand",
+    "image": "portraits/roland-durand-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/roland-durand"
+  },
+  {
+    "number": 416,
+    "name": "ケイ・ヴェス",
+    "romanizedName": "Kay Vess",
+    "image": "portraits/kay-vess-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/kay-vess"
+  },
+  {
+    "number": 415,
+    "name": "C1-D1",
+    "image": "portraits/c1-d1-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/c1-d1"
+  },
+  {
+    "number": 414,
+    "name": "カーソン・テヴァ",
+    "romanizedName": "Carson Teva",
+    "image": "portraits/carson-teva-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/carson-teva"
+  },
+  {
+    "number": 412,
+    "name": "シン・ハティ",
+    "romanizedName": "Shin Hati",
+    "image": "portraits/shin-hati-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/shin-hati"
+  },
+  {
+    "number": 411,
+    "name": "ベイラン・スコール",
+    "romanizedName": "Baylan Skoll",
+    "image": "portraits/baylan-skoll-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/baylan-skoll"
+  },
+  {
+    "number": 410,
+    "name": "モーガン・エルズベス",
+    "romanizedName": "Morgan Elsbeth",
+    "image": "portraits/morgan-elsbeth-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/morgan-elsbeth"
+  },
+  {
+    "number": 409,
+    "name": "パーシング博士",
+    "romanizedName": "Dr. Pershing",
+    "image": "portraits/dr-pershing-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/dr-pershing"
+  },
+  {
+    "number": 407,
+    "name": "マロック",
+    "romanizedName": "Marrok（First Brother）",
+    "image": "portraits/marrok-inquisitor-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/marrok-inquisitor"
+  },
+  {
+    "number": 405,
+    "name": "カバック",
+    "romanizedName": "Cabuck",
+    "image": "portraits/cabuck-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/cabuck"
+  },
+  {
+    "number": 404,
+    "name": "ストリックス将軍",
+    "romanizedName": "General Strix",
+    "image": "portraits/general-strix-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/general-strix"
+  },
+  {
+    "number": 403,
+    "name": "ヘイナ",
+    "romanizedName": "Hayna",
+    "image": "portraits/hayna-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/hayna"
+  },
+  {
+    "number": 402,
+    "name": "ブレックス船長",
+    "romanizedName": "Captain Blex",
+    "image": "portraits/captain-blex-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/captain-blex"
+  },
+  {
+    "number": 401,
+    "name": "レイエンコート議員",
+    "romanizedName": "Senator Rayencourt",
+    "image": "portraits/senator-rayencourt-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/senator-rayencourt"
+  },
+  {
+    "number": 400,
+    "name": "ドレリック議長",
+    "romanizedName": "Chancellor Drellik",
+    "image": "portraits/chancellor-drellik-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/chancellor-drellik"
+  },
+  {
+    "number": 399,
+    "name": "ストレンジャー／キミール",
+    "romanizedName": "The Stranger／Qimir",
+    "image": "portraits/qimir-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/qimir"
+  },
+  {
+    "number": 398,
+    "name": "バジル",
+    "romanizedName": "Bazil",
+    "image": "portraits/bazil-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/bazil"
+  },
+  {
+    "number": 397,
+    "name": "タシ・ローワ",
+    "romanizedName": "Tasi Lowa",
+    "image": "portraits/tasi-lowa-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/tasi-lowa"
+  },
+  {
+    "number": 396,
+    "name": "トービン",
+    "romanizedName": "Torbin",
+    "image": "portraits/torbin-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/torbin"
+  },
+  {
+    "number": 395,
+    "name": "マザー・コリル",
+    "romanizedName": "Mother Koril",
+    "image": "portraits/mother-koril-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/mother-koril"
+  },
+  {
+    "number": 394,
+    "name": "ヴェイン",
+    "romanizedName": "Vane",
+    "image": "portraits/vane-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/vane"
+  },
+  {
+    "number": 393,
+    "name": "ブルータス船長",
+    "romanizedName": "Pirate Captain Brutus",
+    "image": "portraits/pirate-captain-brutus-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/pirate-captain-brutus"
+  },
+  {
+    "number": 391,
+    "name": "KB",
+    "image": "portraits/kb-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/kb"
+  },
+  {
+    "number": 390,
+    "name": "SM-33",
+    "image": "portraits/sm-33-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/sm-33"
+  },
+  {
+    "number": 389,
+    "name": "ファーン",
+    "romanizedName": "ファーン（Fern）",
+    "image": "portraits/fern-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/fern"
+  },
+  {
+    "number": 388,
+    "name": "ウィム",
+    "romanizedName": "ウィム（Wim）",
+    "image": "portraits/wim-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/wim"
+  },
+  {
+    "number": 387,
+    "name": "キム",
+    "romanizedName": "キム（Kh'ymm）",
+    "image": "portraits/khymm-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/khymm"
+  },
+  {
+    "number": 386,
+    "name": "ジョッド・ナ・ナウッド",
+    "romanizedName": "ジョッド・ナ・ナウッド（Jod Na Nawood）",
+    "image": "portraits/jod-na-nawood-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/jod-na-nawood"
+  },
+  {
+    "number": 385,
+    "name": "ヨード・ファンダー",
+    "romanizedName": "ヨード・ファンダー（Yord Fandar）",
+    "image": "portraits/yord-fandar-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/yord-fandar"
+  },
+  {
+    "number": 384,
+    "name": "ジェキ・ロン",
+    "romanizedName": "ジェキ・ロン（Jecki Lon）",
+    "image": "portraits/jecki-lon-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/jecki-lon"
+  },
+  {
+    "number": 383,
+    "name": "マザー・アニセヤ",
+    "romanizedName": "マザー・アニセヤ（Mother Aniseya）",
+    "image": "portraits/mother-aniseya-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/mother-aniseya"
+  },
+  {
+    "number": 382,
+    "name": "メイ・アニセヤ",
+    "romanizedName": "メイ・アニセヤ（Mae Aniseya）",
+    "image": "portraits/mae-aniseya-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/mae"
+  },
+  {
+    "number": 381,
+    "name": "オーシャ・アニセヤ",
+    "romanizedName": "オーシャ・アニセヤ（Osha Aniseya）",
+    "image": "portraits/osha-aniseya-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/osha"
+  },
+  {
+    "number": 380,
+    "name": "アントZ",
+    "romanizedName": "アントZ（Aunt Z / Z'Vk'Thkrkza）",
+    "image": "portraits/aunt-z-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/aunt-z"
+  },
+  {
+    "number": 378,
+    "name": "グレヴェル",
+    "romanizedName": "グレヴェル（Grevel）",
+    "image": "portraits/grevel-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/grevel"
+  },
+  {
+    "number": 377,
+    "name": "レディ・プロクシマ",
+    "romanizedName": "レディ・プロクシマ（Lady Proxima）",
+    "image": "portraits/lady-proxima-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/lady-proxima"
+  },
+  {
+    "number": 376,
+    "name": "ヴァル",
+    "romanizedName": "ヴァル（Val）",
+    "image": "portraits/val-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/val"
+  },
+  {
+    "number": 375,
+    "name": "フリックス",
+    "romanizedName": "フリックス（Flix）",
+    "image": "portraits/flix-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/flix"
+  },
+  {
+    "number": 374,
+    "name": "オーカ",
+    "romanizedName": "オーカ（Orka）",
+    "image": "portraits/orka-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/orka"
+  },
+  {
+    "number": 373,
+    "name": "トバイアス・ベケット",
+    "romanizedName": "トバイアス・ベケット（Tobias Beckett）",
+    "image": "portraits/tobias-beckett-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/tobias-beckett"
+  },
+  {
+    "number": 372,
+    "name": "ドライデン・ヴォス",
+    "romanizedName": "ドライデン・ヴォス（Dryden Vos）",
+    "image": "portraits/dryden-vos-v1.webp",
+    "status": "candidate",
+    "source": "https://www.starwars.com/databank/dryden-vos"
+  },
+  {
+    "number": 371,
+    "name": "リオ・デュラント",
+    "romanizedName": "リオ・デュラント（Rio Durant）",
+    "image": "portraits/rio-durant-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/rio-durant"
+  },
+  {
+    "number": 370,
+    "name": "エンフィス・ネスト",
+    "romanizedName": "エンフィス・ネスト（Enfys Nest）",
+    "image": "portraits/enfys-nest-v1.webp",
+    "status": "candidate",
+    "source": "https://www.starwars.com/databank/enfys-nest"
+  },
+  {
+    "number": 369,
+    "name": "キーラ",
+    "romanizedName": "キーラ（Qi'ra）",
+    "image": "portraits/qi-ra-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/qi-ra"
+  },
+  {
+    "number": 367,
+    "name": "スライロ",
+    "romanizedName": "スライロ（Sliro）",
+    "image": "portraits/sliro-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/sliro"
+  },
+  {
+    "number": 366,
+    "name": "ジェイレン・ヴラックス",
+    "romanizedName": "ジェイレン・ヴラックス（Jaylen Vrax）",
+    "image": "portraits/jaylen-vrax-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/jaylen-vrax"
+  },
+  {
+    "number": 365,
+    "name": "ミグス・メイフェルド",
+    "romanizedName": "ミグス・メイフェルド（Migs Mayfeld）",
+    "image": "portraits/migs-mayfeld-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/mayfeld"
+  },
+  {
+    "number": 364,
+    "name": "ニックス",
+    "romanizedName": "ニックス（Nix）",
+    "image": "portraits/nix-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/nix"
+  },
+  {
+    "number": 363,
+    "name": "ギャリック・ヴァーシオ提督",
+    "romanizedName": "ギャリック・ヴァーシオ提督（Admiral Garrick Versio）",
+    "image": "portraits/admiral-garrick-versio-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/admiral-garrick-versio"
+  },
+  {
+    "number": 362,
+    "name": "ジェイス・ラックリン",
+    "romanizedName": "ジェイス・ラックリン（Jace Rucklin）",
+    "image": "portraits/jace-rucklin-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/jace-rucklin"
+  },
+  {
+    "number": 360,
+    "name": "ダトゥー大佐",
+    "romanizedName": "ダトゥー大佐（Colonel Datoo）",
+    "image": "portraits/colonel-datoo-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/colonel-datoo"
+  },
+  {
+    "number": 358,
+    "name": "スコーン",
+    "romanizedName": "スコーン（Scorn）",
+    "image": "portraits/scorn-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/scorn"
+  },
+  {
+    "number": 357,
+    "name": "ニコ・ディーミス",
+    "romanizedName": "ニコ・ディーミス（Nico Deemis）",
+    "image": "portraits/nico-deemis-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/nico-deemis"
+  },
+  {
+    "number": 355,
+    "name": "ブランダー・ローソン警部",
+    "romanizedName": "ブランダー・ローソン警部（Captain Brander Lawson）",
+    "image": "portraits/captain-brander-lawson-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/captain-brander-lawson"
+  },
+  {
+    "number": 353,
+    "name": "ヒューゴ・デュラント",
+    "romanizedName": "ヒューゴ・デュラント（Hugo Durant）",
+    "image": "portraits/hugo-durant-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/hugo-durant"
+  },
+  {
+    "number": 352,
+    "name": "ウォード大佐",
+    "romanizedName": "ウォード大佐（Colonel Ward）",
+    "image": "portraits/colonel-ward-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/colonel-ward"
+  },
+  {
+    "number": 351,
+    "name": "ガトーリ",
+    "romanizedName": "ガトーリ（Gatori）",
+    "image": "portraits/gatori-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/gatori"
+  },
+  {
+    "number": 350,
+    "name": "トゥー・ブーツ",
+    "romanizedName": "トゥー・ブーツ（Two-Boots / 2B0T）",
+    "image": "portraits/two-boots-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/two-boots"
+  },
+  {
+    "number": 349,
+    "name": "ドレア・ローソン",
+    "romanizedName": "ドレア・ローソン（Drea Lawson）",
+    "image": "portraits/drea-lawson-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/drea-lawson"
+  },
+  {
+    "number": 347,
+    "name": "クライ・クレルヴォ",
+    "romanizedName": "クライ・クレルヴォ（Cly Kullervo）",
+    "image": "portraits/cly-kullervo-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/cly-kullervo"
+  },
+  {
+    "number": 345,
+    "name": "イーコ＝ディオ・ダキ",
+    "romanizedName": "イーコ＝ディオ・ダキ（Eeko-Dio Daki）",
+    "image": "portraits/eeko-dio-daki-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/eeko-dio-daki"
+  },
+  {
+    "number": 344,
+    "name": "ルーティ・ヴァリオ",
+    "romanizedName": "ルーティ・ヴァリオ（Looti Vario）",
+    "image": "portraits/looti-vario-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/looti-vario"
+  },
+  {
+    "number": 341,
+    "name": "ルーク・カスト",
+    "romanizedName": "ルーク・カスト（Rook Kast）",
+    "image": "portraits/rook-kast-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/rook-kast"
+  },
+  {
+    "number": 340,
+    "name": "ポーター大尉",
+    "romanizedName": "ポーター大尉（Captain Porter）",
+    "image": "portraits/captain-porter-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/captain-porter"
+  },
+  {
+    "number": 339,
+    "name": "アムレット・エンゲル将軍",
+    "romanizedName": "アムレット・エンゲル将軍（General Amret Engell）",
+    "image": "portraits/general-engell-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/general-engell"
+  },
+  {
+    "number": 338,
+    "name": "ノラス・ケヴ",
+    "romanizedName": "ノラス・ケヴ（Norath Kev）",
+    "image": "portraits/norath-kev-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/norath"
+  },
+  {
+    "number": 337,
+    "name": "ローデン・グレートストーム",
+    "romanizedName": "ローデン・グレートストーム（Loden Greatstorm）",
+    "image": "portraits/loden-greatstorm-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/loden-greatstorm"
+  },
+  {
+    "number": 336,
+    "name": "タク・レノッド船長",
+    "romanizedName": "タク・レノッド船長（Captain Tak Rennod）",
+    "image": "portraits/tak-rennod-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/captain-tak-rennod"
+  },
+  {
+    "number": 335,
+    "name": "「トリックスター」フラッシュ・ラクトル",
+    "romanizedName": "“The Trickster” Flash Raktor",
+    "image": "portraits/flash-raktor-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/the-trickster-flash-raktor"
+  },
+  {
+    "number": 334,
+    "name": "「スティール・クロー」ケイン",
+    "romanizedName": "“Steel Claw” Kane",
+    "image": "portraits/steel-claw-kane-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/steel-claw-kane"
+  },
+  {
+    "number": 333,
+    "name": "レイク・ガーリー",
+    "romanizedName": "レイク・ガーリー（Rake Gahree）",
+    "image": "portraits/rake-gahree-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/rake-gahree"
+  },
+  {
+    "number": 332,
+    "name": "マリー",
+    "romanizedName": "マリー（Maree）",
+    "image": "portraits/maree-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/maree"
+  },
+  {
+    "number": 330,
+    "name": "「クイックドロー」クエーサー",
+    "romanizedName": "“Quick-Draw” Quasar",
+    "image": "portraits/quick-draw-quasar-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/quick-draw-quasar"
+  },
+  {
+    "number": 329,
+    "name": "「ハイパー」ロッド",
+    "romanizedName": "“Hyper” Rod",
+    "image": "portraits/hyper-rod-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/hyper-rod"
+  },
+  {
+    "number": 327,
+    "name": "ガリー",
+    "romanizedName": "ガリー（Garree）",
+    "image": "portraits/garree-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/garree"
+  },
+  {
+    "number": 326,
+    "name": "ファラ",
+    "romanizedName": "ファラ（Fara）",
+    "image": "portraits/fara-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/fara"
+  },
+  {
+    "number": 325,
+    "name": "クタロップス",
+    "romanizedName": "クタロップス（Cthallops）",
+    "image": "portraits/cthallops-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/cthallops"
+  },
+  {
+    "number": 324,
+    "name": "ウィリー",
+    "romanizedName": "ウィリー（W1-LE）",
+    "image": "portraits/willie-w1-le-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/willie-w1-le"
+  },
+  {
+    "number": 323,
+    "name": "ロボット",
+    "romanizedName": "ロボット（Lobot）",
+    "image": "portraits/lobot-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/lobot"
+  },
+  {
+    "number": 319,
+    "name": "グメ・サーム",
+    "romanizedName": "グメ・サーム（Gume Saam）",
+    "image": "portraits/gume-saam-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/techno-union"
+  },
+  {
+    "number": 318,
+    "name": "ティンラ・パムロ議員",
+    "romanizedName": "ティンラ・パムロ議員（Senator Tynnra Pamlo）",
+    "image": "portraits/tynnra-pamlo-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/senator-tynnra-pamlo"
+  },
+  {
+    "number": 314,
+    "name": "ジェンボック",
+    "romanizedName": "ジェンボック（Jemboc）",
+    "image": "portraits/jemboc-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/jemboc"
+  },
+  {
+    "number": 312,
+    "name": "ヴェイル",
+    "romanizedName": "ヴェイル（Vail）",
+    "image": "portraits/vail-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/vail"
+  },
+  {
+    "number": 311,
+    "name": "ヤスト・アッツムン男爵",
+    "romanizedName": "ヤスト・アッツムン男爵（Baron Yasto Attsmun）",
+    "image": "portraits/baron-yasto-attsmun-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/baron-attsmun"
+  },
+  {
+    "number": 310,
+    "name": "アディ・サン＝ズィー",
+    "romanizedName": "アディ・サン＝ズィー（Ady Sun'Zee）",
+    "image": "portraits/ady-sun-zee-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/ady-sun-zee"
+  },
+  {
+    "number": 309,
+    "name": "シェップ・ハザード",
+    "romanizedName": "シェップ・ハザード（Shep Hazard）",
+    "image": "portraits/shep-hazard-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/shep-hazard"
+  },
+  {
+    "number": 307,
+    "name": "パッセル・アージェンテ",
+    "romanizedName": "パッセル・アージェンテ（Passel Argente）",
+    "image": "portraits/passel-argente-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/passel-argente"
+  },
+  {
+    "number": 306,
+    "name": "マック・プレイン",
+    "romanizedName": "マック・プレイン（Mak Plain）",
+    "image": "portraits/mak-plain-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/mak-plain"
+  },
+  {
+    "number": 305,
+    "name": "ベイラート・ヴァランス",
+    "romanizedName": "ベイラート・ヴァランス（Beilert Valance）",
+    "image": "portraits/beilert-valance-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/beilert-valance"
+  },
+  {
+    "number": 304,
+    "name": "ND-5",
+    "image": "portraits/nd-5-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/nd-5"
+  },
+  {
+    "number": 303,
+    "name": "フィー・ジェノア",
+    "romanizedName": "フィー・ジェノア（Phee Genoa）",
+    "image": "portraits/phee-genoa-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/phee-genoa"
+  },
+  {
+    "number": 301,
+    "name": "テクラ・ミンナウ",
+    "romanizedName": "テクラ・ミンナウ（Teckla Minnau）",
+    "image": "portraits/teckla-minnau-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/teckla-minnau"
+  },
+  {
+    "number": 300,
+    "name": "オメラ",
+    "romanizedName": "オメラ（Omera）",
+    "image": "portraits/omera-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/omera"
+  },
+  {
+    "number": 299,
+    "name": "ラッツ・タイレル",
+    "romanizedName": "ラッツ・タイレル（Ratts Tyerell）",
+    "image": "portraits/ratts-tyerell-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/ratts-tyerell"
+  },
+  {
+    "number": 297,
+    "name": "ニックス・カード",
+    "romanizedName": "ニックス・カード（Nix Card）",
+    "image": "portraits/nix-card-v1.webp",
+    "status": "review",
+    "source": "https://www.starwars.com/databank/nix-card"
+  },
+  {
+    "number": 295,
+    "name": "ルーラ・タリソラ",
+    "romanizedName": "ルーラ・タリソラ（Lula Talisola）",
+    "image": "portraits/lula-talisola-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 294,
+    "name": "デランド・タイレル",
+    "romanizedName": "デランド・タイレル（Deland Tyerell）",
+    "image": "portraits/deland-tyerell-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 293,
+    "name": "トリズ・ヴェズクロ",
+    "romanizedName": "トリズ・ヴェズクロ（Trizz Vezcro）",
+    "image": "portraits/trizz-vezcro-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 292,
+    "name": "ルーダ",
+    "romanizedName": "ルーダ（Luuda）",
+    "image": "portraits/luuda-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 289,
+    "name": "テル＝レア・ヴォコス",
+    "romanizedName": "テル＝レア・ヴォコス（Tel-Rea Vokoss）",
+    "image": "portraits/tel-rea-vokoss-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 287,
+    "name": "ホークス",
+    "romanizedName": "ホークス（Hawks）",
+    "image": "portraits/hawks-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 286,
+    "name": "オーラ",
+    "romanizedName": "オーラ（Oora）",
+    "image": "portraits/oora-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 285,
+    "name": "シカトロ・ヴィザーゴ",
+    "romanizedName": "シカトロ・ヴィザーゴ（Cikatro Vizago）",
+    "image": "portraits/cikatro-vizago-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 284,
+    "name": "BG-81",
+    "image": "portraits/bg-81-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 283,
+    "name": "R3-A3",
+    "image": "portraits/r3-a3-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 282,
+    "name": "マート・マッティン",
+    "romanizedName": "マート・マッティン（Mart Mattin）",
+    "image": "portraits/mart-mattin-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 281,
+    "name": "ジョナー・ジン",
+    "romanizedName": "ジョナー・ジン（Jonner Jin）",
+    "image": "portraits/jonner-jin-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 278,
+    "name": "ジュン・サトー司令官",
+    "romanizedName": "ジュン・サトー司令官（Commander Jun Sato）",
+    "image": "portraits/commander-jun-sato-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 276,
+    "name": "クラートゥ",
+    "romanizedName": "クラートゥ（Klaatu）",
+    "image": "portraits/klaatu-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 275,
+    "name": "フランティス・グリス提督",
+    "romanizedName": "フランティス・グリス提督（Admiral Griss）",
+    "image": "portraits/admiral-griss-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 274,
+    "name": "ドクター・カロニア",
+    "romanizedName": "ドクター・カロニア（Doctor Kalonia）",
+    "image": "portraits/doctor-kalonia-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 272,
+    "name": "クラウド",
+    "romanizedName": "クラウド（Klaud）",
+    "image": "portraits/klaud-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 271,
+    "name": "ウォリヴァン",
+    "image": "portraits/wollivan-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 270,
+    "name": "ME-8D9（エミー）",
+    "image": "portraits/me-8d9-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 269,
+    "name": "ブーリオ",
+    "image": "portraits/boolio-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 268,
+    "name": "ボバージョ",
+    "image": "portraits/bobbajo-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 267,
+    "name": "グラムガー",
+    "image": "portraits/grummgar-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 266,
+    "name": "ラズー・キン＝フィー",
+    "image": "portraits/razoo-qin-fee-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 265,
+    "name": "AP-5",
+    "image": "portraits/ap-5-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 264,
+    "name": "バラ・ティク",
+    "image": "portraits/bala-tik-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 263,
+    "name": "ジェス・パヴァ",
+    "image": "portraits/jess-pava-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 262,
+    "name": "4D-M1N",
+    "image": "portraits/4d-m1n-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 261,
+    "name": "タス・リーチ",
+    "image": "portraits/tasu-leech-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 260,
+    "name": "ビスタン",
+    "image": "portraits/bistan-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 259,
+    "name": "クラッシャー・ルーダウン",
+    "image": "portraits/crusher-roodown-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 258,
+    "name": "バジーン・ネタル",
+    "image": "portraits/bazine-netal-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 257,
+    "name": "B-U4D（ビューフォード）",
+    "image": "portraits/b-u4d-buford-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 256,
+    "name": "アンカー・プラット",
+    "image": "portraits/unkar-plutt-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 255,
+    "name": "ズヴィオ巡査",
+    "image": "portraits/constable-zuvio-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 254,
+    "name": "サーコ・プランク",
+    "image": "portraits/sarco-plank-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 253,
+    "name": "クイッゴルド",
+    "image": "portraits/quiggold-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 252,
+    "name": "シドン・イサノ",
+    "image": "portraits/sidon-ithano-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 251,
+    "name": "ガリンダン",
+    "image": "portraits/garindan-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 250,
+    "name": "タッグ将軍",
+    "image": "portraits/general-tagge-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 249,
+    "name": "モッコ",
+    "image": "portraits/mokko-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 248,
+    "name": "ガーサ・フウィップ",
+    "image": "portraits/garsa-fwip-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 246,
+    "name": "ムーボ",
+    "image": "portraits/mubo-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 244,
+    "name": "コーネリアス・エヴァザン博士",
+    "image": "portraits/doctor-cornelius-evazan-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 243,
+    "name": "ヴィアーズ将軍",
+    "image": "portraits/general-veers-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 242,
+    "name": "ツィーボ",
+    "image": "portraits/tseebo-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 241,
+    "name": "ポンダ・バーバ",
+    "image": "portraits/ponda-baba-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 239,
+    "name": "R4-G77",
+    "image": "portraits/r4-g77-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 238,
+    "name": "モッティ提督",
+    "image": "portraits/admiral-motti-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 237,
+    "name": "8D8",
+    "image": "portraits/8d8-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 234,
+    "name": "ハーマイオニー・バグワ",
+    "image": "portraits/hermione-bagwa-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 233,
+    "name": "シーゼルスラック",
+    "image": "portraits/seezelslak-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 232,
+    "name": "ミスター・ボーカス",
+    "image": "portraits/mister-borkus-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 231,
+    "name": "WA-7（フロー）",
+    "romanizedName": "WA-7（FLO）",
+    "image": "portraits/wa-7-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 230,
+    "name": "デクスター・ジェットスター",
+    "image": "portraits/dexter-jettster-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 228,
+    "name": "ジョカスタ・ヌー",
+    "image": "portraits/jocasta-nu-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 227,
+    "name": "アズモリガン",
+    "image": "portraits/azmorigan-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 226,
+    "name": "ワットー",
+    "image": "portraits/watto-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 224,
+    "name": "ジャレク・イェーガー",
+    "image": "portraits/jarek-yeager-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 222,
+    "name": "ヴェニサ・ドーザ",
+    "image": "portraits/venisa-doza-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 220,
+    "name": "クラガン・ゴア",
+    "image": "portraits/kragan-gorr-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 219,
+    "name": "ハマト・シオノ",
+    "image": "portraits/hamato-xiono-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 218,
+    "name": "ドーザ船長",
+    "image": "portraits/captain-doza-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 217,
+    "name": "シナラ・サン",
+    "image": "portraits/synara-san-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 216,
+    "name": "アースキン・セマージ",
+    "image": "portraits/erskin-semaj-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 214,
+    "name": "ジャン・ドドンナ",
+    "image": "portraits/jan-dodonna-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 213,
+    "name": "イーディ・カーン",
+    "image": "portraits/eedy-karn-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 212,
+    "name": "テイ・コルマ",
+    "image": "portraits/tay-kolma-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 209,
+    "name": "マーヴァ・アンドー",
+    "image": "portraits/maarva-andor-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 207,
+    "name": "ゲイレン・アーソ",
+    "image": "portraits/galen-erso-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 206,
+    "name": "ニーク・ヴォーゾ",
+    "image": "portraits/neeku-vozo-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 205,
+    "name": "グリーフ・カルガ",
+    "image": "portraits/greef-karga-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 204,
+    "name": "DD-BD",
+    "image": "portraits/dd-bd-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 202,
+    "name": "トーラ・ドーザ",
+    "image": "portraits/torra-doza-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 201,
+    "name": "エージェント・ティアニー",
+    "image": "portraits/agent-tierny-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 200,
+    "name": "タム・リヴォラ",
+    "image": "portraits/tam-ryvora-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 198,
+    "name": "シンタ・カズ",
+    "image": "portraits/cinta-kaz-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 196,
+    "name": "クイール",
+    "image": "portraits/kuiil-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 195,
+    "name": "ケレラン・ベク",
+    "image": "portraits/kelleran-beq-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 194,
+    "name": "ペリ・モットー",
+    "image": "portraits/peli-motto-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 193,
+    "name": "ナイン・ナン",
+    "image": "portraits/nien-nunb-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 192,
+    "name": "L3-37",
+    "image": "portraits/l3-37-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 191,
+    "name": "チアルート・イムウェ",
+    "image": "portraits/chirrut-imwe-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 190,
+    "name": "ボーディー・ルック",
+    "image": "portraits/bodhi-rook-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 189,
+    "name": "ウィルモン・パーク",
+    "image": "portraits/wilmon-paak-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 188,
+    "name": "シリル・カーン",
+    "image": "portraits/syril-karn-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 187,
+    "name": "ベイズ・マルバス",
+    "image": "portraits/baze-malbus-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 186,
+    "name": "ブラッソ",
+    "image": "portraits/brasso-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 185,
+    "name": "オーソン・クレニック",
+    "image": "portraits/director-krennic-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 181,
+    "name": "ARG19（アギー）",
+    "image": "portraits/arg19-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 180,
+    "name": "アミリン・ホルド",
+    "image": "portraits/amilyn-holdo-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 177,
+    "name": "ステラン・ジオス",
+    "image": "portraits/stellan-gios-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 176,
+    "name": "ラダス提督",
+    "image": "portraits/admiral-raddus-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 175,
+    "name": "エイヴォン・スターロス",
+    "image": "portraits/avon-starros-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 174,
+    "name": "クレヤ・マルキ",
+    "image": "portraits/kleya-marki-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 173,
+    "name": "ビックス・カリーン",
+    "image": "portraits/bix-caleen-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 172,
+    "name": "アレクサンダー・カラス",
+    "image": "portraits/alexsandr-kallus-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 171,
+    "name": "B2EMO",
+    "image": "portraits/b2emo-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 170,
+    "name": "ヴェル・サーサ",
+    "image": "portraits/vel-sartha-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 169,
+    "name": "ヴィエス将軍",
+    "image": "portraits/general-viess-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 168,
+    "name": "ベンシック・トゥー・チューブス",
+    "image": "portraits/benthic-two-tubes-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 167,
+    "name": "デドラ・ミーロ",
+    "image": "portraits/dedra-meero-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 166,
+    "name": "ルーセン・レイエル",
+    "image": "portraits/luthen-rael-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 165,
+    "name": "バロン・ブーラン",
+    "image": "portraits/baron-boolan-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 164,
+    "name": "リナ・ソー",
+    "image": "portraits/lina-soh-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 163,
+    "name": "ギーラ・スターロス",
+    "image": "portraits/ghirra-starros-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 161,
+    "name": "4-LOM",
+    "image": "portraits/4-lom-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 160,
+    "name": "マーチオン・ロー",
+    "image": "portraits/marchion-ro-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 159,
+    "name": "ベル・ゼッティファー",
+    "image": "portraits/bell-zettifar-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 158,
+    "name": "オーラ・ジャレニ",
+    "image": "portraits/orla-jareni-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 157,
+    "name": "アヴァー・クリス",
+    "image": "portraits/avar-kriss-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 156,
+    "name": "スキーア",
+    "image": "portraits/sskeer-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 155,
+    "name": "キーヴ・トレニス",
+    "image": "portraits/keeve-trennis-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 154,
+    "name": "ギデオン・ハスク",
+    "image": "portraits/gideon-hask-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 153,
+    "name": "デル・ミーコ",
+    "image": "portraits/del-meeko-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 152,
+    "name": "ターグル",
+    "image": "portraits/turgle-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 151,
+    "name": "5-L",
+    "image": "portraits/5-l-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 150,
+    "name": "ドク・オンダー",
+    "image": "portraits/dok-ondar-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 149,
+    "name": "シュリヴ",
+    "image": "portraits/shriv-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 148,
+    "name": "アイデン・ヴェルシオ",
+    "image": "portraits/iden-versio-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 144,
+    "name": "ダガン・ゲラ",
+    "image": "portraits/dagan-gera-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 143,
+    "name": "ボード・アクーナ",
+    "image": "portraits/bode-akuna-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 142,
+    "name": "プラウフ",
+    "image": "portraits/prauf-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 141,
+    "name": "イーノ・コルドヴァ",
+    "image": "portraits/eno-cordova-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 137,
+    "name": "ロク・ダード",
+    "image": "portraits/lok-durd-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 136,
+    "name": "ティー・ワット・カー",
+    "image": "portraits/tee-watt-kaa-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 135,
+    "name": "デンガー",
+    "image": "portraits/dengar-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 134,
+    "name": "BD-1",
+    "image": "portraits/bd-1-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 133,
+    "name": "グリード",
+    "image": "portraits/greedo-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 132,
+    "name": "グリーズ・ドリタス",
+    "image": "portraits/greez-dritus-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 127,
+    "name": "ガノーディ",
+    "image": "portraits/ganodi-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 125,
+    "name": "ナイトシスター・メリン",
+    "image": "portraits/nightsister-merrin-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 124,
+    "name": "マズ・カナタ",
+    "image": "portraits/maz-kanata-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 123,
+    "name": "ビブ・フォーチュナ",
+    "image": "portraits/bib-fortuna-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 122,
+    "name": "ヒューヤン教授",
+    "image": "portraits/professor-huyang-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 120,
+    "name": "ゴア・コレシュ",
+    "image": "portraits/gor-koresh-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 119,
+    "name": "スギ",
+    "image": "portraits/sugi-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 117,
+    "name": "ケツー・オンヨ",
+    "image": "portraits/ketsu-onyo-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 116,
+    "name": "ミーナ・ティルス",
+    "image": "portraits/meena-tills-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 115,
+    "name": "ノソー・リー",
+    "image": "portraits/nossor-ri-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 113,
+    "name": "トーン・ウィ",
+    "image": "portraits/taun-we-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 110,
+    "name": "ラマ・スー",
+    "image": "portraits/lama-su-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 109,
+    "name": "ミラージュ・シンテル女王",
+    "image": "portraits/queen-miraj-scintel-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 108,
+    "name": "リー・チャー王子",
+    "image": "portraits/prince-lee-char-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 107,
+    "name": "リフ・タムソン",
+    "image": "portraits/riff-tamson-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 105,
+    "name": "トード360",
+    "image": "portraits/todo-360-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 104,
+    "name": "C-21ハイシンガー",
+    "image": "portraits/c-21-highsinger-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 102,
+    "name": "カスタス",
+    "image": "portraits/castas-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 101,
+    "name": "バブ・フリック",
+    "image": "portraits/babu-frik-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 100,
+    "name": "ボスク",
+    "image": "portraits/bossk-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 97,
+    "name": "ジロ・ザ・ハット",
+    "image": "portraits/ziro-the-hutt-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 94,
+    "name": "マス・アメダ",
+    "image": "portraits/mas-amedda-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 90,
+    "name": "ナラ・セ",
+    "image": "portraits/nala-se-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 88,
+    "name": "リヨ・チューチー",
+    "image": "portraits/riyo-chuchi-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 82,
+    "name": "マザー・タルジン",
+    "image": "portraits/mother-talzin-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 81,
+    "name": "ポグル・ザ・レッサー",
+    "image": "portraits/poggle-the-lesser-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 80,
+    "name": "ワット・タンバー",
+    "image": "portraits/wat-tambor-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 79,
+    "name": "ヌート・ガンレイ",
+    "image": "portraits/nute-gunray-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 74,
+    "name": "ベイル・オーガナ",
+    "image": "portraits/bail-organa-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 73,
+    "name": "パドメ・アミダラ",
+    "image": "portraits/padme-amidala-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 72,
+    "name": "IG-11",
+    "image": "portraits/ig-11-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 71,
+    "name": "K-2SO",
+    "image": "portraits/k-2so-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 70,
+    "name": "チョッパー",
+    "image": "portraits/chopper-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 66,
+    "name": "フェネック・シャンド",
+    "image": "portraits/fennec-shand-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 65,
+    "name": "ホンドー・オナカー",
+    "image": "portraits/hondo-ohnaka-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 60,
+    "name": "サティーン・クライス",
+    "image": "portraits/duchess-satine-kryze-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 57,
+    "name": "ボ＝カターン・クライス",
+    "image": "portraits/bo-katan-kryze-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 55,
+    "name": "ソウ・ゲレラ",
+    "image": "portraits/saw-gerrera-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 54,
+    "name": "ジン・アーソ",
+    "image": "portraits/jyn-erso-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 53,
+    "name": "キャシアン・アンドー",
+    "image": "portraits/cassian-andor-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 46,
+    "name": "ドゥークー伯爵",
+    "image": "portraits/count-dooku-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 42,
+    "name": "シア・ジュンダ",
+    "image": "portraits/cere-junda-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 41,
+    "name": "カル・ケスティス",
+    "image": "portraits/cal-kestis-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 37,
+    "name": "デパ・ビラバ",
+    "image": "portraits/depa-billaba-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 36,
+    "name": "クインラン・ヴォス",
+    "image": "portraits/quinlan-vos-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 30,
+    "name": "キット・フィストー",
+    "image": "portraits/kit-fisto-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 21,
+    "name": "インダーラ",
+    "image": "portraits/indara-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 20,
+    "name": "ソル",
+    "image": "portraits/sol-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 16,
+    "name": "メイデイ",
+    "image": "portraits/mayday-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 10,
+    "name": "グリー",
+    "image": "portraits/gree-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 7,
+    "name": "カット・ロクウェイン",
+    "image": "portraits/cut-lawquane-v1.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 5,
+    "name": "ハンター",
+    "image": "portraits/hunter-v1.webp",
+    "status": "candidate",
+    "source": null
+  },
+  {
+    "number": 2,
+    "name": "ヘヴィ",
+    "image": "portraits/hevy-v2.webp",
+    "status": "review",
+    "source": null
+  },
+  {
+    "number": 1,
+    "name": "99",
+    "image": "portraits/clone-99-v2.webp",
+    "status": "review",
+    "source": null
+  }
+]

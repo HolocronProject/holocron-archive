@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="renewal.css?v=20260928">
   <link rel="stylesheet" href="characters.css?v=20260929-simple">
+  <link rel="stylesheet" href="portraits.css?v=20261001">
   <script src="characters.js?v=20260929-simple" defer></script>
+  <script src="portraits.js?v=20261001" defer></script>
 </head>
 <body class="renewal characters-page">
   <a class="skip-link" href="#main-content">本文へスキップ</a>
@@ -37,6 +39,30 @@
         <p>クローン、ジェダイ、暗黒面、反乱者、マンダロリアン。銀河の人物を分野別に並べました。</p>
       </div>
     </section>
+    <section class="character-section portrait-section" aria-labelledby="portrait-title">
+      <div class="feature-heading character-heading">
+        <div>
+          <p class="section-kicker">FACES OF THE GALAXY</p>
+          <h2 id="portrait-title">キャラクター肖像画</h2>
+        </div>
+        <p id="portrait-count">画像を読み込み中</p>
+      </div>
+      <p class="character-intro">AIによる非公式ファンアートです。完成候補・要確認の下書きも掲載し、人物固有の造形とカタカナ表記は確認中です。公式の画像ではありません。</p>
+      <div class="portrait-controls">
+        <label for="portrait-search">名前で探す</label>
+        <input id="portrait-search" type="search" placeholder="カタカナ・英語名を入力" autocomplete="off">
+        <label for="portrait-status">状態</label>
+        <select id="portrait-status">
+          <option value="all">すべて</option>
+          <option value="candidate">完成候補</option>
+          <option value="review">要確認</option>
+        </select>
+      </div>
+      <div class="portrait-grid" id="portrait-grid" aria-live="polite">
+        <p class="character-loading">肖像画を読み込み中...</p>
+      </div>
+      <div class="portrait-more-wrap"><button class="portrait-more" id="portrait-more" type="button" hidden>もっと見る</button></div>
+    </section>
     <section class="character-section" aria-labelledby="character-title">
       <div class="feature-heading character-heading">
         <div>
@@ -56,9 +82,9 @@
           <p class="section-kicker">NEXT IN THE ARCHIVE</p>
           <h2 id="upcoming-title">次に追加したいクローンたち</h2>
         </div>
-        <p>画像付きカードは未制作</p>
+        <p>紹介カードは準備中</p>
       </div>
-      <p class="character-intro">まずは99、ヘヴィ、ワクサー、ボイル、ハンター、クロスヘアーから。画像と紹介文が整った人物から、上の完成カードへ移します。</p>
+      <p class="character-intro">肖像画の下書きは上のギャラリーに掲載しています。公式資料に基づく紹介文が整った人物から、詳細カードにも追加します。</p>
       <ul class="character-upcoming-list" id="character-upcoming-list"><li class="character-loading">候補を読み込み中...</li></ul>
       <p class="character-upcoming-note">99は兵士ではなく、カミーノで仲間を支えたクローンです。オメガはクローン兵とは別枠の候補。ボバ・フェットは下の「賞金稼ぎ・裏社会」に掲載しています。</p>
     </section>
@@ -70,7 +96,7 @@
         </div>
         <p id="jedi-count">一覧を読み込み中</p>
       </div>
-      <p class="character-intro">映画・アニメ・ドラマ・ゲームから、物語の軸になる人物を時代別に整理しました。画像付き紹介はこれから制作します。アソーカやバリスなど、後にジェダイ・オーダーを離れた人物も含みます。</p>
+      <p class="character-intro">映画・アニメ・ドラマ・ゲームから、物語の軸になる人物を時代別に整理しました。肖像画の下書きは上のギャラリーでも探せます。アソーカやバリスなど、後にジェダイ・オーダーを離れた人物も含みます。</p>
       <div id="jedi-groups" class="jedi-groups" aria-live="polite">
         <p class="character-loading">ジェダイの一覧を読み込み中...</p>
       </div>
