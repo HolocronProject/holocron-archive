@@ -4,7 +4,34 @@
   if (!gallery && !preview) return;
 
   const pageSize = 18;
-  const statusLabel = { candidate: "完成候補", review: "要確認" };
+  const statusLabel = { published: "紹介中", candidate: "完成候補", review: "要確認" };
+  const featuredImages = [
+    "portraits/hunter-v1.webp",
+    "portraits/bo-katan-kryze-v1.webp",
+    "portraits/padme-amidala-v1.webp",
+    "portraits/count-dooku-v1.webp",
+    "portraits/cassian-andor-v1.webp",
+    "portraits/jyn-erso-v1.webp",
+    "portraits/cal-kestis-v1.webp",
+    "portraits/fennec-shand-v1.webp",
+    "portraits/hondo-ohnaka-v1.webp",
+    "portraits/maz-kanata-v1.webp",
+    "portraits/k-2so-v1.webp",
+    "portraits/ig-11-v1.webp",
+    "portraits/chopper-v1.webp",
+    "portraits/saw-gerrera-v1.webp",
+    "portraits/bail-organa-v1.webp",
+    "portraits/shin-hati-v1.webp",
+    "portraits/baylan-skoll-v1.webp",
+    "portraits/kay-vess-v1.webp"
+  ];
+
+  function prioritize(people) {
+    const byImage = new Map(people.map((person) => [person.image, person]));
+    const featured = featuredImages.map((image) => byImage.get(image)).filter(Boolean);
+    const featuredSet = new Set(featuredImages);
+    return [...featured, ...people.filter((person) => !featuredSet.has(person.image))];
+  }
 
   function makeCard(person, compact = false) {
     const card = document.createElement("article");
@@ -50,7 +77,11 @@
     const status = document.getElementById("portrait-status");
     const count = document.getElementById("portrait-count");
     const more = document.getElementById("portrait-more");
-    let filtered = people;
+    const all = document.getElementById("portrait-all");
+    const ordered = prioritize(people);
+    const featuredSet = new Set(featuredImages);
+    let expanded = false;
+    let filtered = ordered;
     let shown = 0;
 
     function appendPage() {
@@ -62,15 +93,21 @@
 
     function filter() {
       const query = search.value.trim().normalize("NFKC").toLowerCase();
-      filtered = people.filter((person) =>
+      const matches = ordered.filter((person) =>
         (status.value === "all" || person.status === status.value) &&
         (!query || `${person.name} ${person.romanizedName || ""} ${person.image}`.normalize("NFKC").toLowerCase().includes(query))
       );
-      count.textContent = `${filtered.length}名の肖像画`;
+      const featuredOnly = !expanded && !query && status.value === "all";
+      filtered = featuredOnly ? matches.filter((person) => featuredSet.has(person.image)) : matches;
+      count.textContent = featuredOnly
+        ? `主要${filtered.length}名を表示（全${people.length}名）`
+        : `${filtered.length}名の肖像画`;
+      all.hidden = !featuredOnly;
       shown = 0;
       gallery.replaceChildren();
       if (filtered.length) {
         appendPage();
+        if (expanded && !query && status.value === "all") appendPage();
       } else {
         const empty = document.createElement("p");
         empty.className = "character-loading";
@@ -83,18 +120,23 @@
     search.addEventListener("input", filter);
     status.addEventListener("change", filter);
     more.addEventListener("click", appendPage);
+    all.addEventListener("click", () => { expanded = true; filter(); });
     filter();
   }
 
   function initPreview(people) {
-    const featured = [
-      "portraits/bo-keevil-v1.webp", "portraits/frisk-v1.webp", "portraits/j-3di-v1.webp",
-      "portraits/lx-1-v1.webp", "portraits/rieve-v1.webp", "portraits/aeosian-queen-v1.webp"
-    ];
-    const cards = featured.map((image) => people.find((person) => person.image === image)).filter(Boolean);
+    const rex = {
+      name: "レックス",
+      romanizedName: "Rex",
+      image: "rex.png",
+      status: "published",
+      source: "https://www.starwars.com/databank/clone-captain-rex"
+    };
+    const homeImages = featuredImages.slice(0, 5);
+    const cards = [rex, ...homeImages.map((image) => people.find((person) => person.image === image)).filter(Boolean)];
     preview.replaceChildren(...(cards.length ? cards : people.slice(0, 6)).map((person) => makeCard(person, true)));
     const count = document.getElementById("home-portrait-count");
-    if (count) count.textContent = `${people.length}名の肖像画を掲載中`;
+    if (count) count.textContent = `主要キャラクターから紹介。全${people.length}名の下書きも閲覧できます。`;
   }
 
   fetch("data/character-portraits.json")

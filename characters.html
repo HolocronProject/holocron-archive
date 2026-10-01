@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="renewal.css?v=20260928">
   <link rel="stylesheet" href="characters.css?v=20260929-simple">
-  <link rel="stylesheet" href="portraits.css?v=20261001">
+  <link rel="stylesheet" href="portraits.css?v=20261001-featured">
   <script src="characters.js?v=20260929-simple" defer></script>
-  <script src="portraits.js?v=20261001" defer></script>
+  <script src="portraits.js?v=20261001-featured" defer></script>
 </head>
 <body class="renewal characters-page">
   <a class="skip-link" href="#main-content">本文へスキップ</a>
@@ -43,11 +43,11 @@
       <div class="feature-heading character-heading">
         <div>
           <p class="section-kicker">FACES OF THE GALAXY</p>
-          <h2 id="portrait-title">キャラクター肖像画</h2>
+          <h2 id="portrait-title">主要キャラクターの肖像画</h2>
         </div>
         <p id="portrait-count">画像を読み込み中</p>
       </div>
-      <p class="character-intro">AIによる非公式ファンアートです。完成候補・要確認の下書きも掲載し、人物固有の造形とカタカナ表記は確認中です。公式の画像ではありません。</p>
+      <p class="character-intro">まずは画像のある主要キャラクターを紹介します。AIによる非公式ファンアートで、造形とカタカナ表記は確認中です。その他の人物も「全員を見る」から探せます。</p>
       <div class="portrait-controls">
         <label for="portrait-search">名前で探す</label>
         <input id="portrait-search" type="search" placeholder="カタカナ・英語名を入力" autocomplete="off">
@@ -61,6 +61,7 @@
       <div class="portrait-grid" id="portrait-grid" aria-live="polite">
         <p class="character-loading">肖像画を読み込み中...</p>
       </div>
+      <div class="portrait-more-wrap"><button class="portrait-more portrait-all" id="portrait-all" type="button" hidden>全員を見る</button></div>
       <div class="portrait-more-wrap"><button class="portrait-more" id="portrait-more" type="button" hidden>もっと見る</button></div>
     </section>
     <section class="character-section" aria-labelledby="character-title">
