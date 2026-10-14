@@ -29,6 +29,7 @@
 .renewal .latest-section .column-card-header, .renewal .latest-section .column-body { grid-column: 2; margin: 0; }
 .renewal .column-card h3 { white-space: normal; overflow-wrap: break-word; text-wrap: pretty; }
 .renewal .column-body { font-size: 16px; max-width: 44em; min-width: 0; }
+.renewal .column-inline-artwork { margin: 26px 0; }
 .renewal .column-body p {
   line-break: strict;
   word-break: normal;

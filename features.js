@@ -160,6 +160,24 @@ function createColumnCard(entry) {
       .split(/\n\s*\n/)
       .filter(Boolean)
       .forEach((text) => {
+        const inline = (entry.inlineImages || []).find((item) => text.startsWith(`［挿絵${item.marker}：`));
+        if (inline) {
+          const figure = document.createElement("figure");
+          figure.className = "column-artwork column-inline-artwork";
+          const image = document.createElement("img");
+          image.src = inline.src;
+          image.alt = inline.alt || "";
+          image.loading = "lazy";
+          image.decoding = "async";
+          figure.append(image);
+          if (inline.caption) {
+            const caption = document.createElement("figcaption");
+            caption.textContent = inline.caption;
+            figure.append(caption);
+          }
+          body.append(figure);
+          return;
+        }
         const paragraph = document.createElement("p");
         paragraph.textContent = text;
         body.append(paragraph);
@@ -173,7 +191,7 @@ function createColumnCard(entry) {
 
 async function loadColumns() {
   try {
-    const response = await fetch("data/columns.json");
+    const response = await fetch("data/columns.json?v=20261014");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     columnEntries = [...data.entries].sort((a, b) => b.date.localeCompare(a.date));
@@ -210,7 +228,7 @@ async function loadColumns() {
 
 async function loadRoulette() {
   try {
-    const response = await fetch("data/roulette.json");
+    const response = await fetch("data/roulette.json?v=20261014");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     rouletteWorks = data.works;
