@@ -191,7 +191,7 @@ function createColumnCard(entry) {
 
 async function loadColumns() {
   try {
-    const response = await fetch("data/columns.json?v=20261014");
+    const response = await fetch("data/columns.json?v=20261027");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     columnEntries = [...data.entries].sort((a, b) => b.date.localeCompare(a.date));
